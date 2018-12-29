@@ -16,38 +16,45 @@
 <table>
 	<tr>
 		<th>Parameter</th>
+		<th>Numerical Equivalent</th>
 		<th>Effect</th>
 	</tr>
 	<tr>
-		<td><span class="codeinline">G_MTX_PROJECTION (01)</span></th>
-		<td>Operate on the projection matrix stack</th>
+		<td><span class="codeinline">G_MTX_PROJECTION</span></td>
+		<td><span class="codeinline">01</span></td>
+		<td>Operate on the projection matrix stack</td>
 	</tr>
 	<tr>
-		<td><span class="codeinline">G_MTX_MODELVIEW (00)</span></th>
-		<td>Operate on the model view matrix stack</th>
+		<td><span class="codeinline">G_MTX_MODELVIEW</span></td>
+		<td><span class="codeinline">00</span></td>
+		<td>Operate on the model view matrix stack</td>
 	</tr>
 	<tr>
-		<td><span class="codeinline">G_MTX_MUL (00)</span></th>
-		<td>Multiply top of matrix stack and matrix m</th>
+		<td><span class="codeinline">G_MTX_MUL</span></td>
+		<td><span class="codeinline">01</span></td>
+		<td>Multiply top of matrix stack and matrix m</td>
 	</tr>
 	<tr>
-		<td><span class="codeinline">G_MTX_LOAD (02)</span></th>
+		<td><span class="codeinline">G_MTX_LOAD</span></td>
+		<td><span class="codeinline">02</span></td>
 		<td>Load matrix m at top</th>
 	</tr>
 	<tr>
-		<td><span class="codeinline">G_MTX_NOPUSH (00)</span></th>
-		<td>Do not push on matrix stack before matrix operation</th>
+		<td><span class="codeinline">G_MTX_NOPUSH</span></td>
+		<td><span class="codeinline">01</span></td>
+		<td>Do not push on matrix stack before matrix operation</td>
 	</tr>
 	<tr>
-		<td><span class="codeinline">G_MTX_PUSH (04)</span></th>
-		<td>Push on matrix stack before matrix operation</th>
+		<td><span class="codeinline">G_MTX_PUSH</span></td>
+		<td><span class="codeinline">04</span></td>
+		<td>Push on matrix stack before matrix operation</td>
 	</tr>
 </table>
 
-<p><b>Note:</b> You can perform multiple operations at once by adding the numerical equivalents (indicated by the number inside the parenthesis.) For example, if you wished to use <span class="codeinline">G_MTX_PROJECTION</span> and <span class="codeinline">G_MTX_LOAD</span>, your <span class="codeinline">[PARAMETER]</span> would simply be <span class="codeinline">3</span>.
+<p><b>Note:</b> You can perform multiple operations at once by adding the numerical equivalents and using the sum for <span class="codeinline">[PARAMETER]</span>.  For example, if you wished to use <span class="codeinline">G_MTX_PROJECTION</span> and <span class="codeinline">G_MTX_LOAD</span>, your <span class="codeinline">[PARAMETER]</span> would simply be <span class="codeinline">3</span>.
 
 <h3>gsSPLight</h3>
-
+<p>Todo: Work on this.</p>
 <h3>gsSPVertex <span class="codeinline">[VERTEX GROUP LABEL] [AMOUNT], [OFFSET]</span></h3>
 <p>Loads vertices in to the vertex cache starting from where <span class="codeinline">[VERTEX GROUP LABEL]</span> is placed. The amount of vertices loaded in is decided by <span class="codeinline">[AMOUNT]</span> and the range is 0-15 (16 total). <span class="codeinline">[OFFSET]</span> is 1-16 and decides where in the vertex group list to start. The numerical equivalent to this command is <span class="codeinline">0x04</span>, also known as <span class="codeinline">G_VTX</span>.</p>
 
