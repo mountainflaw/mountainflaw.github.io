@@ -13,6 +13,9 @@
 <h3>gsSPVertex <span class="codeinline">[VERTEX GROUP LABEL] [AMOUNT], [OFFSET]</span></h3>
 <p>Loads vertices in to the vertex cache starting from where <span class="codeinline">[VERTEX GROUP LABEL]</span> is placed. The amount of vertices loaded in is decided by <span class="codeinline">[AMOUNT]</span> and the range is 0-15 (16 total). <span class="codeinline">[OFFSET]</span> is 1-16 and decides where in the vertex group list to start. The numerical equivalent to this command is <span class="codeinline">0x04</span>, also known as <span class="codeinline">G_VTX</span>.</p>
 
+<h4>Microcode Differences</h4>
+<p>When uising the Fast3D Extended (F3DEX) and Fast3D Extended 2 (F3DEX2) microcodes, <span class="codeinline">[AMOUNT]</span> supports a range of 0-31 (32) vertices to be loaded at once, and as expected <span class="codeinline">[OFFSET]</span> ranges from 1-32 as well.</p>
+<p>When using the F3DEX Rejection and F3DEX2 Rejection microcodes, the ranges are 0-64 (64 total) and 1-64 respectively.</p>
 
 <h2>gDP Macros</h2>
 </body>
