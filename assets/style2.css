@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+body {
+    color: #1d1d1d;
+    background-color: #eeeeee;
+    font-family: "Roboto", "Helvetica Neue", "TeX Gyre Heros" ,"FreeSans", sans-serif;
+    margin: 2%;
+}
+.code {
+	margin: auto;
+	font-family: Consolas, "Ubuntu Mono", Monospace, monospaced;
+    color: #eeeeee;	
+    background-color: #1d1d1d;
+	width: 73%;
+	padding: 1%;
+    border-style: solid;
+    border-width: 4px;
+    border-color: #4d4d4d;
+}
+.codeinline {
+	font-family: Consolas, "Ubuntu Mono", Monospace, monospaced;
+    background-color: #d2d2d2;
+}
+ /* unvisited link */
+a:link {
+	color: #1d1d1d;
+}
+
+/* visited link */
+a:visited {
+  	color: #1d1d1d;
+}
+
+/* mouse over link */
+a:hover {
+  	color: #1d1d1d;
+}
+
+/* selected link */
+a:active {
+	color: #1d1d1d;
+}
