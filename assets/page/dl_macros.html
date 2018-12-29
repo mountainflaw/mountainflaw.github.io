@@ -7,7 +7,7 @@
 <h1>Fast3D Displaylist Macros (Commands)</h1>
 <p>Fast3D is the name of the microcode (a microcode is basically a graphics driver for the N64 in very rough and simplified terms) that <i>Super Mario 64</i> uses. This page hopefully will be of use to you as it demonstrates all of the available macros for use in a display list.</p>
 <h2>Difference Between Commands and Macros</h2>
-<p>A command is literal data being sent to the RSP telling it to perform an action. Most people who have done binary ROM hacking have likely experienced using F3D commands and editing them through a hex editor. Assembler macros greatly simplify the process of tweaking a displaylist by combining several commands into one with an easier syntax. In order to use the macros, you must add <span class="codeinline">.include "ultra64/gbi.inc"</span> and <span class="codeinline">.include macros.inc</span> near the top of your assembler file</span></p>
+<p>A command is literal data being sent to the RCP telling it to perform an action. Most people who have done binary ROM hacking have likely experienced using F3D commands and editing them through a hex editor. Assembler macros greatly simplify the process of tweaking a displaylist by combining several commands into one with an easier syntax. In order to use the macros, you must add <span class="codeinline">.include "ultra64/gbi.inc"</span> and <span class="codeinline">.include macros.inc</span> near the top of your assembler file</span></p>
 <h2>gSP Macros</h2>
 
 <h3>gsSPMatrix <span class=codeinline>[MATRIX GROUP LABEL], [PARAMETER]</span></h3>
