@@ -10,6 +10,44 @@
 <p>A command is literal data being sent to the RSP telling it to perform an action. Most people who have done binary ROM hacking have likely experienced using F3D commands and editing them through a hex editor. Assembler macros greatly simplify the process of tweaking a displaylist by combining several commands into one with an easier syntax. In order to use the macros, you must add <span class="codeinline">.include "ultra64/gbi.inc"</span> and <span class="codeinline">.include macros.inc</span> near the top of your assembler file</span></p>
 <h2>gSP Macros</h2>
 
+<h3>gsSPMatrix <span class=codeinline>[MATRIX GROUP LABEL], [PARAMETER]</span></h3>
+<p>Inserts matrix operations into the display list using the matrix data from <span class="codeinline">[MATRIX GROUP LABEL]</span> and performs the operation given by <span class="codeinline">[PARAMETER]</span>. <span class="codeinline">[PARAMETER]</span> is able to be:</p>
+
+<table>
+	<tr>
+		<th>Parameter</th>
+		<th>Effect</th>
+	</tr>
+	<tr>
+		<td><span class="codeinline">G_MTX_PROJECTION (01)</span></th>
+		<td>Operate on the projection matrix stack</th>
+	</tr>
+	<tr>
+		<td><span class="codeinline">G_MTX_MODELVIEW (00)</span></th>
+		<td>Operate on the model view matrix stack</th>
+	</tr>
+	<tr>
+		<td><span class="codeinline">G_MTX_MUL (00)</span></th>
+		<td>Multiply top of matrix stack and matrix m</th>
+	</tr>
+	<tr>
+		<td><span class="codeinline">G_MTX_LOAD (02)</span></th>
+		<td>Load matrix m at top</th>
+	</tr>
+	<tr>
+		<td><span class="codeinline">G_MTX_NOPUSH (00)</span></th>
+		<td>Do not push on matrix stack before matrix operation</th>
+	</tr>
+	<tr>
+		<td><span class="codeinline">G_MTX_PUSH (04)</span></th>
+		<td>Push on matrix stack before matrix operation</th>
+	</tr>
+</table>
+
+<p><b>Note:</b> You can perform multiple operations at once by adding the numerical equivalents (indicated by the number inside the parenthesis.) For example, if you wished to use <span class="codeinline">G_MTX_PROJECTION</span> and <span class="codeinline">G_MTX_LOAD</span>, your <span class="codeinline">[PARAMETER]</span> would simply be <span class="codeinline">3</span>.
+
+<h3>gsSPLight</h3>
+
 <h3>gsSPVertex <span class="codeinline">[VERTEX GROUP LABEL] [AMOUNT], [OFFSET]</span></h3>
 <p>Loads vertices in to the vertex cache starting from where <span class="codeinline">[VERTEX GROUP LABEL]</span> is placed. The amount of vertices loaded in is decided by <span class="codeinline">[AMOUNT]</span> and the range is 0-15 (16 total). <span class="codeinline">[OFFSET]</span> is 1-16 and decides where in the vertex group list to start. The numerical equivalent to this command is <span class="codeinline">0x04</span>, also known as <span class="codeinline">G_VTX</span>.</p>
 
