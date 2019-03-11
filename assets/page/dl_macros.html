@@ -8,9 +8,27 @@
 <p>Fast3D is the name of the microcode (a microcode is basically a graphics driver for the N64 in very rough and simplified terms) that <i>Super Mario 64</i> uses. This page hopefully will be of use to you as it demonstrates all of the available macros for use in a display list.</p>
 <h2>Difference Between Commands and Macros</h2>
 <p>A command is literal data being sent to the RCP telling it to perform an action. Most people who have done binary ROM hacking have likely experienced using F3D commands and editing them through a hex editor. Assembler macros greatly simplify the process of tweaking a displaylist by often combining several commands into one with an easier syntax. In order to use the macros, you must add <span class="codeinline">.include "ultra64/gbi.inc"</span> and <span class="codeinline">.include macros.inc</span> near the top of your assembler file</span></p>
-<h2>gSP Macros</h2>
+<h2>Table of Contents</h2>
+<div class="toc">
+<ul style="list-style-type:disc">
+	<li><a href="#gSPMacros" target="contentframe"><b>gSP Macros</b></a></li>
+	<ul>
+		<li><a href="#gSPVertex" target="contentframe">gSPVertex (<span class="codeinline2">0x04</span>)</a></li>
+		<li><a href="#gSP1Triangle" target="contentframe">gSP1Triangle (<span class="codeinline2">0xBF</span>)</a></li>
+		<li><a href="#gSP2Triangles" target="contentframe">gSP2Triangles (<span class="codeinline2">0xB1</span>)</a></li>
+		<li><a href="#gSPDisplayList" target="contentframe">gSPDisplayList (<span class="codeinline2">0x06</span>)</a></li>
+		<li><a href="#gSPSetGeometryMode" target="contentframe">gSPSetGeometryMode (<span class="codeinline2">0xB7</span>)</a></li>
+		<li><a href="#gSPClearGeometryMode" target="contentframe">gSPClearGeometryMode (<span class="codeinline2">0xB6</span>)</a></li>
+		<li><a href="#gSPEndDisplayList" target="contentframe">gSPEndDisplayList (<span class="codeinline2">0xB8</span>)</a></li>
 
-<h3>gSPVertex (<span class="codeinline">0x04</span>)</h3>
+
+	</ul>
+	<li><a href="#gDPMacros" target="contentframe"><b>gDP Macros</b></a></li>
+</ul>	
+</div>
+<h2 id="gSPMacros">gSP Macros</h2>
+
+<h3 id="gSPVertex">gSPVertex (<span class="codeinline">0x04</span>)</h3>
 <p>Loads vertices.</p>
 <h4>Syntax</h4>
 <p><b>Dynamic display list:</b> <span class="codeinline">gSPVertex(Gfx *gdl, Vtx *v, u32 n, u32 v0)</span></p>
@@ -41,7 +59,7 @@
 <h4>Description</h4>
 <p>Loads into the RSP vertex buffer the vertices that will be used by the gSP1Triangle and gSP2Triangles macros that generate polygons.</p>
 
-<h3>gSP1Triangle (<span class="codeinline">0xBF</span>)</h3>
+<h3 id="gSP1Triangle">gSP1Triangle (<span class="codeinline">0xBF</span>)</h3>
 <p>Draws one triangle.</p>
 <h4>Syntax</h4>
 <p><b>Dynamic display list:</b> <span class="codeinline">gSP1Triangle(Gfx *gdl, s32 v0, s32 v1, s32 v2, s32 flag)</span></p>
@@ -68,7 +86,7 @@
 <h4>Description</h4>
 <p>Generates a single triangle face (using the vertices <span class="codeinline">v0</span>, <span class="codeinline">v1</span>, and <span class="codeinline">v2</span>) in the internal vertex buffer loaded by the gSPVertex macro.</p>
 
-<h3>gSP2Triangles (<span class="codeinline">0xB1</span>)</h3>
+<h3 id="gSP2Triangles">gSP2Triangles (<span class="codeinline">0xB1</span>)</h3>
 <p>Draws two triangles.</p>
 <h4>Syntax</h4>
 <p><b>Dynamic display list:</b> <span class="codeinline">gSP2Triangles(gfx *gdl, s32 v0, s32 v1, s32 v2, s32 flag0, s32 v3, s32 v4, s32 v5, s32 flag1)</span></p>
@@ -103,7 +121,7 @@
 <h4>Description</h4>
 <p><b>Note:</b> This macro is implemented on F3DEX only! It generates the first triangle using the vertices <span class="codeinline">v0</span>, <span class="codeinline">v1</span>, and <span class="codeinline">v2</span>, loaded into the vertex buffer by the gSPVertex macro, and generates the second triangle using the vertices <span class="codeinline">v3</span>, <span class="codeinline">v4</span>, and <span class="codeinline">v5</span>. Using this wherever possible reduces memory usage and increases performance.</p>
 
-<h3>gSPDisplayList</h3>
+<h3 id="gSPDisplayList">gSPDisplayList (<span class="codeinline">0x06</span>)</h3>
 <p>Calls a child display list from the current display list.</p>
 <h4>Syntax</h4>
 <p><b>Dynamic display list:</b> <span class="codeinline">gSPDisplayList(Gfx *gdl, Gfx *dl)</span></p>
@@ -126,7 +144,7 @@
 <h4>Description</h4>
 <p>gSPDisplayList calls a child display list from the current display list. This kind of display list hierarchy can be used to make re-use of display lists or to structure the display list data in a way that reflects the actual rendering model. The display list hierarchy can have up to 10 steps (18 steps for F3DEX). This macro works like a subroutine call: when the processing of the child display list is complete, the processing of the parent display list which made the call resumes.</p>
 
-<h3>gSPSetGeometryMode (<span class="codeinline">0xB7</span>)</h3>
+<h3 id="gSPSetGeometryMode">gSPSetGeometryMode (<span class="codeinline">0xB7</span>)</h3>
 <p>Sets the geometry pipeline modes enabled</p>
 <h4>Syntax</h4>
 <p><b>Dynamic display list:</b> <span class="codeinline">gSPSetGeometryMode(Gfx *gdl, u32 mode)</span></p>
@@ -212,9 +230,9 @@
 	</tr>
 </table>
 
-<h3>gSPClearGeometryMode (<span class="codeinline">0xB6</span>)</h3>
+<h3 id="gSPClearGeometryMode">gSPClearGeometryMode (<span class="codeinline">0xB6</span>)</h3>
 <p>Disables the geometry pipeline modes</p>
-<h3>Syntax</h3>
+<h4>Syntax</h4>
 <p><b>Dynamic display list:</b> <span class="codeinline">gSPClearGeometryMode(Gfx *gdl, u32 mode)</span></p>
 <p><b>Static display list:</b> <span class="codeinline">gsSPClearGeometryMode(u32 mode)</span></p>
 <h4>Arguments</h4>
@@ -232,12 +250,12 @@
 		<td>Geometry pipeline mode.</td>
 	</tr>
 </table>
-<h3>Description</h3>
+<h34Description</h4>
 <p>gSPClearGeometryMode disables the geometry pipeline modes for culling, lighting, specular highlights, reflection mapping, fog, etc. To enable these various modes, use gSPSetGeometryMode. For details about the different modes, see gSPSetGeometryMode.</p>
 
-<h3>gSPEndDisplayList (<span class="codeinline">0xB8</span>)</h3>
+<h3 id="gSPEndDisplayList">gSPEndDisplayList (<span class="codeinline">0xB8</span>)</h3>
 <p>Ends a display list.</p>
-<h3>Syntax</h3>
+<h4>Syntax</h4>
 <p><b>Dynamic display list:</b> <span class="codeinline">gSPEndDisplayList(Gfx *gdl)</span></p>
 <p><b>Static display list:</b> <span class="codeinline">gSPEndDisplayList(void)</span></p>
 <h4>Arguments</h4>
@@ -253,6 +271,6 @@
 </table>	
 <h4>Description</h4>
 <p>Ends a display list. When this macro is executed, the RSP pops the display list stack and, if the display list stack is empty, ends the graphics process. <b>Note:</b> All display lists must end with this macro.</p>
-<h2>gDP Macros</h2>
+<h2 id="gDPMacros">gDP Macros</h2>
 </body>
 </html>

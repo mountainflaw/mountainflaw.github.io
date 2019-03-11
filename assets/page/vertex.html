@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="../style2.css">
+</head>
+<body>
+<h1>Fast3D Vertex Format</h1>
+<h3>Format Breakdown</h3>
+<p>The 16 byte Fast3D vertex format contains five pieces of information:</p>
+<ul style="list-style-type:disc">    
+<li>The first three 16-bit shorts are the vertex positions in XYZ.</li>
+<li>The next 16-bit short is the unused flag.</li>
+<ul style="list-style-type:disc">    
+<li>(<b>Note:</b> In the assembler display lists, flag is not represented since it is unused in every version of Fast3D).</li>
+</ul>
+<li>The next two 16-bit shorts are the U and V texture position data.</li>
+<li>the last four bytes are the vertex color data in RGBA form.</li>
+</ul>
+<p>Together, these 16 bytes of information form one complete vertex.</p>
+<h3>Examples</h3>
+<p>From <span class="codeinline">actors/mario/actor.s</span>:</p>
+<div class="code">
+<p>
+<pre>
+vertex     -9,     73,    -34,      0,      0,  0xC2, 0x6B, 0xE6, 0x00
+vertex     -9,     73,     34,      0,      0,  0xBE, 0x6A, 0x12, 0x00
+vertex     22,     82,    -26,      0,      0,  0x07, 0x7E, 0xF5, 0x00
+vertex     73,     11,      0,      0,      0,  0x7E, 0x04, 0x00, 0x00
+vertex     55,    -61,    -36,      0,      0,  0x67, 0xBE, 0xE1, 0x00
+vertex     44,    -10,    -92,      0,      0,  0x4F, 0xF2, 0x9E, 0x00
+vertex      7,     33,     95,      0,      0,  0xE6, 0x26, 0x75, 0x00
+vertex     44,     -9,     92,      0,      0,  0x4F, 0xF2, 0x62, 0x00
+vertex     43,     40,     91,      0,      0,  0x4E, 0x30, 0x57, 0x00
+vertex      8,     -8,    -99,      0,      0,  0xF3, 0xEE, 0x84, 0x00
+vertex     36,    -51,    -79,      0,      0,  0x30, 0xB8, 0xA4, 0x00
+vertex     26,    -74,    -46,      0,      0,  0x18, 0x88, 0xE2, 0x00
+vertex     36,    -52,     79,      0,      0,  0x30, 0xB8, 0x5C, 0x00
+vertex     26,    -74,     45,      0,      0,  0x12, 0x88, 0x22, 0x00
+vertex     55,    -61,     36,      0,      0,  0x60, 0xB3, 0x1A, 0x00
+</pre>
+</p>
+</div>
+</body>
+</html>
