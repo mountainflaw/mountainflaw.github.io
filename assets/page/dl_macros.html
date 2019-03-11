@@ -4,67 +4,255 @@
 <link rel="stylesheet" type="text/css" href="../style2.css">
 </head>
 <body>
-<h1>Fast3D Displaylist Macros (Commands)</h1>
+<h1>Fast3D Displaylist Macros</h1>
 <p>Fast3D is the name of the microcode (a microcode is basically a graphics driver for the N64 in very rough and simplified terms) that <i>Super Mario 64</i> uses. This page hopefully will be of use to you as it demonstrates all of the available macros for use in a display list.</p>
 <h2>Difference Between Commands and Macros</h2>
-<p>A command is literal data being sent to the RCP telling it to perform an action. Most people who have done binary ROM hacking have likely experienced using F3D commands and editing them through a hex editor. Assembler macros greatly simplify the process of tweaking a displaylist by combining several commands into one with an easier syntax. In order to use the macros, you must add <span class="codeinline">.include "ultra64/gbi.inc"</span> and <span class="codeinline">.include macros.inc</span> near the top of your assembler file</span></p>
+<p>A command is literal data being sent to the RCP telling it to perform an action. Most people who have done binary ROM hacking have likely experienced using F3D commands and editing them through a hex editor. Assembler macros greatly simplify the process of tweaking a displaylist by often combining several commands into one with an easier syntax. In order to use the macros, you must add <span class="codeinline">.include "ultra64/gbi.inc"</span> and <span class="codeinline">.include macros.inc</span> near the top of your assembler file</span></p>
 <h2>gSP Macros</h2>
 
-<h3>gsSPMatrix <span class=codeinline>[MATRIX GROUP LABEL], [PARAMETER]</span></h3>
-<p>Inserts matrix operations into the display list using the matrix data from <span class="codeinline">[MATRIX GROUP LABEL]</span> and performs the operation given by <span class="codeinline">[PARAMETER]</span>. <span class="codeinline">[PARAMETER]</span> is able to be:</p>
-
+<h3>gSPVertex (<span class="codeinline">0x04</span>)</h3>
+<p>Loads vertices.</p>
+<h4>Syntax</h4>
+<p><b>Dynamic display list:</b> <span class="codeinline">gSPVertex(Gfx *gdl, Vtx *v, u32 n, u32 v0)</span></p>
+<p><b>Static display list:</b> <span class="codeinline">gsSPVertex(Vtx *v, u32 n, u32 v0)</span></p>
+<h4>Arguments</h4>
 <table>
 	<tr>
-		<th>Parameter</th>
-		<th>Numerical Equivalent</th>
-		<th>Effect</th>
+		<th><b>Argument</b></th>
+		<th><b>Description</b></th>
 	</tr>
 	<tr>
-		<td><span class="codeinline">G_MTX_PROJECTION</span></td>
-		<td><span class="codeinline">01</span></td>
-		<td>Operate on the projection matrix stack</td>
+		<td><span class="codeinline">gdl</span></td>
+		<td>Pointer to display list.</td>
 	</tr>
 	<tr>
-		<td><span class="codeinline">G_MTX_MODELVIEW</span></td>
-		<td><span class="codeinline">00</span></td>
-		<td>Operate on the model view matrix stack</td>
+		<td><span class="codeinline">v</span></td>
+		<td>Vertex list.</td>
 	</tr>
 	<tr>
-		<td><span class="codeinline">G_MTX_MUL</span></td>
-		<td><span class="codeinline">01</span></td>
-		<td>Multiply top of matrix stack and matrix m</td>
+		<td><span class="codeinline">n</span></td>
+		<td>Amount of vertices to be loaded. For F3D this ranges from 1-15, on F3DEX it is 1-32, and on F3DEX Rej/F3DLP Rej it is 1-64.</td>
 	</tr>
 	<tr>
-		<td><span class="codeinline">G_MTX_LOAD</span></td>
-		<td><span class="codeinline">02</span></td>
-		<td>Load matrix m at top</th>
+		<td><span class="codeinline">v0</span></td>
+		<td>Starting index in vertex buffer where vertices are to be loaded (offset). For F3D this is 0-14, for F3DEX it is 0-31, and for F3DEX Rej/F3DLP Rej it is 0-63 and 0-79 respectively.</td>
+	</tr>
+</table>
+<h4>Description</h4>
+<p>Loads into the RSP vertex buffer the vertices that will be used by the gSP1Triangle and gSP2Triangles macros that generate polygons.</p>
+
+<h3>gSP1Triangle (<span class="codeinline">0xBF</span>)</h3>
+<p>Draws one triangle.</p>
+<h4>Syntax</h4>
+<p><b>Dynamic display list:</b> <span class="codeinline">gSP1Triangle(Gfx *gdl, s32 v0, s32 v1, s32 v2, s32 flag)</span></p>
+<p><b>Static display list:</b> <span class="codeinline">gsSP1Triangle(s32 v0, s32 v1, s32 v2, s32 flag)</span></p>
+<h4>Arguments</h4>
+<table>
+	<tr>
+		<th><b>Argument</b></th>
+		<th><b>Description</b></th>
 	</tr>
 	<tr>
-		<td><span class="codeinline">G_MTX_NOPUSH</span></td>
-		<td><span class="codeinline">01</span></td>
-		<td>Do not push on matrix stack before matrix operation</td>
+		<td><span class="codeinline">gdl</span></td>
+		<td>Pointer to display list.</td>
 	</tr>
 	<tr>
-		<td><span class="codeinline">G_MTX_PUSH</span></td>
-		<td><span class="codeinline">04</span></td>
-		<td>Push on matrix stack before matrix operation</td>
+		<td><span class="codeinline">v0, v1, v2</span></td>
+		<td>Vertex buffer index. 0-15 on F3D (default), 0-31 on F3DEX, and 0-63 on F3DEX Rejection (0-79 on F3DLP).</td>
+	</tr>
+	<tr>
+		<td><span class="codeinline">flag</span></td>
+		<td>Not implemented.</td>
+	</tr>
+</table>
+<h4>Description</h4>
+<p>Generates a single triangle face (using the vertices <span class="codeinline">v0</span>, <span class="codeinline">v1</span>, and <span class="codeinline">v2</span>) in the internal vertex buffer loaded by the gSPVertex macro.</p>
+
+<h3>gSP2Triangles (<span class="codeinline">0xB1</span>)</h3>
+<p>Draws two triangles.</p>
+<h4>Syntax</h4>
+<p><b>Dynamic display list:</b> <span class="codeinline">gSP2Triangles(gfx *gdl, s32 v0, s32 v1, s32 v2, s32 flag0, s32 v3, s32 v4, s32 v5, s32 flag1)</span></p>
+<p><b>Static display list:</b> <span class="codeinline">gsSP2Triangles(s32 v0, s32 v1, s32 v2, s32 flag0, s32 v3, s32 v4, s32 v5, s32 flag1)</span></p>
+<h4>Arguments</h4>
+<table>
+	<tr>
+		<th><b>Argument</b></th>
+		<th><b>Description</b></th>
+	</tr>
+	<tr>
+		<td><span class="codeinline">gdl</span></td>
+		<td>Pointer to display list.</td>
+	</tr>
+	<tr>
+		<td><span class="codeinline">v0, v1, v2</span></td>
+		<td>Vertex buffer index. 0-31 on F3DEX, and 0-63 on F3DEX Rejection (0-79 on F3DLP).</td>
+	</tr>
+	<tr>
+		<td><span class="codeinline">flag0</span></td>
+		<td>Not implemented.</td>
+	</tr>
+	<tr>
+		<td><span class="codeinline">v3, v4, v5</span></td>
+		<td>Vertex buffer index. Same purpose as the first three.</td>
+	</tr>
+	<tr>
+		<td><span class="codeinline">flag1</span></td>
+		<td>Not implemented.</td>
+	</tr>
+</table>
+<h4>Description</h4>
+<p><b>Note:</b> This macro is implemented on F3DEX only! It generates the first triangle using the vertices <span class="codeinline">v0</span>, <span class="codeinline">v1</span>, and <span class="codeinline">v2</span>, loaded into the vertex buffer by the gSPVertex macro, and generates the second triangle using the vertices <span class="codeinline">v3</span>, <span class="codeinline">v4</span>, and <span class="codeinline">v5</span>. Using this wherever possible reduces memory usage and increases performance.</p>
+
+<h3>gSPDisplayList</h3>
+<p>Calls a child display list from the current display list.</p>
+<h4>Syntax</h4>
+<p><b>Dynamic display list:</b> <span class="codeinline">gSPDisplayList(Gfx *gdl, Gfx *dl)</span></p>
+<p><b>Static display list:</b> <span class="codeinline">gsSPDisplayList(Gfx *dl)</span></p>
+<h4>Arguments</h4>
+<table>
+	<tr>
+		<th><b>Argument</b></th>
+		<th><b>Description</b></th>
+	</tr>
+	<tr>
+		<td><span class="codeinline">gdl</span></td>
+		<td>Pointer to display list.</td>
+	</tr>
+	<tr>
+		<td><span class="codeinline">dl</span></td>
+		<td>Pointer to display list.</td>
+	</tr>
+</table>
+<h4>Description</h4>
+<p>gSPDisplayList calls a child display list from the current display list. This kind of display list hierarchy can be used to make re-use of display lists or to structure the display list data in a way that reflects the actual rendering model. The display list hierarchy can have up to 10 steps (18 steps for F3DEX). This macro works like a subroutine call: when the processing of the child display list is complete, the processing of the parent display list which made the call resumes.</p>
+
+<h3>gSPSetGeometryMode (<span class="codeinline">0xB7</span>)</h3>
+<p>Sets the geometry pipeline modes enabled</p>
+<h4>Syntax</h4>
+<p><b>Dynamic display list:</b> <span class="codeinline">gSPSetGeometryMode(Gfx *gdl, u32 mode)</span></p>
+<p><b>Static display list:</b> <span class="codeinline">gsSPSetGeometryMode(u32 mode)</span></p>
+<h4>Arguments</h4>
+<table>
+	<tr>
+		<th><b>Argument</b></th>
+		<th><b>Description</b></th>
+	</tr>
+	<tr>
+		<td><span class="codeinline">gdl</span></td>
+		<td>Pointer to display list.</td>
+	</tr>
+	<tr>
+		<td><span class="codeinline">mode</span></td>
+		<td>Geometry pipeline mode. Discussed more in detail below.</td>
+	</tr>
+</table>
+<h4>Description</h4>
+<p>Sets the geometry pipeline modes for culling, lighting, specular highlights, reflection mapping, fog, etc. Use gSPClearGeometryMode to disable the modes. Numerous specifications can be set for <span class="codeinline">mode</span> with a bit sum (as in, can be OR'd together) of the following flags:</p>
+<table>
+	<tr>
+		<th><b>Mode</b></th>
+		<th><b>Numerical Equivalent</b></th>
+		<th><b>Description</b></th>
+	</tr>
+	<tr>
+		<td><span class="codeinline">G_SHADE</span></td>
+		<td><span class="codeinline">0x00000004</span></td>
+		<td>Enables calculation of vertex color for a triangle.</td>
+	</tr>
+	<tr>
+		<td><span class="codeinline">G_LIGHTING</span></td>
+		<td><span class="codeinline">0x00020000</span></td>
+		<td>Enables lighting calculations.</td>
+	</tr>
+	<tr>
+		<td><span class="codeinline">G_SHADING_SMOOTH</span></td>
+		<td><span class="codeinline">0x00000200</span></td>
+		<td>Enables Gouraud shading. When this is not enabled, flat shading is used for the triangle, based on the color of one vertex (see gSP1Triangle). <span class="codeinline">G_SHADE</span> must be enabled to calculate vertex color.</td>
+	</tr>
+	<tr>
+		<td><span class="codeinline">G_ZBUFFER</span></td>
+		<td><span class="codeinline">0x00000001</span></td>
+		<td>Enables Z buffer calculations. Other Z buffer-related parameters for the frame buffer must also be set.</td>
+	</tr>
+	<tr>
+		<td><span class="codeinline">G_TEXTURE_GEN</span></td>
+		<td><span class="codeinline">0x00040000</span></td>
+		<td>Enables automatic generation of the texture's s,t coordinates. Spherical mapping based on the
+			normal vector is used.</td>
+	</tr>
+	<tr>
+		<td><span class="codeinline">G_TEXTURE_GEN_LINEAR</span></td>
+		<td><span class="codeinline">0x00080000</span></td>
+		<td>Enables automatic generation of the texture's s,t coordinates.</td>
+	</tr>
+	<tr>
+		<td><span class="codeinline">G_CULL_FRONT</span></td>
+		<td><span class="codeinline">0x00001000</span></td>
+		<td>Pointer to display list.</td>
+	</tr>
+	<tr>
+		<td><span class="codeinline">G_CULL_BACK</span></td>
+		<td><span class="codeinline">0x00002000</span></td>
+		<td>Enables front-face culling. <b>Note:</b> This is not supported on F3DEX Rej/F3DLP Rej.</td>
+	</tr>
+	<tr>
+		<td><span class="codeinline">G_CULL_BOTH</span></td>
+		<td><span class="codeinline">0x00003000</span></td>
+		<td>Enables back-face culling. <b>Note:</b> This is not supported on F3DEX Rej/F3DLP Rej.</td>
+	</tr>
+	<tr>
+		<td><span class="codeinline">G_FOG</span></td>
+		<td><span class="codeinline">0x00010000</span></td>
+		<td>Enables generation of vertex alpha coordinate fog parameters. <b>Note:</b> Enabling this means you cannot use vertex alpha.</td>
+	</tr>
+	<tr>
+		<td><span class="codeinline">G_CLIPPING</span></td>
+		<td><span class="codeinline">0x00800000</span></td>
+		<td>Enables clipping. This mode is enabled in the initial state. When disabled, clipping is not performed. <b>Note:</b> This is only supported on F3DLX and F3DLX NoN. </td>
 	</tr>
 </table>
 
-<p><b>Note:</b> You can perform multiple operations at once by adding the numerical equivalents and using the sum for <span class="codeinline">[PARAMETER]</span>.  For example, if you wished to use <span class="codeinline">G_MTX_PROJECTION</span> and <span class="codeinline">G_MTX_LOAD</span>, your <span class="codeinline">[PARAMETER]</span> would simply be <span class="codeinline">3</span>.
+<h3>gSPClearGeometryMode (<span class="codeinline">0xB6</span>)</h3>
+<p>Disables the geometry pipeline modes</p>
+<h3>Syntax</h3>
+<p><b>Dynamic display list:</b> <span class="codeinline">gSPClearGeometryMode(Gfx *gdl, u32 mode)</span></p>
+<p><b>Static display list:</b> <span class="codeinline">gsSPClearGeometryMode(u32 mode)</span></p>
+<h4>Arguments</h4>
+<table>
+	<tr>
+		<th><b>Argument</b></th>
+		<th><b>Description</b></th>
+	</tr>
+	<tr>
+		<td><span class="codeinline">gdl</span></td>
+		<td>Pointer to display list.</td>
+	</tr>
+	<tr>
+		<td><span class="codeinline">mode</span></td>
+		<td>Geometry pipeline mode.</td>
+	</tr>
+</table>
+<h3>Description</h3>
+<p>gSPClearGeometryMode disables the geometry pipeline modes for culling, lighting, specular highlights, reflection mapping, fog, etc. To enable these various modes, use gSPSetGeometryMode. For details about the different modes, see gSPSetGeometryMode.</p>
 
-<h3>gsSPLight</h3>
-<p>Todo: Work on this.</p>
-<h3>gsSPVertex <span class="codeinline">[VERTEX GROUP LABEL] [AMOUNT], [OFFSET]</span></h3>
-<p>Loads vertices in to the vertex cache starting from where <span class="codeinline">[VERTEX GROUP LABEL]</span> is placed. The amount of vertices loaded in is decided by <span class="codeinline">[AMOUNT]</span> and the range is 0-15 (16 total). <span class="codeinline">[OFFSET]</span> is 1-16 and decides where in the vertex group list to start. The numerical equivalent to this command is <span class="codeinline">0x04</span>, also known as <span class="codeinline">G_VTX</span>.</p>
-
-<h4>Microcode Differences</h4>
-<p>This macro slightly differs between certain microcodes. The notable differences are:</p>
-<ul style="list-style-type: disc">
-<li>When using the Fast3D Extended (F3DEX) and Fast3D Extended 2 (F3DEX2) microcodes, <span class="codeinline">[AMOUNT]</span> supports a range of 0-31 (32 total) vertices to be loaded at once, and as expected <span class="codeinline">[OFFSET]</span> ranges from 1-32 as well.</li>
-<li>When using the F3DEX Rejection and F3DEX2 Rejection microcodes, the ranges are 0-63 (64 total) and 1-64 for <span class="codeinline">[AMOUNT]</span> and <span class="codeinline">[OFFSET]</span> respectively.</li>
-</ul>
-
+<h3>gSPEndDisplayList (<span class="codeinline">0xB8</span>)</h3>
+<p>Ends a display list.</p>
+<h3>Syntax</h3>
+<p><b>Dynamic display list:</b> <span class="codeinline">gSPEndDisplayList(Gfx *gdl)</span></p>
+<p><b>Static display list:</b> <span class="codeinline">gSPEndDisplayList(void)</span></p>
+<h4>Arguments</h4>
+<table>
+		<tr>
+			<th><b>Argument</b></th>
+			<th><b>Description</b></th>
+		</tr>
+		<tr>
+			<td><span class="codeinline">gdl</span></td>
+			<td>Pointer to display list.</td>
+		</tr>
+</table>	
+<h4>Description</h4>
+<p>Ends a display list. When this macro is executed, the RSP pops the display list stack and, if the display list stack is empty, ends the graphics process. <b>Note:</b> All display lists must end with this macro.</p>
 <h2>gDP Macros</h2>
 </body>
 </html>

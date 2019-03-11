@@ -7,7 +7,7 @@ body {
 }
 .code {
 	margin: auto;
-	font-family: Consolas, "Ubuntu Mono", Monospace, monospaced;
+	font-family: "Courier Prime", Consolas, "Ubuntu Mono", Monospace, monospaced;
     color: #eeeeee;	
     background-color: #1d1d1d;
 	width: 73%;
@@ -17,25 +17,43 @@ body {
     border-color: #4d4d4d;
 }
 .codeinline {
-	font-family: Consolas, "Ubuntu Mono", Monospace, monospaced;
+	font-family: "Courier Prime", Consolas, "Ubuntu Mono", Monospace, monospaced;
     background-color: #d2d2d2;
 }
  /* unvisited link */
 a:link {
-	color: #1d1d1d;
+    color: #1d1d1d;
+    text-decoration: underline;
 }
 
 /* visited link */
 a:visited {
-  	color: #1d1d1d;
+    color: #1d1d1d;
+    text-decoration: underline;      
 }
 
 /* mouse over link */
 a:hover {
-  	color: #1d1d1d;
+    color: #1d1d1d;
+    text-decoration: underline;      
 }
 
 /* selected link */
 a:active {
-	color: #1d1d1d;
+    color: #1d1d1d;
+    text-decoration: underline;      
+}
+
+table {
+    width: 75%;
+    outline: 2px solid #1d1d1d;
+    margin: auto;
+}
+
+td {
+    outline: 2px solid #1d1d1d;
+}
+
+th {
+    outline: 2px solid #1d1d1d;
 }
