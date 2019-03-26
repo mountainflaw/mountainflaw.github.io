@@ -1129,7 +1129,6 @@ var searchData=
   ['soundpoolholder2',['SoundPoolHolder2',['../d5/d3d/structSoundPoolHolder2.html',1,'']]],
   ['soundstate',['SoundState',['../da/d3f/structSoundState.html',1,'']]],
   ['soundtimes',['soundTimes',['../d3/ddb/structProfilerFrameData.html#a41167e4a99b7a676a9dd1b36a10490c1',1,'ProfilerFrameData']]],
-  ['source_5fsuffix',['source_suffix',['../d5/d89/namespaceconf.html#a10af2a769eb3bd3322e874f677e435b1',1,'conf']]],
   ['sp',['sp',['../d9/dec/struct____OSThreadContext.html#af9379c2223768103f41cea04c19bcb86',1,'__OSThreadContext']]],
   ['sp_5fdmem_5fstart',['SP_DMEM_START',['../d7/de1/hardware_8h.html#a84862be46207412412a6cfa780963594',1,'hardware.h']]],
   ['sp_5fdram_5faddr_5freg',['SP_DRAM_ADDR_REG',['../d7/de1/hardware_8h.html#ab5c404ee2d59387ef78d0f1e2caa0303',1,'hardware.h']]],

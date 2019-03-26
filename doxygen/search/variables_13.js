@@ -338,7 +338,6 @@ var searchData=
   ['soundmagic',['soundMagic',['../da/d3f/structSoundState.html#a4943e6bc1fa607de3ebdf0dccd7f83a1',1,'SoundState']]],
   ['soundmode',['soundMode',['../d7/d0b/structMainMenuSaveData.html#a17f69cca23e2a965dcc91803ef181ff1',1,'MainMenuSaveData']]],
   ['soundtimes',['soundTimes',['../d3/ddb/structProfilerFrameData.html#a41167e4a99b7a676a9dd1b36a10490c1',1,'ProfilerFrameData']]],
-  ['source_5fsuffix',['source_suffix',['../d5/d89/namespaceconf.html#a10af2a769eb3bd3322e874f677e435b1',1,'conf']]],
   ['sp',['sp',['../d9/dec/struct____OSThreadContext.html#af9379c2223768103f41cea04c19bcb86',1,'__OSThreadContext']]],
   ['spadnumprint',['sPadNumPrint',['../da/d95/profiler__utils_8c.html#a848a11b2a44444b6253f71178553314a',1,'profiler_utils.c']]],
   ['sparticletypes',['sParticleTypes',['../da/d02/object__list__processor_8c.html#a8ae7b390831580376e531e51aa824f54',1,'object_list_processor.c']]],

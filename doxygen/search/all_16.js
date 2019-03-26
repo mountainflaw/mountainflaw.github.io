@@ -62,7 +62,6 @@ var searchData=
   ['velyrange',['velYRange',['../d1/df8/structSpawnParticlesInfo.html#af75c332f5f0c5b24e990cca40905eafa',1,'SpawnParticlesInfo']]],
   ['velz',['velZ',['../db/d1a/structBullyCollisionData.html#a5bbabb4a960d111015c7d0a71d866ee3',1,'BullyCollisionData']]],
   ['verify_5fsave_5fblock_5fsignature',['verify_save_block_signature',['../d7/d32/save__file_8c.html#a0f53a689042b4c65a5c4be4fc2334ccc',1,'save_file.c']]],
-  ['version',['version',['../d5/d89/namespaceconf.html#ade15c5b54093b64d7c428ec19ca5b1cb',1,'conf']]],
   ['version_5fsm64_5fe',['VERSION_SM64_E',['../d9/da8/libsm64_8h.html#a050da4bb48b4c18b699b41ccbece8734a71e310b30734557b037005aa498512c7',1,'libsm64.h']]],
   ['version_5fsm64_5fj',['VERSION_SM64_J',['../d9/da8/libsm64_8h.html#a050da4bb48b4c18b699b41ccbece8734a1e6f931081b5edb2a014cf1a5d3045f8',1,'libsm64.h']]],
   ['version_5fsm64_5fshindou',['VERSION_SM64_SHINDOU',['../d9/da8/libsm64_8h.html#a050da4bb48b4c18b699b41ccbece8734a50c5d0a7a3c8723de9791cfb11df0cb7',1,'libsm64.h']]],

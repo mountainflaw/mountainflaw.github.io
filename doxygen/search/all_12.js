@@ -80,7 +80,6 @@ var searchData=
   ['rel_5ftarget',['rel_target',['../dc/d24/classasm-processor_1_1Section.html#a217528e1253a0e618f4ea4c8116c1d4e',1,'asm-processor::Section']]],
   ['rel_5ftype',['rel_type',['../d3/d43/classasm-processor_1_1Relocation.html#a4d73e40423c5bc6d845ff9e5504c0a8d',1,'asm-processor::Relocation']]],
   ['relduration',['relDuration',['../d8/deb/structOSPiHandle__s.html#a5d3d68417098614d820e9773d76ca57c',1,'OSPiHandle_s']]],
-  ['release',['release',['../d5/d89/namespaceconf.html#a325dc746d8bf05c54d26351c35a21d90',1,'conf']]],
   ['releasetime',['releaseTime',['../d0/d0b/structALEnvelope.html#a16970fc4da55cff43e9b08e0f794881c',1,'ALEnvelope']]],
   ['relocated_5fby',['relocated_by',['../dc/d24/classasm-processor_1_1Section.html#a124cbf82a9d0e782cac7817d3c197550',1,'asm-processor::Section']]],
   ['relocation',['Relocation',['../d3/d43/classasm-processor_1_1Relocation.html',1,'asm-processor']]],

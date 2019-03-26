@@ -17,7 +17,6 @@ var searchData=
   ['cloud_2ec_2einc',['cloud.c.inc',['../d3/dbd/cloud_8c_8inc.html',1,'']]],
   ['coin_2ec_2einc',['coin.c.inc',['../d2/d06/coin_8c_8inc.html',1,'']]],
   ['collide_5fparticles_2ec_2einc',['collide_particles.c.inc',['../dd/d0b/collide__particles_8c_8inc.html',1,'']]],
-  ['conf_2epy',['conf.py',['../d1/d3e/conf_8py.html',1,'']]],
   ['config_2eh',['config.h',['../db/d16/config_8h.html',1,'']]],
   ['controllable_5fplatform_2ec_2einc',['controllable_platform.c.inc',['../d8/d5d/controllable__platform_8c_8inc.html',1,'']]],
   ['corkbox_2ec_2einc',['corkbox.c.inc',['../d9/df6/corkbox_8c_8inc.html',1,'']]],

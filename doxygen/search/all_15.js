@@ -380,7 +380,7 @@ var searchData=
   ['unref_5f801be870',['unref_801be870',['../df/d64/mario__head__6_8c.html#aeddb4bb33be959bbad6d5f5edda709af',1,'mario_head_6.c']]],
   ['unref_5f801be8e0',['unref_801be8e0',['../df/d64/mario__head__6_8c.html#a4d18f07175dbc203f7b25b50d458bab3',1,'mario_head_6.c']]],
   ['unref_5f801be948',['unref_801be948',['../df/d64/mario__head__6_8c.html#a43f65bf88fafe7309532bd834ee9f7db',1,'mario_head_6.c']]],
-  ['unused',['UNUSED',['../d8/d4b/unused_8h.html#addf5ec070e9499d36b7f2009ce736076',1,'UNUSED():&#160;unused.h'],['../d9/d0d/osContStartReadData_8c.html#a4884baf6a3e410b581a16e00353028b6',1,'unused():&#160;osContStartReadData.c'],['../d0/db1/alBnkfNew_8c.html#a1f0e95d2504a5566f1579e2f50f9be18',1,'unused():&#160;alBnkfNew.c']]],
+  ['unused',['unused',['../d9/d0d/osContStartReadData_8c.html#a4884baf6a3e410b581a16e00353028b6',1,'unused():&#160;osContStartReadData.c'],['../d0/db1/alBnkfNew_8c.html#a1f0e95d2504a5566f1579e2f50f9be18',1,'unused():&#160;alBnkfNew.c'],['../d8/d4b/unused_8h.html#addf5ec070e9499d36b7f2009ce736076',1,'UNUSED():&#160;unused.h']]],
   ['unused_2eh',['unused.h',['../d8/d4b/unused_8h.html',1,'']]],
   ['unused01',['unused01',['../d7/ddb/structStruct8032CE34.html#a315cb4d8049448986c16022649aa7806',1,'Struct8032CE34']]],
   ['unused02',['unused02',['../d7/ddb/structStruct8032CE34.html#aaf613082c6cf415645ec80b8b94f186a',1,'Struct8032CE34']]],

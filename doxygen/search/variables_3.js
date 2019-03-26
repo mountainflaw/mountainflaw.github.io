@@ -64,7 +64,6 @@ var searchData=
   ['controller',['controller',['../d5/dbb/structMarioState.html#abdeb056d7fcaabc8a245476cbbbac687',1,'MarioState']]],
   ['controllerdata',['controllerData',['../d8/d04/structController.html#af2be5f17d8ae77965ec169d30b158729',1,'Controller']]],
   ['conversionratio',['conversionRatio',['../db/d1a/structBullyCollisionData.html#aa704e07daef4f8e76ecf09927ffaeab4',1,'BullyCollisionData']]],
-  ['copyright',['copyright',['../d5/d89/namespaceconf.html#a33fa97cf51dcb25970fbf53f10159589',1,'conf']]],
   ['cotmc_5fseg7_5farr_5f0700bed0',['cotmc_seg7_arr_0700BED0',['../df/d8f/moving__texture_8c.html#ad18182ac8697aa64f8ec3cd68bf439ca',1,'moving_texture.c']]],
   ['cotmc_5fseg7_5fdl_5f0700be10',['cotmc_seg7_dl_0700BE10',['../df/d8f/moving__texture_8c.html#ae0d6a4a5e542ced6f678da4d4dfc766e',1,'moving_texture.c']]],
   ['cotmc_5fseg7_5fdl_5f0700be88',['cotmc_seg7_dl_0700BE88',['../df/d8f/moving__texture_8c.html#a3a6c763c604b7955cb4f95f29415c733',1,'moving_texture.c']]],

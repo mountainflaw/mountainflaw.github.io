@@ -22,9 +22,6 @@ var searchData=
   ['hold',['hold',['../d9/d0b/err_8english_8cc.html#a866e0ba7c1787700ea4acecc1df3a377',1,'err.english.cc']]],
   ['hstart',['hStart',['../dd/df9/structOSViCommonRegs.html#a1240df0b8b9a5200bc0a7c55798b4146',1,'OSViCommonRegs']]],
   ['hsync',['hSync',['../dd/df9/structOSViCommonRegs.html#a6273a66b0a2c26876d752f7c83a12714',1,'OSViCommonRegs']]],
-  ['html_5fstatic_5fpath',['html_static_path',['../d5/d89/namespaceconf.html#af4fb5d8851ccaade135c2668dd3ced41',1,'conf']]],
-  ['html_5ftheme',['html_theme',['../d5/d89/namespaceconf.html#a6c3bfcc1a44546c1c75ce20f55bd0fd6',1,'conf']]],
-  ['htmlhelp_5fbasename',['htmlhelp_basename',['../d5/d89/namespaceconf.html#aab7fddb2766ce3c430d8246fbfdbc7b1',1,'conf']]],
   ['hurtboxheight',['hurtboxHeight',['../de/de7/structObject.html#ad9ca60bcd86e18c5aec0211c684062bf',1,'Object::hurtboxHeight()'],['../d5/d8e/structObjectHitbox.html#aa8069e6dc5b7e74b804c8594c993eb44',1,'ObjectHitbox::hurtboxHeight()']]],
   ['hurtboxradius',['hurtboxRadius',['../de/de7/structObject.html#a9e8b33f873ac6bd2d2cb7b71444dbbf2',1,'Object::hurtboxRadius()'],['../d5/d8e/structObjectHitbox.html#a7ce72efff465b27407c7b8f4ed5fc0c5',1,'ObjectHitbox::hurtboxRadius()']]],
   ['hurtcounter',['hurtCounter',['../d5/dbb/structMarioState.html#af6174ab5bc18e2a1dd23b583642ab47b',1,'MarioState']]]

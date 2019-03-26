@@ -21,16 +21,12 @@ var searchData=
   ['endcircley',['endCircleY',['../d8/d48/structWarpTransitionData.html#adcf17706f176f9ac2dca742b4de52614',1,'WarpTransitionData']]],
   ['envelope',['envelope',['../d6/d17/structALSound__s.html#ae6cc6bf2664502a9c86ed4531391fd7f',1,'ALSound_s']]],
   ['eof',['eof',['../da/d02/structstbi__io__callbacks.html#a319639db2f76e715eed7a7a974136832',1,'stbi_io_callbacks']]],
-  ['epub_5fexclude_5ffiles',['epub_exclude_files',['../d5/d89/namespaceconf.html#a75f94e80cc9b5ce60a0f0a8a096bad8e',1,'conf']]],
-  ['epub_5ftitle',['epub_title',['../d5/d89/namespaceconf.html#a9e0d62d22b83ce34deb3f16ba63cedfe',1,'conf']]],
   ['error',['error',['../d9/d0b/err_8english_8cc.html#ae25c6633386e1dc86e685274c2c52b8b',1,'err.english.cc']]],
   ['errstatus',['errStatus',['../df/df5/struct____OSBlockInfo.html#ae44f2308161c4270b40951ddf0b2c0b3',1,'__OSBlockInfo']]],
-  ['exclude_5fpatterns',['exclude_patterns',['../d5/d89/namespaceconf.html#aa01918cfe75aed3ae059dd96c71c8f08',1,'conf']]],
   ['executed',['executed',['../d9/d0b/err_8english_8cc.html#a278f95e152314f43cc7f38b5876ba643',1,'err.english.cc']]],
   ['expects',['expects',['../d9/d0b/err_8english_8cc.html#a1fd43f76b24a5b63032e1db401d0f93d',1,'err.english.cc']]],
   ['ext_5ffilename',['ext_filename',['../de/d01/structsm64__config.html#ad72447e3b6785b7c47bed8decc6b1706',1,'sm64_config']]],
   ['ext_5fsize',['ext_size',['../de/d01/structsm64__config.html#a1ada7014aca1a6a363967e5d35df62c5',1,'sm64_config']]],
-  ['extensions',['extensions',['../d5/d89/namespaceconf.html#ae475e080536acb271a0a0efe56c3ba42',1,'conf']]],
   ['extern',['extern',['../d9/d0b/err_8english_8cc.html#a7774a56c47d65121f8e70acbbf0c7bb2',1,'err.english.cc']]],
   ['external',['external',['../d9/d0b/err_8english_8cc.html#af52b5164ca1d24dad06a23be82012329',1,'err.english.cc']]]
 ];

@@ -1,11 +1,8 @@
 var searchData=
 [
   ['l',['l',['../dc/d9c/unionAmbient.html#a198c5f44197d3f5846e9cddc1f6ab26c',1,'Ambient::l()'],['../db/d72/unionLight.html#ac78eb935f26816ba482b642e823d6359',1,'Light::l()'],['../d3/da1/structLights4.html#abbcc997b33f42e844326a6e28ed8cf11',1,'Lights4::l()'],['../d4/d94/structLookAt.html#a307f063fc4aafbddbc194b7ef739aec7',1,'LookAt::l()'],['../d2/dca/unionObjVarVal.html#a2b26182a9d37214c1b155dffab0f2d44',1,'ObjVarVal::l()']]],
-  ['language',['language',['../d5/d89/namespaceconf.html#ad76a2e6d7bfa880ebb4042c08e8b4e12',1,'conf']]],
   ['large',['large',['../d9/d0b/err_8english_8cc.html#ab3b34f9dc86ff8e6c847d67ef572162a',1,'err.english.cc']]],
   ['latency',['latency',['../d8/deb/structOSPiHandle__s.html#aaabcf396c11e60d0e33b77ca4a6ae9ff',1,'OSPiHandle_s']]],
-  ['latex_5fdocuments',['latex_documents',['../d5/d89/namespaceconf.html#a7812f49970f3de0d15dd7b9b9a10e3a1',1,'conf']]],
-  ['latex_5felements',['latex_elements',['../d5/d89/namespaceconf.html#a33619d385ad23765ac6ebb58bf82d43d',1,'conf']]],
   ['lava_5fbubble_5fptr_5f0b006020',['lava_bubble_ptr_0B006020',['../d1/d29/ingame__menu__3_8c.html#a77d53b6e73beab313ae92bf69cd502e3',1,'ingame_menu_3.c']]],
   ['leap',['leap',['../dd/df9/structOSViCommonRegs.html#aaf8d0977fce42efd6aefde793de9274e',1,'OSViCommonRegs']]],
   ['leftoffset',['leftOffset',['../de/da6/structDialogEntry.html#a27c70aa9e2637ffc19bf6d6e8c996ee4',1,'DialogEntry']]],
