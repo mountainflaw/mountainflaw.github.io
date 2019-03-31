@@ -24,7 +24,7 @@
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Super Mario 64 Source
    </div>
-   <div id="projectbrief">It&#39;s a me, the Super Mario 64 Source Code!</div>
+   <div id="projectbrief">A Super Mario 64 decompilation, brought to you by a bunch of clever folks.</div>
   </td>
  </tr>
  </tbody>
@@ -108,6 +108,9 @@ $(function() {
 : <a class="el" href="da/d02/object__list__processor_8c.html#a206a31d4336793e2e552a64ef10b86e3">object_list_processor.c</a>
 , <a class="el" href="d2/dd2/object__list__processor_8h.html#a206a31d4336793e2e552a64ef10b86e3">object_list_processor.h</a>
 </li>
+<li>gBubbleTempVtx
+: <a class="el" href="d1/d29/ingame__menu__3_8c.html#a190bbf580e6c1579a5a8513b044a3f24">ingame_menu_3.c</a>
+</li>
 <li>gCameraZoomDist
 : <a class="el" href="d1/de0/camera_8c.html#a783134a28dae0712db5b1cf96ce510f1">camera.c</a>
 </li>
@@ -128,8 +131,8 @@ $(function() {
 , <a class="el" href="d2/dd5/game_8h.html#a4cc0098822a91c78e704958dc8ce3caf">game.h</a>
 </li>
 <li>gCosineTable
-: <a class="el" href="dd/d07/math__tables_8h.html#aa4c73b26347e29c87cff9837b1eaed0e">math_tables.h</a>
-, <a class="el" href="d8/d11/math__util_8h.html#a3d024cd3965b3ac3012cbab7ebd8b5fa">math_util.h</a>
+: <a class="el" href="d8/d11/math__util_8h.html#a3d024cd3965b3ac3012cbab7ebd8b5fa">math_util.h</a>
+, <a class="el" href="dd/d07/math__tables_8h.html#aa4c73b26347e29c87cff9837b1eaed0e">math_tables.h</a>
 </li>
 <li>gCurGraphNodeIndex
 : <a class="el" href="d2/dcb/geo__layout_8c.html#a5b951ba212b46dd9c0c770c044255239">geo_layout.c</a>
@@ -190,9 +193,9 @@ $(function() {
 , <a class="el" href="d1/dfc/graph__node_8h.html#ab804ed443b383dee3e0bcd680e284afe">graph_node.h</a>
 </li>
 <li>gCurrSaveFileNum
-: <a class="el" href="d0/d84/ingame__menu_8c.html#ad3e9530890e3ba6d2777b062d16dea0c">ingame_menu.c</a>
+: <a class="el" href="d4/d1c/area_8h.html#ad3e9530890e3ba6d2777b062d16dea0c">area.h</a>
+, <a class="el" href="d0/d84/ingame__menu_8c.html#ad3e9530890e3ba6d2777b062d16dea0c">ingame_menu.c</a>
 , <a class="el" href="d1/d0d/area_8c.html#ad3e9530890e3ba6d2777b062d16dea0c">area.c</a>
-, <a class="el" href="d4/d1c/area_8h.html#ad3e9530890e3ba6d2777b062d16dea0c">area.h</a>
 </li>
 <li>gCutsceneMsgDuration
 : <a class="el" href="d0/d84/ingame__menu_8c.html#ac3eb010f674439b75a72dbd0a066199c">ingame_menu.c</a>
@@ -357,6 +360,18 @@ $(function() {
 </li>
 <li>gEndCutsceneStrings
 : <a class="el" href="d0/d84/ingame__menu_8c.html#a4ce598fa38308a1c7ada18572a9265b7">ingame_menu.c</a>
+</li>
+<li>gEnvFxBubbleConfig
+: <a class="el" href="d1/d29/ingame__menu__3_8c.html#a873df2d411163c60e061d964879b353f">ingame_menu_3.c</a>
+, <a class="el" href="d1/df5/ingame__menu__3_8h.html#a873df2d411163c60e061d964879b353f">ingame_menu_3.h</a>
+</li>
+<li>gEnvFxBuffer
+: <a class="el" href="d3/db2/ingame__menu__2_8c.html#a44599492971b3dd411ea9c08c2f582e1">ingame_menu_2.c</a>
+, <a class="el" href="d0/df6/ingame__menu__2_8h.html#a44599492971b3dd411ea9c08c2f582e1">ingame_menu_2.h</a>
+</li>
+<li>gEnvFxMode
+: <a class="el" href="d3/db2/ingame__menu__2_8c.html#aa608c12efb20fa94e9dcb4a699d6d0c6">ingame_menu_2.c</a>
+, <a class="el" href="d0/df6/ingame__menu__2_8h.html#aa608c12efb20fa94e9dcb4a699d6d0c6">ingame_menu_2.h</a>
 </li>
 <li>GeoLayoutJumpTable
 : <a class="el" href="d2/dcb/geo__layout_8c.html#a1a64b68ba1d57b964e8e12dad51c84a8">geo_layout.c</a>
@@ -542,8 +557,8 @@ $(function() {
 , <a class="el" href="d4/dbf/main_8h.html#a33fb60db659b3199e913b8c1fa682705">main.h</a>
 </li>
 <li>gIntrMesgQueue
-: <a class="el" href="d4/dbf/main_8h.html#ac476a835c28a3328be12c7091d01dd8e">main.h</a>
-, <a class="el" href="d0/d29/main_8c.html#ac476a835c28a3328be12c7091d01dd8e">main.c</a>
+: <a class="el" href="d0/d29/main_8c.html#ac476a835c28a3328be12c7091d01dd8e">main.c</a>
+, <a class="el" href="d4/dbf/main_8h.html#ac476a835c28a3328be12c7091d01dd8e">main.h</a>
 </li>
 <li>gLastDialogLineNum
 : <a class="el" href="d0/d84/ingame__menu_8c.html#a2759b2d3a7f6fb3146fa2b0f49869d67">ingame_menu.c</a>
@@ -560,14 +575,14 @@ $(function() {
 , <a class="el" href="d3/dc7/object__helpers_8h.html#a74e8c21387a2e926c73ea54d448842af">object_helpers.h</a>
 </li>
 <li>gLuigiObject
-: <a class="el" href="da/d02/object__list__processor_8c.html#ac24245afcb975de57061f4d501d7529f">object_list_processor.c</a>
+: <a class="el" href="d2/dd2/object__list__processor_8h.html#ac24245afcb975de57061f4d501d7529f">object_list_processor.h</a>
 , <a class="el" href="d9/db9/mario_8h.html#ac24245afcb975de57061f4d501d7529f">mario.h</a>
-, <a class="el" href="d2/dd2/object__list__processor_8h.html#ac24245afcb975de57061f4d501d7529f">object_list_processor.h</a>
+, <a class="el" href="da/d02/object__list__processor_8c.html#ac24245afcb975de57061f4d501d7529f">object_list_processor.c</a>
 , <a class="el" href="d6/dbe/shadow_8h.html#ac24245afcb975de57061f4d501d7529f">shadow.h</a>
 </li>
 <li>gMainMenuDataModified
-: <a class="el" href="d4/dad/save__file_8h.html#a1e29ec3fd6dfda292cc5da2315857d91">save_file.h</a>
-, <a class="el" href="d7/d32/save__file_8c.html#a1e29ec3fd6dfda292cc5da2315857d91">save_file.c</a>
+: <a class="el" href="d7/d32/save__file_8c.html#a1e29ec3fd6dfda292cc5da2315857d91">save_file.c</a>
+, <a class="el" href="d4/dad/save__file_8h.html#a1e29ec3fd6dfda292cc5da2315857d91">save_file.h</a>
 </li>
 <li>gMainPoolState
 : <a class="el" href="df/dd5/memory_8c.html#aa124e5309ca66077ae36d26dae0b9036">memory.c</a>
@@ -596,9 +611,9 @@ $(function() {
 : <a class="el" href="db/d65/platform__displacement_8c.html#a004e5ffd05555ab20278493690ccfd4b">platform_displacement.c</a>
 </li>
 <li>gMarioShotFromCannon
-: <a class="el" href="d3/dc7/object__helpers_8h.html#a3fafb71562bcadda70f705f393ac82ef">object_helpers.h</a>
-, <a class="el" href="d2/d96/room_8c.html#a3fafb71562bcadda70f705f393ac82ef">room.c</a>
+: <a class="el" href="d2/d96/room_8c.html#a3fafb71562bcadda70f705f393ac82ef">room.c</a>
 , <a class="el" href="d9/dc0/room_8h.html#a3fafb71562bcadda70f705f393ac82ef">room.h</a>
+, <a class="el" href="d3/dc7/object__helpers_8h.html#a3fafb71562bcadda70f705f393ac82ef">object_helpers.h</a>
 </li>
 <li>gMarioSpawnInfo
 : <a class="el" href="d1/d0d/area_8c.html#a22ee4082f22b129ad6311e3a272fb0c3">area.c</a>
@@ -609,8 +624,8 @@ $(function() {
 , <a class="el" href="d7/d0a/level__update_8h.html#acd1797e1797934a1c0eaa9bc8b83dd77">level_update.h</a>
 </li>
 <li>gMarioStates
-: <a class="el" href="d7/d0a/level__update_8h.html#a8be8c202a7ee57007aefe6a1f32b79ac">level_update.h</a>
-, <a class="el" href="db/dda/level__update_8c.html#ab9ab243398b7d83716a341bfe8f38a0d">level_update.c</a>
+: <a class="el" href="db/dda/level__update_8c.html#ab9ab243398b7d83716a341bfe8f38a0d">level_update.c</a>
+, <a class="el" href="d7/d0a/level__update_8h.html#a8be8c202a7ee57007aefe6a1f32b79ac">level_update.h</a>
 </li>
 <li>gMusicData
 : <a class="el" href="d9/d95/dma_8h.html#a1b3d13c604ba501ea1b60e394b81b49a">dma.h</a>
@@ -620,16 +635,16 @@ $(function() {
 , <a class="el" href="d2/dd2/object__list__processor_8h.html#afd5293a70f3a5712ce113f47eca89d0b">object_list_processor.h</a>
 </li>
 <li>gNumFindFloorCalls
-: <a class="el" href="da/d02/object__list__processor_8c.html#aacb5c04045a75b6484af30440dd22903">object_list_processor.c</a>
-, <a class="el" href="d2/dd2/object__list__processor_8h.html#aacb5c04045a75b6484af30440dd22903">object_list_processor.h</a>
+: <a class="el" href="d2/dd2/object__list__processor_8h.html#aacb5c04045a75b6484af30440dd22903">object_list_processor.h</a>
+, <a class="el" href="da/d02/object__list__processor_8c.html#aacb5c04045a75b6484af30440dd22903">object_list_processor.c</a>
 </li>
 <li>gNumFindFloorMisses
 : <a class="el" href="da/d02/object__list__processor_8c.html#a7670fdc542d4bae7650a815b3ffdf6da">object_list_processor.c</a>
 , <a class="el" href="d2/dd2/object__list__processor_8h.html#a7670fdc542d4bae7650a815b3ffdf6da">object_list_processor.h</a>
 </li>
 <li>gNumFindWallCalls
-: <a class="el" href="da/d02/object__list__processor_8c.html#a95996350c68ccb3fb77988a6a5bde9f2">object_list_processor.c</a>
-, <a class="el" href="d2/dd2/object__list__processor_8h.html#a95996350c68ccb3fb77988a6a5bde9f2">object_list_processor.h</a>
+: <a class="el" href="d2/dd2/object__list__processor_8h.html#a95996350c68ccb3fb77988a6a5bde9f2">object_list_processor.h</a>
+, <a class="el" href="da/d02/object__list__processor_8c.html#a95996350c68ccb3fb77988a6a5bde9f2">object_list_processor.c</a>
 </li>
 <li>gNumRoomedObjectsInMarioRoom
 : <a class="el" href="d2/d96/room_8c.html#a99ba23a6d7288791dc64b7606a1a40f8">room.c</a>
@@ -644,21 +659,21 @@ $(function() {
 , <a class="el" href="d2/dd2/object__list__processor_8h.html#a2af7823acf3c299a3460baf44ff49bc2">object_list_processor.h</a>
 </li>
 <li>gNumStaticSurfaces
-: <a class="el" href="da/d02/object__list__processor_8c.html#acc99b54370599fc97969f50e6657c5dc">object_list_processor.c</a>
-, <a class="el" href="d2/dd2/object__list__processor_8h.html#acc99b54370599fc97969f50e6657c5dc">object_list_processor.h</a>
+: <a class="el" href="d2/dd2/object__list__processor_8h.html#acc99b54370599fc97969f50e6657c5dc">object_list_processor.h</a>
+, <a class="el" href="da/d02/object__list__processor_8c.html#acc99b54370599fc97969f50e6657c5dc">object_list_processor.c</a>
 </li>
 <li>gObjectLists
-: <a class="el" href="db/d1a/obj__behaviors__2_8c.html#a0b9fa5392db4b15c4c6a29481cf9e249">obj_behaviors_2.c</a>
+: <a class="el" href="d2/dd2/object__list__processor_8h.html#a0b9fa5392db4b15c4c6a29481cf9e249">object_list_processor.h</a>
+, <a class="el" href="db/d1a/obj__behaviors__2_8c.html#a0b9fa5392db4b15c4c6a29481cf9e249">obj_behaviors_2.c</a>
 , <a class="el" href="da/d02/object__list__processor_8c.html#a0b9fa5392db4b15c4c6a29481cf9e249">object_list_processor.c</a>
-, <a class="el" href="d2/dd2/object__list__processor_8h.html#a0b9fa5392db4b15c4c6a29481cf9e249">object_list_processor.h</a>
 </li>
 <li>gObjectPool
 : <a class="el" href="da/d02/object__list__processor_8c.html#aec017f16d469b4bcf72aa3a48fdb1fd4">object_list_processor.c</a>
 , <a class="el" href="d2/dd2/object__list__processor_8h.html#a941ddb67823433f2d55aaf29bfbd1e16">object_list_processor.h</a>
 </li>
 <li>gOsPiAccessQueueCreated
-: <a class="el" href="d6/d8b/osCreatePiManager_8c.html#a05f26736bbb41b551bde5cacc1571cdf">osCreatePiManager.c</a>
-, <a class="el" href="db/d1b/____osPiCreateAccessQueue_8c.html#a05f26736bbb41b551bde5cacc1571cdf">__osPiCreateAccessQueue.c</a>
+: <a class="el" href="db/d1b/____osPiCreateAccessQueue_8c.html#a05f26736bbb41b551bde5cacc1571cdf">__osPiCreateAccessQueue.c</a>
+, <a class="el" href="d6/d8b/osCreatePiManager_8c.html#a05f26736bbb41b551bde5cacc1571cdf">osCreatePiManager.c</a>
 </li>
 <li>gOsPiMessageQueue
 : <a class="el" href="db/d1b/____osPiCreateAccessQueue_8c.html#ad87ad588f34c5e45667fb0fa68bbfd20">__osPiCreateAccessQueue.c</a>
@@ -678,28 +693,28 @@ $(function() {
 , <a class="el" href="d4/dbf/main_8h.html#a1a4fa4e9ba85c27bd9cd51efd76f274f">main.h</a>
 </li>
 <li>gPIMesgQueue
-: <a class="el" href="d0/d29/main_8c.html#a46357dddbcd84888275e4cfc4716ffc5">main.c</a>
-, <a class="el" href="d4/dbf/main_8h.html#a46357dddbcd84888275e4cfc4716ffc5">main.h</a>
+: <a class="el" href="d4/dbf/main_8h.html#a46357dddbcd84888275e4cfc4716ffc5">main.h</a>
+, <a class="el" href="d0/d29/main_8c.html#a46357dddbcd84888275e4cfc4716ffc5">main.c</a>
 </li>
 <li>gPlayer1Controller
 : <a class="el" href="d2/dd5/game_8h.html#a4e6111e421c20641e25a1ca17b9adf9f">game.h</a>
 , <a class="el" href="d1/dcb/game_8c.html#a4e6111e421c20641e25a1ca17b9adf9f">game.c</a>
 </li>
 <li>gPlayer2Controller
-: <a class="el" href="d1/dcb/game_8c.html#a31ed3d873efd4f947070e48fa71dc918">game.c</a>
-, <a class="el" href="d2/dd5/game_8h.html#a31ed3d873efd4f947070e48fa71dc918">game.h</a>
+: <a class="el" href="d2/dd5/game_8h.html#a31ed3d873efd4f947070e48fa71dc918">game.h</a>
+, <a class="el" href="d1/dcb/game_8c.html#a31ed3d873efd4f947070e48fa71dc918">game.c</a>
 </li>
 <li>gPlayer3Controller
-: <a class="el" href="d1/dcb/game_8c.html#a7e9b13c3b3e08504a2306fbc89a4de67">game.c</a>
-, <a class="el" href="d2/dd5/game_8h.html#a7e9b13c3b3e08504a2306fbc89a4de67">game.h</a>
+: <a class="el" href="d2/dd5/game_8h.html#a7e9b13c3b3e08504a2306fbc89a4de67">game.h</a>
+, <a class="el" href="d1/dcb/game_8c.html#a7e9b13c3b3e08504a2306fbc89a4de67">game.c</a>
 </li>
 <li>gPlayerSpawnInfos
-: <a class="el" href="d1/d0d/area_8c.html#a43e552576b3d96a6ed04d6146c2e1429">area.c</a>
-, <a class="el" href="d4/d1c/area_8h.html#ace4ecbe66921870c70473d3116526688">area.h</a>
+: <a class="el" href="d4/d1c/area_8h.html#ace4ecbe66921870c70473d3116526688">area.h</a>
+, <a class="el" href="d1/d0d/area_8c.html#a43e552576b3d96a6ed04d6146c2e1429">area.c</a>
 </li>
 <li>gPostUpdateObjCount
-: <a class="el" href="da/d02/object__list__processor_8c.html#ab6ee6795127acd1f2059c1a1a9dd85e8">object_list_processor.c</a>
-, <a class="el" href="d2/dd2/object__list__processor_8h.html#ab6ee6795127acd1f2059c1a1a9dd85e8">object_list_processor.h</a>
+: <a class="el" href="d2/dd2/object__list__processor_8h.html#ab6ee6795127acd1f2059c1a1a9dd85e8">object_list_processor.h</a>
+, <a class="el" href="da/d02/object__list__processor_8c.html#ab6ee6795127acd1f2059c1a1a9dd85e8">object_list_processor.c</a>
 </li>
 <li>gProfilerFrameData
 : <a class="el" href="d2/ddb/profiler_8c.html#adfaba0ca738577388931770ae0ae9a59">profiler.c</a>
@@ -711,8 +726,8 @@ $(function() {
 : <a class="el" href="d4/d16/behavior__script_8c.html#a8eafbc86e2d3ad047f20f29099649228">behavior_script.c</a>
 </li>
 <li>gRecordedDemoInput
-: <a class="el" href="d2/dd5/game_8h.html#add85f57269508b863da832a78cb9a872">game.h</a>
-, <a class="el" href="d1/dcb/game_8c.html#add85f57269508b863da832a78cb9a872">game.c</a>
+: <a class="el" href="d1/dcb/game_8c.html#add85f57269508b863da832a78cb9a872">game.c</a>
+, <a class="el" href="d2/dd5/game_8h.html#add85f57269508b863da832a78cb9a872">game.h</a>
 </li>
 <li>gResetTimer
 : <a class="el" href="d0/d29/main_8c.html#a691bacfe5093c23a3ce214ccf4ba9897">main.c</a>
@@ -722,62 +737,90 @@ $(function() {
 : <a class="el" href="d7/d32/save__file_8c.html#a37db2b8a654dd95d8406eb1fb0a5ca1d">save_file.c</a>
 </li>
 <li>gSavedCourseNum
-: <a class="el" href="d1/d0d/area_8c.html#a202b25c9393f2e4097ced4e638547f42">area.c</a>
-, <a class="el" href="d4/d1c/area_8h.html#a202b25c9393f2e4097ced4e638547f42">area.h</a>
+: <a class="el" href="d4/d1c/area_8h.html#a202b25c9393f2e4097ced4e638547f42">area.h</a>
+, <a class="el" href="d1/d0d/area_8c.html#a202b25c9393f2e4097ced4e638547f42">area.c</a>
 </li>
 <li>gSaveFileDoesNotExist
-: <a class="el" href="db/dda/level__update_8c.html#a9bf30fec20970ac984be3e2bfdfaa177">level_update.c</a>
-, <a class="el" href="d7/d0a/level__update_8h.html#a9bf30fec20970ac984be3e2bfdfaa177">level_update.h</a>
+: <a class="el" href="d7/d0a/level__update_8h.html#a9bf30fec20970ac984be3e2bfdfaa177">level_update.h</a>
+, <a class="el" href="db/dda/level__update_8c.html#a9bf30fec20970ac984be3e2bfdfaa177">level_update.c</a>
 </li>
 <li>gSaveFileModified
-: <a class="el" href="d7/d32/save__file_8c.html#aad55fd01f11ba2b63f533970f3814805">save_file.c</a>
-, <a class="el" href="d4/dad/save__file_8h.html#aad55fd01f11ba2b63f533970f3814805">save_file.h</a>
+: <a class="el" href="d4/dad/save__file_8h.html#aad55fd01f11ba2b63f533970f3814805">save_file.h</a>
+, <a class="el" href="d7/d32/save__file_8c.html#aad55fd01f11ba2b63f533970f3814805">save_file.c</a>
 </li>
 <li>gShadowAboveWaterOrLava
 : <a class="el" href="da/de9/shadow_8c.html#a66005c169080294576aed0971355f80f">shadow.c</a>
 , <a class="el" href="d6/dbe/shadow_8h.html#a66005c169080294576aed0971355f80f">shadow.h</a>
 </li>
 <li>gShapeRedSpark
-: <a class="el" href="d1/d6a/half__6_8c.html#ad70674eb23718c7529378791bba44c10">half_6.c</a>
-, <a class="el" href="d6/d36/half__6_8h.html#ad70674eb23718c7529378791bba44c10">half_6.h</a>
+: <a class="el" href="d6/d36/half__6_8h.html#ad70674eb23718c7529378791bba44c10">half_6.h</a>
+, <a class="el" href="d1/d6a/half__6_8c.html#ad70674eb23718c7529378791bba44c10">half_6.c</a>
 </li>
 <li>gShapeRedStar
-: <a class="el" href="d1/d6a/half__6_8c.html#a34767f4a961e49044d6fa230e9421fa3">half_6.c</a>
-, <a class="el" href="d6/d36/half__6_8h.html#a34767f4a961e49044d6fa230e9421fa3">half_6.h</a>
+: <a class="el" href="d6/d36/half__6_8h.html#a34767f4a961e49044d6fa230e9421fa3">half_6.h</a>
+, <a class="el" href="d1/d6a/half__6_8c.html#a34767f4a961e49044d6fa230e9421fa3">half_6.c</a>
 </li>
 <li>gShapeSilSpark
-: <a class="el" href="d1/d6a/half__6_8c.html#a0cd8c5f80c6631ad94947a0b4e27fbce">half_6.c</a>
-, <a class="el" href="d6/d36/half__6_8h.html#a0cd8c5f80c6631ad94947a0b4e27fbce">half_6.h</a>
+: <a class="el" href="d6/d36/half__6_8h.html#a0cd8c5f80c6631ad94947a0b4e27fbce">half_6.h</a>
+, <a class="el" href="d1/d6a/half__6_8c.html#a0cd8c5f80c6631ad94947a0b4e27fbce">half_6.c</a>
 </li>
 <li>gShapeSilverStar
-: <a class="el" href="d1/d6a/half__6_8c.html#af9a61cea5f302759c81db38d417f557c">half_6.c</a>
-, <a class="el" href="d6/d36/half__6_8h.html#af9a61cea5f302759c81db38d417f557c">half_6.h</a>
+: <a class="el" href="d6/d36/half__6_8h.html#af9a61cea5f302759c81db38d417f557c">half_6.h</a>
+, <a class="el" href="d1/d6a/half__6_8c.html#af9a61cea5f302759c81db38d417f557c">half_6.c</a>
 </li>
 <li>gShowDebugText
-: <a class="el" href="d0/d29/main_8c.html#af91b72b52ff247a02c8b683d97033c21">main.c</a>
-, <a class="el" href="d4/dbf/main_8h.html#af91b72b52ff247a02c8b683d97033c21">main.h</a>
+: <a class="el" href="d4/dbf/main_8h.html#af91b72b52ff247a02c8b683d97033c21">main.h</a>
+, <a class="el" href="d0/d29/main_8c.html#af91b72b52ff247a02c8b683d97033c21">main.c</a>
 </li>
 <li>gShowProfiler
 : <a class="el" href="d0/d29/main_8c.html#ab4195b8e1eefed7b6f9726cbcce578bb">main.c</a>
 , <a class="el" href="d4/dbf/main_8h.html#ab4195b8e1eefed7b6f9726cbcce578bb">main.h</a>
 </li>
 <li>gSIEventMesgBuf
-: <a class="el" href="d0/d29/main_8c.html#a3491812e217aa446bd91a65f66d539a4">main.c</a>
-, <a class="el" href="d4/dbf/main_8h.html#a3491812e217aa446bd91a65f66d539a4">main.h</a>
+: <a class="el" href="d4/dbf/main_8h.html#a3491812e217aa446bd91a65f66d539a4">main.h</a>
+, <a class="el" href="d0/d29/main_8c.html#a3491812e217aa446bd91a65f66d539a4">main.c</a>
 </li>
 <li>gSIEventMesgQueue
-: <a class="el" href="d0/d29/main_8c.html#aeddf12822189d471d55eb15756589a12">main.c</a>
-, <a class="el" href="d4/dbf/main_8h.html#aeddf12822189d471d55eb15756589a12">main.h</a>
+: <a class="el" href="d4/dbf/main_8h.html#aeddf12822189d471d55eb15756589a12">main.h</a>
+, <a class="el" href="d0/d29/main_8c.html#aeddf12822189d471d55eb15756589a12">main.c</a>
 </li>
 <li>gSineTable
-: <a class="el" href="dd/d07/math__tables_8h.html#a01c4ad46f6c53613f9e05a939d1cfa20">math_tables.h</a>
-, <a class="el" href="d8/d11/math__util_8h.html#a05a19e39e48c56d1c2095bfe71a6148e">math_util.h</a>
+: <a class="el" href="d8/d11/math__util_8h.html#a05a19e39e48c56d1c2095bfe71a6148e">math_util.h</a>
+, <a class="el" href="dd/d07/math__tables_8h.html#a01c4ad46f6c53613f9e05a939d1cfa20">math_tables.h</a>
 </li>
 <li>gSkyboxColors
 : <a class="el" href="d8/d54/skybox_8c.html#a50cfebc13c3e2100ecd0bff26f083bbf">skybox.c</a>
 </li>
 <li>gSkyboxLists
 : <a class="el" href="d8/d54/skybox_8c.html#a5209c68ae9b1404c6b271dc14835cd62">skybox.c</a>
+</li>
+<li>gSnowCylinderLastPos
+: <a class="el" href="d0/df6/ingame__menu__2_8h.html#ad3baf85cdee71e25fdbcbb79ca5d6ebd">ingame_menu_2.h</a>
+, <a class="el" href="d3/db2/ingame__menu__2_8c.html#ad3baf85cdee71e25fdbcbb79ca5d6ebd">ingame_menu_2.c</a>
+</li>
+<li>gSnowFlakeVertex1
+: <a class="el" href="d0/df6/ingame__menu__2_8h.html#a14c8e428c1f4d1e7d263b3b5be0da0bc">ingame_menu_2.h</a>
+, <a class="el" href="d3/db2/ingame__menu__2_8c.html#a14c8e428c1f4d1e7d263b3b5be0da0bc">ingame_menu_2.c</a>
+</li>
+<li>gSnowFlakeVertex2
+: <a class="el" href="d0/df6/ingame__menu__2_8h.html#a95d51b9bc6302845d60d9c01f2b2c307">ingame_menu_2.h</a>
+, <a class="el" href="d3/db2/ingame__menu__2_8c.html#a95d51b9bc6302845d60d9c01f2b2c307">ingame_menu_2.c</a>
+</li>
+<li>gSnowFlakeVertex3
+: <a class="el" href="d3/db2/ingame__menu__2_8c.html#af3b07b469cea7d2e92d8fd50c804a5f1">ingame_menu_2.c</a>
+, <a class="el" href="d0/df6/ingame__menu__2_8h.html#af3b07b469cea7d2e92d8fd50c804a5f1">ingame_menu_2.h</a>
+</li>
+<li>gSnowParticleCount
+: <a class="el" href="d0/df6/ingame__menu__2_8h.html#a51f61807c6e51b34bad379b287d638a9">ingame_menu_2.h</a>
+, <a class="el" href="d3/db2/ingame__menu__2_8c.html#a51f61807c6e51b34bad379b287d638a9">ingame_menu_2.c</a>
+</li>
+<li>gSnowParticleMaxCount
+: <a class="el" href="d3/db2/ingame__menu__2_8c.html#a95b88335d35e4b1e299228c09de48d59">ingame_menu_2.c</a>
+, <a class="el" href="d0/df6/ingame__menu__2_8h.html#a95b88335d35e4b1e299228c09de48d59">ingame_menu_2.h</a>
+</li>
+<li>gSnowTempVtx
+: <a class="el" href="d0/df6/ingame__menu__2_8h.html#a269b9407d67580f82425e28b6be56514">ingame_menu_2.h</a>
+, <a class="el" href="d3/db2/ingame__menu__2_8c.html#a269b9407d67580f82425e28b6be56514">ingame_menu_2.c</a>
 </li>
 <li>gSoundDataADSR
 : <a class="el" href="d9/d95/dma_8h.html#a650d2e03d09d78078122941e19642bcc">dma.h</a>
@@ -786,12 +829,12 @@ $(function() {
 : <a class="el" href="d9/d95/dma_8h.html#a0a922903d77d652702ffa3dd840b7fac">dma.h</a>
 </li>
 <li>gSoundMesgBuf
-: <a class="el" href="d7/d61/sound__init_8h.html#ab327a7696bac9fa11263ede57a5f321c">sound_init.h</a>
-, <a class="el" href="d7/d94/sound__init_8c.html#ab327a7696bac9fa11263ede57a5f321c">sound_init.c</a>
+: <a class="el" href="d7/d94/sound__init_8c.html#ab327a7696bac9fa11263ede57a5f321c">sound_init.c</a>
+, <a class="el" href="d7/d61/sound__init_8h.html#ab327a7696bac9fa11263ede57a5f321c">sound_init.h</a>
 </li>
 <li>gSoundMesgQueue
-: <a class="el" href="d7/d94/sound__init_8c.html#ad3dd75b91edb9ea9252553d0acb6f548">sound_init.c</a>
-, <a class="el" href="d7/d61/sound__init_8h.html#ad3dd75b91edb9ea9252553d0acb6f548">sound_init.h</a>
+: <a class="el" href="d7/d61/sound__init_8h.html#ad3dd75b91edb9ea9252553d0acb6f548">sound_init.h</a>
+, <a class="el" href="d7/d94/sound__init_8c.html#ad3dd75b91edb9ea9252553d0acb6f548">sound_init.c</a>
 </li>
 <li>gSoundThread
 : <a class="el" href="d0/d29/main_8c.html#a3534067b6d43d95a1c1d99240d0b5b55">main.c</a>
@@ -850,24 +893,24 @@ $(function() {
 : <a class="el" href="db/d4a/gs2dex_8h.html#a88c9879cb26c7aa9bf5d45cadb96282a">gs2dex.h</a>
 </li>
 <li>gSPTaskMesgQueue
-: <a class="el" href="d0/d29/main_8c.html#a71be1829d77470850ff3e20fd2fc41c0">main.c</a>
-, <a class="el" href="d4/dbf/main_8h.html#a71be1829d77470850ff3e20fd2fc41c0">main.h</a>
+: <a class="el" href="d4/dbf/main_8h.html#a71be1829d77470850ff3e20fd2fc41c0">main.h</a>
+, <a class="el" href="d0/d29/main_8c.html#a71be1829d77470850ff3e20fd2fc41c0">main.c</a>
 </li>
 <li>gStaticSurfacePartition
 : <a class="el" href="d3/d03/surface__load_8c.html#a8eab515e47139ee8fa92708426ea6360">surface_load.c</a>
 , <a class="el" href="de/d1c/surface__load_8h.html#a8eab515e47139ee8fa92708426ea6360">surface_load.h</a>
 </li>
 <li>gSurfaceNodesAllocated
-: <a class="el" href="da/d02/object__list__processor_8c.html#a3ec189998ae2b334abd5d8f29898a388">object_list_processor.c</a>
-, <a class="el" href="d2/dd2/object__list__processor_8h.html#a3ec189998ae2b334abd5d8f29898a388">object_list_processor.h</a>
+: <a class="el" href="d2/dd2/object__list__processor_8h.html#a3ec189998ae2b334abd5d8f29898a388">object_list_processor.h</a>
+, <a class="el" href="da/d02/object__list__processor_8c.html#a3ec189998ae2b334abd5d8f29898a388">object_list_processor.c</a>
 </li>
 <li>gSurfacesAllocated
-: <a class="el" href="d2/dd2/object__list__processor_8h.html#a0ded350f14c0e0e43af432e9eaf3c58c">object_list_processor.h</a>
-, <a class="el" href="da/d02/object__list__processor_8c.html#a0ded350f14c0e0e43af432e9eaf3c58c">object_list_processor.c</a>
+: <a class="el" href="da/d02/object__list__processor_8c.html#a0ded350f14c0e0e43af432e9eaf3c58c">object_list_processor.c</a>
+, <a class="el" href="d2/dd2/object__list__processor_8h.html#a0ded350f14c0e0e43af432e9eaf3c58c">object_list_processor.h</a>
 </li>
 <li>gSurfaceTypeBelowShadow
-: <a class="el" href="da/de9/shadow_8c.html#aa35344af5df7de36e7266e8dcc119296">shadow.c</a>
-, <a class="el" href="d6/dbe/shadow_8h.html#aa35344af5df7de36e7266e8dcc119296">shadow.h</a>
+: <a class="el" href="d6/dbe/shadow_8h.html#aa35344af5df7de36e7266e8dcc119296">shadow.h</a>
+, <a class="el" href="da/de9/shadow_8c.html#aa35344af5df7de36e7266e8dcc119296">shadow.c</a>
 </li>
 <li>gThread3Stack
 : <a class="el" href="d4/dbf/main_8h.html#afef7bace782b49c6ff3a720c9d4b8449">main.h</a>
@@ -879,12 +922,12 @@ $(function() {
 : <a class="el" href="d4/dbf/main_8h.html#aa544945212b78edc49e8cb1e2d5f6259">main.h</a>
 </li>
 <li>gTimerValueInFrames
-: <a class="el" href="d7/d0a/level__update_8h.html#a16b59e7b8f2cd3cc87be2ba0144cbab8">level_update.h</a>
-, <a class="el" href="db/dda/level__update_8c.html#a16b59e7b8f2cd3cc87be2ba0144cbab8">level_update.c</a>
+: <a class="el" href="db/dda/level__update_8c.html#a16b59e7b8f2cd3cc87be2ba0144cbab8">level_update.c</a>
+, <a class="el" href="d7/d0a/level__update_8h.html#a16b59e7b8f2cd3cc87be2ba0144cbab8">level_update.h</a>
 </li>
 <li>gTimeStopState
-: <a class="el" href="da/d02/object__list__processor_8c.html#ac8de36880574c889113393e00fcf75d8">object_list_processor.c</a>
-, <a class="el" href="d2/dd2/object__list__processor_8h.html#ac8de36880574c889113393e00fcf75d8">object_list_processor.h</a>
+: <a class="el" href="d2/dd2/object__list__processor_8h.html#ac8de36880574c889113393e00fcf75d8">object_list_processor.h</a>
+, <a class="el" href="da/d02/object__list__processor_8c.html#ac8de36880574c889113393e00fcf75d8">object_list_processor.c</a>
 </li>
 <li>gTitleFadeCounter
 : <a class="el" href="d2/d57/intro__geo_8c.html#a37aaa922159853d1bd62f60b5d028ea6">intro_geo.c</a>
@@ -901,12 +944,12 @@ $(function() {
 , <a class="el" href="d0/d29/main_8c.html#a31cbd9b6eacbc9b7a96e296820f42660">main.c</a>
 </li>
 <li>gUnknownWallCount
-: <a class="el" href="da/d02/object__list__processor_8c.html#a19bb58ad139f8e6c7a4c8471de341541">object_list_processor.c</a>
-, <a class="el" href="d2/dd2/object__list__processor_8h.html#a19bb58ad139f8e6c7a4c8471de341541">object_list_processor.h</a>
+: <a class="el" href="d2/dd2/object__list__processor_8h.html#a19bb58ad139f8e6c7a4c8471de341541">object_list_processor.h</a>
+, <a class="el" href="da/d02/object__list__processor_8c.html#a19bb58ad139f8e6c7a4c8471de341541">object_list_processor.c</a>
 </li>
 <li>gUpdatedObjectCount
-: <a class="el" href="d2/dd2/object__list__processor_8h.html#a2177b84d537c2f12fc466c73dd258df9">object_list_processor.h</a>
-, <a class="el" href="da/d02/object__list__processor_8c.html#a2177b84d537c2f12fc466c73dd258df9">object_list_processor.c</a>
+: <a class="el" href="da/d02/object__list__processor_8c.html#a2177b84d537c2f12fc466c73dd258df9">object_list_processor.c</a>
+, <a class="el" href="d2/dd2/object__list__processor_8h.html#a2177b84d537c2f12fc466c73dd258df9">object_list_processor.h</a>
 </li>
 <li>gVblankHandler1
 : <a class="el" href="d0/d29/main_8c.html#ae7d8eb8631967b6af6b7fcaab57f0abc">main.c</a>
@@ -921,16 +964,16 @@ $(function() {
 , <a class="el" href="d4/dad/save__file_8h.html#a99ecabe0b738a4a74d1efa3d4c9b61bb">save_file.h</a>
 </li>
 <li>gWarpCheckpointAreaNum
-: <a class="el" href="d7/d32/save__file_8c.html#a3be1386819df195e7626ba80f40c5a0c">save_file.c</a>
-, <a class="el" href="d4/dad/save__file_8h.html#a3be1386819df195e7626ba80f40c5a0c">save_file.h</a>
+: <a class="el" href="d4/dad/save__file_8h.html#a3be1386819df195e7626ba80f40c5a0c">save_file.h</a>
+, <a class="el" href="d7/d32/save__file_8c.html#a3be1386819df195e7626ba80f40c5a0c">save_file.c</a>
 </li>
 <li>gWarpCheckpointCourseNum
-: <a class="el" href="d4/dad/save__file_8h.html#af50571776ede08660a165030b3b2ecf0">save_file.h</a>
-, <a class="el" href="d7/d32/save__file_8c.html#af50571776ede08660a165030b3b2ecf0">save_file.c</a>
+: <a class="el" href="d7/d32/save__file_8c.html#af50571776ede08660a165030b3b2ecf0">save_file.c</a>
+, <a class="el" href="d4/dad/save__file_8h.html#af50571776ede08660a165030b3b2ecf0">save_file.h</a>
 </li>
 <li>gWarpCheckpointLevelID
-: <a class="el" href="d4/dad/save__file_8h.html#a8e2a3e46f2c65966a0838f57e73674eb">save_file.h</a>
-, <a class="el" href="d7/d32/save__file_8c.html#a8e2a3e46f2c65966a0838f57e73674eb">save_file.c</a>
+: <a class="el" href="d7/d32/save__file_8c.html#a8e2a3e46f2c65966a0838f57e73674eb">save_file.c</a>
+, <a class="el" href="d4/dad/save__file_8h.html#a8e2a3e46f2c65966a0838f57e73674eb">save_file.h</a>
 </li>
 <li>gWarpCheckpointWarpNode
 : <a class="el" href="d7/d32/save__file_8c.html#a95f5ce129e54165c5adfd8614e32a064">save_file.c</a>
@@ -960,16 +1003,19 @@ $(function() {
 , <a class="el" href="d9/dc0/room_8h.html#a29b5837dc0263edd64534da918d27e26">room.h</a>
 </li>
 <li>gWaterRegions
-: <a class="el" href="d2/d96/room_8c.html#a56104d263abea9e73b797a7199247f06">room.c</a>
-, <a class="el" href="d9/dc0/room_8h.html#a56104d263abea9e73b797a7199247f06">room.h</a>
+: <a class="el" href="d9/dc0/room_8h.html#a56104d263abea9e73b797a7199247f06">room.h</a>
+, <a class="el" href="d2/d96/room_8c.html#a56104d263abea9e73b797a7199247f06">room.c</a>
 </li>
 <li>gWaterSurfacePseudoFloor
-: <a class="el" href="df/d90/mario__step_8c.html#af379280868fdeda734c41d5076563f0b">mario_step.c</a>
-, <a class="el" href="d6/d2b/mario__step_8h.html#af379280868fdeda734c41d5076563f0b">mario_step.h</a>
+: <a class="el" href="d6/d2b/mario__step_8h.html#af379280868fdeda734c41d5076563f0b">mario_step.h</a>
+, <a class="el" href="df/d90/mario__step_8c.html#af379280868fdeda734c41d5076563f0b">mario_step.c</a>
 </li>
 <li>gWaveSamples
-: <a class="el" href="d2/dbd/data_8h.html#a7578fb44e021fab86a1a147c46cc35db">data.h</a>
-, <a class="el" href="de/da9/data_8c.html#a7578fb44e021fab86a1a147c46cc35db">data.c</a>
+: <a class="el" href="de/da9/data_8c.html#a7578fb44e021fab86a1a147c46cc35db">data.c</a>
+, <a class="el" href="d2/dbd/data_8h.html#a7578fb44e021fab86a1a147c46cc35db">data.h</a>
+</li>
+<li>gZBuffer
+: <a class="el" href="d2/dd5/game_8h.html#add8d020333dbc2d523474e42b082be37">game.h</a>
 </li>
 </ul>
 </div><!-- contents -->

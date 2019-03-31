@@ -1,6 +1,7 @@
 var searchData=
 [
   ['random_5ff32_5faround_5fzero',['random_f32_around_zero',['../db/d81/object__helpers_8c.html#a0f8c116ad4b4603715a357bcf4d47837',1,'random_f32_around_zero(f32 diameter):&#160;object_helpers.c'],['../d3/dc7/object__helpers_8h.html#a2d8fb96e3d2b94978316a84c20201198',1,'random_f32_around_zero(f32):&#160;object_helpers.c']]],
+  ['random_5fflower_5foffset',['random_flower_offset',['../d1/d29/ingame__menu__3_8c.html#ae0183a8e6ac19e52574d1fee8e761ae5',1,'ingame_menu_3.c']]],
   ['random_5flinear_5foffset',['random_linear_offset',['../db/d1a/obj__behaviors__2_8c.html#a5e8c551d847ea59fb892bb325059a39b',1,'obj_behaviors_2.c']]],
   ['random_5fmod_5foffset',['random_mod_offset',['../db/d1a/obj__behaviors__2_8c.html#a45e228960f4ee99f25fa7ae4e305d5db',1,'obj_behaviors_2.c']]],
   ['randomfloat',['RandomFloat',['../d4/d16/behavior__script_8c.html#a48f408e41d7e16337e1902ac508aebe5',1,'RandomFloat(void):&#160;behavior_script.c'],['../d0/d69/behavior__script_8h.html#acbed02ef5b38e80e1e9ea5388b32a63e',1,'RandomFloat(void):&#160;behavior_script.c']]],
@@ -63,6 +64,7 @@ var searchData=
   ['rgba2png',['rgba2png',['../d2/d17/n64graphics_8c.html#a0e7a046bf9d40de016b9b630ddd5c86f',1,'rgba2png(const char *png_filename, const rgba *img, int width, int height):&#160;n64graphics.c'],['../db/d56/n64graphics_8h.html#a0e7a046bf9d40de016b9b630ddd5c86f',1,'rgba2png(const char *png_filename, const rgba *img, int width, int height):&#160;n64graphics.c']]],
   ['rgba2raw',['rgba2raw',['../d2/d17/n64graphics_8c.html#a3af9c91b90ffb24a014141c00277bef9',1,'rgba2raw(uint8_t *raw, const rgba *img, int width, int height, int depth):&#160;n64graphics.c'],['../db/d56/n64graphics_8h.html#a3af9c91b90ffb24a014141c00277bef9',1,'rgba2raw(uint8_t *raw, const rgba *img, int width, int height, int depth):&#160;n64graphics.c']]],
   ['rotate_5frectangle',['rotate_rectangle',['../da/de9/shadow_8c.html#a1b01aaa0189d76a3d439db0cfcf4a1ea',1,'shadow.c']]],
+  ['rotate_5ftriangle_5fvertices',['rotate_triangle_vertices',['../d3/db2/ingame__menu__2_8c.html#ae7687b6a074d13d0af66a69bf8188098',1,'rotate_triangle_vertices(Vec3s vertex1, Vec3s vertex2, Vec3s vertex3, s16 pitch, s16 yaw):&#160;ingame_menu_2.c'],['../d0/df6/ingame__menu__2_8h.html#ae7687b6a074d13d0af66a69bf8188098',1,'rotate_triangle_vertices(Vec3s vertex1, Vec3s vertex2, Vec3s vertex3, s16 pitch, s16 yaw):&#160;ingame_menu_2.c']]],
   ['round_5ffloat',['round_float',['../d1/dab/transparent__texture_8c.html#a8380bdf6c5c399acd2a2d3ad5e3a8caf',1,'round_float(float f12):&#160;transparent_texture.c'],['../d7/d1e/transparent__texture_8h.html#ab9027b979e24214a8a89bada8f3aa9a2',1,'round_float(float):&#160;transparent_texture.c']]],
   ['run_5fdemo_5finputs',['run_demo_inputs',['../d1/dcb/game_8c.html#add6de7a222ca858cf85af09734e1ca7e',1,'game.c']]],
   ['run_5fpress_5fstart_5fdemo_5ftimer',['run_press_start_demo_timer',['../d4/dac/level__select__menu_8c.html#ac9f8748fad52b3da031fdc9e67e88c72',1,'level_select_menu.c']]]

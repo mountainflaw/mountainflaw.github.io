@@ -137,7 +137,6 @@ var searchData=
   ['unknown802c8e70',['Unknown802C8E70',['../da/df9/spawn__object_8c.html#ada985ee72c864bf65d45908280b8af88',1,'spawn_object.c']]],
   ['unknown802ca8b4',['Unknown802CA8B4',['../d1/d72/debug_8c.html#aa059860083b1b0762a50cf7fa36b7870',1,'debug.c']]],
   ['unknown802caa84',['Unknown802CAA84',['../d1/d72/debug_8c.html#a614dc6550020b6df6640305af20fd053',1,'debug.c']]],
-  ['unknown802dddc4',['Unknown802DDDC4',['../d3/db2/ingame__menu__2_8c.html#a69c07c18151b05a5d94f25974e74ec95',1,'ingame_menu_2.c']]],
   ['unknown802e142c',['Unknown802E142C',['../da/dbe/macro__special__objects_8c.html#acc2162dce24dfb3740dde44d1dbfff39',1,'Unknown802E142C(u32(*a0)[], s16 a1[]):&#160;macro_special_objects.c'],['../d4/d55/macro__special__objects_8h.html#a87ca705485cc7be8b2cfcfd382c7a761',1,'Unknown802E142C(u32(*)[], s16[]):&#160;macro_special_objects.c']]],
   ['unknown802e4df4',['Unknown802E4DF4',['../d2/d1c/obj__behaviors_8c.html#a2fb0312da01f4e5ee0524aabf387879b',1,'Unknown802E4DF4(s16 *arg0):&#160;obj_behaviors.c'],['../d8/da0/obj__behaviors_8h.html#a2fb0312da01f4e5ee0524aabf387879b',1,'Unknown802E4DF4(s16 *arg0):&#160;obj_behaviors.c']]],
   ['unknown802eb8a4',['Unknown802EB8A4',['../d8/da0/obj__behaviors_8h.html#a1a71c6b5ee0a994ae4b1d74d4b8d013e',1,'obj_behaviors.h']]],

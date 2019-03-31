@@ -21,7 +21,7 @@ var searchData=
   ['fly_5fguy_5fact_5fidle',['FLY_GUY_ACT_IDLE',['../dd/dd3/object__constants_8h.html#ac2f43432b009f2d418dc7986ff693e2f',1,'object_constants.h']]],
   ['fly_5fguy_5fact_5flunge',['FLY_GUY_ACT_LUNGE',['../dd/dd3/object__constants_8h.html#ad68037a806c66512cfe9e155172efa6d',1,'object_constants.h']]],
   ['fly_5fguy_5fact_5fshoot_5ffire',['FLY_GUY_ACT_SHOOT_FIRE',['../dd/dd3/object__constants_8h.html#aba6e949a966a80a7da48a95bf378db25',1,'object_constants.h']]],
-  ['force_5fbl',['FORCE_BL',['../d3/daf/gbi_8h.html#a692d7769eaab7b7c3a929ad122878e93',1,'gbi.h']]],
+  ['force_5fbl',['FORCE_BL',['../d3/daf/gbi_8h.html#a692d7769eaab7b7c3a929ad122878e93',1,'FORCE_BL():&#160;gbi.h'],['../d5/dff/gbi__old_8h.html#a692d7769eaab7b7c3a929ad122878e93',1,'FORCE_BL():&#160;gbi_old.h']]],
   ['fprint_5fbyte',['fprint_byte',['../d5/d60/utils_8h.html#aaf6f88866cc94a8ddda49e312b8614e9',1,'utils.h']]],
   ['fprint_5fnibble',['fprint_nibble',['../d5/d60/utils_8h.html#a2fa801a89070775aa1b1e6bc9fda6449',1,'utils.h']]],
   ['free_5fbball_5fact_5fidle',['FREE_BBALL_ACT_IDLE',['../dd/dd3/object__constants_8h.html#a56e4f150862fc32b2f8c3f0a94edae76',1,'object_constants.h']]],

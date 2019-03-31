@@ -24,7 +24,7 @@
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Super Mario 64 Source
    </div>
-   <div id="projectbrief">It&#39;s a me, the Super Mario 64 Source Code!</div>
+   <div id="projectbrief">A Super Mario 64 decompilation, brought to you by a bunch of clever folks.</div>
   </td>
  </tr>
  </tbody>
@@ -225,11 +225,11 @@ $(function() {
 <li>OBJ_ACT_LAVA_DEATH
 : <a class="el" href="dd/dd3/object__constants_8h.html#aeaa00aba44361416be3f9d7fb1ad97c1">object_constants.h</a>
 </li>
-<li>obj_act_squished()
-: <a class="el" href="db/d1a/obj__behaviors__2_8c.html#a53f701bbff39e6c48ed2baabb005048b">obj_behaviors_2.c</a>
-</li>
 <li>OBJ_ACT_SQUISHED
 : <a class="el" href="dd/dd3/object__constants_8h.html#acf3b73f69cfa43f51528375a1c089b20">object_constants.h</a>
+</li>
+<li>obj_act_squished()
+: <a class="el" href="db/d1a/obj__behaviors__2_8c.html#a53f701bbff39e6c48ed2baabb005048b">obj_behaviors_2.c</a>
 </li>
 <li>OBJ_ACT_VERTICAL_KNOCKBACK
 : <a class="el" href="dd/dd3/object__constants_8h.html#a7b437cd35c611c368bdb0cfaacb76395">object_constants.h</a>
@@ -2282,6 +2282,10 @@ $(function() {
 <li>oRacingPenguinWeightedNewTargetSpeed
 : <a class="el" href="dc/de1/object__fields_8h.html#ad50cfb2fa07711a27aac105b12b7987e">object_fields.h</a>
 </li>
+<li>orbit_from_positions()
+: <a class="el" href="d3/db2/ingame__menu__2_8c.html#ab3767f57de2e0823fa128150d030bd6a">ingame_menu_2.c</a>
+, <a class="el" href="d0/df6/ingame__menu__2_8h.html#ab3767f57de2e0823fa128150d030bd6a">ingame_menu_2.h</a>
+</li>
 <li>oRoom
 : <a class="el" href="dc/de1/object__fields_8h.html#a99e8fb622094c06480e3e175eb286456">object_fields.h</a>
 </li>
@@ -2659,10 +2663,10 @@ $(function() {
 </li>
 <li>osClockRate
 : <a class="el" href="d5/d85/osInitialize_8c.html#a115ccbb72ad3e50a0af6e1889d835e45">osInitialize.c</a>
-, <a class="el" href="d6/d93/osContInit_8c.html#a115ccbb72ad3e50a0af6e1889d835e45">osContInit.c</a>
 , <a class="el" href="d9/db2/osEepromLongRead_8c.html#a115ccbb72ad3e50a0af6e1889d835e45">osEepromLongRead.c</a>
-, <a class="el" href="dd/d3c/osEepromLongWrite_8c.html#a115ccbb72ad3e50a0af6e1889d835e45">osEepromLongWrite.c</a>
 , <a class="el" href="dd/dff/profiler_8h.html#a115ccbb72ad3e50a0af6e1889d835e45">profiler.h</a>
+, <a class="el" href="d6/d93/osContInit_8c.html#a115ccbb72ad3e50a0af6e1889d835e45">osContInit.c</a>
+, <a class="el" href="dd/d3c/osEepromLongWrite_8c.html#a115ccbb72ad3e50a0af6e1889d835e45">osEepromLongWrite.c</a>
 </li>
 <li>osContGetReadData()
 : <a class="el" href="d9/d0d/osContStartReadData_8c.html#a1f254463b03eb972abbf6c693077f397">osContStartReadData.c</a>
@@ -2685,8 +2689,8 @@ $(function() {
 , <a class="el" href="d5/dd5/osCreateThread_8c.html#a215c9681dbf26ff00e8b240491f605fa">osCreateThread.c</a>
 </li>
 <li>osCreateViManager()
-: <a class="el" href="d6/d27/osCreateViManager_8c.html#a0b32162ed7cfeee6f51f2187052268e2">osCreateViManager.c</a>
-, <a class="el" href="d4/df6/os__vi_8h.html#a0b32162ed7cfeee6f51f2187052268e2">os_vi.h</a>
+: <a class="el" href="d4/df6/os__vi_8h.html#a0b32162ed7cfeee6f51f2187052268e2">os_vi.h</a>
+, <a class="el" href="d6/d27/osCreateViManager_8c.html#a0b32162ed7cfeee6f51f2187052268e2">osCreateViManager.c</a>
 </li>
 <li>oScuttlebugSpawnerUnkF4
 : <a class="el" href="dc/de1/object__fields_8h.html#a8f99ba4277e26be509d2ce4aa9ae5383">object_fields.h</a>
@@ -2731,8 +2735,8 @@ $(function() {
 : <a class="el" href="d5/d85/os__thread_8h.html#a573f64558d8000cb3d34d0d4316aa134">os_thread.h</a>
 </li>
 <li>osGetThreadPri()
-: <a class="el" href="d4/d97/osGetThreadPri_8c.html#a1ace3e57703be3788f8084ad40666e2b">osGetThreadPri.c</a>
-, <a class="el" href="d5/d85/os__thread_8h.html#a1ace3e57703be3788f8084ad40666e2b">os_thread.h</a>
+: <a class="el" href="d5/d85/os__thread_8h.html#a1ace3e57703be3788f8084ad40666e2b">os_thread.h</a>
+, <a class="el" href="d4/d97/osGetThreadPri_8c.html#a1ace3e57703be3788f8084ad40666e2b">osGetThreadPri.c</a>
 </li>
 <li>osGetTime()
 : <a class="el" href="d4/da4/os__time_8h.html#a98e910cda9de73679d486c194e9e24f5">os_time.h</a>
@@ -2893,8 +2897,8 @@ $(function() {
 : <a class="el" href="d6/ddd/os__pi_8h.html#adbb7f210528a6883494e943714614bc3">os_pi.h</a>
 </li>
 <li>osPiStartDma()
-: <a class="el" href="d6/ddd/os__pi_8h.html#a1efe93a8a69ec1bd3d35565ee1b2fe08">os_pi.h</a>
-, <a class="el" href="d5/d47/osPiStartDma_8c.html#a1efe93a8a69ec1bd3d35565ee1b2fe08">osPiStartDma.c</a>
+: <a class="el" href="d5/d47/osPiStartDma_8c.html#a1efe93a8a69ec1bd3d35565ee1b2fe08">osPiStartDma.c</a>
+, <a class="el" href="d6/ddd/os__pi_8h.html#a1efe93a8a69ec1bd3d35565ee1b2fe08">os_pi.h</a>
 </li>
 <li>osPiWriteIo()
 : <a class="el" href="d6/ddd/os__pi_8h.html#a29c59096bc2860d3c217b937f9ddf163">os_pi.h</a>
@@ -2906,13 +2910,13 @@ $(function() {
 : <a class="el" href="df/d47/osRecvMesg_8c.html#aa254dc33e373f235a99e17f7717493dc">osRecvMesg.c</a>
 </li>
 <li>osResetType
-: <a class="el" href="d5/d85/osInitialize_8c.html#a0a4ec2aee4185607c2c8b0592483b053">osInitialize.c</a>
-, <a class="el" href="d1/dc3/libultra_8h.html#a0a4ec2aee4185607c2c8b0592483b053">libultra.h</a>
+: <a class="el" href="d1/dc3/libultra_8h.html#a0a4ec2aee4185607c2c8b0592483b053">libultra.h</a>
+, <a class="el" href="d5/d85/osInitialize_8c.html#a0a4ec2aee4185607c2c8b0592483b053">osInitialize.c</a>
 </li>
 <li>osRomBase
-: <a class="el" href="d4/dd1/osPiRawStartDma_8c.html#aa3a1dc7939fd49721d4353372722722c">osPiRawStartDma.c</a>
-, <a class="el" href="d1/dc3/libultra_8h.html#aa3a1dc7939fd49721d4353372722722c">libultra.h</a>
+: <a class="el" href="d1/dc3/libultra_8h.html#aa3a1dc7939fd49721d4353372722722c">libultra.h</a>
 , <a class="el" href="d0/da9/osPiRawReadIo_8c.html#aa3a1dc7939fd49721d4353372722722c">osPiRawReadIo.c</a>
+, <a class="el" href="d4/dd1/osPiRawStartDma_8c.html#aa3a1dc7939fd49721d4353372722722c">osPiRawStartDma.c</a>
 </li>
 <li>osSendMesg()
 : <a class="el" href="d2/d55/osSendMesg_8c.html#a413bd1b0a16c54dcc9e59c48b3d7f142">osSendMesg.c</a>
@@ -2921,16 +2925,16 @@ $(function() {
 : <a class="el" href="db/dc8/osSetEventMesg_8c.html#a5babbb1725f699553d02e6b2ca01936e">osSetEventMesg.c</a>
 </li>
 <li>osSetThreadPri()
-: <a class="el" href="d0/db0/osSetThreadPri_8c.html#a0ba3a1830df80ec8ddc33aec4ba85f2b">osSetThreadPri.c</a>
-, <a class="el" href="d5/d85/os__thread_8h.html#a0ba3a1830df80ec8ddc33aec4ba85f2b">os_thread.h</a>
+: <a class="el" href="d5/d85/os__thread_8h.html#a0ba3a1830df80ec8ddc33aec4ba85f2b">os_thread.h</a>
+, <a class="el" href="d0/db0/osSetThreadPri_8c.html#a0ba3a1830df80ec8ddc33aec4ba85f2b">osSetThreadPri.c</a>
 </li>
 <li>osSetTime()
-: <a class="el" href="d4/da4/os__time_8h.html#a0d98a2d307753fb3c3764940365ecb65">os_time.h</a>
-, <a class="el" href="df/d21/osSetTime_8c.html#a0d98a2d307753fb3c3764940365ecb65">osSetTime.c</a>
+: <a class="el" href="df/d21/osSetTime_8c.html#a0d98a2d307753fb3c3764940365ecb65">osSetTime.c</a>
+, <a class="el" href="d4/da4/os__time_8h.html#a0d98a2d307753fb3c3764940365ecb65">os_time.h</a>
 </li>
 <li>osSetTimer()
-: <a class="el" href="d2/dc3/osSetTimer_8c.html#ae185ba75a7718dbf19268876ea9b1b0e">osSetTimer.c</a>
-, <a class="el" href="d4/da4/os__time_8h.html#a86164abf0f406169b15cade951fe5728">os_time.h</a>
+: <a class="el" href="d4/da4/os__time_8h.html#a86164abf0f406169b15cade951fe5728">os_time.h</a>
+, <a class="el" href="d2/dc3/osSetTimer_8c.html#ae185ba75a7718dbf19268876ea9b1b0e">osSetTimer.c</a>
 </li>
 <li>osSiMesgBuff
 : <a class="el" href="d6/d31/____osSiCreateAccessQueue_8c.html#adee5d5de1761338737a43a95b330cd5c">__osSiCreateAccessQueue.c</a>
@@ -2995,23 +2999,23 @@ $(function() {
 : <a class="el" href="dc/de1/object__fields_8h.html#a16db28dbe646ba0ee6fbc66818acd2ff">object_fields.h</a>
 </li>
 <li>osViBlack()
-: <a class="el" href="d1/deb/osViBlack_8c.html#a6446513d8cd19001210d458f11b12df4">osViBlack.c</a>
-, <a class="el" href="d4/df6/os__vi_8h.html#a6446513d8cd19001210d458f11b12df4">os_vi.h</a>
+: <a class="el" href="d4/df6/os__vi_8h.html#a6446513d8cd19001210d458f11b12df4">os_vi.h</a>
+, <a class="el" href="d1/deb/osViBlack_8c.html#a6446513d8cd19001210d458f11b12df4">osViBlack.c</a>
 </li>
 <li>osViModeTable
 : <a class="el" href="d6/d27/osCreateViManager_8c.html#a1bd0fb40b87060535b5ec4561bbd7523">osCreateViManager.c</a>
 , <a class="el" href="d4/df6/os__vi_8h.html#a1bd0fb40b87060535b5ec4561bbd7523">os_vi.h</a>
 </li>
 <li>osVirtualToPhysical()
-: <a class="el" href="d1/d15/os__misc_8h.html#a6a619fd95d5e9764fc4acbde59b90412">os_misc.h</a>
-, <a class="el" href="de/d31/osVirtualToPhysical_8c.html#a0fe80bcf7e639e354b64df69d385bcdd">osVirtualToPhysical.c</a>
+: <a class="el" href="de/d31/osVirtualToPhysical_8c.html#a0fe80bcf7e639e354b64df69d385bcdd">osVirtualToPhysical.c</a>
+, <a class="el" href="d1/d15/os__misc_8h.html#a6a619fd95d5e9764fc4acbde59b90412">os_misc.h</a>
 </li>
 <li>osViSetEvent()
 : <a class="el" href="d2/d5e/osViSetEvent_8c.html#a77e9140da93b81b60780d3862001999b">osViSetEvent.c</a>
 </li>
 <li>osViSetMode()
-: <a class="el" href="d4/df6/os__vi_8h.html#a6bbc9ccb13540fca052eed991070e810">os_vi.h</a>
-, <a class="el" href="d8/dc8/osViSetMode_8c.html#a6bbc9ccb13540fca052eed991070e810">osViSetMode.c</a>
+: <a class="el" href="d8/dc8/osViSetMode_8c.html#a6bbc9ccb13540fca052eed991070e810">osViSetMode.c</a>
+, <a class="el" href="d4/df6/os__vi_8h.html#a6bbc9ccb13540fca052eed991070e810">os_vi.h</a>
 </li>
 <li>osViSetSpecialFeatures()
 : <a class="el" href="d4/df6/os__vi_8h.html#a1892347871f440cd85f4f11f33d3e481">os_vi.h</a>

@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "level_update.h": "c",
+        "ingame_menu.h": "c"
+    }
+}

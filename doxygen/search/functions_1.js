@@ -270,6 +270,8 @@ var searchData=
   ['animate_5fpower_5fmeter_5fhiding',['animate_power_meter_hiding',['../d6/da1/hud_8c.html#a5835217db0a346a0c8b979fb8728ec38',1,'hud.c']]],
   ['animated_5fstationary_5fground_5fstep',['animated_stationary_ground_step',['../da/d46/mario__actions__object_8c.html#a9ad1e1c393f21277d9ac48b966263d67',1,'mario_actions_object.c']]],
   ['anyway',['anyway',['../d9/d0b/err_8english_8cc.html#a8c357a68019bf286a671df54aa90f637',1,'err.english.cc']]],
+  ['append_5fbubble_5fvertex_5fbuffer',['append_bubble_vertex_buffer',['../d1/d29/ingame__menu__3_8c.html#a15e6a5af3bc6f2939bb23e190e7fc8d8',1,'ingame_menu_3.c']]],
+  ['append_5fsnowflake_5fvertex_5fbuffer',['append_snowflake_vertex_buffer',['../d3/db2/ingame__menu__2_8c.html#a9fda3475329a9317df52cc5ed5420a35',1,'ingame_menu_2.c']]],
   ['apply_5fdrag_5fto_5fvalue',['apply_drag_to_value',['../db/d81/object__helpers_8c.html#aa9ac27b63b1326b7437e4c7f97292e94',1,'object_helpers.c']]],
   ['apply_5fgravity',['apply_gravity',['../df/d90/mario__step_8c.html#aee6a038d55759daaff158823cc71f244',1,'mario_step.c']]],
   ['apply_5flanding_5faccel',['apply_landing_accel',['../d5/d50/mario__actions__moving_8c.html#a2fd5bc426ee33b8ab46ac09b7cd31ebf',1,'mario_actions_moving.c']]],

@@ -24,7 +24,7 @@
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Super Mario 64 Source
    </div>
-   <div id="projectbrief">It&#39;s a me, the Super Mario 64 Source Code!</div>
+   <div id="projectbrief">A Super Mario 64 decompilation, brought to you by a bunch of clever folks.</div>
   </td>
  </tr>
  </tbody>
@@ -110,6 +110,12 @@ $(function() {
 </li>
 <li>sBubbaHitbox
 : <a class="el" href="db/d1a/obj__behaviors__2_8c.html#a7762004c69bd94c601a2e8d190817c54">obj_behaviors_2.c</a>
+</li>
+<li>sBubbleParticleCount
+: <a class="el" href="d1/d29/ingame__menu__3_8c.html#a2a35ecc3acce2567981cfc4742f6c15a">ingame_menu_3.c</a>
+</li>
+<li>sBubbleParticleMaxCount
+: <a class="el" href="d1/d29/ingame__menu__3_8c.html#ad5a12f85d44b864cb979d8f1df1aa59c">ingame_menu_3.c</a>
 </li>
 <li>sCameraHUD
 : <a class="el" href="d6/da1/hud_8c.html#ac5f609b7ecadf0b80111d8d43272b76a">hud.c</a>
@@ -304,9 +310,6 @@ $(function() {
 </li>
 <li>sDLGenTime
 : <a class="el" href="df/d64/mario__head__6_8c.html#a8fcd25679a9b8ec71a772336cb2e202a">mario_head_6.c</a>
-</li>
-<li>sDonutPlatformPositions
-: <a class="el" href="db/d1a/obj__behaviors__2_8c.html#a177eda50359a6d959f43cddc9f013444">obj_behaviors_2.c</a>
 </li>
 <li>sDoubleJumpLandAction
 : <a class="el" href="d5/d50/mario__actions__moving_8c.html#a901e951a149be20255402699fa567b7a">mario_actions_moving.c</a>
@@ -530,14 +533,8 @@ $(function() {
 <li>sEndToadAnims
 : <a class="el" href="dd/dc2/mario__actions__cutscene_8c.html#a949c1ead1f6a829eab6d450b22f8a77d">mario_actions_cutscene.c</a>
 </li>
-<li>sEyerokHitbox
-: <a class="el" href="db/d1a/obj__behaviors__2_8c.html#a335829b405ed6ecf2128a99e4ca333a7">obj_behaviors_2.c</a>
-</li>
 <li>sFadeOutText
 : <a class="el" href="d2/d62/file__select_8c.html#a129e849a0f21ec31315ab5fadb812737">file_select.c</a>
-</li>
-<li>sFirePiranhaPlantHitbox
-: <a class="el" href="db/d1a/obj__behaviors__2_8c.html#a731675a74d9f26d9db21cda417c0431d">obj_behaviors_2.c</a>
 </li>
 <li>sFlyingBookendHitbox
 : <a class="el" href="db/d1a/obj__behaviors__2_8c.html#a81cab80f67c9014b6f9b1e2bc2d657b7">obj_behaviors_2.c</a>
@@ -600,6 +597,9 @@ $(function() {
 <li>sGdViewInfo
 : <a class="el" href="df/de6/mario__head__1_8c.html#a6cbcd0de85f90ca4a905d06303949154">mario_head_1.c</a>
 , <a class="el" href="d2/d13/mario__head__1_8h.html#a6cbcd0de85f90ca4a905d06303949154">mario_head_1.h</a>
+</li>
+<li>sGfxCursor
+: <a class="el" href="d1/d29/ingame__menu__3_8c.html#ac0370a482d80d2fbd376fffe543eb09b">ingame_menu_3.c</a>
 </li>
 <li>sGrabReleaseState
 : <a class="el" href="db/d81/object__helpers_8c.html#a37f37ebfbfe51171e74fa57597644dcc">object_helpers.c</a>
@@ -691,15 +691,6 @@ $(function() {
 <li>sJustTeleported
 : <a class="el" href="d1/d79/interaction_8c.html#a4214b604d6c9a2ae8645ec68346d6290">interaction.c</a>
 </li>
-<li>sKleptoAttackHandlers
-: <a class="el" href="db/d1a/obj__behaviors__2_8c.html#ad2167c3ae4e880513063e9727eaf9a41">obj_behaviors_2.c</a>
-</li>
-<li>sKleptoHitbox
-: <a class="el" href="db/d1a/obj__behaviors__2_8c.html#a0dd13994192c22d646fea38c5def93f3">obj_behaviors_2.c</a>
-</li>
-<li>sKleptoTargetPositions
-: <a class="el" href="db/d1a/obj__behaviors__2_8c.html#ac99e5df90f1090ead617af1d0ce4ea27">obj_behaviors_2.c</a>
-</li>
 <li>sl_seg7_moving_texture_0700FA70
 : <a class="el" href="df/d8f/moving__texture_8c.html#a5635dfa014020ac9a3308c710085a678">moving_texture.c</a>
 </li>
@@ -723,9 +714,6 @@ $(function() {
 </li>
 <li>sLongJumpLandAction
 : <a class="el" href="d5/d50/mario__actions__moving_8c.html#a64b79c62ead2ab1004c19e3f5e915b18">mario_actions_moving.c</a>
-</li>
-<li>sMadPianoHitbox
-: <a class="el" href="db/d1a/obj__behaviors__2_8c.html#a7a24019b6891a698439c8f81ab456737">obj_behaviors_2.c</a>
 </li>
 <li>sMainMenuButtons
 : <a class="el" href="d2/d62/file__select_8c.html#a87e810884242bfc6fce8eef6c19a7d2f">file_select.c</a>
@@ -784,12 +772,6 @@ $(function() {
 <li>sMovingSandSpeeds
 : <a class="el" href="df/d90/mario__step_8c.html#aaf3dc37b28ac2921cad344d6992ce877">mario_step.c</a>
 </li>
-<li>sMrBlizzardHitbox
-: <a class="el" href="db/d1a/obj__behaviors__2_8c.html#a9521d869f3314e1cdf4aa6472b04710a">obj_behaviors_2.c</a>
-</li>
-<li>sMrBlizzardSnowballHitbox
-: <a class="el" href="db/d1a/obj__behaviors__2_8c.html#aa8c941cf84dfc26db36e9b77c1e787a0">obj_behaviors_2.c</a>
-</li>
 <li>sMSceneView
 : <a class="el" href="df/d64/mario__head__6_8c.html#a499deec637b27ec5f6b8e058480066df">mario_head_6.c</a>
 </li>
@@ -827,8 +809,8 @@ $(function() {
 : <a class="el" href="da/d95/profiler__utils_8c.html#a46409c83d23b87e4d29a769990605ccc">profiler_utils.c</a>
 </li>
 <li>sNumVblanks
-: <a class="el" href="d0/d29/main_8c.html#a0151d5583fa08ccae992eb2160269508">main.c</a>
-, <a class="el" href="d4/dbf/main_8h.html#a0151d5583fa08ccae992eb2160269508">main.h</a>
+: <a class="el" href="d4/dbf/main_8h.html#a0151d5583fa08ccae992eb2160269508">main.h</a>
+, <a class="el" href="d0/d29/main_8c.html#a0151d5583fa08ccae992eb2160269508">main.c</a>
 </li>
 <li>sObjectListUpdateOrder
 : <a class="el" href="da/d02/object__list__processor_8c.html#a0dc8a9c1dcead5b8e19bf9f5709c8d7f">object_list_processor.c</a>
@@ -865,9 +847,6 @@ $(function() {
 </li>
 <li>spiny_seg5_anims_05016EAC
 : <a class="el" href="db/d1a/obj__behaviors__2_8c.html#a53e6bbe05a8473b110cee7cf3caa48c6">obj_behaviors_2.c</a>
-</li>
-<li>sPiranhaPlantFireHitbox
-: <a class="el" href="db/d1a/obj__behaviors__2_8c.html#acb42bed86be085784852b451ad5e7fba">obj_behaviors_2.c</a>
 </li>
 <li>sPoolEnd
 : <a class="el" href="df/dd5/memory_8c.html#a63c61b978faf3353961efddeba7ef87a">memory.c</a>
@@ -908,14 +887,8 @@ $(function() {
 <li>SQUARE_WAVE
 : <a class="el" href="de/da9/data_8c.html#a48f8949ff160d7538044674cb723d195">data.c</a>
 </li>
-<li>sRacingPenguinData
-: <a class="el" href="db/d1a/obj__behaviors__2_8c.html#ad1a31ca6052b1bbb0a557fb207b7b45b">obj_behaviors_2.c</a>
-</li>
 <li>sRCPTime
 : <a class="el" href="df/d64/mario__head__6_8c.html#a71df814cc58617afdcf237214dd86502">mario_head_6.c</a>
-</li>
-<li>sRecoveryHeartHitbox
-: <a class="el" href="db/d1a/obj__behaviors__2_8c.html#abc01021f0a6b5bc39e5c32523af50659">obj_behaviors_2.c</a>
 </li>
 <li>sRegister
 : <a class="el" href="d2/d5c/level__script_8c.html#a4c01a8115fb5ea278ca72be065ade980">level_script.c</a>
@@ -964,9 +937,6 @@ $(function() {
 </li>
 <li>sSimpleDylist
 : <a class="el" href="d1/d6a/half__6_8c.html#a2c0fa2b048be7c65ac03cafe107f307b">half_6.c</a>
-</li>
-<li>sSkeeterHitbox
-: <a class="el" href="db/d1a/obj__behaviors__2_8c.html#a4d7042abbf393784d8310eb4be78634d">obj_behaviors_2.c</a>
 </li>
 <li>sSkinNetCurWeight
 : <a class="el" href="dd/dc3/mario__head__2_8c.html#a7f09a4eec921f34a04ecaa8f0a505172">mario_head_2.c</a>
@@ -1120,16 +1090,16 @@ $(function() {
 : <a class="el" href="d2/d62/file__select_8c.html#af6118ef1cc4d8c27f57d4b8e246eb31f">file_select.c</a>
 </li>
 <li>sSurfaceNodePool
-: <a class="el" href="d3/d03/surface__load_8c.html#a3598bf6eb417b575b372a364940f922b">surface_load.c</a>
-, <a class="el" href="de/d1c/surface__load_8h.html#a90bfadf92fb507a839467a296ce08248">surface_load.h</a>
+: <a class="el" href="de/d1c/surface__load_8h.html#a90bfadf92fb507a839467a296ce08248">surface_load.h</a>
+, <a class="el" href="d3/d03/surface__load_8c.html#a3598bf6eb417b575b372a364940f922b">surface_load.c</a>
 </li>
 <li>sSurfacePool
-: <a class="el" href="de/d1c/surface__load_8h.html#a84a5cbf65dd4a008241b484ca0b38a0b">surface_load.h</a>
-, <a class="el" href="d3/d03/surface__load_8c.html#a56f9c762e469eb3b8e876b869401d55b">surface_load.c</a>
+: <a class="el" href="d3/d03/surface__load_8c.html#a56f9c762e469eb3b8e876b869401d55b">surface_load.c</a>
+, <a class="el" href="de/d1c/surface__load_8h.html#a84a5cbf65dd4a008241b484ca0b38a0b">surface_load.h</a>
 </li>
 <li>sSurfacePoolSize
-: <a class="el" href="d3/d03/surface__load_8c.html#a95449fe28f6445010df0b64c56343370">surface_load.c</a>
-, <a class="el" href="de/d1c/surface__load_8h.html#a95449fe28f6445010df0b64c56343370">surface_load.h</a>
+: <a class="el" href="de/d1c/surface__load_8h.html#a95449fe28f6445010df0b64c56343370">surface_load.h</a>
+, <a class="el" href="d3/d03/surface__load_8c.html#a95449fe28f6445010df0b64c56343370">surface_load.c</a>
 </li>
 <li>standard
 : <a class="el" href="d9/d0b/err_8english_8cc.html#a794ce28e6c9804fb6e47e66f3ccbba07">err.english.cc</a>
@@ -1169,8 +1139,8 @@ $(function() {
 : <a class="el" href="df/d64/mario__head__6_8c.html#ac8445db8dceadffad405058dd12a364e">mario_head_6.c</a>
 </li>
 <li>sTimerRunning
-: <a class="el" href="d7/d0a/level__update_8h.html#a6c91ef0020ecb953c6f53213e61dedcc">level_update.h</a>
-, <a class="el" href="db/dda/level__update_8c.html#a6c91ef0020ecb953c6f53213e61dedcc">level_update.c</a>
+: <a class="el" href="db/dda/level__update_8c.html#a6c91ef0020ecb953c6f53213e61dedcc">level_update.c</a>
+, <a class="el" href="d7/d0a/level__update_8h.html#a6c91ef0020ecb953c6f53213e61dedcc">level_update.h</a>
 </li>
 <li>sTimers
 : <a class="el" href="da/d95/profiler__utils_8c.html#a703f8643c350eb95293234b0d6103165">profiler_utils.c</a>
@@ -1189,20 +1159,14 @@ $(function() {
 , <a class="el" href="db/dda/level__update_8c.html#af701a3c85bec28e313d974f706ef68f8">level_update.c</a>
 </li>
 <li>sTransitionUpdate
-: <a class="el" href="d7/d0a/level__update_8h.html#ab214ef55b03def110c97143f18c027c5">level_update.h</a>
-, <a class="el" href="db/dda/level__update_8c.html#ab214ef55b03def110c97143f18c027c5">level_update.c</a>
+: <a class="el" href="db/dda/level__update_8c.html#ab214ef55b03def110c97143f18c027c5">level_update.c</a>
+, <a class="el" href="d7/d0a/level__update_8h.html#ab214ef55b03def110c97143f18c027c5">level_update.h</a>
 </li>
 <li>strayDlEndCmd
 : <a class="el" href="df/d64/mario__head__6_8c.html#ac6e7021d77f12bc4b0bbe051236d259d">mario_head_6.c</a>
 </li>
 <li>sTripleJumpLandAction
 : <a class="el" href="d5/d50/mario__actions__moving_8c.html#a1d866f086f7b776c6c2e4d9124dba439">mario_actions_moving.c</a>
-</li>
-<li>sTripletButterflyActivationData
-: <a class="el" href="db/d1a/obj__behaviors__2_8c.html#a05e4a38f51e8d4bb2b2f660b06084c1c">obj_behaviors_2.c</a>
-</li>
-<li>sTripletButterflyExplodeHitbox
-: <a class="el" href="db/d1a/obj__behaviors__2_8c.html#a3d685fee8e139fec0e733505505d40d1">obj_behaviors_2.c</a>
 </li>
 <li>struct
 : <a class="el" href="d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">err.english.cc</a>
@@ -1307,8 +1271,8 @@ $(function() {
 : <a class="el" href="d5/d83/star__select_8c.html#a2c92cec12bd9971f32a77caf6ed7a364">star_select.c</a>
 </li>
 <li>sWarpArg
-: <a class="el" href="d7/d0a/level__update_8h.html#a6ea795f11b21a50e48021f9f6ceda1b9">level_update.h</a>
-, <a class="el" href="db/dda/level__update_8c.html#a6ea795f11b21a50e48021f9f6ceda1b9">level_update.c</a>
+: <a class="el" href="db/dda/level__update_8c.html#a6ea795f11b21a50e48021f9f6ceda1b9">level_update.c</a>
+, <a class="el" href="d7/d0a/level__update_8h.html#a6ea795f11b21a50e48021f9f6ceda1b9">level_update.h</a>
 </li>
 <li>sWasAtSurface
 : <a class="el" href="d7/def/mario__actions__submerged_8c.html#a5e7850790c3155032a99e02958feef27">mario_actions_submerged.c</a>

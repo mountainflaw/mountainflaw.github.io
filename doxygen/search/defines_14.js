@@ -17,7 +17,7 @@ var searchData=
   ['terrain_5fsnow',['TERRAIN_SNOW',['../d5/dd8/sm64_8h.html#ab4f8658ee9757a33b2defab20271068c',1,'sm64.h']]],
   ['terrain_5fspooky',['TERRAIN_SPOOKY',['../d5/dd8/sm64_8h.html#a3a0443a36d5326a1f724be0e2f8673a1',1,'sm64.h']]],
   ['terrain_5fwater',['TERRAIN_WATER',['../d5/dd8/sm64_8h.html#a3acd76ba738ef44bfdf16d5e7eac827a',1,'sm64.h']]],
-  ['tex_5fedge',['TEX_EDGE',['../d3/daf/gbi_8h.html#abf6f357754d73376d6c3683e77cc2711',1,'gbi.h']]],
+  ['tex_5fedge',['TEX_EDGE',['../d3/daf/gbi_8h.html#abf6f357754d73376d6c3683e77cc2711',1,'TEX_EDGE():&#160;gbi.h'],['../d5/dff/gbi__old_8h.html#abf6f357754d73376d6c3683e77cc2711',1,'TEX_EDGE():&#160;gbi_old.h']]],
   ['time_5fstop_5factive',['TIME_STOP_ACTIVE',['../d3/dc7/object__helpers_8h.html#a2cdd1c0106dfc9edd46ecae91ade7a24',1,'object_helpers.h']]],
   ['time_5fstop_5fall_5fobjects',['TIME_STOP_ALL_OBJECTS',['../d3/dc7/object__helpers_8h.html#a6983dd70957846cee2fb851ab5866bc8',1,'object_helpers.h']]],
   ['time_5fstop_5fenabled',['TIME_STOP_ENABLED',['../d3/dc7/object__helpers_8h.html#af6eece92e3cb38a34babe2e7f5d933a3',1,'object_helpers.h']]],

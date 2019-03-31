@@ -24,7 +24,7 @@
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Super Mario 64 Source
    </div>
-   <div id="projectbrief">It&#39;s a me, the Super Mario 64 Source Code!</div>
+   <div id="projectbrief">A Super Mario 64 decompilation, brought to you by a bunch of clever folks.</div>
   </td>
  </tr>
  </tbody>
@@ -68,6 +68,9 @@ $(function() {
 <h3><a id="index_a"></a>- a -</h3><ul>
 <li>a
 : <a class="el" href="d9/d0b/err_8english_8cc.html#a94eb816e27f68e8e043135af829de926">err.english.cc</a>
+</li>
+<li>a2
+: <a class="el" href="de/d48/interface__1_8c.html#adbcaa199c8f4e499f2c3d049ff926d74">interface_1.c</a>
 </li>
 <li>a3
 : <a class="el" href="d0/d75/something_8c.html#a509a674bd7926c5406b815a055d17834">something.c</a>
@@ -161,6 +164,7 @@ $(function() {
 </li>
 <li>AA_EN
 : <a class="el" href="d3/daf/gbi_8h.html#ab57c1bf0dbe2215f407583c96dee344d">gbi.h</a>
+, <a class="el" href="d5/dff/gbi__old_8h.html#ab57c1bf0dbe2215f407583c96dee344d">gbi_old.h</a>
 </li>
 <li>able_to_grab_object()
 : <a class="el" href="d1/d79/interaction_8c.html#ab694eab1db5fd0afeafa5d12846a6e39">interaction.c</a>
@@ -218,18 +222,18 @@ $(function() {
 <li>ACT_AIR_THROW
 : <a class="el" href="d5/dd8/sm64_8h.html#ad42a79d077332a6032827b8f998780fd">sm64.h</a>
 </li>
+<li>ACT_AIR_THROW_LAND
+: <a class="el" href="d5/dd8/sm64_8h.html#a13fa03a9ee0d76a4629d884da9bef1e2">sm64.h</a>
+</li>
 <li>act_air_throw_land()
 : <a class="el" href="df/d37/mario__actions__stationary_8c.html#ada1209068f7bcdd59666c2cec0b3391d">mario_actions_stationary.c</a>
 , <a class="el" href="df/da3/mario__actions__stationary_8h.html#aa2d779b0e2291a0cd596575cfb82b6bd">mario_actions_stationary.h</a>
 </li>
-<li>ACT_AIR_THROW_LAND
-: <a class="el" href="d5/dd8/sm64_8h.html#a13fa03a9ee0d76a4629d884da9bef1e2">sm64.h</a>
+<li>act_backflip()
+: <a class="el" href="d4/d6b/mario__actions__airborne_8c.html#af6b477277bf5894947c950ead546d27f">mario_actions_airborne.c</a>
 </li>
 <li>ACT_BACKFLIP
 : <a class="el" href="d5/dd8/sm64_8h.html#a1eec25ba33437da7a0800cc0ec0172b2">sm64.h</a>
-</li>
-<li>act_backflip()
-: <a class="el" href="d4/d6b/mario__actions__airborne_8c.html#af6b477277bf5894947c950ead546d27f">mario_actions_airborne.c</a>
 </li>
 <li>act_backflip_land()
 : <a class="el" href="d5/d50/mario__actions__moving_8c.html#a6ff3711c3d2d7e6752cc357b89675edb">mario_actions_moving.c</a>
@@ -401,17 +405,17 @@ $(function() {
 <li>ACT_DEATH_EXIT
 : <a class="el" href="d5/dd8/sm64_8h.html#a28c40c4c6e4446219d626316f84743e4">sm64.h</a>
 </li>
-<li>act_death_exit_land()
-: <a class="el" href="d5/d50/mario__actions__moving_8c.html#a0d5d319ec8a992344408a19728ccc964">mario_actions_moving.c</a>
-</li>
 <li>ACT_DEATH_EXIT_LAND
 : <a class="el" href="d5/dd8/sm64_8h.html#ad21c4352977f5e5d9268d816be2f9b25">sm64.h</a>
 </li>
-<li>ACT_DEATH_ON_BACK
-: <a class="el" href="d5/dd8/sm64_8h.html#a4c4ca8aad44b8894f15293749879a4e3">sm64.h</a>
+<li>act_death_exit_land()
+: <a class="el" href="d5/d50/mario__actions__moving_8c.html#a0d5d319ec8a992344408a19728ccc964">mario_actions_moving.c</a>
 </li>
 <li>act_death_on_back()
 : <a class="el" href="dd/dc2/mario__actions__cutscene_8c.html#aeb170abcd48acbe98f94aad33c498d0e">mario_actions_cutscene.c</a>
+</li>
+<li>ACT_DEATH_ON_BACK
+: <a class="el" href="d5/dd8/sm64_8h.html#a4c4ca8aad44b8894f15293749879a4e3">sm64.h</a>
 </li>
 <li>act_death_on_stomach()
 : <a class="el" href="dd/dc2/mario__actions__cutscene_8c.html#a026c0cf5b585b52f550fec82a8a3b8f1">mario_actions_cutscene.c</a>
@@ -1336,11 +1340,11 @@ $(function() {
 <li>ACT_SPECIAL_DEATH_EXIT
 : <a class="el" href="d5/dd8/sm64_8h.html#aa73000f40bbbf422e999547106aa2dd4">sm64.h</a>
 </li>
-<li>ACT_SPECIAL_EXIT_AIRBORNE
-: <a class="el" href="d5/dd8/sm64_8h.html#a09ac2004a0fbb3a1e3354a5a43545b34">sm64.h</a>
-</li>
 <li>act_special_exit_airborne()
 : <a class="el" href="dd/dc2/mario__actions__cutscene_8c.html#a62bb9c7032216400b48cfad3fa79810b">mario_actions_cutscene.c</a>
+</li>
+<li>ACT_SPECIAL_EXIT_AIRBORNE
+: <a class="el" href="d5/dd8/sm64_8h.html#a09ac2004a0fbb3a1e3354a5a43545b34">sm64.h</a>
 </li>
 <li>act_special_triple_jump()
 : <a class="el" href="d4/d6b/mario__actions__airborne_8c.html#aada048a6d961fe34d0e7c397f274174e">mario_actions_airborne.c</a>
@@ -1355,8 +1359,8 @@ $(function() {
 : <a class="el" href="d5/dd8/sm64_8h.html#a162a7f679e127293d4b2a227d55d3b93">sm64.h</a>
 </li>
 <li>act_standing_against_wall()
-: <a class="el" href="df/d37/mario__actions__stationary_8c.html#aec0af85289ca0fa307c28a3dcace20a8">mario_actions_stationary.c</a>
-, <a class="el" href="df/da3/mario__actions__stationary_8h.html#ae331dc53a29ae01a8c5cb603a5e9039d">mario_actions_stationary.h</a>
+: <a class="el" href="df/da3/mario__actions__stationary_8h.html#ae331dc53a29ae01a8c5cb603a5e9039d">mario_actions_stationary.h</a>
+, <a class="el" href="df/d37/mario__actions__stationary_8c.html#aec0af85289ca0fa307c28a3dcace20a8">mario_actions_stationary.c</a>
 </li>
 <li>ACT_STANDING_AGAINST_WALL
 : <a class="el" href="d5/dd8/sm64_8h.html#a1e3fce54bc6d5a606dfdfe6f13bc2cfa">sm64.h</a>
@@ -1376,15 +1380,15 @@ $(function() {
 <li>ACT_STAR_DANCE_NO_EXIT
 : <a class="el" href="d5/dd8/sm64_8h.html#a82f72b4f4c9088e3fe5a11e04272219b">sm64.h</a>
 </li>
-<li>act_star_dance_water()
-: <a class="el" href="dd/dc2/mario__actions__cutscene_8c.html#ab3b0407c451bef9f2754e2cce3b8390b">mario_actions_cutscene.c</a>
-</li>
 <li>ACT_STAR_DANCE_WATER
 : <a class="el" href="d5/dd8/sm64_8h.html#a32b105241968f7b96362f211b927659e">sm64.h</a>
 </li>
+<li>act_star_dance_water()
+: <a class="el" href="dd/dc2/mario__actions__cutscene_8c.html#ab3b0407c451bef9f2754e2cce3b8390b">mario_actions_cutscene.c</a>
+</li>
 <li>act_start_crawling()
-: <a class="el" href="df/da3/mario__actions__stationary_8h.html#ae71e3ee312063e57797471b6182c7cf8">mario_actions_stationary.h</a>
-, <a class="el" href="df/d37/mario__actions__stationary_8c.html#aecd46158ca39a3446d0960120e116eca">mario_actions_stationary.c</a>
+: <a class="el" href="df/d37/mario__actions__stationary_8c.html#aecd46158ca39a3446d0960120e116eca">mario_actions_stationary.c</a>
+, <a class="el" href="df/da3/mario__actions__stationary_8h.html#ae71e3ee312063e57797471b6182c7cf8">mario_actions_stationary.h</a>
 </li>
 <li>ACT_START_CRAWLING
 : <a class="el" href="d5/dd8/sm64_8h.html#a17661e3f9378b6322ad0256ef8b4c75c">sm64.h</a>
@@ -1396,15 +1400,15 @@ $(function() {
 <li>ACT_START_CROUCHING
 : <a class="el" href="d5/dd8/sm64_8h.html#a9f8f8fa78eb05f6db85cffbd6ee634ac">sm64.h</a>
 </li>
-<li>act_start_hanging()
-: <a class="el" href="d8/db9/mario__actions__automatic_8c.html#a9a2dc29a49ec97021e440245a65851fc">mario_actions_automatic.c</a>
-</li>
 <li>ACT_START_HANGING
 : <a class="el" href="d5/dd8/sm64_8h.html#a59039a7428d783d79e2decf1f3c5e444">sm64.h</a>
 </li>
+<li>act_start_hanging()
+: <a class="el" href="d8/db9/mario__actions__automatic_8c.html#a9a2dc29a49ec97021e440245a65851fc">mario_actions_automatic.c</a>
+</li>
 <li>act_start_sleeping()
-: <a class="el" href="df/da3/mario__actions__stationary_8h.html#ab64f20fcab054e27d1e8058c41e0b4ff">mario_actions_stationary.h</a>
-, <a class="el" href="df/d37/mario__actions__stationary_8c.html#aa31a3b0cf500ef38139cd42403529872">mario_actions_stationary.c</a>
+: <a class="el" href="df/d37/mario__actions__stationary_8c.html#aa31a3b0cf500ef38139cd42403529872">mario_actions_stationary.c</a>
+, <a class="el" href="df/da3/mario__actions__stationary_8h.html#ab64f20fcab054e27d1e8058c41e0b4ff">mario_actions_stationary.h</a>
 </li>
 <li>ACT_START_SLEEPING
 : <a class="el" href="d5/dd8/sm64_8h.html#a1562aa52c80d010037f38ce3a1c77326">sm64.h</a>
@@ -1505,25 +1509,25 @@ $(function() {
 <li>ACT_TRIPLE_JUMP_LAND
 : <a class="el" href="d5/dd8/sm64_8h.html#a068f8269a5287f6e3d6e80ef8b167140">sm64.h</a>
 </li>
-<li>ACT_TRIPLE_JUMP_LAND_STOP
-: <a class="el" href="d5/dd8/sm64_8h.html#aea8ee13bcf212208d88ee468593b94a8">sm64.h</a>
-</li>
 <li>act_triple_jump_land_stop()
 : <a class="el" href="df/d37/mario__actions__stationary_8c.html#a434181130dafcaf91c5c88b75994ef98">mario_actions_stationary.c</a>
 , <a class="el" href="df/da3/mario__actions__stationary_8h.html#a429ad56ee3396ad74aa22d63e933818d">mario_actions_stationary.h</a>
 </li>
-<li>act_turning_around()
-: <a class="el" href="d5/d50/mario__actions__moving_8c.html#a47f5e25c531776095ae7f250328fb08d">mario_actions_moving.c</a>
+<li>ACT_TRIPLE_JUMP_LAND_STOP
+: <a class="el" href="d5/dd8/sm64_8h.html#aea8ee13bcf212208d88ee468593b94a8">sm64.h</a>
 </li>
 <li>ACT_TURNING_AROUND
 : <a class="el" href="d5/dd8/sm64_8h.html#afd1361e8c7dd1e1f348ca72b084dc8ab">sm64.h</a>
 </li>
-<li>ACT_TWIRL_LAND
-: <a class="el" href="d5/dd8/sm64_8h.html#ad7632a3c429b69c0421763db60433d51">sm64.h</a>
+<li>act_turning_around()
+: <a class="el" href="d5/d50/mario__actions__moving_8c.html#a47f5e25c531776095ae7f250328fb08d">mario_actions_moving.c</a>
 </li>
 <li>act_twirl_land()
-: <a class="el" href="df/da3/mario__actions__stationary_8h.html#aa33bba8f14dad2af5f86d7b5e9a91e19">mario_actions_stationary.h</a>
-, <a class="el" href="df/d37/mario__actions__stationary_8c.html#a1f17008843377800149e54036a7c95a2">mario_actions_stationary.c</a>
+: <a class="el" href="df/d37/mario__actions__stationary_8c.html#a1f17008843377800149e54036a7c95a2">mario_actions_stationary.c</a>
+, <a class="el" href="df/da3/mario__actions__stationary_8h.html#aa33bba8f14dad2af5f86d7b5e9a91e19">mario_actions_stationary.h</a>
+</li>
+<li>ACT_TWIRL_LAND
+: <a class="el" href="d5/dd8/sm64_8h.html#ad7632a3c429b69c0421763db60433d51">sm64.h</a>
 </li>
 <li>act_twirling()
 : <a class="el" href="d4/d6b/mario__actions__airborne_8c.html#aaf97d575b569b1546003542bef9383c8">mario_actions_airborne.c</a>
@@ -1561,17 +1565,17 @@ $(function() {
 <li>ACT_UNKNOWN_03F
 : <a class="el" href="d5/dd8/sm64_8h.html#a285022f22f9fe6c4d210bb56ebc525ea">sm64.h</a>
 </li>
-<li>act_unlocking_key_door()
-: <a class="el" href="dd/dc2/mario__actions__cutscene_8c.html#aab8b11fc3463d4a42ea570b1d20778a0">mario_actions_cutscene.c</a>
-</li>
 <li>ACT_UNLOCKING_KEY_DOOR
 : <a class="el" href="d5/dd8/sm64_8h.html#af8dc27696ed1654c55456e12796d744c">sm64.h</a>
 </li>
-<li>ACT_UNLOCKING_STAR_DOOR
-: <a class="el" href="d5/dd8/sm64_8h.html#a8b8f684138af15ec097352a8c9b66782">sm64.h</a>
+<li>act_unlocking_key_door()
+: <a class="el" href="dd/dc2/mario__actions__cutscene_8c.html#aab8b11fc3463d4a42ea570b1d20778a0">mario_actions_cutscene.c</a>
 </li>
 <li>act_unlocking_star_door()
 : <a class="el" href="dd/dc2/mario__actions__cutscene_8c.html#a4838507824a006630d7ff2d395d80928">mario_actions_cutscene.c</a>
+</li>
+<li>ACT_UNLOCKING_STAR_DOOR
+: <a class="el" href="d5/dd8/sm64_8h.html#a8b8f684138af15ec097352a8c9b66782">sm64.h</a>
 </li>
 <li>act_unused_death_exit()
 : <a class="el" href="dd/dc2/mario__actions__cutscene_8c.html#a2130aac498b76123af50d9ccf75f78b1">mario_actions_cutscene.c</a>
@@ -1585,20 +1589,18 @@ $(function() {
 <li>ACT_VERTICAL_WIND
 : <a class="el" href="d5/dd8/sm64_8h.html#a863ed0783c26bd089310c4cb832263cb">sm64.h</a>
 </li>
-<li>act_waiting_for_dialogue()
-: <a class="el" href="dd/dc2/mario__actions__cutscene_8c.html#a87d9bc76f39bb698f3240894dc2c3b0e">mario_actions_cutscene.c</a>
-</li>
 <li>ACT_WAITING_FOR_DIALOGUE
 : <a class="el" href="d5/dd8/sm64_8h.html#af71d41da6c209a00e5f828789031e24c">sm64.h</a>
 </li>
-<li>act_waking_up()
-: <a class="el" href="df/da3/mario__actions__stationary_8h.html#a7ccb34fb20e3f0b4ccb67cd90e10ce10">mario_actions_stationary.h</a>
-</li>
-<li>ACT_WAKING_UP
-: <a class="el" href="d5/dd8/sm64_8h.html#ab42abc5f7e1139e8637a1410c559b3cc">sm64.h</a>
+<li>act_waiting_for_dialogue()
+: <a class="el" href="dd/dc2/mario__actions__cutscene_8c.html#a87d9bc76f39bb698f3240894dc2c3b0e">mario_actions_cutscene.c</a>
 </li>
 <li>act_waking_up()
 : <a class="el" href="df/d37/mario__actions__stationary_8c.html#a0bd494797e34f14e3e2e5108cb44a508">mario_actions_stationary.c</a>
+, <a class="el" href="df/da3/mario__actions__stationary_8h.html#a7ccb34fb20e3f0b4ccb67cd90e10ce10">mario_actions_stationary.h</a>
+</li>
+<li>ACT_WAKING_UP
+: <a class="el" href="d5/dd8/sm64_8h.html#ab42abc5f7e1139e8637a1410c559b3cc">sm64.h</a>
 </li>
 <li>act_walking()
 : <a class="el" href="d5/d50/mario__actions__moving_8c.html#ac5f40253232fee2c43f092a1e4b768ba">mario_actions_moving.c</a>
@@ -1724,8 +1726,8 @@ $(function() {
 , <a class="el" href="d3/d7c/joint__fns_8h.html#a067e5a2bff9b6f880894a3dd4cbdac3f">joint_fns.h</a>
 </li>
 <li>add_mat4_load_to_dl()
-: <a class="el" href="df/d64/mario__head__6_8c.html#ae97f8bda0ee0f213112b24b697dfe340">mario_head_6.c</a>
-, <a class="el" href="d2/ddc/mario__head__6_8h.html#af5ff10a3bca91f7cda75cbc159731ea9">mario_head_6.h</a>
+: <a class="el" href="d2/ddc/mario__head__6_8h.html#af5ff10a3bca91f7cda75cbc159731ea9">mario_head_6.h</a>
+, <a class="el" href="df/d64/mario__head__6_8c.html#ae97f8bda0ee0f213112b24b697dfe340">mario_head_6.c</a>
 </li>
 <li>add_mat4_to_dl()
 : <a class="el" href="df/d64/mario__head__6_8c.html#ad438eb1218f357dc7fed7120b1b53661">mario_head_6.c</a>
@@ -1836,18 +1838,18 @@ $(function() {
 : <a class="el" href="d4/d6e/libaudio__internal_8h.html#afa922bb1f189d4a35d208396d6810f24">libaudio_internal.h</a>
 </li>
 <li>alBnkfNew()
-: <a class="el" href="d0/db1/alBnkfNew_8c.html#ac90d78f312987c62aa7406792880cef1">alBnkfNew.c</a>
-, <a class="el" href="d4/d6e/libaudio__internal_8h.html#ac90d78f312987c62aa7406792880cef1">libaudio_internal.h</a>
+: <a class="el" href="d4/d6e/libaudio__internal_8h.html#ac90d78f312987c62aa7406792880cef1">libaudio_internal.h</a>
+, <a class="el" href="d0/db1/alBnkfNew_8c.html#ac90d78f312987c62aa7406792880cef1">alBnkfNew.c</a>
 </li>
 <li>ALIGN
-: <a class="el" href="d0/d75/something_8c.html#ac21dfbef35c6762134ee2995898b5f88">something.c</a>
+: <a class="el" href="d5/d60/utils_8h.html#a180da4496e2c157bd27d303b4a8dd955">utils.h</a>
+, <a class="el" href="d0/d75/something_8c.html#ac21dfbef35c6762134ee2995898b5f88">something.c</a>
 , <a class="el" href="df/d64/mario__head__6_8c.html#a180da4496e2c157bd27d303b4a8dd955">mario_head_6.c</a>
-, <a class="el" href="d5/d60/utils_8h.html#a180da4496e2c157bd27d303b4a8dd955">utils.h</a>
 </li>
 <li>ALIGN16
 : <a class="el" href="de/d48/dac_8c.html#a08b2c3c00c27891c0b0179c9d8a1c2b6">dac.c</a>
-, <a class="el" href="df/dd5/memory_8c.html#a08b2c3c00c27891c0b0179c9d8a1c2b6">memory.c</a>
 , <a class="el" href="d8/d51/dma_8c.html#a08b2c3c00c27891c0b0179c9d8a1c2b6">dma.c</a>
+, <a class="el" href="df/dd5/memory_8c.html#a08b2c3c00c27891c0b0179c9d8a1c2b6">memory.c</a>
 </li>
 <li>ALIGN4
 : <a class="el" href="df/dd5/memory_8c.html#a9a9b12bc2d88d2229242fc7846056f90">memory.c</a>
@@ -1887,8 +1889,8 @@ $(function() {
 : <a class="el" href="d3/d03/surface__load_8c.html#a76b47ad43b0d6a2493997d5f8af59673">surface_load.c</a>
 </li>
 <li>alloc_surface_pools()
-: <a class="el" href="de/d1c/surface__load_8h.html#aae2f612b07899096bad5d9febd40e083">surface_load.h</a>
-, <a class="el" href="d3/d03/surface__load_8c.html#aae2f612b07899096bad5d9febd40e083">surface_load.c</a>
+: <a class="el" href="d3/d03/surface__load_8c.html#aae2f612b07899096bad5d9febd40e083">surface_load.c</a>
+, <a class="el" href="de/d1c/surface__load_8h.html#aae2f612b07899096bad5d9febd40e083">surface_load.h</a>
 </li>
 <li>AllocPool()
 : <a class="el" href="d0/d29/main_8c.html#ab0072ca8ee05abe8cbcb29595dfb41d0">main.c</a>
@@ -1904,10 +1906,11 @@ $(function() {
 </li>
 <li>ALPHA_CVG_SEL
 : <a class="el" href="d3/daf/gbi_8h.html#aa5a549fc53ceef2a65ddd3105f31acf1">gbi.h</a>
+, <a class="el" href="d5/dff/gbi__old_8h.html#aa5a549fc53ceef2a65ddd3105f31acf1">gbi_old.h</a>
 </li>
 <li>alSeqFileNew()
-: <a class="el" href="d0/db1/alBnkfNew_8c.html#ab275be6c7d58d2836dbd28d7c119e1d6">alBnkfNew.c</a>
-, <a class="el" href="df/d61/libaudio_8h.html#ab275be6c7d58d2836dbd28d7c119e1d6">libaudio.h</a>
+: <a class="el" href="df/d61/libaudio_8h.html#ab275be6c7d58d2836dbd28d7c119e1d6">libaudio.h</a>
+, <a class="el" href="d0/db1/alBnkfNew_8c.html#ab275be6c7d58d2836dbd28d7c119e1d6">alBnkfNew.c</a>
 </li>
 <li>ALSound
 : <a class="el" href="d4/d6e/libaudio__internal_8h.html#a4d2dba5008fc2a2030c148b03081f080">libaudio_internal.h</a>
@@ -1967,8 +1970,8 @@ $(function() {
 : <a class="el" href="d5/d50/mario__actions__moving_8c.html#ae093d2459d999561fb4b18acd5df4ba8">mario_actions_moving.c</a>
 </li>
 <li>angle_to_object()
-: <a class="el" href="db/d81/object__helpers_8c.html#a40d3f1574e4c0ead547d0ebfe6cda58e">object_helpers.c</a>
-, <a class="el" href="d3/dc7/object__helpers_8h.html#a455360ee04273a88ac694882f9001b16">object_helpers.h</a>
+: <a class="el" href="d3/dc7/object__helpers_8h.html#a455360ee04273a88ac694882f9001b16">object_helpers.h</a>
+, <a class="el" href="db/d81/object__helpers_8c.html#a40d3f1574e4c0ead547d0ebfe6cda58e">object_helpers.c</a>
 </li>
 <li>ANIM_FLAG_1
 : <a class="el" href="d9/d49/types_8h.html#a006e421a2da0d912c4c8cb0e55592c73">types.h</a>
@@ -1999,12 +2002,12 @@ $(function() {
 , <a class="el" href="d4/d90/animdata_8h.html#a07a6e228b5584cb0ec7ae064cbf99b4a">animdata.h</a>
 </li>
 <li>anim_mario_ear_right
-: <a class="el" href="db/d50/anim__group__2_8c.html#a0bb7fd0426efffa38cb775a089f961e5">anim_group_2.c</a>
-, <a class="el" href="d4/d90/animdata_8h.html#a0bb7fd0426efffa38cb775a089f961e5">animdata.h</a>
+: <a class="el" href="d4/d90/animdata_8h.html#a0bb7fd0426efffa38cb775a089f961e5">animdata.h</a>
+, <a class="el" href="db/d50/anim__group__2_8c.html#a0bb7fd0426efffa38cb775a089f961e5">anim_group_2.c</a>
 </li>
 <li>anim_mario_eye_left
-: <a class="el" href="d1/d7c/anim__group__1_8c.html#a0640653a72e727c4677f957c54cef206">anim_group_1.c</a>
-, <a class="el" href="d4/d90/animdata_8h.html#a0640653a72e727c4677f957c54cef206">animdata.h</a>
+: <a class="el" href="d4/d90/animdata_8h.html#a0640653a72e727c4677f957c54cef206">animdata.h</a>
+, <a class="el" href="d1/d7c/anim__group__1_8c.html#a0640653a72e727c4677f957c54cef206">anim_group_1.c</a>
 </li>
 <li>anim_mario_eye_right
 : <a class="el" href="d4/d90/animdata_8h.html#abc63bde298be0c1738ab10d3ece08938">animdata.h</a>
@@ -2015,47 +2018,47 @@ $(function() {
 , <a class="el" href="da/d42/anim__mario__eyebrows__1_8c.html#a07fdd625d0c51e9e5ed2ea243e40bce3">anim_mario_eyebrows_1.c</a>
 </li>
 <li>anim_mario_eyebrows_2
-: <a class="el" href="d1/d7c/anim__group__1_8c.html#aee4283aca8731f6fb7b5036d5d1101fa">anim_group_1.c</a>
-, <a class="el" href="d4/d90/animdata_8h.html#aee4283aca8731f6fb7b5036d5d1101fa">animdata.h</a>
+: <a class="el" href="d4/d90/animdata_8h.html#aee4283aca8731f6fb7b5036d5d1101fa">animdata.h</a>
+, <a class="el" href="d1/d7c/anim__group__1_8c.html#aee4283aca8731f6fb7b5036d5d1101fa">anim_group_1.c</a>
 </li>
 <li>anim_mario_eyebrows_3
-: <a class="el" href="d1/d7c/anim__group__1_8c.html#aa378052f71d15062665553bbdda517c9">anim_group_1.c</a>
-, <a class="el" href="d4/d90/animdata_8h.html#aa378052f71d15062665553bbdda517c9">animdata.h</a>
+: <a class="el" href="d4/d90/animdata_8h.html#aa378052f71d15062665553bbdda517c9">animdata.h</a>
+, <a class="el" href="d1/d7c/anim__group__1_8c.html#aa378052f71d15062665553bbdda517c9">anim_group_1.c</a>
 </li>
 <li>anim_mario_eyebrows_3_1
 : <a class="el" href="d1/d7c/anim__group__1_8c.html#accec3b612e7c3a1ac9c52f93710d08ff">anim_group_1.c</a>
 </li>
 <li>anim_mario_eyebrows_4
-: <a class="el" href="d4/d90/animdata_8h.html#a06a311cf4d467f9ae1b752481279714e">animdata.h</a>
-, <a class="el" href="d1/d7c/anim__group__1_8c.html#a06a311cf4d467f9ae1b752481279714e">anim_group_1.c</a>
+: <a class="el" href="d1/d7c/anim__group__1_8c.html#a06a311cf4d467f9ae1b752481279714e">anim_group_1.c</a>
+, <a class="el" href="d4/d90/animdata_8h.html#a06a311cf4d467f9ae1b752481279714e">animdata.h</a>
 </li>
 <li>anim_mario_eyebrows_5
-: <a class="el" href="d4/d90/animdata_8h.html#a1860ce612f954b3fe4aa76241f199f75">animdata.h</a>
-, <a class="el" href="d1/d7c/anim__group__1_8c.html#a1860ce612f954b3fe4aa76241f199f75">anim_group_1.c</a>
+: <a class="el" href="d1/d7c/anim__group__1_8c.html#a1860ce612f954b3fe4aa76241f199f75">anim_group_1.c</a>
+, <a class="el" href="d4/d90/animdata_8h.html#a1860ce612f954b3fe4aa76241f199f75">animdata.h</a>
 </li>
 <li>anim_mario_eyebrows_equalizer
-: <a class="el" href="d4/d90/animdata_8h.html#a2742e6d6cb8a0f7dd7c1501f773c3870">animdata.h</a>
-, <a class="el" href="d1/d7c/anim__group__1_8c.html#a2742e6d6cb8a0f7dd7c1501f773c3870">anim_group_1.c</a>
+: <a class="el" href="d1/d7c/anim__group__1_8c.html#a2742e6d6cb8a0f7dd7c1501f773c3870">anim_group_1.c</a>
+, <a class="el" href="d4/d90/animdata_8h.html#a2742e6d6cb8a0f7dd7c1501f773c3870">animdata.h</a>
 </li>
 <li>anim_mario_eyelid_left
-: <a class="el" href="d4/d90/animdata_8h.html#a831f96a0246fd5407e8f9fc5941ba78c">animdata.h</a>
-, <a class="el" href="db/d50/anim__group__2_8c.html#a831f96a0246fd5407e8f9fc5941ba78c">anim_group_2.c</a>
+: <a class="el" href="db/d50/anim__group__2_8c.html#a831f96a0246fd5407e8f9fc5941ba78c">anim_group_2.c</a>
+, <a class="el" href="d4/d90/animdata_8h.html#a831f96a0246fd5407e8f9fc5941ba78c">animdata.h</a>
 </li>
 <li>anim_mario_eyelid_right
-: <a class="el" href="d4/d90/animdata_8h.html#a44f8e1ec0dffe46f65af264091b9b9fb">animdata.h</a>
-, <a class="el" href="db/d50/anim__group__2_8c.html#a44f8e1ec0dffe46f65af264091b9b9fb">anim_group_2.c</a>
+: <a class="el" href="db/d50/anim__group__2_8c.html#a44f8e1ec0dffe46f65af264091b9b9fb">anim_group_2.c</a>
+, <a class="el" href="d4/d90/animdata_8h.html#a44f8e1ec0dffe46f65af264091b9b9fb">animdata.h</a>
 </li>
 <li>anim_mario_hat
-: <a class="el" href="d4/d90/animdata_8h.html#a70752c284207de3772273d26f3269562">animdata.h</a>
-, <a class="el" href="d1/d7c/anim__group__1_8c.html#a70752c284207de3772273d26f3269562">anim_group_1.c</a>
+: <a class="el" href="d1/d7c/anim__group__1_8c.html#a70752c284207de3772273d26f3269562">anim_group_1.c</a>
+, <a class="el" href="d4/d90/animdata_8h.html#a70752c284207de3772273d26f3269562">animdata.h</a>
 </li>
 <li>anim_mario_intro
-: <a class="el" href="d4/d90/animdata_8h.html#a860bd68925c5302ebe7a42228b5bd8ef">animdata.h</a>
-, <a class="el" href="db/d50/anim__group__2_8c.html#a860bd68925c5302ebe7a42228b5bd8ef">anim_group_2.c</a>
+: <a class="el" href="db/d50/anim__group__2_8c.html#a860bd68925c5302ebe7a42228b5bd8ef">anim_group_2.c</a>
+, <a class="el" href="d4/d90/animdata_8h.html#a860bd68925c5302ebe7a42228b5bd8ef">animdata.h</a>
 </li>
 <li>anim_mario_lips_1
-: <a class="el" href="d4/d90/animdata_8h.html#a1515e125bb6198b28e1a00ddf4827298">animdata.h</a>
-, <a class="el" href="df/dfd/anim__mario__lips__1_8c.html#a1515e125bb6198b28e1a00ddf4827298">anim_mario_lips_1.c</a>
+: <a class="el" href="df/dfd/anim__mario__lips__1_8c.html#a1515e125bb6198b28e1a00ddf4827298">anim_mario_lips_1.c</a>
+, <a class="el" href="d4/d90/animdata_8h.html#a1515e125bb6198b28e1a00ddf4827298">animdata.h</a>
 </li>
 <li>anim_mario_lips_2
 : <a class="el" href="d2/d5d/anim__mario__lips__2_8c.html#a0baf59abadd5029e3af844a43be0670c">anim_mario_lips_2.c</a>
@@ -2070,28 +2073,28 @@ $(function() {
 , <a class="el" href="d4/d90/animdata_8h.html#aa3e691587326de253397935210c06641">animdata.h</a>
 </li>
 <li>anim_mario_lips_5
-: <a class="el" href="d4/d90/animdata_8h.html#afbc6140f7ec4ce641f1ac7081d0b6454">animdata.h</a>
-, <a class="el" href="db/d50/anim__group__2_8c.html#afbc6140f7ec4ce641f1ac7081d0b6454">anim_group_2.c</a>
+: <a class="el" href="db/d50/anim__group__2_8c.html#afbc6140f7ec4ce641f1ac7081d0b6454">anim_group_2.c</a>
+, <a class="el" href="d4/d90/animdata_8h.html#afbc6140f7ec4ce641f1ac7081d0b6454">animdata.h</a>
 </li>
 <li>anim_mario_lips_6
-: <a class="el" href="d4/d90/animdata_8h.html#a96ba5dec2cb1d168e99a44f415de14b8">animdata.h</a>
-, <a class="el" href="db/d50/anim__group__2_8c.html#a96ba5dec2cb1d168e99a44f415de14b8">anim_group_2.c</a>
+: <a class="el" href="db/d50/anim__group__2_8c.html#a96ba5dec2cb1d168e99a44f415de14b8">anim_group_2.c</a>
+, <a class="el" href="d4/d90/animdata_8h.html#a96ba5dec2cb1d168e99a44f415de14b8">animdata.h</a>
 </li>
 <li>anim_mario_mustache_left
-: <a class="el" href="d3/daa/anim__mario__mustache__left_8c.html#a27ef8f5c47a61712487a0cfb0e3b3f37">anim_mario_mustache_left.c</a>
-, <a class="el" href="d4/d90/animdata_8h.html#a27ef8f5c47a61712487a0cfb0e3b3f37">animdata.h</a>
+: <a class="el" href="d4/d90/animdata_8h.html#a27ef8f5c47a61712487a0cfb0e3b3f37">animdata.h</a>
+, <a class="el" href="d3/daa/anim__mario__mustache__left_8c.html#a27ef8f5c47a61712487a0cfb0e3b3f37">anim_mario_mustache_left.c</a>
 </li>
 <li>anim_mario_mustache_right
 : <a class="el" href="dc/d0b/anim__mario__mustache__right_8c.html#ac35c57123d62711e9851a7cbcaacaada">anim_mario_mustache_right.c</a>
 , <a class="el" href="d4/d90/animdata_8h.html#ac35c57123d62711e9851a7cbcaacaada">animdata.h</a>
 </li>
 <li>anim_mario_nose
-: <a class="el" href="db/d50/anim__group__2_8c.html#a69e274bb420a6daf42f67aaf8cf89147">anim_group_2.c</a>
-, <a class="el" href="d4/d90/animdata_8h.html#a69e274bb420a6daf42f67aaf8cf89147">animdata.h</a>
+: <a class="el" href="d4/d90/animdata_8h.html#a69e274bb420a6daf42f67aaf8cf89147">animdata.h</a>
+, <a class="el" href="db/d50/anim__group__2_8c.html#a69e274bb420a6daf42f67aaf8cf89147">anim_group_2.c</a>
 </li>
 <li>anim_red_star
-: <a class="el" href="d4/d90/animdata_8h.html#a5969c6b9c2e4f6fd3fa8e2b0495ae2d7">animdata.h</a>
-, <a class="el" href="db/d50/anim__group__2_8c.html#a5969c6b9c2e4f6fd3fa8e2b0495ae2d7">anim_group_2.c</a>
+: <a class="el" href="db/d50/anim__group__2_8c.html#a5969c6b9c2e4f6fd3fa8e2b0495ae2d7">anim_group_2.c</a>
+, <a class="el" href="d4/d90/animdata_8h.html#a5969c6b9c2e4f6fd3fa8e2b0495ae2d7">animdata.h</a>
 </li>
 <li>anim_silver_star
 : <a class="el" href="d4/d90/animdata_8h.html#a24895a31100efe9241d4881e426ea5ba">animdata.h</a>
@@ -2252,6 +2255,12 @@ $(function() {
 <li>anyway()
 : <a class="el" href="d9/d0b/err_8english_8cc.html#a8c357a68019bf286a671df54aa90f637">err.english.cc</a>
 </li>
+<li>append_bubble_vertex_buffer()
+: <a class="el" href="d1/d29/ingame__menu__3_8c.html#a15e6a5af3bc6f2939bb23e190e7fc8d8">ingame_menu_3.c</a>
+</li>
+<li>append_snowflake_vertex_buffer()
+: <a class="el" href="d3/db2/ingame__menu__2_8c.html#a9fda3475329a9317df52cc5ed5420a35">ingame_menu_2.c</a>
+</li>
 <li>apply_drag_to_value()
 : <a class="el" href="db/d81/object__helpers_8c.html#aa9ac27b63b1326b7437e4c7f97292e94">object_helpers.c</a>
 </li>
@@ -2262,8 +2271,8 @@ $(function() {
 : <a class="el" href="d5/d50/mario__actions__moving_8c.html#a2fd5bc426ee33b8ab46ac09b7cd31ebf">mario_actions_moving.c</a>
 </li>
 <li>apply_mario_platform_displacement()
-: <a class="el" href="d9/dfd/platform__displacement_8h.html#a55cc79d607ecb19725783b6364887059">platform_displacement.h</a>
-, <a class="el" href="db/d65/platform__displacement_8c.html#a55cc79d607ecb19725783b6364887059">platform_displacement.c</a>
+: <a class="el" href="db/d65/platform__displacement_8c.html#a55cc79d607ecb19725783b6364887059">platform_displacement.c</a>
+, <a class="el" href="d9/dfd/platform__displacement_8h.html#a55cc79d607ecb19725783b6364887059">platform_displacement.h</a>
 </li>
 <li>apply_obj_draw_fn()
 : <a class="el" href="d5/d70/game__over__2_8h.html#a3ab697bca4af937e62131a65a79ed6e4">game_over_2.h</a>
@@ -2304,19 +2313,19 @@ $(function() {
 , <a class="el" href="d8/d11/math__util_8h.html#ac0b03d7c405065a085bec8f0a4103606">math_util.h</a>
 </li>
 <li>approach_f32_exponential()
-: <a class="el" href="d1/de0/camera_8c.html#a67dace0c9ee716c099756b4a2a206299">camera.c</a>
-, <a class="el" href="d7/df6/camera_8h.html#a456c3815fb2688e6e081d0e5abda34fd">camera.h</a>
+: <a class="el" href="d7/df6/camera_8h.html#a456c3815fb2688e6e081d0e5abda34fd">camera.h</a>
+, <a class="el" href="d1/de0/camera_8c.html#a67dace0c9ee716c099756b4a2a206299">camera.c</a>
 </li>
 <li>approach_f32_exponential_2()
-: <a class="el" href="d1/de0/camera_8c.html#a41044140c6a6ceb3e9f5b7d7c09980c4">camera.c</a>
-, <a class="el" href="d7/df6/camera_8h.html#a86c19615dc49e6ef54c30bf5cada5713">camera.h</a>
+: <a class="el" href="d7/df6/camera_8h.html#a86c19615dc49e6ef54c30bf5cada5713">camera.h</a>
+, <a class="el" href="d1/de0/camera_8c.html#a41044140c6a6ceb3e9f5b7d7c09980c4">camera.c</a>
 </li>
 <li>approach_f32_ptr()
 : <a class="el" href="db/d1a/obj__behaviors__2_8c.html#a1c86a0bfa13c23d3ab8783873805f16d">obj_behaviors_2.c</a>
 </li>
 <li>approach_f32_signed()
-: <a class="el" href="d3/dc7/object__helpers_8h.html#a0006c640256a835365d6e10203d6e9a8">object_helpers.h</a>
-, <a class="el" href="db/d81/object__helpers_8c.html#aa86ec43f790a116ceb8ffcbd03ca9cd8">object_helpers.c</a>
+: <a class="el" href="db/d81/object__helpers_8c.html#aa86ec43f790a116ceb8ffcbd03ca9cd8">object_helpers.c</a>
+, <a class="el" href="d3/dc7/object__helpers_8h.html#a0006c640256a835365d6e10203d6e9a8">object_helpers.h</a>
 </li>
 <li>approach_f32_symmetric()
 : <a class="el" href="d3/dc7/object__helpers_8h.html#aa16bb2111b20c8015062664b587cde6d">object_helpers.h</a>
@@ -2327,31 +2336,31 @@ $(function() {
 , <a class="el" href="d1/de0/camera_8c.html#a4a7f35a42088dc7e81ae117c9852e40d">camera.c</a>
 </li>
 <li>approach_s16_exponential_2()
-: <a class="el" href="d7/df6/camera_8h.html#a77269075c6f7c0d74c33fc3a5ef23df7">camera.h</a>
-, <a class="el" href="d1/de0/camera_8c.html#aa28261749fcc3dcc16a6156aa4528ced">camera.c</a>
+: <a class="el" href="d1/de0/camera_8c.html#aa28261749fcc3dcc16a6156aa4528ced">camera.c</a>
+, <a class="el" href="d7/df6/camera_8h.html#a77269075c6f7c0d74c33fc3a5ef23df7">camera.h</a>
 </li>
 <li>approach_s16_symmetric()
-: <a class="el" href="d3/dc7/object__helpers_8h.html#ac421ef3e9d583af1bcae024c84ccc615">object_helpers.h</a>
-, <a class="el" href="db/d81/object__helpers_8c.html#a9f1e93463822b61a7323ccfa9192e31f">object_helpers.c</a>
+: <a class="el" href="db/d81/object__helpers_8c.html#a9f1e93463822b61a7323ccfa9192e31f">object_helpers.c</a>
+, <a class="el" href="d3/dc7/object__helpers_8h.html#ac421ef3e9d583af1bcae024c84ccc615">object_helpers.h</a>
 </li>
 <li>approach_s32()
-: <a class="el" href="d2/ded/math__util_8c.html#a411edb217bcb774c527b5e84a96bfe58">math_util.c</a>
-, <a class="el" href="d8/d11/math__util_8h.html#a6998a73bc89055f2adb06613cf53beba">math_util.h</a>
+: <a class="el" href="d8/d11/math__util_8h.html#a6998a73bc89055f2adb06613cf53beba">math_util.h</a>
+, <a class="el" href="d2/ded/math__util_8c.html#a411edb217bcb774c527b5e84a96bfe58">math_util.c</a>
 </li>
 <li>approach_vec3f_exponential()
-: <a class="el" href="d1/de0/camera_8c.html#a7a1f7dcf1a9d1d1b097c41466461c95e">camera.c</a>
-, <a class="el" href="d7/df6/camera_8h.html#ad944f9726cab2bc622d1693815b7a735">camera.h</a>
+: <a class="el" href="d7/df6/camera_8h.html#ad944f9726cab2bc622d1693815b7a735">camera.h</a>
+, <a class="el" href="d1/de0/camera_8c.html#a7a1f7dcf1a9d1d1b097c41466461c95e">camera.c</a>
 </li>
 <li>approach_vec3s_exponential()
 : <a class="el" href="d1/de0/camera_8c.html#a306722822c12013f51adbd27bf087eb9">camera.c</a>
 </li>
 <li>are_objects_collided()
-: <a class="el" href="d3/dc7/object__helpers_8h.html#ab6283b4c823f2fc6ef16e0c81af846b8">object_helpers.h</a>
-, <a class="el" href="db/d81/object__helpers_8c.html#a88f91978c40aadff62d9d1865d43616f">object_helpers.c</a>
+: <a class="el" href="db/d81/object__helpers_8c.html#a88f91978c40aadff62d9d1865d43616f">object_helpers.c</a>
+, <a class="el" href="d3/dc7/object__helpers_8h.html#ab6283b4c823f2fc6ef16e0c81af846b8">object_helpers.h</a>
 </li>
 <li>area_get_warp_node()
-: <a class="el" href="d1/d0d/area_8c.html#a83330dc7dc3416184cf158c1d5c4eb03">area.c</a>
-, <a class="el" href="d4/d1c/area_8h.html#a83330dc7dc3416184cf158c1d5c4eb03">area.h</a>
+: <a class="el" href="d4/d1c/area_8h.html#a83330dc7dc3416184cf158c1d5c4eb03">area.h</a>
+, <a class="el" href="d1/d0d/area_8c.html#a83330dc7dc3416184cf158c1d5c4eb03">area.c</a>
 </li>
 <li>area_update_objects()
 : <a class="el" href="d1/d0d/area_8c.html#a192f21fd9ce237f180ba2a982993c3da">area.c</a>
@@ -2361,21 +2370,26 @@ $(function() {
 : <a class="el" href="d0/d75/something_8c.html#ad5188fbb7537fd14ad386e91cb18f3a8">something.c</a>
 </li>
 <li>arg1
-: <a class="el" href="de/d48/dac_8c.html#a95cb436548fcb1bfad6da5930a5961a9">dac.c</a>
-, <a class="el" href="d0/d75/something_8c.html#af64f1943416c0afe07712c44f1eeb064">something.c</a>
-, <a class="el" href="d8/d51/dma_8c.html#ae2b753a7f32039bc81b8705375bf7a83">dma.c</a>
+: <a class="el" href="d0/d75/something_8c.html#af64f1943416c0afe07712c44f1eeb064">something.c</a>
 , <a class="el" href="d1/df5/interface__2_8c.html#a95cb436548fcb1bfad6da5930a5961a9">interface_2.c</a>
+, <a class="el" href="d8/d51/dma_8c.html#ae2b753a7f32039bc81b8705375bf7a83">dma.c</a>
+, <a class="el" href="de/d48/dac_8c.html#a95cb436548fcb1bfad6da5930a5961a9">dac.c</a>
+, <a class="el" href="de/d48/interface__1_8c.html#a93a69ddf1585bb23abcbdaa205d7aae5">interface_1.c</a>
 </li>
 <li>Arg1T
 : <a class="el" href="d1/df5/interface__2_8c.html#a602f97e8ffdbaed4bafcaca92b0bad6b">interface_2.c</a>
 </li>
 <li>arg2
-: <a class="el" href="d0/d75/something_8c.html#a338d53095ee1e3d4a50f34f480eba8fe">something.c</a>
-, <a class="el" href="de/d48/dac_8c.html#ae3f62442b1be26c70327bd64b5debe9f">dac.c</a>
-, <a class="el" href="d1/df5/interface__2_8c.html#a2148e1c0049086fc17b2a76946ee6275">interface_2.c</a>
+: <a class="el" href="d1/df5/interface__2_8c.html#a2148e1c0049086fc17b2a76946ee6275">interface_2.c</a>
+, <a class="el" href="de/d48/interface__1_8c.html#a2bdc2f582f021ce0fbf0d9deec817a74">interface_1.c</a>
+, <a class="el" href="de/d48/dac_8c.html#a2bdc2f582f021ce0fbf0d9deec817a74">dac.c</a>
+, <a class="el" href="d0/d75/something_8c.html#a338d53095ee1e3d4a50f34f480eba8fe">something.c</a>
 </li>
 <li>Arg2T
 : <a class="el" href="d1/df5/interface__2_8c.html#a5aae4edcbff7105ce9a2fec58c8af20d">interface_2.c</a>
+</li>
+<li>arg3
+: <a class="el" href="de/d48/interface__1_8c.html#a6ec5e8658e7ad6b8b58f5b58e2eddf4f">interface_1.c</a>
 </li>
 <li>ARRAY_COUNT
 : <a class="el" href="d3/d76/textconv_8c.html#a4bf0a01781df461ad257e5391ac09ae7">textconv.c</a>

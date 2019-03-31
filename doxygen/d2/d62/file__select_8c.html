@@ -24,7 +24,7 @@
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Super Mario 64 Source
    </div>
-   <div id="projectbrief">It&#39;s a me, the Super Mario 64 Source Code!</div>
+   <div id="projectbrief">A Super Mario 64 decompilation, brought to you by a bunch of clever folks.</div>
   </td>
  </tr>
  </tbody>
@@ -103,7 +103,7 @@ Macros</h2></td></tr>
 <tr class="separator:a30362161c93e3f1a4ee4c673f535b5a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3eebd09a9a94c914de17855816e6ac45"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d62/file__select_8c.html#a3eebd09a9a94c914de17855816e6ac45">PADDING</a>&#160;&#160;&#160;1</td></tr>
 <tr class="separator:a3eebd09a9a94c914de17855816e6ac45"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae40be6674baae396ebe8d22addcb1c22"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d62/file__select_8c.html#ae40be6674baae396ebe8d22addcb1c22">PRINT_COURSE_SCORES</a>(course,  pad)</td></tr>
+<tr class="memitem:ae40be6674baae396ebe8d22addcb1c22"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d62/file__select_8c.html#ae40be6674baae396ebe8d22addcb1c22">PRINT_COURSE_SCORES</a>(course,  <a class="el" href="../../de/d48/interface__1_8c.html#a83da1b692d91ec656061b3673147ce7d">pad</a>)</td></tr>
 <tr class="separator:ae40be6674baae396ebe8d22addcb1c22"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
@@ -375,7 +375,7 @@ Variables</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname">pad&#160;</td>
+          <td class="paramname"><a class="el" href="../../de/d48/interface__1_8c.html#a83da1b692d91ec656061b3673147ce7d">pad</a>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -384,8 +384,9 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"><a class="code" href="../../d0/d84/ingame__menu_8c.html#a06be559d66b010e3be9d7d69051dabc9">PrintRegularText</a>(23 + (pad * 3), 35 + 12 * course, <a class="code" href="../../df/dd5/memory_8c.html#a70f2315005efebc870a2d1423f49c346">segmented_to_virtual</a>(levelNameTable[course])); \</div><div class="line">    score_file_print_course_star_score(fileNum, course, 171, 35 + 12 * course); \</div><div class="line">    score_file_print_course_coin_score(fileNum, course, 213, 35 + 12 * course);</div><div class="ttc" id="ingame__menu_8c_html_a06be559d66b010e3be9d7d69051dabc9"><div class="ttname"><a href="../../d0/d84/ingame__menu_8c.html#a06be559d66b010e3be9d7d69051dabc9">PrintRegularText</a></div><div class="ttdeci">void PrintRegularText(s16 x, s16 y, const u8 *str)</div><div class="ttdef"><b>Definition:</b> ingame_menu.c:428</div></div>
+<b>Value:</b><div class="fragment"><div class="line"><a class="code" href="../../d0/d84/ingame__menu_8c.html#a06be559d66b010e3be9d7d69051dabc9">PrintRegularText</a>(23 + (<a class="code" href="../../de/d48/interface__1_8c.html#a83da1b692d91ec656061b3673147ce7d">pad</a> * 3), 35 + 12 * course, <a class="code" href="../../df/dd5/memory_8c.html#a70f2315005efebc870a2d1423f49c346">segmented_to_virtual</a>(levelNameTable[course])); \</div><div class="line">    score_file_print_course_star_score(fileNum, course, 171, 35 + 12 * course); \</div><div class="line">    score_file_print_course_coin_score(fileNum, course, 213, 35 + 12 * course);</div><div class="ttc" id="ingame__menu_8c_html_a06be559d66b010e3be9d7d69051dabc9"><div class="ttname"><a href="../../d0/d84/ingame__menu_8c.html#a06be559d66b010e3be9d7d69051dabc9">PrintRegularText</a></div><div class="ttdeci">void PrintRegularText(s16 x, s16 y, const u8 *str)</div><div class="ttdef"><b>Definition:</b> ingame_menu.c:428</div></div>
 <div class="ttc" id="memory_8c_html_a70f2315005efebc870a2d1423f49c346"><div class="ttname"><a href="../../df/dd5/memory_8c.html#a70f2315005efebc870a2d1423f49c346">segmented_to_virtual</a></div><div class="ttdeci">void * segmented_to_virtual(void *addr)</div><div class="ttdef"><b>Definition:</b> memory.c:77</div></div>
+<div class="ttc" id="interface__1_8c_html_a83da1b692d91ec656061b3673147ce7d"><div class="ttname"><a href="../../de/d48/interface__1_8c.html#a83da1b692d91ec656061b3673147ce7d">pad</a></div><div class="ttdeci">UNUSED u32 pad</div><div class="ttdef"><b>Definition:</b> interface_1.c:2386</div></div>
 </div><!-- fragment -->
 </div>
 </div>

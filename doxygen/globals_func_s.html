@@ -24,7 +24,7 @@
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Super Mario 64 Source
    </div>
-   <div id="projectbrief">It&#39;s a me, the Super Mario 64 Source Code!</div>
+   <div id="projectbrief">A Super Mario 64 decompilation, brought to you by a bunch of clever folks.</div>
   </td>
  </tr>
  </tbody>
@@ -220,12 +220,12 @@ $(function() {
 <li>send()
 : <a class="el" href="d1/d87/kdebugserver_8c.html#ac979d0ad18d9a1c94a2960fdf55606d9">kdebugserver.c</a>
 </li>
+<li>send_display_list()
+: <a class="el" href="d0/d29/main_8c.html#a29dbdab0ed03f43af61cd14b25ec8a24">main.c</a>
+, <a class="el" href="d4/dbf/main_8h.html#a74bb61937317264b615952c1f5ca211b">main.h</a>
+</li>
 <li>send_packet()
 : <a class="el" href="d1/d87/kdebugserver_8c.html#a34293c398a3f9ea072fa15d2912afd76">kdebugserver.c</a>
-</li>
-<li>SendDisplayList()
-: <a class="el" href="d0/d29/main_8c.html#ad945ffd7f7c0e57254fd249f6a9bfadb">main.c</a>
-, <a class="el" href="d4/dbf/main_8h.html#ac5d6eabe37e2097ee2d78fd6dc1b5b73">main.h</a>
 </li>
 <li>SendMessage()
 : <a class="el" href="d0/d29/main_8c.html#aa77111a5f8c458d63f654dfbee73e747">main.c</a>
@@ -376,6 +376,9 @@ $(function() {
 <li>set_warp_transition_rgb()
 : <a class="el" href="d1/d0d/area_8c.html#a6032181f0ec7458962cb60a34c2f6468">area.c</a>
 </li>
+<li>SetInstrument()
+: <a class="el" href="de/d48/interface__1_8c.html#a6035584136f5a1b7eefb32f59b45bcd1">interface_1.c</a>
+</li>
 <li>SetMusic()
 : <a class="el" href="d1/df5/interface__2_8c.html#afc9391e67fad17946df2b1270dd6b09d">interface_2.c</a>
 </li>
@@ -460,8 +463,8 @@ $(function() {
 : <a class="el" href="df/db1/math_8h.html#ad910bc71940a50c2a35d308c236013b6">math.h</a>
 </li>
 <li>sinf()
-: <a class="el" href="df/db1/math_8h.html#a312367f3e117fc37059783c301766042">math.h</a>
-, <a class="el" href="d0/d03/sinf_8c.html#a8a7dc2a88e109f4e15b661247665709a">sinf.c</a>
+: <a class="el" href="d0/d03/sinf_8c.html#a8a7dc2a88e109f4e15b661247665709a">sinf.c</a>
+, <a class="el" href="df/db1/math_8h.html#a312367f3e117fc37059783c301766042">math.h</a>
 </li>
 <li>skip_whitespace()
 : <a class="el" href="d3/d76/textconv_8c.html#ab576f52f3621316bc3daf4d02a9dc571">textconv.c</a>
@@ -483,16 +486,16 @@ $(function() {
 , <a class="el" href="d9/da8/libsm64_8h.html#a12a5e85364a7a1f339a03ef5ffc6f3cb">libsm64.h</a>
 </li>
 <li>sm64_rom_type()
-: <a class="el" href="d9/da8/libsm64_8h.html#a5231da6e754b58c3d00bbb6f986f2641">libsm64.h</a>
-, <a class="el" href="df/dee/libsm64_8c.html#a5231da6e754b58c3d00bbb6f986f2641">libsm64.c</a>
+: <a class="el" href="df/dee/libsm64_8c.html#a5231da6e754b58c3d00bbb6f986f2641">libsm64.c</a>
+, <a class="el" href="d9/da8/libsm64_8h.html#a5231da6e754b58c3d00bbb6f986f2641">libsm64.h</a>
 </li>
 <li>sm64_rom_version()
 : <a class="el" href="df/dee/libsm64_8c.html#a76d9d87446390f08b5d75d29ca4bcb72">libsm64.c</a>
 , <a class="el" href="d9/da8/libsm64_8h.html#a76d9d87446390f08b5d75d29ca4bcb72">libsm64.h</a>
 </li>
 <li>sm64_update_checksums()
-: <a class="el" href="d9/da8/libsm64_8h.html#af7c075f1b9517a93a107c6d6a3499c07">libsm64.h</a>
-, <a class="el" href="df/dee/libsm64_8c.html#af7c075f1b9517a93a107c6d6a3499c07">libsm64.c</a>
+: <a class="el" href="df/dee/libsm64_8c.html#af7c075f1b9517a93a107c6d6a3499c07">libsm64.c</a>
+, <a class="el" href="d9/da8/libsm64_8h.html#af7c075f1b9517a93a107c6d6a3499c07">libsm64.h</a>
 </li>
 <li>sound_mode_menu_check_clicked_buttons()
 : <a class="el" href="d2/d62/file__select_8c.html#a8f786f76b93f0f8e953ecba6362fba97">file_select.c</a>
@@ -516,8 +519,8 @@ $(function() {
 , <a class="el" href="d4/d55/macro__special__objects_8h.html#adc5ec9f87c184bde58f6e88e5648e34c">macro_special_objects.h</a>
 </li>
 <li>spawn_macro_objects()
-: <a class="el" href="da/dbe/macro__special__objects_8c.html#a4169eb918eed5b0cecc059363d1cd46d">macro_special_objects.c</a>
-, <a class="el" href="d4/d55/macro__special__objects_8h.html#a4169eb918eed5b0cecc059363d1cd46d">macro_special_objects.h</a>
+: <a class="el" href="d4/d55/macro__special__objects_8h.html#a4169eb918eed5b0cecc059363d1cd46d">macro_special_objects.h</a>
+, <a class="el" href="da/dbe/macro__special__objects_8c.html#a4169eb918eed5b0cecc059363d1cd46d">macro_special_objects.c</a>
 </li>
 <li>spawn_macro_objects_hardcoded()
 : <a class="el" href="da/dbe/macro__special__objects_8c.html#a160a8212294380755c490aa87de7b309">macro_special_objects.c</a>
@@ -527,16 +530,16 @@ $(function() {
 : <a class="el" href="dd/dc2/mario__actions__cutscene_8c.html#ae6d4e0d288981bdbe794c8f810102eeb">mario_actions_cutscene.c</a>
 </li>
 <li>spawn_object()
-: <a class="el" href="d3/dc7/object__helpers_8h.html#a46e58d11226113b0017639cb4c237334">object_helpers.h</a>
-, <a class="el" href="db/d81/object__helpers_8c.html#a49c67a03b68cf45f5f22293fa8f58a91">object_helpers.c</a>
+: <a class="el" href="db/d81/object__helpers_8c.html#a49c67a03b68cf45f5f22293fa8f58a91">object_helpers.c</a>
+, <a class="el" href="d3/dc7/object__helpers_8h.html#a46e58d11226113b0017639cb4c237334">object_helpers.h</a>
 </li>
 <li>spawn_object_abs_with_rot()
 : <a class="el" href="db/d81/object__helpers_8c.html#a68de21b62e770cdd92ba120d35b06619">object_helpers.c</a>
 , <a class="el" href="d3/dc7/object__helpers_8h.html#ac03679fbd55d96ba7d00a121a180473f">object_helpers.h</a>
 </li>
 <li>spawn_object_at_origin()
-: <a class="el" href="d3/dc7/object__helpers_8h.html#adac966cbf35157f4e6ac86a7d507a08b">object_helpers.h</a>
-, <a class="el" href="db/d81/object__helpers_8c.html#abb2cc82db06f7afc19c6625a94cf2a18">object_helpers.c</a>
+: <a class="el" href="db/d81/object__helpers_8c.html#abb2cc82db06f7afc19c6625a94cf2a18">object_helpers.c</a>
+, <a class="el" href="d3/dc7/object__helpers_8h.html#adac966cbf35157f4e6ac86a7d507a08b">object_helpers.h</a>
 </li>
 <li>spawn_object_loot_blue_coins()
 : <a class="el" href="db/d81/object__helpers_8c.html#a30bc016dc7fff023cbd2563bbac73e5c">object_helpers.c</a>
@@ -561,8 +564,8 @@ $(function() {
 , <a class="el" href="d3/dc7/object__helpers_8h.html#ac15c68753120c142e694d87b34b9476f">object_helpers.h</a>
 </li>
 <li>spawn_object_with_scale()
-: <a class="el" href="db/d81/object__helpers_8c.html#a651277b0463eac5b4e3ae55129930ef7">object_helpers.c</a>
-, <a class="el" href="d3/dc7/object__helpers_8h.html#a970d2b7a66136551886896aebdf0e0ac">object_helpers.h</a>
+: <a class="el" href="d3/dc7/object__helpers_8h.html#a970d2b7a66136551886896aebdf0e0ac">object_helpers.h</a>
+, <a class="el" href="db/d81/object__helpers_8c.html#a651277b0463eac5b4e3ae55129930ef7">object_helpers.c</a>
 </li>
 <li>spawn_objects_from_info()
 : <a class="el" href="da/d02/object__list__processor_8c.html#a5fedb7b0b92a223a8ad7eb5b57f49741">object_list_processor.c</a>
@@ -572,23 +575,23 @@ $(function() {
 : <a class="el" href="da/d02/object__list__processor_8c.html#a4ad3e64d082f5a323a08218e5a216397">object_list_processor.c</a>
 </li>
 <li>spawn_special_objects()
-: <a class="el" href="d4/d55/macro__special__objects_8h.html#a004b204ac1d2d3184bad1a13a3c91066">macro_special_objects.h</a>
-, <a class="el" href="da/dbe/macro__special__objects_8c.html#a004b204ac1d2d3184bad1a13a3c91066">macro_special_objects.c</a>
+: <a class="el" href="da/dbe/macro__special__objects_8c.html#a004b204ac1d2d3184bad1a13a3c91066">macro_special_objects.c</a>
+, <a class="el" href="d4/d55/macro__special__objects_8h.html#a004b204ac1d2d3184bad1a13a3c91066">macro_special_objects.h</a>
 </li>
 <li>spawn_water_splash()
 : <a class="el" href="db/d81/object__helpers_8c.html#a49516a66c56af8afc0aaa991ccfba37b">object_helpers.c</a>
 , <a class="el" href="d3/dc7/object__helpers_8h.html#a8155ea0f173c08042a57f8dddf841450">object_helpers.h</a>
 </li>
 <li>SpawnOrangeNumber()
-: <a class="el" href="d8/da0/obj__behaviors_8h.html#a1781293345230a2c0bf3398fd7dce28d">obj_behaviors.h</a>
-, <a class="el" href="d2/d1c/obj__behaviors_8c.html#a1781293345230a2c0bf3398fd7dce28d">obj_behaviors.c</a>
+: <a class="el" href="d2/d1c/obj__behaviors_8c.html#a1781293345230a2c0bf3398fd7dce28d">obj_behaviors.c</a>
+, <a class="el" href="d8/da0/obj__behaviors_8h.html#a1781293345230a2c0bf3398fd7dce28d">obj_behaviors.h</a>
 </li>
 <li>split_all_timers()
 : <a class="el" href="da/d95/profiler__utils_8c.html#a719a7361c32061483f23585b4f895310">profiler_utils.c</a>
 </li>
 <li>split_timer()
-: <a class="el" href="d9/d86/profiler__utils_8h.html#af56dcef393d56ec32781233d94941404">profiler_utils.h</a>
-, <a class="el" href="da/d95/profiler__utils_8c.html#aa58f1f880592367ecd564f93051badf9">profiler_utils.c</a>
+: <a class="el" href="da/d95/profiler__utils_8c.html#aa58f1f880592367ecd564f93051badf9">profiler_utils.c</a>
+, <a class="el" href="d9/d86/profiler__utils_8h.html#af56dcef393d56ec32781233d94941404">profiler_utils.h</a>
 </li>
 <li>split_timer_ptr()
 : <a class="el" href="da/d95/profiler__utils_8c.html#a12026b1c94f3117e7242e97e987f39e3">profiler_utils.c</a>
@@ -628,16 +631,16 @@ $(function() {
 : <a class="el" href="d0/d29/main_8c.html#aeeeedba1179a458d66b6069ee5ba9ff4">main.c</a>
 </li>
 <li>start_timer()
-: <a class="el" href="da/d95/profiler__utils_8c.html#a409f520514faa2bccb01bf41f7581e33">profiler_utils.c</a>
-, <a class="el" href="d9/d86/profiler__utils_8h.html#ad0797e69c381aaa92f0309dd9f256158">profiler_utils.h</a>
+: <a class="el" href="d9/d86/profiler__utils_8h.html#ad0797e69c381aaa92f0309dd9f256158">profiler_utils.h</a>
+, <a class="el" href="da/d95/profiler__utils_8c.html#a409f520514faa2bccb01bf41f7581e33">profiler_utils.c</a>
 </li>
 <li>stash_current_gddl()
-: <a class="el" href="df/d64/mario__head__6_8c.html#af5f2f38753f94b0ace5e2b730bdaa7ce">mario_head_6.c</a>
-, <a class="el" href="d2/ddc/mario__head__6_8h.html#af5f2f38753f94b0ace5e2b730bdaa7ce">mario_head_6.h</a>
+: <a class="el" href="d2/ddc/mario__head__6_8h.html#af5f2f38753f94b0ace5e2b730bdaa7ce">mario_head_6.h</a>
+, <a class="el" href="df/d64/mario__head__6_8c.html#af5f2f38753f94b0ace5e2b730bdaa7ce">mario_head_6.c</a>
 </li>
 <li>stationary_ground_step()
-: <a class="el" href="df/d90/mario__step_8c.html#a784a2c10fe5ee5f5b09376fb52a50d4c">mario_step.c</a>
-, <a class="el" href="d6/d2b/mario__step_8h.html#a3b0a4a65b4cd092e617c099dc275314a">mario_step.h</a>
+: <a class="el" href="d6/d2b/mario__step_8h.html#a3b0a4a65b4cd092e617c099dc275314a">mario_step.h</a>
+, <a class="el" href="df/d90/mario__step_8c.html#a784a2c10fe5ee5f5b09376fb52a50d4c">mario_step.c</a>
 </li>
 <li>stationary_slow_down()
 : <a class="el" href="d7/def/mario__actions__submerged_8c.html#aa5b847b733f4d3a30405ab6af16d8549">mario_actions_submerged.c</a>
@@ -802,16 +805,16 @@ $(function() {
 : <a class="el" href="d5/d50/mario__actions__moving_8c.html#a5d0b2b554c763e9687ef38bde55f5017">mario_actions_moving.c</a>
 </li>
 <li>stop_and_set_height_to_floor()
-: <a class="el" href="d6/d2b/mario__step_8h.html#acfe4dcc9ef2b5ad5566cc98f99fbd1c7">mario_step.h</a>
-, <a class="el" href="df/d90/mario__step_8c.html#a56a645eb3eadf8a0d6807609669487a3">mario_step.c</a>
+: <a class="el" href="df/d90/mario__step_8c.html#a56a645eb3eadf8a0d6807609669487a3">mario_step.c</a>
+, <a class="el" href="d6/d2b/mario__step_8h.html#acfe4dcc9ef2b5ad5566cc98f99fbd1c7">mario_step.h</a>
 </li>
 <li>stop_memtracker()
 : <a class="el" href="da/d95/profiler__utils_8c.html#a2571a86c4d6f6820265c9c957cc8e294">profiler_utils.c</a>
 , <a class="el" href="d9/d86/profiler__utils_8h.html#a9a8d2ac0e5baa46ebca002146b8dbaf0">profiler_utils.h</a>
 </li>
 <li>stop_timer()
-: <a class="el" href="da/d95/profiler__utils_8c.html#a63b83746c5052ba98918e3aa36b04d32">profiler_utils.c</a>
-, <a class="el" href="d9/d86/profiler__utils_8h.html#a221f5d99dca83ea2e23cfdb2995a950c">profiler_utils.h</a>
+: <a class="el" href="d9/d86/profiler__utils_8h.html#a221f5d99dca83ea2e23cfdb2995a950c">profiler_utils.h</a>
+, <a class="el" href="da/d95/profiler__utils_8c.html#a63b83746c5052ba98918e3aa36b04d32">profiler_utils.c</a>
 </li>
 <li>StopMario()
 : <a class="el" href="d1/de0/camera_8c.html#a7d70e6578fee6ab7479b9321b42fdc8f">camera.c</a>
@@ -863,8 +866,8 @@ $(function() {
 : <a class="el" href="df/d64/mario__head__6_8c.html#a6c71c16d371ebe4fb15bf25343255ef5">mario_head_6.c</a>
 </li>
 <li>stub_802CA5D0()
-: <a class="el" href="d1/d72/debug_8c.html#a2e0c0496c0eb927737e9cfd805cb87c7">debug.c</a>
-, <a class="el" href="db/d16/debug_8h.html#a2e0c0496c0eb927737e9cfd805cb87c7">debug.h</a>
+: <a class="el" href="db/d16/debug_8h.html#a2e0c0496c0eb927737e9cfd805cb87c7">debug.h</a>
+, <a class="el" href="d1/d72/debug_8c.html#a2e0c0496c0eb927737e9cfd805cb87c7">debug.c</a>
 </li>
 <li>stuck_in_ground_handler()
 : <a class="el" href="dd/dc2/mario__actions__cutscene_8c.html#a28627b0babe8ab91230f6335674f35e2">mario_actions_cutscene.c</a>

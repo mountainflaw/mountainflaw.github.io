@@ -1,7 +1,7 @@
 var searchData=
 [
   ['if_5fus',['IF_US',['../d1/df5/interface__2_8c.html#ade2d2ab22d1f94232f2a375925b84a27',1,'interface_2.c']]],
-  ['im_5frd',['IM_RD',['../d3/daf/gbi_8h.html#a9219db357071764d5a3a2e8fa2026de0',1,'gbi.h']]],
+  ['im_5frd',['IM_RD',['../d3/daf/gbi_8h.html#a9219db357071764d5a3a2e8fa2026de0',1,'IM_RD():&#160;gbi.h'],['../d5/dff/gbi__old_8h.html#a9219db357071764d5a3a2e8fa2026de0',1,'IM_RD():&#160;gbi_old.h']]],
   ['in_5fstart_5faddr',['IN_START_ADDR',['../df/dee/libsm64_8c.html#a65f3f75df2efb44f0bb78aad4367482e',1,'libsm64.c']]],
   ['included_5ffrom_5fcamera_5fc',['INCLUDED_FROM_CAMERA_C',['../d1/de0/camera_8c.html#a5d96aa3741722d7fb5f0be42b7ffdfd1',1,'camera.c']]],
   ['included_5ffrom_5fmemory_5fc',['INCLUDED_FROM_MEMORY_C',['../df/dd5/memory_8c.html#aa59ce7e63ee32491c016b2500a04a7da',1,'memory.c']]],
@@ -25,6 +25,7 @@ var searchData=
   ['input_5funknown_5fa41f',['INPUT_UNKNOWN_A41F',['../df/da3/mario__actions__stationary_8h.html#ae9cf3e0a5befb67972df8bd8f9d7be88',1,'mario_actions_stationary.h']]],
   ['input_5fz_5fdown',['INPUT_Z_DOWN',['../d5/dd8/sm64_8h.html#adb69e81c0868e2a7292e2701340eb40c',1,'sm64.h']]],
   ['input_5fz_5fpressed',['INPUT_Z_PRESSED',['../d5/dd8/sm64_8h.html#a6ecdf3cf81289cc1f659cf42edfc6e15',1,'sm64.h']]],
+  ['instrument_5fsentinel',['INSTRUMENT_SENTINEL',['../d4/d39/playback_8h.html#a72251e0870849ffd7460974e4362f47b',1,'playback.h']]],
   ['int_5fany_5fattack',['INT_ANY_ATTACK',['../d1/d79/interaction_8c.html#a067915d459f87c80f1bdedcb98ffc211',1,'interaction.c']]],
   ['int_5fattack_5fmask_5funknown_5f8f',['INT_ATTACK_MASK_UNKNOWN_8F',['../d1/d79/interaction_8c.html#a2976aaba37279d83c6d202cb2ad3b9e1',1,'interaction.c']]],
   ['int_5fattack_5fnot_5ffrom_5fbelow',['INT_ATTACK_NOT_FROM_BELOW',['../d1/d79/interaction_8c.html#a5d0f8db40c1c4c76cc572ea4ace56a94',1,'interaction.c']]],
@@ -99,5 +100,6 @@ var searchData=
   ['ipl3_5ffont_5fchar_5fnpixels',['IPL3_FONT_CHAR_NPIXELS',['../d3/dfe/iplfontutil_8c.html#ad313a6f769a011410e687b9f9c4477e3',1,'iplfontutil.c']]],
   ['ipl3_5ffont_5fchar_5fw',['IPL3_FONT_CHAR_W',['../d3/dfe/iplfontutil_8c.html#aeec7bd6f2aca915088753104dd3dcddd',1,'iplfontutil.c']]],
   ['ipl3_5ffont_5ffile_5fsize',['IPL3_FONT_FILE_SIZE',['../d3/dfe/iplfontutil_8c.html#abc1707fc1f97a1942a84e7ba51edc916',1,'iplfontutil.c']]],
-  ['ipl3_5ffont_5fnchars',['IPL3_FONT_NCHARS',['../d3/dfe/iplfontutil_8c.html#a17457e7a07e8546ace556e5ec26d64f0',1,'iplfontutil.c']]]
+  ['ipl3_5ffont_5fnchars',['IPL3_FONT_NCHARS',['../d3/dfe/iplfontutil_8c.html#a17457e7a07e8546ace556e5ec26d64f0',1,'iplfontutil.c']]],
+  ['is_5fspecial',['IS_SPECIAL',['../de/d48/interface__1_8c.html#a77beb64cf8f1b2546e903c3238e9621a',1,'interface_1.c']]]
 ];

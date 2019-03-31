@@ -1,7 +1,6 @@
 var searchData=
 [
   ['u32pair',['U32Pair',['../da/dd9/structU32Pair.html',1,'']]],
-  ['unk50',['Unk50',['../d6/d1a/structUnk50.html',1,'']]],
   ['unk8017f3cc',['Unk8017F3CC',['../d2/dff/structUnk8017F3CC.html',1,'']]],
   ['unk801b9e68',['Unk801B9E68',['../d7/d71/structUnk801B9E68.html',1,'']]],
   ['unk801bb1b8',['Unk801BB1B8',['../dd/d62/structUnk801BB1B8.html',1,'']]],
