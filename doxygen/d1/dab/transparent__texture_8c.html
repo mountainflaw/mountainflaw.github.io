@@ -74,59 +74,59 @@ $(function() {
 <div class="title">transparent_texture.c File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;ultra64.h&gt;</code><br />
-<code>#include &quot;sm64.h&quot;</code><br />
-<code>#include &quot;level_update.h&quot;</code><br />
-<code>#include &quot;engine/math_util.h&quot;</code><br />
-<code>#include &quot;memory.h&quot;</code><br />
-<code>#include &quot;segment2.h&quot;</code><br />
-<code>#include &quot;save_file.h&quot;</code><br />
-<code>#include &quot;mario.h&quot;</code><br />
-<code>#include &quot;mario_actions_cutscene.h&quot;</code><br />
-<code>#include &quot;area.h&quot;</code><br />
-<code>#include &quot;transparent_texture.h&quot;</code><br />
-<code>#include &quot;rendering_graph_node.h&quot;</code><br />
+<div class="textblock"><code>#include &lt;<a class="el" href="../../dd/d2f/ultra64_8h_source.html">ultra64.h</a>&gt;</code><br />
+<code>#include &quot;<a class="el" href="../../d5/dd8/sm64_8h_source.html">sm64.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d7/d0a/level__update_8h_source.html">level_update.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d8/d11/math__util_8h_source.html">engine/math_util.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../dc/d18/memory_8h_source.html">memory.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d5/d31/segment2_8h_source.html">segment2.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d4/dad/save__file_8h_source.html">save_file.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d9/db9/mario_8h_source.html">mario.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d8/df7/mario__actions__cutscene_8h_source.html">mario_actions_cutscene.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d4/d1c/area_8h_source.html">area.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d7/d1e/transparent__texture_8h_source.html">transparent_texture.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../dd/d5f/rendering__graph__node_8h_source.html">rendering_graph_node.h</a>&quot;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:aa81db8c4a5178b852355665ecbfbe33d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dab/transparent__texture_8c.html#aa81db8c4a5178b852355665ecbfbe33d">make_vertex</a> (Vtx *vtx, s32 n, s16 x, s16 y, s16 z, s16 tx, s16 ty, u8 r, u8 g, u8 b, u8 a)</td></tr>
+<tr class="memitem:aa81db8c4a5178b852355665ecbfbe33d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dab/transparent__texture_8c.html#aa81db8c4a5178b852355665ecbfbe33d">make_vertex</a> (<a class="el" href="../../d9/d31/unionVtx.html">Vtx</a> *vtx, <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> n, <a class="el" href="../../dd/da7/ultratypes_8h.html#a4cb19f4a3324cfe0938ddfbfabaa825b">s16</a> x, <a class="el" href="../../dd/da7/ultratypes_8h.html#a4cb19f4a3324cfe0938ddfbfabaa825b">s16</a> y, <a class="el" href="../../dd/da7/ultratypes_8h.html#a4cb19f4a3324cfe0938ddfbfabaa825b">s16</a> z, <a class="el" href="../../dd/da7/ultratypes_8h.html#a4cb19f4a3324cfe0938ddfbfabaa825b">s16</a> tx, <a class="el" href="../../dd/da7/ultratypes_8h.html#a4cb19f4a3324cfe0938ddfbfabaa825b">s16</a> ty, <a class="el" href="../../dd/da7/ultratypes_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> r, <a class="el" href="../../dd/da7/ultratypes_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> g, <a class="el" href="../../dd/da7/ultratypes_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> b, <a class="el" href="../../dd/da7/ultratypes_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> <a class="el" href="../../d9/d0b/err_8english_8cc.html#a812e69332e4b56fafe227a3a1b78cf18">a</a>)</td></tr>
 <tr class="separator:aa81db8c4a5178b852355665ecbfbe33d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8380bdf6c5c399acd2a2d3ad5e3a8caf"><td class="memItemLeft" align="right" valign="top">s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dab/transparent__texture_8c.html#a8380bdf6c5c399acd2a2d3ad5e3a8caf">round_float</a> (float f12)</td></tr>
+<tr class="memitem:a8380bdf6c5c399acd2a2d3ad5e3a8caf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dab/transparent__texture_8c.html#a8380bdf6c5c399acd2a2d3ad5e3a8caf">round_float</a> (float f12)</td></tr>
 <tr class="separator:a8380bdf6c5c399acd2a2d3ad5e3a8caf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa80e89002e5c9d5424c1453be8f80491"><td class="memItemLeft" align="right" valign="top">struct StructGeo802D2360 *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dab/transparent__texture_8c.html#aa80e89002e5c9d5424c1453be8f80491">Geo18_802D2360</a> (s32 sp30, short *sp34, UNUSED s32 sp38)</td></tr>
+<tr class="memitem:aa80e89002e5c9d5424c1453be8f80491"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d3/d68/structStructGeo802D2360.html">StructGeo802D2360</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dab/transparent__texture_8c.html#aa80e89002e5c9d5424c1453be8f80491">Geo18_802D2360</a> (<a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> sp30, short *sp34, <a class="el" href="../../d8/d4b/unused_8h.html#addf5ec070e9499d36b7f2009ce736076">UNUSED</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> sp38)</td></tr>
 <tr class="separator:aa80e89002e5c9d5424c1453be8f80491"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afd9de79408196d89e2c8617fd679c2f2"><td class="memItemLeft" align="right" valign="top">struct StructGeo802D2360 *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dab/transparent__texture_8c.html#afd9de79408196d89e2c8617fd679c2f2">Geo18_802D2470</a> (s32 a0, UNUSED void *sp4, UNUSED s32 sp8)</td></tr>
+<tr class="memitem:afd9de79408196d89e2c8617fd679c2f2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d3/d68/structStructGeo802D2360.html">StructGeo802D2360</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dab/transparent__texture_8c.html#afd9de79408196d89e2c8617fd679c2f2">Geo18_802D2470</a> (<a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> a0, <a class="el" href="../../d8/d4b/unused_8h.html#addf5ec070e9499d36b7f2009ce736076">UNUSED</a> <a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a> *sp4, <a class="el" href="../../d8/d4b/unused_8h.html#addf5ec070e9499d36b7f2009ce736076">UNUSED</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> sp8)</td></tr>
 <tr class="separator:afd9de79408196d89e2c8617fd679c2f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8e587dbfadac8e864ad46a0fd23ca5e7"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dab/transparent__texture_8c.html#a8e587dbfadac8e864ad46a0fd23ca5e7">Geo18_802D2520</a> (s32 sp80, short *sp84, UNUSED s32 sp88)</td></tr>
+<tr class="memitem:a8e587dbfadac8e864ad46a0fd23ca5e7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dab/transparent__texture_8c.html#a8e587dbfadac8e864ad46a0fd23ca5e7">Geo18_802D2520</a> (<a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> sp80, short *sp84, <a class="el" href="../../d8/d4b/unused_8h.html#addf5ec070e9499d36b7f2009ce736076">UNUSED</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> sp88)</td></tr>
 <tr class="separator:a8e587dbfadac8e864ad46a0fd23ca5e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7ad9c58716796c03a940a9fa3244967c"><td class="memItemLeft" align="right" valign="top">Gfx *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dab/transparent__texture_8c.html#a7ad9c58716796c03a940a9fa3244967c">Geo18_802D28CC</a> (s32 sp30, short *sp34, UNUSED s32 sp38)</td></tr>
+<tr class="memitem:a7ad9c58716796c03a940a9fa3244967c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/unionGfx.html">Gfx</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dab/transparent__texture_8c.html#a7ad9c58716796c03a940a9fa3244967c">Geo18_802D28CC</a> (<a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> sp30, short *sp34, <a class="el" href="../../d8/d4b/unused_8h.html#addf5ec070e9499d36b7f2009ce736076">UNUSED</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> sp38)</td></tr>
 <tr class="separator:a7ad9c58716796c03a940a9fa3244967c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:ae0961442dc266cd442a1033bd14c4fa8"><td class="memItemLeft" align="right" valign="top">Gfx&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dab/transparent__texture_8c.html#ae0961442dc266cd442a1033bd14c4fa8">inside_castle_seg7_dl_0702A880</a> []</td></tr>
+<tr class="memitem:ae0961442dc266cd442a1033bd14c4fa8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/unionGfx.html">Gfx</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dab/transparent__texture_8c.html#ae0961442dc266cd442a1033bd14c4fa8">inside_castle_seg7_dl_0702A880</a> []</td></tr>
 <tr class="separator:ae0961442dc266cd442a1033bd14c4fa8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2a2f10d9bba3c87e85aa095eeb8f0424"><td class="memItemLeft" align="right" valign="top">s16&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dab/transparent__texture_8c.html#a2a2f10d9bba3c87e85aa095eeb8f0424">rr_seg7_transparent_texture_data_07019248</a> []</td></tr>
+<tr class="memitem:a2a2f10d9bba3c87e85aa095eeb8f0424"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/da7/ultratypes_8h.html#a4cb19f4a3324cfe0938ddfbfabaa825b">s16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dab/transparent__texture_8c.html#a2a2f10d9bba3c87e85aa095eeb8f0424">rr_seg7_transparent_texture_data_07019248</a> []</td></tr>
 <tr class="separator:a2a2f10d9bba3c87e85aa095eeb8f0424"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af099a955910320a06effc8891c83f2f7"><td class="memItemLeft" align="right" valign="top">Gfx&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dab/transparent__texture_8c.html#af099a955910320a06effc8891c83f2f7">rr_seg7_dl_070192F0</a> []</td></tr>
+<tr class="memitem:af099a955910320a06effc8891c83f2f7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/unionGfx.html">Gfx</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dab/transparent__texture_8c.html#af099a955910320a06effc8891c83f2f7">rr_seg7_dl_070192F0</a> []</td></tr>
 <tr class="separator:af099a955910320a06effc8891c83f2f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af1c128095f22e5416177912e39e7ac3c"><td class="memItemLeft" align="right" valign="top">Gfx&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dab/transparent__texture_8c.html#af1c128095f22e5416177912e39e7ac3c">rr_seg7_dl_07019360</a> []</td></tr>
+<tr class="memitem:af1c128095f22e5416177912e39e7ac3c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/unionGfx.html">Gfx</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dab/transparent__texture_8c.html#af1c128095f22e5416177912e39e7ac3c">rr_seg7_dl_07019360</a> []</td></tr>
 <tr class="separator:af1c128095f22e5416177912e39e7ac3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a80109e05eaf0bf58dd89ef65e209340f"><td class="memItemLeft" align="right" valign="top">Gfx&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dab/transparent__texture_8c.html#a80109e05eaf0bf58dd89ef65e209340f">rr_seg7_dl_070193C8</a> []</td></tr>
+<tr class="memitem:a80109e05eaf0bf58dd89ef65e209340f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/unionGfx.html">Gfx</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dab/transparent__texture_8c.html#a80109e05eaf0bf58dd89ef65e209340f">rr_seg7_dl_070193C8</a> []</td></tr>
 <tr class="separator:a80109e05eaf0bf58dd89ef65e209340f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a86c1675896b13f028582dc4484dea7ae"><td class="memItemLeft" align="right" valign="top">Gfx&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dab/transparent__texture_8c.html#a86c1675896b13f028582dc4484dea7ae">cake_end_dl_07026400</a> []</td></tr>
+<tr class="memitem:a86c1675896b13f028582dc4484dea7ae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/unionGfx.html">Gfx</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dab/transparent__texture_8c.html#a86c1675896b13f028582dc4484dea7ae">cake_end_dl_07026400</a> []</td></tr>
 <tr class="separator:a86c1675896b13f028582dc4484dea7ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0ef9e06c831b51302d4b6f387db5764b"><td class="memItemLeft" align="right" valign="top">s16&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dab/transparent__texture_8c.html#a0ef9e06c831b51302d4b6f387db5764b">D_80330390</a> = 0x01</td></tr>
+<tr class="memitem:a0ef9e06c831b51302d4b6f387db5764b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/da7/ultratypes_8h.html#a4cb19f4a3324cfe0938ddfbfabaa825b">s16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dab/transparent__texture_8c.html#a0ef9e06c831b51302d4b6f387db5764b">D_80330390</a> = 0x01</td></tr>
 <tr class="separator:a0ef9e06c831b51302d4b6f387db5764b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5c6a77a52db613bb7d09cf8bbf810af9"><td class="memItemLeft" align="right" valign="top">s16&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dab/transparent__texture_8c.html#a5c6a77a52db613bb7d09cf8bbf810af9">D_80330394</a> = 0</td></tr>
+<tr class="memitem:a5c6a77a52db613bb7d09cf8bbf810af9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/da7/ultratypes_8h.html#a4cb19f4a3324cfe0938ddfbfabaa825b">s16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dab/transparent__texture_8c.html#a5c6a77a52db613bb7d09cf8bbf810af9">D_80330394</a> = 0</td></tr>
 <tr class="separator:a5c6a77a52db613bb7d09cf8bbf810af9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9114d0187ecbd368c2bf908969db90f8"><td class="memItemLeft" align="right" valign="top">s16&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dab/transparent__texture_8c.html#a9114d0187ecbd368c2bf908969db90f8">D_80330398</a> = 0</td></tr>
+<tr class="memitem:a9114d0187ecbd368c2bf908969db90f8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/da7/ultratypes_8h.html#a4cb19f4a3324cfe0938ddfbfabaa825b">s16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dab/transparent__texture_8c.html#a9114d0187ecbd368c2bf908969db90f8">D_80330398</a> = 0</td></tr>
 <tr class="separator:a9114d0187ecbd368c2bf908969db90f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3c15b5fae21ff65bd611ea62c966d027"><td class="memItemLeft" align="right" valign="top">s8&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dab/transparent__texture_8c.html#a3c15b5fae21ff65bd611ea62c966d027">D_8035FF80</a></td></tr>
+<tr class="memitem:a3c15b5fae21ff65bd611ea62c966d027"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/da7/ultratypes_8h.html#a151f780fb455885061d3b77ec1c90c03">s8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dab/transparent__texture_8c.html#a3c15b5fae21ff65bd611ea62c966d027">D_8035FF80</a></td></tr>
 <tr class="separator:a3c15b5fae21ff65bd611ea62c966d027"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac125ccbdd2d08c68cb32b44f0c27682d"><td class="memItemLeft" align="right" valign="top">struct GraphNodeObject *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dab/transparent__texture_8c.html#ac125ccbdd2d08c68cb32b44f0c27682d">D_8032CFA0</a></td></tr>
+<tr class="memitem:ac125ccbdd2d08c68cb32b44f0c27682d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../db/d57/structGraphNodeObject.html">GraphNodeObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dab/transparent__texture_8c.html#ac125ccbdd2d08c68cb32b44f0c27682d">D_8032CFA0</a></td></tr>
 <tr class="separator:ac125ccbdd2d08c68cb32b44f0c27682d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4a3c56e3696bc9b4ce53ad800b6728bf"><td class="memItemLeft" align="right" valign="top">u16&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dab/transparent__texture_8c.html#a4a3c56e3696bc9b4ce53ad800b6728bf">gAreaUpdateCounter</a></td></tr>
+<tr class="memitem:a4a3c56e3696bc9b4ce53ad800b6728bf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/da7/ultratypes_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dab/transparent__texture_8c.html#a4a3c56e3696bc9b4ce53ad800b6728bf">gAreaUpdateCounter</a></td></tr>
 <tr class="separator:a4a3c56e3696bc9b4ce53ad800b6728bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -137,9 +137,9 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">struct StructGeo802D2360* Geo18_802D2360 </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d3/d68/structStructGeo802D2360.html">StructGeo802D2360</a>* Geo18_802D2360 </td>
           <td>(</td>
-          <td class="paramtype">s32&#160;</td>
+          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td>
           <td class="paramname"><em>sp30</em>, </td>
         </tr>
         <tr>
@@ -151,7 +151,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">UNUSED s32&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d8/d4b/unused_8h.html#addf5ec070e9499d36b7f2009ce736076">UNUSED</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td>
           <td class="paramname"><em>sp38</em>&#160;</td>
         </tr>
         <tr>
@@ -171,21 +171,21 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">struct StructGeo802D2360* Geo18_802D2470 </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d3/d68/structStructGeo802D2360.html">StructGeo802D2360</a>* Geo18_802D2470 </td>
           <td>(</td>
-          <td class="paramtype">s32&#160;</td>
+          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td>
           <td class="paramname"><em>a0</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">UNUSED void *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d8/d4b/unused_8h.html#addf5ec070e9499d36b7f2009ce736076">UNUSED</a> <a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a> *&#160;</td>
           <td class="paramname"><em>sp4</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">UNUSED s32&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d8/d4b/unused_8h.html#addf5ec070e9499d36b7f2009ce736076">UNUSED</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td>
           <td class="paramname"><em>sp8</em>&#160;</td>
         </tr>
         <tr>
@@ -205,9 +205,9 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void* Geo18_802D2520 </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>* Geo18_802D2520 </td>
           <td>(</td>
-          <td class="paramtype">s32&#160;</td>
+          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td>
           <td class="paramname"><em>sp80</em>, </td>
         </tr>
         <tr>
@@ -219,7 +219,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">UNUSED s32&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d8/d4b/unused_8h.html#addf5ec070e9499d36b7f2009ce736076">UNUSED</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td>
           <td class="paramname"><em>sp88</em>&#160;</td>
         </tr>
         <tr>
@@ -239,9 +239,9 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Gfx* Geo18_802D28CC </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/unionGfx.html">Gfx</a>* Geo18_802D28CC </td>
           <td>(</td>
-          <td class="paramtype">s32&#160;</td>
+          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td>
           <td class="paramname"><em>sp30</em>, </td>
         </tr>
         <tr>
@@ -253,7 +253,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">UNUSED s32&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d8/d4b/unused_8h.html#addf5ec070e9499d36b7f2009ce736076">UNUSED</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td>
           <td class="paramname"><em>sp38</em>&#160;</td>
         </tr>
         <tr>
@@ -273,69 +273,69 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void make_vertex </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a> make_vertex </td>
           <td>(</td>
-          <td class="paramtype">Vtx *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d31/unionVtx.html">Vtx</a> *&#160;</td>
           <td class="paramname"><em>vtx</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">s32&#160;</td>
+          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td>
           <td class="paramname"><em>n</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">s16&#160;</td>
+          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a4cb19f4a3324cfe0938ddfbfabaa825b">s16</a>&#160;</td>
           <td class="paramname"><em>x</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">s16&#160;</td>
+          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a4cb19f4a3324cfe0938ddfbfabaa825b">s16</a>&#160;</td>
           <td class="paramname"><em>y</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">s16&#160;</td>
+          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a4cb19f4a3324cfe0938ddfbfabaa825b">s16</a>&#160;</td>
           <td class="paramname"><em>z</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">s16&#160;</td>
+          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a4cb19f4a3324cfe0938ddfbfabaa825b">s16</a>&#160;</td>
           <td class="paramname"><em>tx</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">s16&#160;</td>
+          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a4cb19f4a3324cfe0938ddfbfabaa825b">s16</a>&#160;</td>
           <td class="paramname"><em>ty</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">u8&#160;</td>
+          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td>
           <td class="paramname"><em>r</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">u8&#160;</td>
+          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td>
           <td class="paramname"><em>g</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">u8&#160;</td>
+          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td>
           <td class="paramname"><em>b</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">u8&#160;</td>
+          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td>
           <td class="paramname"><em>a</em>&#160;</td>
         </tr>
         <tr>
@@ -355,7 +355,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">s32 round_float </td>
+          <td class="memname"><a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> round_float </td>
           <td>(</td>
           <td class="paramtype">float&#160;</td>
           <td class="paramname"><em>f12</em></td><td>)</td>
@@ -375,7 +375,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Gfx cake_end_dl_07026400[]</td>
+          <td class="memname"><a class="el" href="../../d9/d0b/unionGfx.html">Gfx</a> cake_end_dl_07026400[]</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -389,7 +389,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">struct GraphNodeObject* D_8032CFA0</td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../db/d57/structGraphNodeObject.html">GraphNodeObject</a>* D_8032CFA0</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -403,7 +403,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">s16 D_80330390 = 0x01</td>
+          <td class="memname"><a class="el" href="../../dd/da7/ultratypes_8h.html#a4cb19f4a3324cfe0938ddfbfabaa825b">s16</a> D_80330390 = 0x01</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -417,7 +417,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">s16 D_80330394 = 0</td>
+          <td class="memname"><a class="el" href="../../dd/da7/ultratypes_8h.html#a4cb19f4a3324cfe0938ddfbfabaa825b">s16</a> D_80330394 = 0</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -431,7 +431,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">s16 D_80330398 = 0</td>
+          <td class="memname"><a class="el" href="../../dd/da7/ultratypes_8h.html#a4cb19f4a3324cfe0938ddfbfabaa825b">s16</a> D_80330398 = 0</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -445,7 +445,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">s8 D_8035FF80</td>
+          <td class="memname"><a class="el" href="../../dd/da7/ultratypes_8h.html#a151f780fb455885061d3b77ec1c90c03">s8</a> D_8035FF80</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -459,7 +459,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">u16 gAreaUpdateCounter</td>
+          <td class="memname"><a class="el" href="../../dd/da7/ultratypes_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a> gAreaUpdateCounter</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -473,7 +473,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Gfx inside_castle_seg7_dl_0702A880[]</td>
+          <td class="memname"><a class="el" href="../../d9/d0b/unionGfx.html">Gfx</a> inside_castle_seg7_dl_0702A880[]</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -487,7 +487,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Gfx rr_seg7_dl_070192F0[]</td>
+          <td class="memname"><a class="el" href="../../d9/d0b/unionGfx.html">Gfx</a> rr_seg7_dl_070192F0[]</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -501,7 +501,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Gfx rr_seg7_dl_07019360[]</td>
+          <td class="memname"><a class="el" href="../../d9/d0b/unionGfx.html">Gfx</a> rr_seg7_dl_07019360[]</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -515,7 +515,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Gfx rr_seg7_dl_070193C8[]</td>
+          <td class="memname"><a class="el" href="../../d9/d0b/unionGfx.html">Gfx</a> rr_seg7_dl_070193C8[]</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -529,7 +529,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">s16 rr_seg7_transparent_texture_data_07019248[]</td>
+          <td class="memname"><a class="el" href="../../dd/da7/ultratypes_8h.html#a4cb19f4a3324cfe0938ddfbfabaa825b">s16</a> rr_seg7_transparent_texture_data_07019248[]</td>
         </tr>
       </table>
 </div><div class="memdoc">

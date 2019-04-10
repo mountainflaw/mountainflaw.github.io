@@ -1,7 +1,6 @@
 var searchData=
 [
-  ['length',['LENGTH',['../d2/d62/file__select_8c.html#a30362161c93e3f1a4ee4c673f535b5a8',1,'file_select.c']]],
-  ['lookat_5fpack',['LOOKAT_PACK',['../df/d64/mario__head__6_8c.html#a0e66b05eaa0ede80316b122253a729b9',1,'mario_head_6.c']]],
-  ['lookback_5fcount',['LOOKBACK_COUNT',['../d7/def/libmio0_8c.html#a778468e1e7faa75f880694d28eb68033',1,'libmio0.c']]],
-  ['lookback_5finit_5fsize',['LOOKBACK_INIT_SIZE',['../d7/def/libmio0_8c.html#a41898dd1ec232f4ec0e5607b05d570da',1,'libmio0.c']]]
+  ['js_5fring_5fspawner_5fact_5factive',['JS_RING_SPAWNER_ACT_ACTIVE',['../dd/dd3/object__constants_8h.html#af5cbaf7dd5de58861bd720f79e871ee7',1,'object_constants.h']]],
+  ['js_5fring_5fspawner_5fact_5finactive',['JS_RING_SPAWNER_ACT_INACTIVE',['../dd/dd3/object__constants_8h.html#a8df62e7b88b8dd65a7c27a12f20ea165',1,'object_constants.h']]],
+  ['jumptolist',['JumpToList',['../de/d3c/macros_8h.html#af2c4aeb175341b359c68032bf40d3519',1,'macros.h']]]
 ];

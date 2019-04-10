@@ -74,152 +74,152 @@ $(function() {
 <div class="title">mario_actions_submerged.c File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;ultra64.h&gt;</code><br />
-<code>#include &quot;sm64.h&quot;</code><br />
-<code>#include &quot;level_update.h&quot;</code><br />
-<code>#include &quot;memory.h&quot;</code><br />
-<code>#include &quot;engine/math_util.h&quot;</code><br />
-<code>#include &quot;area.h&quot;</code><br />
-<code>#include &quot;save_file.h&quot;</code><br />
-<code>#include &quot;sound_init.h&quot;</code><br />
-<code>#include &quot;engine/surface_collision.h&quot;</code><br />
-<code>#include &quot;interaction.h&quot;</code><br />
-<code>#include &quot;mario.h&quot;</code><br />
-<code>#include &quot;mario_step.h&quot;</code><br />
-<code>#include &quot;camera.h&quot;</code><br />
-<code>#include &quot;audio/interface_2.h&quot;</code><br />
-<code>#include &quot;behavior_data.h&quot;</code><br />
+<div class="textblock"><code>#include &lt;<a class="el" href="../../dd/d2f/ultra64_8h_source.html">ultra64.h</a>&gt;</code><br />
+<code>#include &quot;<a class="el" href="../../d5/dd8/sm64_8h_source.html">sm64.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d7/d0a/level__update_8h_source.html">level_update.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../dc/d18/memory_8h_source.html">memory.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d8/d11/math__util_8h_source.html">engine/math_util.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d4/d1c/area_8h_source.html">area.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d4/dad/save__file_8h_source.html">save_file.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d7/d61/sound__init_8h_source.html">sound_init.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d2/da4/surface__collision_8h_source.html">engine/surface_collision.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../da/d85/interaction_8h_source.html">interaction.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d9/db9/mario_8h_source.html">mario.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d6/d2b/mario__step_8h_source.html">mario_step.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d7/df6/camera_8h_source.html">camera.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../de/de9/interface__2_8h_source.html">audio/interface_2.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d6/d40/behavior__data_8h_source.html">behavior_data.h</a>&quot;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a252e4193c4358cd728a0c4b5266418d9"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#a252e4193c4358cd728a0c4b5266418d9">set_swimming_at_surface_particles</a> (struct MarioState *m, u32 particleFlag)</td></tr>
+<tr class="memitem:a252e4193c4358cd728a0c4b5266418d9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#a252e4193c4358cd728a0c4b5266418d9">set_swimming_at_surface_particles</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m, <a class="el" href="../../dd/da7/ultratypes_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a> particleFlag)</td></tr>
 <tr class="separator:a252e4193c4358cd728a0c4b5266418d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a89cc46e4bc9d509f5ad60cfc7feecac7"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#a89cc46e4bc9d509f5ad60cfc7feecac7">swimming_near_surface</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:a89cc46e4bc9d509f5ad60cfc7feecac7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#a89cc46e4bc9d509f5ad60cfc7feecac7">swimming_near_surface</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:a89cc46e4bc9d509f5ad60cfc7feecac7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6f1e9fd3cebd3b073d9cf6e3c208f196"><td class="memItemLeft" align="right" valign="top">static f32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#a6f1e9fd3cebd3b073d9cf6e3c208f196">get_buoyancy</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:a6f1e9fd3cebd3b073d9cf6e3c208f196"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#a6f1e9fd3cebd3b073d9cf6e3c208f196">get_buoyancy</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:a6f1e9fd3cebd3b073d9cf6e3c208f196"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a671eb0fac7b657c5b686c65088d53724"><td class="memItemLeft" align="right" valign="top">static u32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#a671eb0fac7b657c5b686c65088d53724">perform_water_full_step</a> (struct MarioState *m, Vec3f nextPos)</td></tr>
+<tr class="memitem:a671eb0fac7b657c5b686c65088d53724"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#a671eb0fac7b657c5b686c65088d53724">perform_water_full_step</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m, <a class="el" href="../../d9/d49/types_8h.html#a5290523279339ea495248ab3a36cb46e">Vec3f</a> nextPos)</td></tr>
 <tr class="separator:a671eb0fac7b657c5b686c65088d53724"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac8921461f7b4c447a5da7c2b624cd25f"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#ac8921461f7b4c447a5da7c2b624cd25f">apply_water_current</a> (struct MarioState *m, Vec3f step)</td></tr>
+<tr class="memitem:ac8921461f7b4c447a5da7c2b624cd25f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#ac8921461f7b4c447a5da7c2b624cd25f">apply_water_current</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m, <a class="el" href="../../d9/d49/types_8h.html#a5290523279339ea495248ab3a36cb46e">Vec3f</a> step)</td></tr>
 <tr class="separator:ac8921461f7b4c447a5da7c2b624cd25f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1b95568fa1206c87eef1389fd05d12fa"><td class="memItemLeft" align="right" valign="top">static u32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#a1b95568fa1206c87eef1389fd05d12fa">perform_water_step</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:a1b95568fa1206c87eef1389fd05d12fa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#a1b95568fa1206c87eef1389fd05d12fa">perform_water_step</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:a1b95568fa1206c87eef1389fd05d12fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a498d42bb7c8087ca695b29c880366590"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#a498d42bb7c8087ca695b29c880366590">func_80270504</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:a498d42bb7c8087ca695b29c880366590"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#a498d42bb7c8087ca695b29c880366590">func_80270504</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:a498d42bb7c8087ca695b29c880366590"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa5b847b733f4d3a30405ab6af16d8549"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#aa5b847b733f4d3a30405ab6af16d8549">stationary_slow_down</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:aa5b847b733f4d3a30405ab6af16d8549"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#aa5b847b733f4d3a30405ab6af16d8549">stationary_slow_down</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:aa5b847b733f4d3a30405ab6af16d8549"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac1fcfe31ed41ba4fd10cf0a7b047109e"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#ac1fcfe31ed41ba4fd10cf0a7b047109e">update_swimming_speed</a> (struct MarioState *m, f32 decelThreshold)</td></tr>
+<tr class="memitem:ac1fcfe31ed41ba4fd10cf0a7b047109e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#ac1fcfe31ed41ba4fd10cf0a7b047109e">update_swimming_speed</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m, <a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> decelThreshold)</td></tr>
 <tr class="separator:ac1fcfe31ed41ba4fd10cf0a7b047109e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0a44e33186296b98d52b31bfd93830ef"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#a0a44e33186296b98d52b31bfd93830ef">update_swimming_yaw</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:a0a44e33186296b98d52b31bfd93830ef"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#a0a44e33186296b98d52b31bfd93830ef">update_swimming_yaw</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:a0a44e33186296b98d52b31bfd93830ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a44b97a54e4b7af71d4576c9f2c0d6ce0"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#a44b97a54e4b7af71d4576c9f2c0d6ce0">update_swimming_pitch</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:a44b97a54e4b7af71d4576c9f2c0d6ce0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#a44b97a54e4b7af71d4576c9f2c0d6ce0">update_swimming_pitch</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:a44b97a54e4b7af71d4576c9f2c0d6ce0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a164fdbff8d1e7e938521d12b8f465490"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#a164fdbff8d1e7e938521d12b8f465490">common_idle_step</a> (struct MarioState *m, s32 animation, s32 arg)</td></tr>
+<tr class="memitem:a164fdbff8d1e7e938521d12b8f465490"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#a164fdbff8d1e7e938521d12b8f465490">common_idle_step</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m, <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> animation, <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> arg)</td></tr>
 <tr class="separator:a164fdbff8d1e7e938521d12b8f465490"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a200461b93da3a4e2e6ad26a8a75268a8"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#a200461b93da3a4e2e6ad26a8a75268a8">act_water_idle</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:a200461b93da3a4e2e6ad26a8a75268a8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#a200461b93da3a4e2e6ad26a8a75268a8">act_water_idle</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:a200461b93da3a4e2e6ad26a8a75268a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a772dc5e640cdc771e23034e0138cc19a"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#a772dc5e640cdc771e23034e0138cc19a">act_hold_water_idle</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:a772dc5e640cdc771e23034e0138cc19a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#a772dc5e640cdc771e23034e0138cc19a">act_hold_water_idle</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:a772dc5e640cdc771e23034e0138cc19a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3cb1638c4d772a50cb70ee9295e292c6"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#a3cb1638c4d772a50cb70ee9295e292c6">act_water_action_end</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:a3cb1638c4d772a50cb70ee9295e292c6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#a3cb1638c4d772a50cb70ee9295e292c6">act_water_action_end</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:a3cb1638c4d772a50cb70ee9295e292c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7115145a3f37027cc2cc2e2045436850"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#a7115145a3f37027cc2cc2e2045436850">act_hold_water_action_end</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:a7115145a3f37027cc2cc2e2045436850"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#a7115145a3f37027cc2cc2e2045436850">act_hold_water_action_end</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:a7115145a3f37027cc2cc2e2045436850"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae788e61ea696b33f65e91367997cdcd4"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#ae788e61ea696b33f65e91367997cdcd4">func_8027107C</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:ae788e61ea696b33f65e91367997cdcd4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#ae788e61ea696b33f65e91367997cdcd4">func_8027107C</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:ae788e61ea696b33f65e91367997cdcd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa2e9a78efa52016000555491179fe764"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#aa2e9a78efa52016000555491179fe764">func_802710CC</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:aa2e9a78efa52016000555491179fe764"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#aa2e9a78efa52016000555491179fe764">func_802710CC</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:aa2e9a78efa52016000555491179fe764"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9fe26d948ae7e2d28dc74918f70645de"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#a9fe26d948ae7e2d28dc74918f70645de">common_swimming_step</a> (struct MarioState *m, s16 swimStrength)</td></tr>
+<tr class="memitem:a9fe26d948ae7e2d28dc74918f70645de"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#a9fe26d948ae7e2d28dc74918f70645de">common_swimming_step</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m, <a class="el" href="../../dd/da7/ultratypes_8h.html#a4cb19f4a3324cfe0938ddfbfabaa825b">s16</a> swimStrength)</td></tr>
 <tr class="separator:a9fe26d948ae7e2d28dc74918f70645de"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a32a1dcd8c64f83b8d0ca7f4e928091a8"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#a32a1dcd8c64f83b8d0ca7f4e928091a8">func_802713A8</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:a32a1dcd8c64f83b8d0ca7f4e928091a8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#a32a1dcd8c64f83b8d0ca7f4e928091a8">func_802713A8</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:a32a1dcd8c64f83b8d0ca7f4e928091a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a123a170c76215c64265035c96ca59d7f"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#a123a170c76215c64265035c96ca59d7f">check_water_jump</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:a123a170c76215c64265035c96ca59d7f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#a123a170c76215c64265035c96ca59d7f">check_water_jump</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:a123a170c76215c64265035c96ca59d7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeefa862d3b67a03d0417ab720e13ef19"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#aeefa862d3b67a03d0417ab720e13ef19">act_breaststroke</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:aeefa862d3b67a03d0417ab720e13ef19"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#aeefa862d3b67a03d0417ab720e13ef19">act_breaststroke</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:aeefa862d3b67a03d0417ab720e13ef19"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a49b08688769ecc77a564b506e884ff1e"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#a49b08688769ecc77a564b506e884ff1e">act_swimming_end</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:a49b08688769ecc77a564b506e884ff1e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#a49b08688769ecc77a564b506e884ff1e">act_swimming_end</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:a49b08688769ecc77a564b506e884ff1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acb33da6ddadc4b7182f096d722582cc8"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#acb33da6ddadc4b7182f096d722582cc8">act_flutter_kick</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:acb33da6ddadc4b7182f096d722582cc8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#acb33da6ddadc4b7182f096d722582cc8">act_flutter_kick</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:acb33da6ddadc4b7182f096d722582cc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a466418a4aba8dfa8c521d7865c275843"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#a466418a4aba8dfa8c521d7865c275843">act_hold_breaststroke</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:a466418a4aba8dfa8c521d7865c275843"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#a466418a4aba8dfa8c521d7865c275843">act_hold_breaststroke</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:a466418a4aba8dfa8c521d7865c275843"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a62f79c1edc956d6db3650471c834c64d"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#a62f79c1edc956d6db3650471c834c64d">act_hold_swimming_end</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:a62f79c1edc956d6db3650471c834c64d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#a62f79c1edc956d6db3650471c834c64d">act_hold_swimming_end</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:a62f79c1edc956d6db3650471c834c64d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1b9f54f40640c88f6d8865d0fe032801"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#a1b9f54f40640c88f6d8865d0fe032801">act_hold_flutter_kick</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:a1b9f54f40640c88f6d8865d0fe032801"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#a1b9f54f40640c88f6d8865d0fe032801">act_hold_flutter_kick</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:a1b9f54f40640c88f6d8865d0fe032801"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a64e41fec12ed8ef05254890ff41da637"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#a64e41fec12ed8ef05254890ff41da637">act_water_shell_swimming</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:a64e41fec12ed8ef05254890ff41da637"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#a64e41fec12ed8ef05254890ff41da637">act_water_shell_swimming</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:a64e41fec12ed8ef05254890ff41da637"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a00aded2bec93058d81c9efc94ab4cb14"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#a00aded2bec93058d81c9efc94ab4cb14">check_water_grab</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:a00aded2bec93058d81c9efc94ab4cb14"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#a00aded2bec93058d81c9efc94ab4cb14">check_water_grab</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:a00aded2bec93058d81c9efc94ab4cb14"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a50011bc8932ff296ed08a046353c6f40"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#a50011bc8932ff296ed08a046353c6f40">act_water_throw</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:a50011bc8932ff296ed08a046353c6f40"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#a50011bc8932ff296ed08a046353c6f40">act_water_throw</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:a50011bc8932ff296ed08a046353c6f40"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a59c79838e331eca65e38a14c633ac627"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#a59c79838e331eca65e38a14c633ac627">act_water_punch</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:a59c79838e331eca65e38a14c633ac627"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#a59c79838e331eca65e38a14c633ac627">act_water_punch</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:a59c79838e331eca65e38a14c633ac627"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a56002cb1d25cb42369df2763ec599c6c"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#a56002cb1d25cb42369df2763ec599c6c">common_water_knockback_step</a> (struct MarioState *m, s32 animation, u32 endAction, s32 <a class="el" href="../../de/d48/interface__1_8c.html#a6ec5e8658e7ad6b8b58f5b58e2eddf4f">arg3</a>)</td></tr>
+<tr class="memitem:a56002cb1d25cb42369df2763ec599c6c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#a56002cb1d25cb42369df2763ec599c6c">common_water_knockback_step</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m, <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> animation, <a class="el" href="../../dd/da7/ultratypes_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a> endAction, <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> <a class="el" href="../../de/d48/interface__1_8c.html#a6ec5e8658e7ad6b8b58f5b58e2eddf4f">arg3</a>)</td></tr>
 <tr class="separator:a56002cb1d25cb42369df2763ec599c6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2e1fa173680764698080dba1e146a731"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#a2e1fa173680764698080dba1e146a731">act_backward_water_kb</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:a2e1fa173680764698080dba1e146a731"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#a2e1fa173680764698080dba1e146a731">act_backward_water_kb</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:a2e1fa173680764698080dba1e146a731"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abf03813a0910fda997858510f65518c5"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#abf03813a0910fda997858510f65518c5">act_forward_water_kb</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:abf03813a0910fda997858510f65518c5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#abf03813a0910fda997858510f65518c5">act_forward_water_kb</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:abf03813a0910fda997858510f65518c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5a27f6a36f86b2e590fcf0cbfcffb9b3"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#a5a27f6a36f86b2e590fcf0cbfcffb9b3">act_water_shocked</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:a5a27f6a36f86b2e590fcf0cbfcffb9b3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#a5a27f6a36f86b2e590fcf0cbfcffb9b3">act_water_shocked</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:a5a27f6a36f86b2e590fcf0cbfcffb9b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a67f654ff73199e537d47ef7b084aa59b"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#a67f654ff73199e537d47ef7b084aa59b">act_drowning</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:a67f654ff73199e537d47ef7b084aa59b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#a67f654ff73199e537d47ef7b084aa59b">act_drowning</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:a67f654ff73199e537d47ef7b084aa59b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a039b248cb0580a3cee3945df1c7b691a"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#a039b248cb0580a3cee3945df1c7b691a">act_water_death</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:a039b248cb0580a3cee3945df1c7b691a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#a039b248cb0580a3cee3945df1c7b691a">act_water_death</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:a039b248cb0580a3cee3945df1c7b691a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7ee198a47c1a7475c4ffe4b91765d3d5"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#a7ee198a47c1a7475c4ffe4b91765d3d5">act_water_plunge</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:a7ee198a47c1a7475c4ffe4b91765d3d5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#a7ee198a47c1a7475c4ffe4b91765d3d5">act_water_plunge</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:a7ee198a47c1a7475c4ffe4b91765d3d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9ca8871e900c0b1a14a10f31139c0b34"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#a9ca8871e900c0b1a14a10f31139c0b34">act_caught_in_whirlpool</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:a9ca8871e900c0b1a14a10f31139c0b34"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#a9ca8871e900c0b1a14a10f31139c0b34">act_caught_in_whirlpool</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:a9ca8871e900c0b1a14a10f31139c0b34"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9e128b4123785429a7a289371abcdd86"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#a9e128b4123785429a7a289371abcdd86">func_80272FA8</a> (struct MarioState *m, u32 arg)</td></tr>
+<tr class="memitem:a9e128b4123785429a7a289371abcdd86"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#a9e128b4123785429a7a289371abcdd86">func_80272FA8</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m, <a class="el" href="../../dd/da7/ultratypes_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a> arg)</td></tr>
 <tr class="separator:a9e128b4123785429a7a289371abcdd86"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4ae8952d81904123a7e81720532203b0"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#a4ae8952d81904123a7e81720532203b0">play_metal_water_walking_sound</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:a4ae8952d81904123a7e81720532203b0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#a4ae8952d81904123a7e81720532203b0">play_metal_water_walking_sound</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:a4ae8952d81904123a7e81720532203b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad2ed1c77efc2835e0aee072d36f5a9df"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#ad2ed1c77efc2835e0aee072d36f5a9df">update_metal_water_walking_speed</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:ad2ed1c77efc2835e0aee072d36f5a9df"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#ad2ed1c77efc2835e0aee072d36f5a9df">update_metal_water_walking_speed</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:ad2ed1c77efc2835e0aee072d36f5a9df"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af7c6c3b37f3a1b98f44607398e6dd2e3"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#af7c6c3b37f3a1b98f44607398e6dd2e3">update_metal_water_jump_speed</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:af7c6c3b37f3a1b98f44607398e6dd2e3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#af7c6c3b37f3a1b98f44607398e6dd2e3">update_metal_water_jump_speed</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:af7c6c3b37f3a1b98f44607398e6dd2e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af1a849b7831f8768b5262d21114db80f"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#af1a849b7831f8768b5262d21114db80f">act_metal_water_standing</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:af1a849b7831f8768b5262d21114db80f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#af1a849b7831f8768b5262d21114db80f">act_metal_water_standing</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:af1a849b7831f8768b5262d21114db80f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abdfe7997f4f58f50ec3ad8952519f65b"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#abdfe7997f4f58f50ec3ad8952519f65b">act_hold_metal_water_standing</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:abdfe7997f4f58f50ec3ad8952519f65b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#abdfe7997f4f58f50ec3ad8952519f65b">act_hold_metal_water_standing</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:abdfe7997f4f58f50ec3ad8952519f65b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afd1da5aad880ee8db779a466363359eb"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#afd1da5aad880ee8db779a466363359eb">act_metal_water_walking</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:afd1da5aad880ee8db779a466363359eb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#afd1da5aad880ee8db779a466363359eb">act_metal_water_walking</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:afd1da5aad880ee8db779a466363359eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a19e50a998f38f1895228c0720cd43fcb"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#a19e50a998f38f1895228c0720cd43fcb">act_hold_metal_water_walking</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:a19e50a998f38f1895228c0720cd43fcb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#a19e50a998f38f1895228c0720cd43fcb">act_hold_metal_water_walking</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:a19e50a998f38f1895228c0720cd43fcb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae22ddca3bd8aaebd4e3e3abb756d9b58"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#ae22ddca3bd8aaebd4e3e3abb756d9b58">act_metal_water_jump</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:ae22ddca3bd8aaebd4e3e3abb756d9b58"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#ae22ddca3bd8aaebd4e3e3abb756d9b58">act_metal_water_jump</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:ae22ddca3bd8aaebd4e3e3abb756d9b58"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2cc53f26de281167f0128649a86b5078"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#a2cc53f26de281167f0128649a86b5078">act_hold_metal_water_jump</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:a2cc53f26de281167f0128649a86b5078"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#a2cc53f26de281167f0128649a86b5078">act_hold_metal_water_jump</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:a2cc53f26de281167f0128649a86b5078"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6211fab51a73711484d01186632abde5"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#a6211fab51a73711484d01186632abde5">act_metal_water_falling</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:a6211fab51a73711484d01186632abde5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#a6211fab51a73711484d01186632abde5">act_metal_water_falling</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:a6211fab51a73711484d01186632abde5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0cdd8ae00c76c20a7a22c6c4cfcfbbd3"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#a0cdd8ae00c76c20a7a22c6c4cfcfbbd3">act_hold_metal_water_falling</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:a0cdd8ae00c76c20a7a22c6c4cfcfbbd3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#a0cdd8ae00c76c20a7a22c6c4cfcfbbd3">act_hold_metal_water_falling</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:a0cdd8ae00c76c20a7a22c6c4cfcfbbd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6fd66774ebc94375bd2ed6f8dd0ee9ef"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#a6fd66774ebc94375bd2ed6f8dd0ee9ef">act_metal_water_jump_land</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:a6fd66774ebc94375bd2ed6f8dd0ee9ef"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#a6fd66774ebc94375bd2ed6f8dd0ee9ef">act_metal_water_jump_land</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:a6fd66774ebc94375bd2ed6f8dd0ee9ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afba34e4ebec0437022a805d1225991b5"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#afba34e4ebec0437022a805d1225991b5">act_hold_metal_water_jump_land</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:afba34e4ebec0437022a805d1225991b5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#afba34e4ebec0437022a805d1225991b5">act_hold_metal_water_jump_land</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:afba34e4ebec0437022a805d1225991b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a34885ed793253e80c59cd06e7da16cf3"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#a34885ed793253e80c59cd06e7da16cf3">act_metal_water_fall_land</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:a34885ed793253e80c59cd06e7da16cf3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#a34885ed793253e80c59cd06e7da16cf3">act_metal_water_fall_land</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:a34885ed793253e80c59cd06e7da16cf3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7bc63f61d8443117c3547d51024c15e9"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#a7bc63f61d8443117c3547d51024c15e9">act_hold_metal_water_fall_land</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:a7bc63f61d8443117c3547d51024c15e9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#a7bc63f61d8443117c3547d51024c15e9">act_hold_metal_water_fall_land</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:a7bc63f61d8443117c3547d51024c15e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af319e9d6116f42483438c4c90a0cad69"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#af319e9d6116f42483438c4c90a0cad69">check_common_submerged_cancels</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:af319e9d6116f42483438c4c90a0cad69"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#af319e9d6116f42483438c4c90a0cad69">check_common_submerged_cancels</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:af319e9d6116f42483438c4c90a0cad69"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6342434947060370e80b17f7d1f6568d"><td class="memItemLeft" align="right" valign="top">s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#a6342434947060370e80b17f7d1f6568d">mario_execute_submerged_action</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:a6342434947060370e80b17f7d1f6568d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#a6342434947060370e80b17f7d1f6568d">mario_execute_submerged_action</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:a6342434947060370e80b17f7d1f6568d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a5e7850790c3155032a99e02958feef27"><td class="memItemLeft" align="right" valign="top">static s16&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#a5e7850790c3155032a99e02958feef27">sWasAtSurface</a> = FALSE</td></tr>
+<tr class="memitem:a5e7850790c3155032a99e02958feef27"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a4cb19f4a3324cfe0938ddfbfabaa825b">s16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#a5e7850790c3155032a99e02958feef27">sWasAtSurface</a> = <a class="el" href="../../dd/da7/ultratypes_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a></td></tr>
 <tr class="separator:a5e7850790c3155032a99e02958feef27"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a093a9f5a786b777e3e75ba3cb026c0bd"><td class="memItemLeft" align="right" valign="top">static s16&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#a093a9f5a786b777e3e75ba3cb026c0bd">D_8032CDD4</a> = 160</td></tr>
+<tr class="memitem:a093a9f5a786b777e3e75ba3cb026c0bd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a4cb19f4a3324cfe0938ddfbfabaa825b">s16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#a093a9f5a786b777e3e75ba3cb026c0bd">D_8032CDD4</a> = 160</td></tr>
 <tr class="separator:a093a9f5a786b777e3e75ba3cb026c0bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8d6c10a7a15beee8c927a6c0cb217de7"><td class="memItemLeft" align="right" valign="top">static s16&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#a8d6c10a7a15beee8c927a6c0cb217de7">sWaterCurrentSpeeds</a> [] = {28, 12, 8, 4}</td></tr>
+<tr class="memitem:a8d6c10a7a15beee8c927a6c0cb217de7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a4cb19f4a3324cfe0938ddfbfabaa825b">s16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#a8d6c10a7a15beee8c927a6c0cb217de7">sWaterCurrentSpeeds</a> [] = {28, 12, 8, 4}</td></tr>
 <tr class="separator:a8d6c10a7a15beee8c927a6c0cb217de7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:add39897f8161ffc9c99702f57a19feb6"><td class="memItemLeft" align="right" valign="top">static s16&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#add39897f8161ffc9c99702f57a19feb6">D_80339FD0</a></td></tr>
+<tr class="memitem:add39897f8161ffc9c99702f57a19feb6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a4cb19f4a3324cfe0938ddfbfabaa825b">s16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#add39897f8161ffc9c99702f57a19feb6">D_80339FD0</a></td></tr>
 <tr class="separator:add39897f8161ffc9c99702f57a19feb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4d9f44b635b59ce5c2f52a48cb34fb32"><td class="memItemLeft" align="right" valign="top">static s16&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#a4d9f44b635b59ce5c2f52a48cb34fb32">D_80339FD2</a></td></tr>
+<tr class="memitem:a4d9f44b635b59ce5c2f52a48cb34fb32"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a4cb19f4a3324cfe0938ddfbfabaa825b">s16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#a4d9f44b635b59ce5c2f52a48cb34fb32">D_80339FD2</a></td></tr>
 <tr class="separator:a4d9f44b635b59ce5c2f52a48cb34fb32"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a694b6f516a6bfdee1fb3c3bba42de525"><td class="memItemLeft" align="right" valign="top">static f32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#a694b6f516a6bfdee1fb3c3bba42de525">D_80339FD4</a></td></tr>
+<tr class="memitem:a694b6f516a6bfdee1fb3c3bba42de525"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/mario__actions__submerged_8c.html#a694b6f516a6bfdee1fb3c3bba42de525">D_80339FD4</a></td></tr>
 <tr class="separator:a694b6f516a6bfdee1fb3c3bba42de525"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -233,9 +233,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 act_backward_water_kb </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> act_backward_water_kb </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -259,9 +259,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 act_breaststroke </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> act_breaststroke </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -285,9 +285,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 act_caught_in_whirlpool </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> act_caught_in_whirlpool </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -311,9 +311,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 act_drowning </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> act_drowning </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -337,9 +337,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 act_flutter_kick </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> act_flutter_kick </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -363,9 +363,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 act_forward_water_kb </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> act_forward_water_kb </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -389,9 +389,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 act_hold_breaststroke </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> act_hold_breaststroke </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -415,9 +415,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 act_hold_flutter_kick </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> act_hold_flutter_kick </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -441,9 +441,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 act_hold_metal_water_fall_land </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> act_hold_metal_water_fall_land </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -467,9 +467,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 act_hold_metal_water_falling </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> act_hold_metal_water_falling </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -493,9 +493,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 act_hold_metal_water_jump </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> act_hold_metal_water_jump </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -519,9 +519,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 act_hold_metal_water_jump_land </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> act_hold_metal_water_jump_land </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -545,9 +545,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 act_hold_metal_water_standing </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> act_hold_metal_water_standing </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -571,9 +571,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 act_hold_metal_water_walking </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> act_hold_metal_water_walking </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -597,9 +597,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 act_hold_swimming_end </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> act_hold_swimming_end </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -623,9 +623,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 act_hold_water_action_end </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> act_hold_water_action_end </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -649,9 +649,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 act_hold_water_idle </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> act_hold_water_idle </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -675,9 +675,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 act_metal_water_fall_land </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> act_metal_water_fall_land </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -701,9 +701,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 act_metal_water_falling </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> act_metal_water_falling </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -727,9 +727,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 act_metal_water_jump </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> act_metal_water_jump </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -753,9 +753,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 act_metal_water_jump_land </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> act_metal_water_jump_land </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -779,9 +779,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 act_metal_water_standing </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> act_metal_water_standing </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -805,9 +805,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 act_metal_water_walking </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> act_metal_water_walking </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -831,9 +831,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 act_swimming_end </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> act_swimming_end </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -857,9 +857,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 act_water_action_end </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> act_water_action_end </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -883,9 +883,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 act_water_death </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> act_water_death </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -909,9 +909,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 act_water_idle </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> act_water_idle </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -935,9 +935,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 act_water_plunge </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> act_water_plunge </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -961,9 +961,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 act_water_punch </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> act_water_punch </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -987,9 +987,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 act_water_shell_swimming </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> act_water_shell_swimming </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1013,9 +1013,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 act_water_shocked </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> act_water_shocked </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1039,9 +1039,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 act_water_throw </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> act_water_throw </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1065,15 +1065,15 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static void apply_water_current </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a> apply_water_current </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">Vec3f&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d49/types_8h.html#a5290523279339ea495248ab3a36cb46e">Vec3f</a>&#160;</td>
           <td class="paramname"><em>step</em>&#160;</td>
         </tr>
         <tr>
@@ -1101,9 +1101,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 check_common_submerged_cancels </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> check_common_submerged_cancels </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1128,9 +1128,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 check_water_grab </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> check_water_grab </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1155,9 +1155,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 check_water_jump </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> check_water_jump </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1181,21 +1181,21 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static void common_idle_step </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a> common_idle_step </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">s32&#160;</td>
+          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td>
           <td class="paramname"><em>animation</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">s32&#160;</td>
+          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td>
           <td class="paramname"><em>arg</em>&#160;</td>
         </tr>
         <tr>
@@ -1223,15 +1223,15 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static void common_swimming_step </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a> common_swimming_step </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">s16&#160;</td>
+          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a4cb19f4a3324cfe0938ddfbfabaa825b">s16</a>&#160;</td>
           <td class="paramname"><em>swimStrength</em>&#160;</td>
         </tr>
         <tr>
@@ -1259,27 +1259,27 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static void common_water_knockback_step </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a> common_water_knockback_step </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">s32&#160;</td>
+          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td>
           <td class="paramname"><em>animation</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">u32&#160;</td>
+          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a>&#160;</td>
           <td class="paramname"><em>endAction</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">s32&#160;</td>
+          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td>
           <td class="paramname"><em>arg3</em>&#160;</td>
         </tr>
         <tr>
@@ -1307,9 +1307,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static void func_80270504 </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a> func_80270504 </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1333,9 +1333,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static void func_8027107C </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a> func_8027107C </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1359,9 +1359,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static void func_802710CC </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a> func_802710CC </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1385,9 +1385,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static void func_802713A8 </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a> func_802713A8 </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1411,15 +1411,15 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static void func_80272FA8 </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a> func_80272FA8 </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">u32&#160;</td>
+          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a>&#160;</td>
           <td class="paramname"><em>arg</em>&#160;</td>
         </tr>
         <tr>
@@ -1447,9 +1447,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static f32 get_buoyancy </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> get_buoyancy </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1470,9 +1470,9 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">s32 mario_execute_submerged_action </td>
+          <td class="memname"><a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> mario_execute_submerged_action </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1491,15 +1491,15 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static u32 perform_water_full_step </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a> perform_water_full_step </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">Vec3f&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d49/types_8h.html#a5290523279339ea495248ab3a36cb46e">Vec3f</a>&#160;</td>
           <td class="paramname"><em>nextPos</em>&#160;</td>
         </tr>
         <tr>
@@ -1528,9 +1528,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static u32 perform_water_step </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a> perform_water_step </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1554,9 +1554,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static void play_metal_water_walking_sound </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a> play_metal_water_walking_sound </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1580,15 +1580,15 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static void set_swimming_at_surface_particles </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a> set_swimming_at_surface_particles </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">u32&#160;</td>
+          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a>&#160;</td>
           <td class="paramname"><em>particleFlag</em>&#160;</td>
         </tr>
         <tr>
@@ -1616,9 +1616,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static void stationary_slow_down </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a> stationary_slow_down </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1642,9 +1642,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 swimming_near_surface </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> swimming_near_surface </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1668,9 +1668,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 update_metal_water_jump_speed </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> update_metal_water_jump_speed </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1694,9 +1694,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static void update_metal_water_walking_speed </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a> update_metal_water_walking_speed </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1720,9 +1720,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static void update_swimming_pitch </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a> update_swimming_pitch </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1746,15 +1746,15 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static void update_swimming_speed </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a> update_swimming_speed </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">f32&#160;</td>
+          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td>
           <td class="paramname"><em>decelThreshold</em>&#160;</td>
         </tr>
         <tr>
@@ -1782,9 +1782,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static void update_swimming_yaw </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a> update_swimming_yaw </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1809,7 +1809,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">s16 D_8032CDD4 = 160</td>
+          <td class="memname"><a class="el" href="../../dd/da7/ultratypes_8h.html#a4cb19f4a3324cfe0938ddfbfabaa825b">s16</a> D_8032CDD4 = 160</td>
         </tr>
       </table>
   </td>
@@ -1831,7 +1831,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">s16 D_80339FD0</td>
+          <td class="memname"><a class="el" href="../../dd/da7/ultratypes_8h.html#a4cb19f4a3324cfe0938ddfbfabaa825b">s16</a> D_80339FD0</td>
         </tr>
       </table>
   </td>
@@ -1853,7 +1853,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">s16 D_80339FD2</td>
+          <td class="memname"><a class="el" href="../../dd/da7/ultratypes_8h.html#a4cb19f4a3324cfe0938ddfbfabaa825b">s16</a> D_80339FD2</td>
         </tr>
       </table>
   </td>
@@ -1875,7 +1875,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">f32 D_80339FD4</td>
+          <td class="memname"><a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> D_80339FD4</td>
         </tr>
       </table>
   </td>
@@ -1897,7 +1897,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">s16 sWasAtSurface = FALSE</td>
+          <td class="memname"><a class="el" href="../../dd/da7/ultratypes_8h.html#a4cb19f4a3324cfe0938ddfbfabaa825b">s16</a> sWasAtSurface = <a class="el" href="../../dd/da7/ultratypes_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a></td>
         </tr>
       </table>
   </td>
@@ -1919,7 +1919,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">s16 sWaterCurrentSpeeds[] = {28, 12, 8, 4}</td>
+          <td class="memname"><a class="el" href="../../dd/da7/ultratypes_8h.html#a4cb19f4a3324cfe0938ddfbfabaa825b">s16</a> sWaterCurrentSpeeds[] = {28, 12, 8, 4}</td>
         </tr>
       </table>
   </td>

@@ -3,6 +3,17 @@ var searchData=
   ['hang_5fhit_5fceil_5for_5foob',['HANG_HIT_CEIL_OR_OOB',['../d8/db9/mario__actions__automatic_8c.html#ae5bf7034ef6c188a06119b15156d6311',1,'mario_actions_automatic.c']]],
   ['hang_5fleft_5fceil',['HANG_LEFT_CEIL',['../d8/db9/mario__actions__automatic_8c.html#ae6ef435665834001ec602a7361192437',1,'mario_actions_automatic.c']]],
   ['hang_5fnone',['HANG_NONE',['../d8/db9/mario__actions__automatic_8c.html#ae027bb9afbdf32d2bbd6548c41541ed1',1,'mario_actions_automatic.c']]],
+  ['held_5fdropped',['HELD_DROPPED',['../dd/dd3/object__constants_8h.html#a733f90db25cf0e6d6db197544c667fdc',1,'object_constants.h']]],
+  ['held_5ffree',['HELD_FREE',['../dd/dd3/object__constants_8h.html#a00d137acc3b9f4d6c829a3d5f79dc4e8',1,'object_constants.h']]],
+  ['held_5fheld',['HELD_HELD',['../dd/dd3/object__constants_8h.html#ad49b7b8ab12284cdf20aa484b971ca9c',1,'object_constants.h']]],
+  ['held_5fthrown',['HELD_THROWN',['../dd/dd3/object__constants_8h.html#afbf186be9928605ab18b5e55806e0e98',1,'object_constants.h']]],
+  ['hoot_5fact_5fascent',['HOOT_ACT_ASCENT',['../dd/dd3/object__constants_8h.html#ada6fc391cf69e724e889d5ea2cdeb782',1,'object_constants.h']]],
+  ['hoot_5fact_5fcarry',['HOOT_ACT_CARRY',['../dd/dd3/object__constants_8h.html#a17bc3b7b03aa22257d24d70e6afb25bb',1,'object_constants.h']]],
+  ['hoot_5fact_5ftired',['HOOT_ACT_TIRED',['../dd/dd3/object__constants_8h.html#ae645f812f5f288bc77601952dc8640f7',1,'object_constants.h']]],
+  ['hoot_5favail_5fasleep_5fin_5ftree',['HOOT_AVAIL_ASLEEP_IN_TREE',['../dd/dd3/object__constants_8h.html#ac237f08028d236e8c8c07f97bab24a96',1,'object_constants.h']]],
+  ['hoot_5favail_5fready_5fto_5ffly',['HOOT_AVAIL_READY_TO_FLY',['../dd/dd3/object__constants_8h.html#a27154e0d0e6aa8ee3f9e9f0cf5c1d9ad',1,'object_constants.h']]],
+  ['hoot_5favail_5fwants_5fto_5ftalk',['HOOT_AVAIL_WANTS_TO_TALK',['../dd/dd3/object__constants_8h.html#a33882ae5830154cb54e8e4a2c6235b73',1,'object_constants.h']]],
   ['hud_5fstars_5fx',['HUD_STARS_X',['../d6/da1/hud_8c.html#a4218a43ca397f08e3ebaaf0e35b1e7be',1,'hud.c']]],
-  ['hud_5ftop_5fy',['HUD_TOP_Y',['../d6/da1/hud_8c.html#a82520007f9eb6329b694e6da643f831b',1,'hud.c']]]
+  ['hud_5ftop_5fy',['HUD_TOP_Y',['../d6/da1/hud_8c.html#a82520007f9eb6329b694e6da643f831b',1,'hud.c']]],
+  ['hw_5freg',['HW_REG',['../d7/de1/hardware_8h.html#a4a3c93b6b0e710a39f1eaba88f74b412',1,'hardware.h']]]
 ];

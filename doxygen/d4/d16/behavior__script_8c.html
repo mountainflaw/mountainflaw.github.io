@@ -75,169 +75,169 @@ $(function() {
 <div class="title">behavior_script.c File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;ultra64.h&gt;</code><br />
-<code>#include &quot;sm64.h&quot;</code><br />
-<code>#include &quot;behavior_script.h&quot;</code><br />
-<code>#include &quot;game/memory.h&quot;</code><br />
-<code>#include &quot;graph_node.h&quot;</code><br />
-<code>#include &quot;surface_collision.h&quot;</code><br />
-<code>#include &quot;game/object_helpers.h&quot;</code><br />
-<code>#include &quot;game/object_helpers2.h&quot;</code><br />
-<code>#include &quot;game/mario.h&quot;</code><br />
-<code>#include &quot;game/display.h&quot;</code><br />
-<code>#include &quot;game/obj_behaviors_2.h&quot;</code><br />
-<code>#include &quot;behavior_data.h&quot;</code><br />
-<code>#include &quot;game/object_list_processor.h&quot;</code><br />
+<div class="textblock"><code>#include &lt;<a class="el" href="../../dd/d2f/ultra64_8h_source.html">ultra64.h</a>&gt;</code><br />
+<code>#include &quot;<a class="el" href="../../d5/dd8/sm64_8h_source.html">sm64.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d0/d69/behavior__script_8h_source.html">behavior_script.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../dc/d18/memory_8h_source.html">game/memory.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d1/dfc/graph__node_8h_source.html">graph_node.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d2/da4/surface__collision_8h_source.html">surface_collision.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d3/dc7/object__helpers_8h_source.html">game/object_helpers.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../dd/d71/object__helpers2_8h_source.html">game/object_helpers2.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d9/db9/mario_8h_source.html">game/mario.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d4/d68/display_8h_source.html">game/display.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d0/dc6/obj__behaviors__2_8h_source.html">game/obj_behaviors_2.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d6/d40/behavior__data_8h_source.html">behavior_data.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d2/dd2/object__list__processor_8h_source.html">game/object_list_processor.h</a>&quot;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:af447f1b3d01f40f147543ba4a9b30899"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#af447f1b3d01f40f147543ba4a9b30899">BehaviorCallProc</a>) (void)</td></tr>
+<tr class="memitem:af447f1b3d01f40f147543ba4a9b30899"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#ab46757f4f70d07f999e87f548a66e8c4">typedef</a> <a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#af447f1b3d01f40f147543ba4a9b30899">BehaviorCallProc</a>) (<a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>)</td></tr>
 <tr class="separator:af447f1b3d01f40f147543ba4a9b30899"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8466b81dee74012641d91e7b2817eb57"><td class="memItemLeft" align="right" valign="top">typedef s32(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#a8466b81dee74012641d91e7b2817eb57">BehCommandProc</a>) (void)</td></tr>
+<tr class="memitem:a8466b81dee74012641d91e7b2817eb57"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#ab46757f4f70d07f999e87f548a66e8c4">typedef</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#a8466b81dee74012641d91e7b2817eb57">BehCommandProc</a>) (<a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>)</td></tr>
 <tr class="separator:a8466b81dee74012641d91e7b2817eb57"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a3ab2b26b800f7608f34a5de031e94023"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#a3ab2b26b800f7608f34a5de031e94023">func_80383B70</a> (u32 segptr)</td></tr>
+<tr class="memitem:a3ab2b26b800f7608f34a5de031e94023"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#a3ab2b26b800f7608f34a5de031e94023">func_80383B70</a> (<a class="el" href="../../dd/da7/ultratypes_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a> segptr)</td></tr>
 <tr class="separator:a3ab2b26b800f7608f34a5de031e94023"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a94f7871bd7a0b09df693e33cdde46f44"><td class="memItemLeft" align="right" valign="top">u16&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#a94f7871bd7a0b09df693e33cdde46f44">RandomU16</a> (void)</td></tr>
+<tr class="memitem:a94f7871bd7a0b09df693e33cdde46f44"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/da7/ultratypes_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#a94f7871bd7a0b09df693e33cdde46f44">RandomU16</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>)</td></tr>
 <tr class="separator:a94f7871bd7a0b09df693e33cdde46f44"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a48f408e41d7e16337e1902ac508aebe5"><td class="memItemLeft" align="right" valign="top">f32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#a48f408e41d7e16337e1902ac508aebe5">RandomFloat</a> (void)</td></tr>
+<tr class="memitem:a48f408e41d7e16337e1902ac508aebe5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#a48f408e41d7e16337e1902ac508aebe5">RandomFloat</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>)</td></tr>
 <tr class="separator:a48f408e41d7e16337e1902ac508aebe5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ada1d14cef687387303617eefae4b95e8"><td class="memItemLeft" align="right" valign="top">s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#ada1d14cef687387303617eefae4b95e8">RandomSign</a> (void)</td></tr>
+<tr class="memitem:ada1d14cef687387303617eefae4b95e8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#ada1d14cef687387303617eefae4b95e8">RandomSign</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>)</td></tr>
 <tr class="separator:ada1d14cef687387303617eefae4b95e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0ea656092a671e7b976e01ef4eb5c8f3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#a0ea656092a671e7b976e01ef4eb5c8f3">func_80383D68</a> (struct Object *object)</td></tr>
+<tr class="memitem:a0ea656092a671e7b976e01ef4eb5c8f3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#a0ea656092a671e7b976e01ef4eb5c8f3">func_80383D68</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../de/de7/structObject.html">Object</a> *<a class="el" href="../../d9/d0b/err_8english_8cc.html#a947190aa20a3ea727ca3180bb339b896">object</a>)</td></tr>
 <tr class="separator:a0ea656092a671e7b976e01ef4eb5c8f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac9372ec440852a9636c351deda22674d"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#ac9372ec440852a9636c351deda22674d">cur_object_stack_push</a> (u32 value)</td></tr>
+<tr class="memitem:ac9372ec440852a9636c351deda22674d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#ac9372ec440852a9636c351deda22674d">cur_object_stack_push</a> (<a class="el" href="../../dd/da7/ultratypes_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a> <a class="el" href="../../d9/d0b/err_8english_8cc.html#a8131e69aaa5dbbfc5f9d173e138a0575">value</a>)</td></tr>
 <tr class="separator:ac9372ec440852a9636c351deda22674d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acedcc3c99f68958d44eb2b1f805f2b4c"><td class="memItemLeft" align="right" valign="top">static u32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#acedcc3c99f68958d44eb2b1f805f2b4c">cur_object_stack_pop</a> (void)</td></tr>
+<tr class="memitem:acedcc3c99f68958d44eb2b1f805f2b4c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#acedcc3c99f68958d44eb2b1f805f2b4c">cur_object_stack_pop</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>)</td></tr>
 <tr class="separator:acedcc3c99f68958d44eb2b1f805f2b4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9257d03ff6bbab9b477c328a8bc39c5f"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#a9257d03ff6bbab9b477c328a8bc39c5f">Unknown80383E44</a> (void)</td></tr>
+<tr class="memitem:a9257d03ff6bbab9b477c328a8bc39c5f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#a9257d03ff6bbab9b477c328a8bc39c5f">Unknown80383E44</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>)</td></tr>
 <tr class="separator:a9257d03ff6bbab9b477c328a8bc39c5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa5de3c2099cb16f022f5e27e2e889e8d"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#aa5de3c2099cb16f022f5e27e2e889e8d">beh_cmd_unhide</a> (void)</td></tr>
+<tr class="memitem:aa5de3c2099cb16f022f5e27e2e889e8d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#aa5de3c2099cb16f022f5e27e2e889e8d">beh_cmd_unhide</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>)</td></tr>
 <tr class="separator:aa5de3c2099cb16f022f5e27e2e889e8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afec46043c589c3199a4edfafbae34218"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#afec46043c589c3199a4edfafbae34218">beh_cmd_graph_clear</a> (void)</td></tr>
+<tr class="memitem:afec46043c589c3199a4edfafbae34218"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#afec46043c589c3199a4edfafbae34218">beh_cmd_graph_clear</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>)</td></tr>
 <tr class="separator:afec46043c589c3199a4edfafbae34218"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7f962887c53614fb2b5a24af6875bfaa"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#a7f962887c53614fb2b5a24af6875bfaa">beh_cmd_billboard</a> (void)</td></tr>
+<tr class="memitem:a7f962887c53614fb2b5a24af6875bfaa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#a7f962887c53614fb2b5a24af6875bfaa">beh_cmd_billboard</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>)</td></tr>
 <tr class="separator:a7f962887c53614fb2b5a24af6875bfaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad71f2e0ddd83e6b1379177da1770d1fc"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#ad71f2e0ddd83e6b1379177da1770d1fc">beh_cmd_graph_node</a> (void)</td></tr>
+<tr class="memitem:ad71f2e0ddd83e6b1379177da1770d1fc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#ad71f2e0ddd83e6b1379177da1770d1fc">beh_cmd_graph_node</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>)</td></tr>
 <tr class="separator:ad71f2e0ddd83e6b1379177da1770d1fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2df455041c426ed4362e8713f06a9541"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#a2df455041c426ed4362e8713f06a9541">beh_cmd_obj_load_chill</a> (void)</td></tr>
+<tr class="memitem:a2df455041c426ed4362e8713f06a9541"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#a2df455041c426ed4362e8713f06a9541">beh_cmd_obj_load_chill</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>)</td></tr>
 <tr class="separator:a2df455041c426ed4362e8713f06a9541"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a836ae7e9254f054accd7cfc991d8d88a"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#a836ae7e9254f054accd7cfc991d8d88a">beh_cmd_obj_spawn</a> (void)</td></tr>
+<tr class="memitem:a836ae7e9254f054accd7cfc991d8d88a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#a836ae7e9254f054accd7cfc991d8d88a">beh_cmd_obj_spawn</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>)</td></tr>
 <tr class="separator:a836ae7e9254f054accd7cfc991d8d88a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a513d3df4200506125fd99d1a6f337aff"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#a513d3df4200506125fd99d1a6f337aff">beh_cmd_obj_load_chill_param</a> (void)</td></tr>
+<tr class="memitem:a513d3df4200506125fd99d1a6f337aff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#a513d3df4200506125fd99d1a6f337aff">beh_cmd_obj_load_chill_param</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>)</td></tr>
 <tr class="separator:a513d3df4200506125fd99d1a6f337aff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a01000b7eb23eda416565ba428b783cc3"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#a01000b7eb23eda416565ba428b783cc3">beh_cmd_deactivate</a> (void)</td></tr>
+<tr class="memitem:a01000b7eb23eda416565ba428b783cc3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#a01000b7eb23eda416565ba428b783cc3">beh_cmd_deactivate</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>)</td></tr>
 <tr class="separator:a01000b7eb23eda416565ba428b783cc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae1e5f179771214636165cbf7fcaa4856"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#ae1e5f179771214636165cbf7fcaa4856">beh_cmd_break</a> (void)</td></tr>
+<tr class="memitem:ae1e5f179771214636165cbf7fcaa4856"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#ae1e5f179771214636165cbf7fcaa4856">beh_cmd_break</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>)</td></tr>
 <tr class="separator:ae1e5f179771214636165cbf7fcaa4856"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a227b9588c80a1b5fc8b87a85a9264cc8"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#a227b9588c80a1b5fc8b87a85a9264cc8">beh_cmd_break2</a> (void)</td></tr>
+<tr class="memitem:a227b9588c80a1b5fc8b87a85a9264cc8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#a227b9588c80a1b5fc8b87a85a9264cc8">beh_cmd_break2</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>)</td></tr>
 <tr class="separator:a227b9588c80a1b5fc8b87a85a9264cc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a144511eacc01aee150d6c7ab221ddd7d"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#a144511eacc01aee150d6c7ab221ddd7d">beh_cmd_call</a> (void)</td></tr>
+<tr class="memitem:a144511eacc01aee150d6c7ab221ddd7d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#a144511eacc01aee150d6c7ab221ddd7d">beh_cmd_call</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>)</td></tr>
 <tr class="separator:a144511eacc01aee150d6c7ab221ddd7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a55ae8ca9d33f797e5750f253df4c5222"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#a55ae8ca9d33f797e5750f253df4c5222">beh_cmd_return</a> (void)</td></tr>
+<tr class="memitem:a55ae8ca9d33f797e5750f253df4c5222"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#a55ae8ca9d33f797e5750f253df4c5222">beh_cmd_return</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>)</td></tr>
 <tr class="separator:a55ae8ca9d33f797e5750f253df4c5222"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ace18c1fdcd4a3d4a58d1495025c8c8d8"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#ace18c1fdcd4a3d4a58d1495025c8c8d8">beh_cmd_delay</a> (void)</td></tr>
+<tr class="memitem:ace18c1fdcd4a3d4a58d1495025c8c8d8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#ace18c1fdcd4a3d4a58d1495025c8c8d8">beh_cmd_delay</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>)</td></tr>
 <tr class="separator:ace18c1fdcd4a3d4a58d1495025c8c8d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5cfb31a7dd482bc0f36eeb7e726f825f"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#a5cfb31a7dd482bc0f36eeb7e726f825f">beh_cmd_delay_var</a> (void)</td></tr>
+<tr class="memitem:a5cfb31a7dd482bc0f36eeb7e726f825f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#a5cfb31a7dd482bc0f36eeb7e726f825f">beh_cmd_delay_var</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>)</td></tr>
 <tr class="separator:a5cfb31a7dd482bc0f36eeb7e726f825f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a86154369306cd6b41b92de17df383405"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#a86154369306cd6b41b92de17df383405">beh_cmd_goto</a> (void)</td></tr>
+<tr class="memitem:a86154369306cd6b41b92de17df383405"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#a86154369306cd6b41b92de17df383405">beh_cmd_goto</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>)</td></tr>
 <tr class="separator:a86154369306cd6b41b92de17df383405"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a932adee9c72f7311d60f7ecf9c4540c1"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#a932adee9c72f7311d60f7ecf9c4540c1">Behavior26</a> (void)</td></tr>
+<tr class="memitem:a932adee9c72f7311d60f7ecf9c4540c1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#a932adee9c72f7311d60f7ecf9c4540c1">Behavior26</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>)</td></tr>
 <tr class="separator:a932adee9c72f7311d60f7ecf9c4540c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1411697eff3e5c9ffbd10c536d08d39b"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#a1411697eff3e5c9ffbd10c536d08d39b">beh_cmd_begin_repeat</a> (void)</td></tr>
+<tr class="memitem:a1411697eff3e5c9ffbd10c536d08d39b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#a1411697eff3e5c9ffbd10c536d08d39b">beh_cmd_begin_repeat</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>)</td></tr>
 <tr class="separator:a1411697eff3e5c9ffbd10c536d08d39b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa93c680a25887d609dac21bdb54cc5fc"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#aa93c680a25887d609dac21bdb54cc5fc">beh_cmd_end_repeat</a> (void)</td></tr>
+<tr class="memitem:aa93c680a25887d609dac21bdb54cc5fc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#aa93c680a25887d609dac21bdb54cc5fc">beh_cmd_end_repeat</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>)</td></tr>
 <tr class="separator:aa93c680a25887d609dac21bdb54cc5fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a78bcac960047dff0b7bae167a3678407"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#a78bcac960047dff0b7bae167a3678407">beh_cmd_end_repeat_nobreak</a> (void)</td></tr>
+<tr class="memitem:a78bcac960047dff0b7bae167a3678407"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#a78bcac960047dff0b7bae167a3678407">beh_cmd_end_repeat_nobreak</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>)</td></tr>
 <tr class="separator:a78bcac960047dff0b7bae167a3678407"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0975f86c15c39479551ce2d22d31f4bb"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#a0975f86c15c39479551ce2d22d31f4bb">beh_cmd_begin_loop</a> (void)</td></tr>
+<tr class="memitem:a0975f86c15c39479551ce2d22d31f4bb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#a0975f86c15c39479551ce2d22d31f4bb">beh_cmd_begin_loop</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>)</td></tr>
 <tr class="separator:a0975f86c15c39479551ce2d22d31f4bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af5a5be554ff2d370250b886f79e14fdc"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#af5a5be554ff2d370250b886f79e14fdc">beh_cmd_end_loop</a> (void)</td></tr>
+<tr class="memitem:af5a5be554ff2d370250b886f79e14fdc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#af5a5be554ff2d370250b886f79e14fdc">beh_cmd_end_loop</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>)</td></tr>
 <tr class="separator:af5a5be554ff2d370250b886f79e14fdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a41a6f11d30fd83b3df15e56d1b5334e1"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#a41a6f11d30fd83b3df15e56d1b5334e1">beh_cmd_callnative</a> (void)</td></tr>
+<tr class="memitem:a41a6f11d30fd83b3df15e56d1b5334e1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#a41a6f11d30fd83b3df15e56d1b5334e1">beh_cmd_callnative</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>)</td></tr>
 <tr class="separator:a41a6f11d30fd83b3df15e56d1b5334e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af31fadf149ebecece9cf04ba9402fd23"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#af31fadf149ebecece9cf04ba9402fd23">beh_cmd_obj_set_float</a> (void)</td></tr>
+<tr class="memitem:af31fadf149ebecece9cf04ba9402fd23"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#af31fadf149ebecece9cf04ba9402fd23">beh_cmd_obj_set_float</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>)</td></tr>
 <tr class="separator:af31fadf149ebecece9cf04ba9402fd23"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a47bae80e6796004f42935222c75ecb72"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#a47bae80e6796004f42935222c75ecb72">beh_cmd_obj_set_int</a> (void)</td></tr>
+<tr class="memitem:a47bae80e6796004f42935222c75ecb72"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#a47bae80e6796004f42935222c75ecb72">beh_cmd_obj_set_int</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>)</td></tr>
 <tr class="separator:a47bae80e6796004f42935222c75ecb72"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7cca4674ad2f02b9c4185beeeaf2763a"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#a7cca4674ad2f02b9c4185beeeaf2763a">Behavior36</a> (void)</td></tr>
+<tr class="memitem:a7cca4674ad2f02b9c4185beeeaf2763a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#a7cca4674ad2f02b9c4185beeeaf2763a">Behavior36</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>)</td></tr>
 <tr class="separator:a7cca4674ad2f02b9c4185beeeaf2763a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a30c6e688caead605f0e73f37c7e714c3"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#a30c6e688caead605f0e73f37c7e714c3">beh_cmd_obj_set_float_rand</a> (void)</td></tr>
+<tr class="memitem:a30c6e688caead605f0e73f37c7e714c3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#a30c6e688caead605f0e73f37c7e714c3">beh_cmd_obj_set_float_rand</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>)</td></tr>
 <tr class="separator:a30c6e688caead605f0e73f37c7e714c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5af01268de91041bd6df709d0a9a607a"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#a5af01268de91041bd6df709d0a9a607a">beh_cmd_obj_set_int_rand</a> (void)</td></tr>
+<tr class="memitem:a5af01268de91041bd6df709d0a9a607a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#a5af01268de91041bd6df709d0a9a607a">beh_cmd_obj_set_int_rand</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>)</td></tr>
 <tr class="separator:a5af01268de91041bd6df709d0a9a607a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeb0e3649e86e89cab10a87b999d1f137"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#aeb0e3649e86e89cab10a87b999d1f137">beh_cmd_obj_set_int_rand_rshift</a> (void)</td></tr>
+<tr class="memitem:aeb0e3649e86e89cab10a87b999d1f137"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#aeb0e3649e86e89cab10a87b999d1f137">beh_cmd_obj_set_int_rand_rshift</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>)</td></tr>
 <tr class="separator:aeb0e3649e86e89cab10a87b999d1f137"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab5818ddf6f8e73273100886707beac4b"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#ab5818ddf6f8e73273100886707beac4b">beh_cmd_obj_add_float_rand</a> (void)</td></tr>
+<tr class="memitem:ab5818ddf6f8e73273100886707beac4b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#ab5818ddf6f8e73273100886707beac4b">beh_cmd_obj_add_float_rand</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>)</td></tr>
 <tr class="separator:ab5818ddf6f8e73273100886707beac4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abe745168f11799797609c5e0726222e3"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#abe745168f11799797609c5e0726222e3">beh_cmd_obj_add_int_rand_rshift</a> (void)</td></tr>
+<tr class="memitem:abe745168f11799797609c5e0726222e3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#abe745168f11799797609c5e0726222e3">beh_cmd_obj_add_int_rand_rshift</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>)</td></tr>
 <tr class="separator:abe745168f11799797609c5e0726222e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a00835a873dbfe6222f7e16ec2e622c3b"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#a00835a873dbfe6222f7e16ec2e622c3b">beh_cmd_obj_add_float</a> (void)</td></tr>
+<tr class="memitem:a00835a873dbfe6222f7e16ec2e622c3b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#a00835a873dbfe6222f7e16ec2e622c3b">beh_cmd_obj_add_float</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>)</td></tr>
 <tr class="separator:a00835a873dbfe6222f7e16ec2e622c3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ace7a8fb646d212af8cf65f044612234c"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#ace7a8fb646d212af8cf65f044612234c">beh_cmd_obj_add_int</a> (void)</td></tr>
+<tr class="memitem:ace7a8fb646d212af8cf65f044612234c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#ace7a8fb646d212af8cf65f044612234c">beh_cmd_obj_add_int</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>)</td></tr>
 <tr class="separator:ace7a8fb646d212af8cf65f044612234c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0d2fdfe26c82de973c309b0bf3a8bb1b"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#a0d2fdfe26c82de973c309b0bf3a8bb1b">beh_cmd_obj_or_int</a> (void)</td></tr>
+<tr class="memitem:a0d2fdfe26c82de973c309b0bf3a8bb1b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#a0d2fdfe26c82de973c309b0bf3a8bb1b">beh_cmd_obj_or_int</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>)</td></tr>
 <tr class="separator:a0d2fdfe26c82de973c309b0bf3a8bb1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a92660ae374f46af2df98beca53dbfb9f"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#a92660ae374f46af2df98beca53dbfb9f">beh_cmd_obj_bit_clear_int</a> (void)</td></tr>
+<tr class="memitem:a92660ae374f46af2df98beca53dbfb9f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#a92660ae374f46af2df98beca53dbfb9f">beh_cmd_obj_bit_clear_int</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>)</td></tr>
 <tr class="separator:a92660ae374f46af2df98beca53dbfb9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae597507452aa9037dcf818c966cb6ab8"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#ae597507452aa9037dcf818c966cb6ab8">beh_cmd_obj_set_int32</a> (void)</td></tr>
+<tr class="memitem:ae597507452aa9037dcf818c966cb6ab8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#ae597507452aa9037dcf818c966cb6ab8">beh_cmd_obj_set_int32</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>)</td></tr>
 <tr class="separator:ae597507452aa9037dcf818c966cb6ab8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac12e6752f8266174bee3b058b050346b"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#ac12e6752f8266174bee3b058b050346b">beh_cmd_obj_animate</a> (void)</td></tr>
+<tr class="memitem:ac12e6752f8266174bee3b058b050346b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#ac12e6752f8266174bee3b058b050346b">beh_cmd_obj_animate</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>)</td></tr>
 <tr class="separator:ac12e6752f8266174bee3b058b050346b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a65dbc177a8e5d1dacca3ddfd50e6426d"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#a65dbc177a8e5d1dacca3ddfd50e6426d">beh_cmd_obj_drop_floor</a> (void)</td></tr>
+<tr class="memitem:a65dbc177a8e5d1dacca3ddfd50e6426d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#a65dbc177a8e5d1dacca3ddfd50e6426d">beh_cmd_obj_drop_floor</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>)</td></tr>
 <tr class="separator:a65dbc177a8e5d1dacca3ddfd50e6426d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad9e0fe5867c94b294c8e362d08df63da"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#ad9e0fe5867c94b294c8e362d08df63da">Behavior18</a> (void)</td></tr>
+<tr class="memitem:ad9e0fe5867c94b294c8e362d08df63da"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#ad9e0fe5867c94b294c8e362d08df63da">Behavior18</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>)</td></tr>
 <tr class="separator:ad9e0fe5867c94b294c8e362d08df63da"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a342fa05d2a0faf51b161d49e64dc29d0"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#a342fa05d2a0faf51b161d49e64dc29d0">Behavior1A</a> (void)</td></tr>
+<tr class="memitem:a342fa05d2a0faf51b161d49e64dc29d0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#a342fa05d2a0faf51b161d49e64dc29d0">Behavior1A</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>)</td></tr>
 <tr class="separator:a342fa05d2a0faf51b161d49e64dc29d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0eb6cd412b07417acb74cb9e4084c84b"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#a0eb6cd412b07417acb74cb9e4084c84b">Behavior19</a> (void)</td></tr>
+<tr class="memitem:a0eb6cd412b07417acb74cb9e4084c84b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#a0eb6cd412b07417acb74cb9e4084c84b">Behavior19</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>)</td></tr>
 <tr class="separator:a0eb6cd412b07417acb74cb9e4084c84b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a139f69149a98d617e2129644305616be"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#a139f69149a98d617e2129644305616be">beh_cmd_obj_sum_float</a> (void)</td></tr>
+<tr class="memitem:a139f69149a98d617e2129644305616be"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#a139f69149a98d617e2129644305616be">beh_cmd_obj_sum_float</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>)</td></tr>
 <tr class="separator:a139f69149a98d617e2129644305616be"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaf4a78d43eebf106a3f4c5b168f598dc"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#aaf4a78d43eebf106a3f4c5b168f598dc">beh_cmd_obj_sum_int</a> (void)</td></tr>
+<tr class="memitem:aaf4a78d43eebf106a3f4c5b168f598dc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#aaf4a78d43eebf106a3f4c5b168f598dc">beh_cmd_obj_sum_int</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>)</td></tr>
 <tr class="separator:aaf4a78d43eebf106a3f4c5b168f598dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a777ac0adfc7d1845f6a61ac45f7d2173"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#a777ac0adfc7d1845f6a61ac45f7d2173">beh_cmd_set_hitbox</a> (void)</td></tr>
+<tr class="memitem:a777ac0adfc7d1845f6a61ac45f7d2173"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#a777ac0adfc7d1845f6a61ac45f7d2173">beh_cmd_set_hitbox</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>)</td></tr>
 <tr class="separator:a777ac0adfc7d1845f6a61ac45f7d2173"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7c1c064945726b22fc90ef4e9cc200d3"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#a7c1c064945726b22fc90ef4e9cc200d3">beh_cmd_obj_set_float2</a> (void)</td></tr>
+<tr class="memitem:a7c1c064945726b22fc90ef4e9cc200d3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#a7c1c064945726b22fc90ef4e9cc200d3">beh_cmd_obj_set_float2</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>)</td></tr>
 <tr class="separator:a7c1c064945726b22fc90ef4e9cc200d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac7da604cea1418f91e9fcd33352a0153"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#ac7da604cea1418f91e9fcd33352a0153">beh_cmd_collision_sphere</a> (void)</td></tr>
+<tr class="memitem:ac7da604cea1418f91e9fcd33352a0153"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#ac7da604cea1418f91e9fcd33352a0153">beh_cmd_collision_sphere</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>)</td></tr>
 <tr class="separator:ac7da604cea1418f91e9fcd33352a0153"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3ab7b0dccf3a2fcdc5cb9a118c88234a"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#a3ab7b0dccf3a2fcdc5cb9a118c88234a">Behavior24</a> (void)</td></tr>
+<tr class="memitem:a3ab7b0dccf3a2fcdc5cb9a118c88234a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#a3ab7b0dccf3a2fcdc5cb9a118c88234a">Behavior24</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>)</td></tr>
 <tr class="separator:a3ab7b0dccf3a2fcdc5cb9a118c88234a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2ecedddde4326b1a9543a4d3eb094594"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#a2ecedddde4326b1a9543a4d3eb094594">beh_cmd_begin</a> (void)</td></tr>
+<tr class="memitem:a2ecedddde4326b1a9543a4d3eb094594"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#a2ecedddde4326b1a9543a4d3eb094594">beh_cmd_begin</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>)</td></tr>
 <tr class="separator:a2ecedddde4326b1a9543a4d3eb094594"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae464fa3dbedbd1643f22c86c05ef266c"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#ae464fa3dbedbd1643f22c86c05ef266c">Unknown8038556C</a> (s32 lastIndex)</td></tr>
+<tr class="memitem:ae464fa3dbedbd1643f22c86c05ef266c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#ae464fa3dbedbd1643f22c86c05ef266c">Unknown8038556C</a> (<a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> lastIndex)</td></tr>
 <tr class="separator:ae464fa3dbedbd1643f22c86c05ef266c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac9e7a121608c2f17c59e1197c6c1458b"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#ac9e7a121608c2f17c59e1197c6c1458b">beh_cmd_collision_data</a> (void)</td></tr>
+<tr class="memitem:ac9e7a121608c2f17c59e1197c6c1458b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#ac9e7a121608c2f17c59e1197c6c1458b">beh_cmd_collision_data</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>)</td></tr>
 <tr class="separator:ac9e7a121608c2f17c59e1197c6c1458b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a69b9a2e331c859e74aad4bcf7a7c847b"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#a69b9a2e331c859e74aad4bcf7a7c847b">beh_cmd_obj_set_pos</a> (void)</td></tr>
+<tr class="memitem:a69b9a2e331c859e74aad4bcf7a7c847b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#a69b9a2e331c859e74aad4bcf7a7c847b">beh_cmd_obj_set_pos</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>)</td></tr>
 <tr class="separator:a69b9a2e331c859e74aad4bcf7a7c847b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2c00d23bd0d5ec4e0bc01da4e89acc8c"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#a2c00d23bd0d5ec4e0bc01da4e89acc8c">beh_cmd_interact_type</a> (void)</td></tr>
+<tr class="memitem:a2c00d23bd0d5ec4e0bc01da4e89acc8c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#a2c00d23bd0d5ec4e0bc01da4e89acc8c">beh_cmd_interact_type</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>)</td></tr>
 <tr class="separator:a2c00d23bd0d5ec4e0bc01da4e89acc8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6abef3cd19dab2f0303f4c6c9abdbeb5"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#a6abef3cd19dab2f0303f4c6c9abdbeb5">Behavior31</a> (void)</td></tr>
+<tr class="memitem:a6abef3cd19dab2f0303f4c6c9abdbeb5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#a6abef3cd19dab2f0303f4c6c9abdbeb5">Behavior31</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>)</td></tr>
 <tr class="separator:a6abef3cd19dab2f0303f4c6c9abdbeb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad4cd1f48843ac6396fab11db44d061fc"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#ad4cd1f48843ac6396fab11db44d061fc">beh_cmd_scale</a> (void)</td></tr>
+<tr class="memitem:ad4cd1f48843ac6396fab11db44d061fc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#ad4cd1f48843ac6396fab11db44d061fc">beh_cmd_scale</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>)</td></tr>
 <tr class="separator:ad4cd1f48843ac6396fab11db44d061fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a99ecf1555c6718740b4098752e32a73d"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#a99ecf1555c6718740b4098752e32a73d">beh_cmd_obj_set_gravity</a> (void)</td></tr>
+<tr class="memitem:a99ecf1555c6718740b4098752e32a73d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#a99ecf1555c6718740b4098752e32a73d">beh_cmd_obj_set_gravity</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>)</td></tr>
 <tr class="separator:a99ecf1555c6718740b4098752e32a73d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a37760c7621e5e9ea01e537e9c68239f5"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#a37760c7621e5e9ea01e537e9c68239f5">beh_cmd_obj_bit_clear_int32</a> (void)</td></tr>
+<tr class="memitem:a37760c7621e5e9ea01e537e9c68239f5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#a37760c7621e5e9ea01e537e9c68239f5">beh_cmd_obj_bit_clear_int32</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>)</td></tr>
 <tr class="separator:a37760c7621e5e9ea01e537e9c68239f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0071d090b832385032e7822b719d20a4"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#a0071d090b832385032e7822b719d20a4">beh_cmd_spawn_addr</a> (void)</td></tr>
+<tr class="memitem:a0071d090b832385032e7822b719d20a4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#a0071d090b832385032e7822b719d20a4">beh_cmd_spawn_addr</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>)</td></tr>
 <tr class="separator:a0071d090b832385032e7822b719d20a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a281c50d5019964f789e15ac6e872cc07"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#a281c50d5019964f789e15ac6e872cc07">beh_cmd_text_anim_rate</a> (void)</td></tr>
+<tr class="memitem:a281c50d5019964f789e15ac6e872cc07"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#a281c50d5019964f789e15ac6e872cc07">beh_cmd_text_anim_rate</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>)</td></tr>
 <tr class="separator:a281c50d5019964f789e15ac6e872cc07"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a60c93e8a0d75a06f7efb0d766d414807"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#a60c93e8a0d75a06f7efb0d766d414807">func_80385BF0</a> (void)</td></tr>
+<tr class="memitem:a60c93e8a0d75a06f7efb0d766d414807"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#a60c93e8a0d75a06f7efb0d766d414807">func_80385BF0</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>)</td></tr>
 <tr class="separator:a60c93e8a0d75a06f7efb0d766d414807"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab64e76f5680eacfcc8e9cc9b40ac36e4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#ab64e76f5680eacfcc8e9cc9b40ac36e4">cur_object_exec_behavior</a> (void)</td></tr>
+<tr class="memitem:ab64e76f5680eacfcc8e9cc9b40ac36e4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#ab64e76f5680eacfcc8e9cc9b40ac36e4">cur_object_exec_behavior</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>)</td></tr>
 <tr class="separator:ab64e76f5680eacfcc8e9cc9b40ac36e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a8eafbc86e2d3ad047f20f29099649228"><td class="memItemLeft" align="right" valign="top">static u16&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#a8eafbc86e2d3ad047f20f29099649228">gRandomSeed16</a></td></tr>
+<tr class="memitem:a8eafbc86e2d3ad047f20f29099649228"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#a8eafbc86e2d3ad047f20f29099649228">gRandomSeed16</a></td></tr>
 <tr class="separator:a8eafbc86e2d3ad047f20f29099649228"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1cdf72ce3cc197811478b3af2259871f"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d4/d16/behavior__script_8c.html#a8466b81dee74012641d91e7b2817eb57">BehCommandProc</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#a1cdf72ce3cc197811478b3af2259871f">BehaviorJumpTable</a> []</td></tr>
+<tr class="memitem:a1cdf72ce3cc197811478b3af2259871f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../d4/d16/behavior__script_8c.html#a8466b81dee74012641d91e7b2817eb57">BehCommandProc</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/behavior__script_8c.html#a1cdf72ce3cc197811478b3af2259871f">BehaviorJumpTable</a> []</td></tr>
 <tr class="separator:a1cdf72ce3cc197811478b3af2259871f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
@@ -248,7 +248,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef void(* BehaviorCallProc) (void)</td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#ab46757f4f70d07f999e87f548a66e8c4">typedef</a> <a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>(* BehaviorCallProc) (<a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -262,7 +262,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef s32(* BehCommandProc) (void)</td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#ab46757f4f70d07f999e87f548a66e8c4">typedef</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>(* BehCommandProc) (<a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -280,9 +280,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 beh_cmd_begin </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> beh_cmd_begin </td>
           <td>(</td>
-          <td class="paramtype">void&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -306,9 +306,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 beh_cmd_begin_loop </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> beh_cmd_begin_loop </td>
           <td>(</td>
-          <td class="paramtype">void&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -332,9 +332,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 beh_cmd_begin_repeat </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> beh_cmd_begin_repeat </td>
           <td>(</td>
-          <td class="paramtype">void&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -358,9 +358,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 beh_cmd_billboard </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> beh_cmd_billboard </td>
           <td>(</td>
-          <td class="paramtype">void&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -384,9 +384,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 beh_cmd_break </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> beh_cmd_break </td>
           <td>(</td>
-          <td class="paramtype">void&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -410,9 +410,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 beh_cmd_break2 </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> beh_cmd_break2 </td>
           <td>(</td>
-          <td class="paramtype">void&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -436,9 +436,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 beh_cmd_call </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> beh_cmd_call </td>
           <td>(</td>
-          <td class="paramtype">void&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -462,9 +462,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 beh_cmd_callnative </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> beh_cmd_callnative </td>
           <td>(</td>
-          <td class="paramtype">void&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -488,9 +488,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 beh_cmd_collision_data </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> beh_cmd_collision_data </td>
           <td>(</td>
-          <td class="paramtype">void&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -514,9 +514,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 beh_cmd_collision_sphere </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> beh_cmd_collision_sphere </td>
           <td>(</td>
-          <td class="paramtype">void&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -540,9 +540,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 beh_cmd_deactivate </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> beh_cmd_deactivate </td>
           <td>(</td>
-          <td class="paramtype">void&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -566,9 +566,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 beh_cmd_delay </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> beh_cmd_delay </td>
           <td>(</td>
-          <td class="paramtype">void&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -592,9 +592,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 beh_cmd_delay_var </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> beh_cmd_delay_var </td>
           <td>(</td>
-          <td class="paramtype">void&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -618,9 +618,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 beh_cmd_end_loop </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> beh_cmd_end_loop </td>
           <td>(</td>
-          <td class="paramtype">void&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -644,9 +644,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 beh_cmd_end_repeat </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> beh_cmd_end_repeat </td>
           <td>(</td>
-          <td class="paramtype">void&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -670,9 +670,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 beh_cmd_end_repeat_nobreak </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> beh_cmd_end_repeat_nobreak </td>
           <td>(</td>
-          <td class="paramtype">void&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -696,9 +696,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 beh_cmd_goto </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> beh_cmd_goto </td>
           <td>(</td>
-          <td class="paramtype">void&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -722,9 +722,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 beh_cmd_graph_clear </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> beh_cmd_graph_clear </td>
           <td>(</td>
-          <td class="paramtype">void&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -748,9 +748,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 beh_cmd_graph_node </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> beh_cmd_graph_node </td>
           <td>(</td>
-          <td class="paramtype">void&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -774,9 +774,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 beh_cmd_interact_type </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> beh_cmd_interact_type </td>
           <td>(</td>
-          <td class="paramtype">void&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -800,9 +800,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 beh_cmd_obj_add_float </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> beh_cmd_obj_add_float </td>
           <td>(</td>
-          <td class="paramtype">void&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -826,9 +826,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 beh_cmd_obj_add_float_rand </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> beh_cmd_obj_add_float_rand </td>
           <td>(</td>
-          <td class="paramtype">void&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -852,9 +852,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 beh_cmd_obj_add_int </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> beh_cmd_obj_add_int </td>
           <td>(</td>
-          <td class="paramtype">void&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -878,9 +878,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 beh_cmd_obj_add_int_rand_rshift </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> beh_cmd_obj_add_int_rand_rshift </td>
           <td>(</td>
-          <td class="paramtype">void&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -904,9 +904,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 beh_cmd_obj_animate </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> beh_cmd_obj_animate </td>
           <td>(</td>
-          <td class="paramtype">void&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -930,9 +930,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 beh_cmd_obj_bit_clear_int </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> beh_cmd_obj_bit_clear_int </td>
           <td>(</td>
-          <td class="paramtype">void&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -956,9 +956,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 beh_cmd_obj_bit_clear_int32 </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> beh_cmd_obj_bit_clear_int32 </td>
           <td>(</td>
-          <td class="paramtype">void&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -982,9 +982,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 beh_cmd_obj_drop_floor </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> beh_cmd_obj_drop_floor </td>
           <td>(</td>
-          <td class="paramtype">void&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -1008,9 +1008,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 beh_cmd_obj_load_chill </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> beh_cmd_obj_load_chill </td>
           <td>(</td>
-          <td class="paramtype">void&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -1034,9 +1034,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 beh_cmd_obj_load_chill_param </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> beh_cmd_obj_load_chill_param </td>
           <td>(</td>
-          <td class="paramtype">void&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -1060,9 +1060,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 beh_cmd_obj_or_int </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> beh_cmd_obj_or_int </td>
           <td>(</td>
-          <td class="paramtype">void&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -1086,9 +1086,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 beh_cmd_obj_set_float </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> beh_cmd_obj_set_float </td>
           <td>(</td>
-          <td class="paramtype">void&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -1112,9 +1112,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 beh_cmd_obj_set_float2 </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> beh_cmd_obj_set_float2 </td>
           <td>(</td>
-          <td class="paramtype">void&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -1138,9 +1138,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 beh_cmd_obj_set_float_rand </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> beh_cmd_obj_set_float_rand </td>
           <td>(</td>
-          <td class="paramtype">void&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -1164,9 +1164,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 beh_cmd_obj_set_gravity </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> beh_cmd_obj_set_gravity </td>
           <td>(</td>
-          <td class="paramtype">void&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -1190,9 +1190,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 beh_cmd_obj_set_int </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> beh_cmd_obj_set_int </td>
           <td>(</td>
-          <td class="paramtype">void&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -1216,9 +1216,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 beh_cmd_obj_set_int32 </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> beh_cmd_obj_set_int32 </td>
           <td>(</td>
-          <td class="paramtype">void&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -1242,9 +1242,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 beh_cmd_obj_set_int_rand </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> beh_cmd_obj_set_int_rand </td>
           <td>(</td>
-          <td class="paramtype">void&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -1268,9 +1268,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 beh_cmd_obj_set_int_rand_rshift </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> beh_cmd_obj_set_int_rand_rshift </td>
           <td>(</td>
-          <td class="paramtype">void&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -1294,9 +1294,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 beh_cmd_obj_set_pos </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> beh_cmd_obj_set_pos </td>
           <td>(</td>
-          <td class="paramtype">void&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -1320,9 +1320,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 beh_cmd_obj_spawn </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> beh_cmd_obj_spawn </td>
           <td>(</td>
-          <td class="paramtype">void&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -1346,9 +1346,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 beh_cmd_obj_sum_float </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> beh_cmd_obj_sum_float </td>
           <td>(</td>
-          <td class="paramtype">void&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -1372,9 +1372,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 beh_cmd_obj_sum_int </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> beh_cmd_obj_sum_int </td>
           <td>(</td>
-          <td class="paramtype">void&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -1398,9 +1398,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 beh_cmd_return </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> beh_cmd_return </td>
           <td>(</td>
-          <td class="paramtype">void&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -1424,9 +1424,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 beh_cmd_scale </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> beh_cmd_scale </td>
           <td>(</td>
-          <td class="paramtype">void&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -1450,9 +1450,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 beh_cmd_set_hitbox </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> beh_cmd_set_hitbox </td>
           <td>(</td>
-          <td class="paramtype">void&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -1476,9 +1476,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 beh_cmd_spawn_addr </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> beh_cmd_spawn_addr </td>
           <td>(</td>
-          <td class="paramtype">void&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -1502,9 +1502,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 beh_cmd_text_anim_rate </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> beh_cmd_text_anim_rate </td>
           <td>(</td>
-          <td class="paramtype">void&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -1528,9 +1528,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 beh_cmd_unhide </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> beh_cmd_unhide </td>
           <td>(</td>
-          <td class="paramtype">void&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -1554,9 +1554,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 Behavior18 </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> Behavior18 </td>
           <td>(</td>
-          <td class="paramtype">void&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -1580,9 +1580,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 Behavior19 </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> Behavior19 </td>
           <td>(</td>
-          <td class="paramtype">void&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -1606,9 +1606,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 Behavior1A </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> Behavior1A </td>
           <td>(</td>
-          <td class="paramtype">void&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -1632,9 +1632,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 Behavior24 </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> Behavior24 </td>
           <td>(</td>
-          <td class="paramtype">void&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -1658,9 +1658,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 Behavior26 </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> Behavior26 </td>
           <td>(</td>
-          <td class="paramtype">void&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -1684,9 +1684,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 Behavior31 </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> Behavior31 </td>
           <td>(</td>
-          <td class="paramtype">void&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -1710,9 +1710,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 Behavior36 </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> Behavior36 </td>
           <td>(</td>
-          <td class="paramtype">void&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -1733,9 +1733,9 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void cur_object_exec_behavior </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a> cur_object_exec_behavior </td>
           <td>(</td>
-          <td class="paramtype">void&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -1754,9 +1754,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static u32 cur_object_stack_pop </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a> cur_object_stack_pop </td>
           <td>(</td>
-          <td class="paramtype">void&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -1780,9 +1780,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static void cur_object_stack_push </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a> cur_object_stack_push </td>
           <td>(</td>
-          <td class="paramtype">u32&#160;</td>
+          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a>&#160;</td>
           <td class="paramname"><em>value</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1806,9 +1806,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static void func_80383B70 </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a> func_80383B70 </td>
           <td>(</td>
-          <td class="paramtype">u32&#160;</td>
+          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a>&#160;</td>
           <td class="paramname"><em>segptr</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1829,9 +1829,9 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void func_80383D68 </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a> func_80383D68 </td>
           <td>(</td>
-          <td class="paramtype">struct Object *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../de/de7/structObject.html">Object</a> *&#160;</td>
           <td class="paramname"><em>object</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1847,9 +1847,9 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void func_80385BF0 </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a> func_80385BF0 </td>
           <td>(</td>
-          <td class="paramtype">void&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -1865,9 +1865,9 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">f32 RandomFloat </td>
+          <td class="memname"><a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> RandomFloat </td>
           <td>(</td>
-          <td class="paramtype">void&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -1883,9 +1883,9 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">s32 RandomSign </td>
+          <td class="memname"><a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> RandomSign </td>
           <td>(</td>
-          <td class="paramtype">void&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -1901,9 +1901,9 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">u16 RandomU16 </td>
+          <td class="memname"><a class="el" href="../../dd/da7/ultratypes_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a> RandomU16 </td>
           <td>(</td>
-          <td class="paramtype">void&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -1922,9 +1922,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static void Unknown80383E44 </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a> Unknown80383E44 </td>
           <td>(</td>
-          <td class="paramtype">void&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -1948,9 +1948,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static void Unknown8038556C </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a> Unknown8038556C </td>
           <td>(</td>
-          <td class="paramtype">s32&#160;</td>
+          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td>
           <td class="paramname"><em>lastIndex</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1997,7 +1997,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">u16 gRandomSeed16</td>
+          <td class="memname"><a class="el" href="../../dd/da7/ultratypes_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a> gRandomSeed16</td>
         </tr>
       </table>
   </td>

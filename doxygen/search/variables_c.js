@@ -1,20 +1,9 @@
 var searchData=
 [
-  ['lava_5fbubble_5fptr_5f0b006020',['lava_bubble_ptr_0B006020',['../d7/d14/envfx__bubbles_8c.html#a77d53b6e73beab313ae92bf69cd502e3',1,'envfx_bubbles.c']]],
-  ['length',['length',['../d2/d46/structTextLabel.html#a2e33e996063deb326a58e8770a122089',1,'TextLabel::length()'],['../da/d75/structCharmapEntry.html#ab10697b09b775c9da662dc97e6d6aa75',1,'CharmapEntry::length()']]],
-  ['length_5fstr',['length_str',['../d8/dd3/__Printf_8c.html#a7159006223a809718c3dcf7345b5c873',1,'_Printf.c']]],
-  ['levelscriptjumptable',['LevelScriptJumpTable',['../d2/d5c/level__script_8c.html#a31992dd5a299badd7f42b98f67ebfc3b',1,'level_script.c']]],
-  ['light',['light',['../d6/df0/structGdDisplayList.html#a81d018f27cb467848f28fee586b71d20',1,'GdDisplayList']]],
-  ['list',['list',['../d2/d91/structDynListBankInfo.html#a9fc91cf4a025be5557c4603ea476cdc2',1,'DynListBankInfo']]],
-  ['listheadl',['listHeadL',['../de/d14/structMainPoolState.html#a2132c0f9da6456775ed7b06459901dfb',1,'MainPoolState']]],
-  ['listheadr',['listHeadR',['../de/d14/structMainPoolState.html#a901e5cb7afc5abf17bc5f000ae1f1cb1',1,'MainPoolState']]],
-  ['lll_5fseg7_5farr_5f0702874c',['lll_seg7_arr_0702874C',['../df/d8f/moving__texture_8c.html#acbd7d264751c0b4722a20617a7782925',1,'moving_texture.c']]],
-  ['lll_5fseg7_5farr_5f07028820',['lll_seg7_arr_07028820',['../df/d8f/moving__texture_8c.html#ab36a8338e31c097e4fb4e45a0caf2eba',1,'moving_texture.c']]],
-  ['lll_5fseg7_5fcollision_5f0701d21c',['lll_seg7_collision_0701D21C',['../d4/d95/thwomp_8inc_8c.html#a315f6709b707b00fabca9fd78319b4b9',1,'thwomp.inc.c']]],
-  ['lll_5fseg7_5fdl_5f070287a8',['lll_seg7_dl_070287A8',['../df/d8f/moving__texture_8c.html#abd1fc5eeb3e95bc207fe3f3ce8c05941',1,'moving_texture.c']]],
-  ['lll_5fseg7_5fdl_5f070288c8',['lll_seg7_dl_070288C8',['../df/d8f/moving__texture_8c.html#ad4a07b8303e4212a4349a117ad5ffc35',1,'moving_texture.c']]],
-  ['lll_5fseg7_5fmoving_5ftexture_5f07028810',['lll_seg7_moving_texture_07028810',['../df/d8f/moving__texture_8c.html#ac82c651a201bee5d7dda08bb2df8bc31',1,'moving_texture.c']]],
-  ['lll_5fseg7_5ftrajectory_5f0702856c',['lll_seg7_trajectory_0702856C',['../db/d1a/obj__behaviors__2_8c.html#a32bf631edf086e60350813ae8b8263b1',1,'obj_behaviors_2.c']]],
-  ['lll_5fseg7_5ftrajectory_5f07028660',['lll_seg7_trajectory_07028660',['../db/d1a/obj__behaviors__2_8c.html#a808820e6151bc83e204266523b3123f9',1,'obj_behaviors_2.c']]],
-  ['lo',['lo',['../d0/dd2/uniondu.html#a1350494c6a09b425b926250e9b10b5c9',1,'du']]]
+  ['ka',['Ka',['../d8/d72/structObjMaterial.html#a4e06baa20d155a87e490abf8579db6f8',1,'ObjMaterial']]],
+  ['kd',['Kd',['../d8/d72/structObjMaterial.html#af2139f21aaeee16f2adc06d42fb2a63d',1,'ObjMaterial']]],
+  ['keybase',['keyBase',['../d0/da9/structALKeyMap.html#aec1f90a35507d4ec74039b5b480f9014',1,'ALKeyMap']]],
+  ['keymap',['keyMap',['../d6/d17/structALSound__s.html#aff53a80677e56bccd8a77015b3fa8c47',1,'ALSound_s']]],
+  ['keymax',['keyMax',['../d0/da9/structALKeyMap.html#a4baa8c969cb232cfefd38fa32ee98bde',1,'ALKeyMap']]],
+  ['keymin',['keyMin',['../d0/da9/structALKeyMap.html#a423b1ebc7949a62d3bff8cc8a6e26552',1,'ALKeyMap']]]
 ];

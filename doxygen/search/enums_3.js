@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['scenetype',['SceneType',['../dc/d8a/draw__objects_8c.html#a006282dc9ad93696316e776700c3c948',1,'draw_objects.c']]],
-  ['scriptstatus',['ScriptStatus',['../d2/d5c/level__script_8c.html#a2edba271cd8e9de650dcdc6f0f3c47ba',1,'level_script.c']]]
+  ['huddisplayflag',['HUDDisplayFlag',['../d7/d0a/level__update_8h.html#a2db1f690c26aa1a2709a8bd9a05994dc',1,'level_update.h']]],
+  ['hudfonttype',['HudFontType',['../da/dec/ingame__menu_8h.html#a920f1bf2bb2685324d319cc42f9710de',1,'ingame_menu.h']]]
 ];

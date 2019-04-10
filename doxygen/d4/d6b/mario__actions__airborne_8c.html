@@ -73,147 +73,147 @@ $(function() {
 <div class="title">mario_actions_airborne.c File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;ultra64.h&gt;</code><br />
-<code>#include &quot;sm64.h&quot;</code><br />
-<code>#include &quot;area.h&quot;</code><br />
-<code>#include &quot;level_update.h&quot;</code><br />
-<code>#include &quot;engine/math_util.h&quot;</code><br />
-<code>#include &quot;interaction.h&quot;</code><br />
-<code>#include &quot;mario.h&quot;</code><br />
-<code>#include &quot;mario_step.h&quot;</code><br />
-<code>#include &quot;display.h&quot;</code><br />
-<code>#include &quot;camera.h&quot;</code><br />
-<code>#include &quot;save_file.h&quot;</code><br />
-<code>#include &quot;audio/interface_2.h&quot;</code><br />
-<code>#include &quot;engine/graph_node.h&quot;</code><br />
+<div class="textblock"><code>#include &lt;<a class="el" href="../../dd/d2f/ultra64_8h_source.html">ultra64.h</a>&gt;</code><br />
+<code>#include &quot;<a class="el" href="../../d5/dd8/sm64_8h_source.html">sm64.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d4/d1c/area_8h_source.html">area.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d7/d0a/level__update_8h_source.html">level_update.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d8/d11/math__util_8h_source.html">engine/math_util.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../da/d85/interaction_8h_source.html">interaction.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d9/db9/mario_8h_source.html">mario.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d6/d2b/mario__step_8h_source.html">mario_step.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d4/d68/display_8h_source.html">display.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d7/df6/camera_8h_source.html">camera.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d4/dad/save__file_8h_source.html">save_file.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../de/de9/interface__2_8h_source.html">audio/interface_2.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d1/dfc/graph__node_8h_source.html">engine/graph_node.h</a>&quot;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a12a0e793faa5457c99496a290d1de035"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#a12a0e793faa5457c99496a290d1de035">play_flip_sounds</a> (struct MarioState *m, s16 frame1, s16 frame2, s16 frame3)</td></tr>
+<tr class="memitem:a12a0e793faa5457c99496a290d1de035"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#a12a0e793faa5457c99496a290d1de035">play_flip_sounds</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m, <a class="el" href="../../dd/da7/ultratypes_8h.html#a4cb19f4a3324cfe0938ddfbfabaa825b">s16</a> frame1, <a class="el" href="../../dd/da7/ultratypes_8h.html#a4cb19f4a3324cfe0938ddfbfabaa825b">s16</a> frame2, <a class="el" href="../../dd/da7/ultratypes_8h.html#a4cb19f4a3324cfe0938ddfbfabaa825b">s16</a> frame3)</td></tr>
 <tr class="separator:a12a0e793faa5457c99496a290d1de035"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad1c8625bea0439752a58fb517dec72df"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#ad1c8625bea0439752a58fb517dec72df">play_far_fall_sound</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:ad1c8625bea0439752a58fb517dec72df"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#ad1c8625bea0439752a58fb517dec72df">play_far_fall_sound</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:ad1c8625bea0439752a58fb517dec72df"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5b160708a609a493c3bb333dd9a487f8"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#a5b160708a609a493c3bb333dd9a487f8">lava_boost_on_wall</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:a5b160708a609a493c3bb333dd9a487f8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#a5b160708a609a493c3bb333dd9a487f8">lava_boost_on_wall</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:a5b160708a609a493c3bb333dd9a487f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeae65604907a5502cf365e8db4581e3f"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#aeae65604907a5502cf365e8db4581e3f">check_fall_damage</a> (struct MarioState *m, u32 hardFallAction)</td></tr>
+<tr class="memitem:aeae65604907a5502cf365e8db4581e3f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#aeae65604907a5502cf365e8db4581e3f">check_fall_damage</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m, <a class="el" href="../../dd/da7/ultratypes_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a> hardFallAction)</td></tr>
 <tr class="separator:aeae65604907a5502cf365e8db4581e3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a241e55124b4e1abe9be8d648c2a2c4c7"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#a241e55124b4e1abe9be8d648c2a2c4c7">check_kick_or_dive_in_air</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:a241e55124b4e1abe9be8d648c2a2c4c7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#a241e55124b4e1abe9be8d648c2a2c4c7">check_kick_or_dive_in_air</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:a241e55124b4e1abe9be8d648c2a2c4c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a68ca30763695d17ca4899482b85102fe"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#a68ca30763695d17ca4899482b85102fe">should_get_stuck_in_ground</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:a68ca30763695d17ca4899482b85102fe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#a68ca30763695d17ca4899482b85102fe">should_get_stuck_in_ground</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:a68ca30763695d17ca4899482b85102fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a59a1ffc4d5243137f2d54ff550d28c80"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#a59a1ffc4d5243137f2d54ff550d28c80">check_fall_damage_or_get_stuck</a> (struct MarioState *m, u32 hardFallAction)</td></tr>
+<tr class="memitem:a59a1ffc4d5243137f2d54ff550d28c80"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#a59a1ffc4d5243137f2d54ff550d28c80">check_fall_damage_or_get_stuck</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m, <a class="el" href="../../dd/da7/ultratypes_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a> hardFallAction)</td></tr>
 <tr class="separator:a59a1ffc4d5243137f2d54ff550d28c80"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1ef3e80b4902fe9be57616c1ec6ee4ee"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#a1ef3e80b4902fe9be57616c1ec6ee4ee">check_horizontal_wind</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:a1ef3e80b4902fe9be57616c1ec6ee4ee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#a1ef3e80b4902fe9be57616c1ec6ee4ee">check_horizontal_wind</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:a1ef3e80b4902fe9be57616c1ec6ee4ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abdeb2d55d08669101d1959b6dd21a37a"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#abdeb2d55d08669101d1959b6dd21a37a">update_air_with_turn</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:abdeb2d55d08669101d1959b6dd21a37a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#abdeb2d55d08669101d1959b6dd21a37a">update_air_with_turn</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:abdeb2d55d08669101d1959b6dd21a37a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab32d2d6dffb685e8f95e8098df95cdc6"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#ab32d2d6dffb685e8f95e8098df95cdc6">update_air_without_turn</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:ab32d2d6dffb685e8f95e8098df95cdc6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#ab32d2d6dffb685e8f95e8098df95cdc6">update_air_without_turn</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:ab32d2d6dffb685e8f95e8098df95cdc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0f66c2276c6c04a218c3143cbaadcdf7"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#a0f66c2276c6c04a218c3143cbaadcdf7">update_lava_boost_or_twirling</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:a0f66c2276c6c04a218c3143cbaadcdf7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#a0f66c2276c6c04a218c3143cbaadcdf7">update_lava_boost_or_twirling</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:a0f66c2276c6c04a218c3143cbaadcdf7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaec516f8245c5ff4715ac7f041434eb7"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#aaec516f8245c5ff4715ac7f041434eb7">update_flying_yaw</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:aaec516f8245c5ff4715ac7f041434eb7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#aaec516f8245c5ff4715ac7f041434eb7">update_flying_yaw</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:aaec516f8245c5ff4715ac7f041434eb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a643e2b6d83e72479fbae64ef1b5724e6"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#a643e2b6d83e72479fbae64ef1b5724e6">update_flying_pitch</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:a643e2b6d83e72479fbae64ef1b5724e6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#a643e2b6d83e72479fbae64ef1b5724e6">update_flying_pitch</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:a643e2b6d83e72479fbae64ef1b5724e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5fe8420bc6b772e05f8da3bdb14405bd"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#a5fe8420bc6b772e05f8da3bdb14405bd">update_flying</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:a5fe8420bc6b772e05f8da3bdb14405bd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#a5fe8420bc6b772e05f8da3bdb14405bd">update_flying</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:a5fe8420bc6b772e05f8da3bdb14405bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a10eb8ee4ef1e1065d2420602c6dd8e8c"><td class="memItemLeft" align="right" valign="top">static u32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#a10eb8ee4ef1e1065d2420602c6dd8e8c">common_air_action_step</a> (struct MarioState *m, u32 landAction, s32 animation, u32 stepArg)</td></tr>
+<tr class="memitem:a10eb8ee4ef1e1065d2420602c6dd8e8c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#a10eb8ee4ef1e1065d2420602c6dd8e8c">common_air_action_step</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m, <a class="el" href="../../dd/da7/ultratypes_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a> landAction, <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> animation, <a class="el" href="../../dd/da7/ultratypes_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a> stepArg)</td></tr>
 <tr class="separator:a10eb8ee4ef1e1065d2420602c6dd8e8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeac6c9c12aa4c8af79b82b07d02ea024"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#aeac6c9c12aa4c8af79b82b07d02ea024">act_jump</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:aeac6c9c12aa4c8af79b82b07d02ea024"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#aeac6c9c12aa4c8af79b82b07d02ea024">act_jump</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:aeac6c9c12aa4c8af79b82b07d02ea024"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a72bec7a966a84aac6705537ce1a74306"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#a72bec7a966a84aac6705537ce1a74306">act_double_jump</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:a72bec7a966a84aac6705537ce1a74306"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#a72bec7a966a84aac6705537ce1a74306">act_double_jump</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:a72bec7a966a84aac6705537ce1a74306"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4a498be26064264a8e4ba2aca142d240"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#a4a498be26064264a8e4ba2aca142d240">act_triple_jump</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:a4a498be26064264a8e4ba2aca142d240"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#a4a498be26064264a8e4ba2aca142d240">act_triple_jump</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:a4a498be26064264a8e4ba2aca142d240"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af6b477277bf5894947c950ead546d27f"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#af6b477277bf5894947c950ead546d27f">act_backflip</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:af6b477277bf5894947c950ead546d27f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#af6b477277bf5894947c950ead546d27f">act_backflip</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:af6b477277bf5894947c950ead546d27f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac0d92f7e3f2d4ee1cce859a0029ab59c"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#ac0d92f7e3f2d4ee1cce859a0029ab59c">act_freefall</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:ac0d92f7e3f2d4ee1cce859a0029ab59c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#ac0d92f7e3f2d4ee1cce859a0029ab59c">act_freefall</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:ac0d92f7e3f2d4ee1cce859a0029ab59c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a64c0a6fac31bfb6c2ee355e6c6652319"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#a64c0a6fac31bfb6c2ee355e6c6652319">act_hold_jump</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:a64c0a6fac31bfb6c2ee355e6c6652319"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#a64c0a6fac31bfb6c2ee355e6c6652319">act_hold_jump</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:a64c0a6fac31bfb6c2ee355e6c6652319"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af843578822f4a1b5147ba81f3cb7e56f"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#af843578822f4a1b5147ba81f3cb7e56f">act_hold_freefall</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:af843578822f4a1b5147ba81f3cb7e56f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#af843578822f4a1b5147ba81f3cb7e56f">act_hold_freefall</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:af843578822f4a1b5147ba81f3cb7e56f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a897302fe094e28fda41edd021606dc38"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#a897302fe094e28fda41edd021606dc38">act_side_flip</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:a897302fe094e28fda41edd021606dc38"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#a897302fe094e28fda41edd021606dc38">act_side_flip</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:a897302fe094e28fda41edd021606dc38"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9ba350c37a44a0beb064a2894edc608e"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#a9ba350c37a44a0beb064a2894edc608e">act_wall_kick_air</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:a9ba350c37a44a0beb064a2894edc608e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#a9ba350c37a44a0beb064a2894edc608e">act_wall_kick_air</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:a9ba350c37a44a0beb064a2894edc608e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6d14c41c03cc0b503e3c245aea26abe9"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#a6d14c41c03cc0b503e3c245aea26abe9">act_long_jump</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:a6d14c41c03cc0b503e3c245aea26abe9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#a6d14c41c03cc0b503e3c245aea26abe9">act_long_jump</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:a6d14c41c03cc0b503e3c245aea26abe9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0dad917a2757842f8f395322504d834f"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#a0dad917a2757842f8f395322504d834f">act_riding_shell_air</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:a0dad917a2757842f8f395322504d834f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#a0dad917a2757842f8f395322504d834f">act_riding_shell_air</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:a0dad917a2757842f8f395322504d834f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaf97d575b569b1546003542bef9383c8"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#aaf97d575b569b1546003542bef9383c8">act_twirling</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:aaf97d575b569b1546003542bef9383c8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#aaf97d575b569b1546003542bef9383c8">act_twirling</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:aaf97d575b569b1546003542bef9383c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5e6927e2085681d17981cf332825943c"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#a5e6927e2085681d17981cf332825943c">act_dive</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:a5e6927e2085681d17981cf332825943c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#a5e6927e2085681d17981cf332825943c">act_dive</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:a5e6927e2085681d17981cf332825943c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a71951b97c9606c8353201aed3d6de296"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#a71951b97c9606c8353201aed3d6de296">act_air_throw</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:a71951b97c9606c8353201aed3d6de296"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#a71951b97c9606c8353201aed3d6de296">act_air_throw</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:a71951b97c9606c8353201aed3d6de296"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad0270273faa780080ef5b619cbcd0549"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#ad0270273faa780080ef5b619cbcd0549">act_water_jump</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:ad0270273faa780080ef5b619cbcd0549"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#ad0270273faa780080ef5b619cbcd0549">act_water_jump</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:ad0270273faa780080ef5b619cbcd0549"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:add9ab31fb2589a3dc0af659739381299"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#add9ab31fb2589a3dc0af659739381299">act_hold_water_jump</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:add9ab31fb2589a3dc0af659739381299"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#add9ab31fb2589a3dc0af659739381299">act_hold_water_jump</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:add9ab31fb2589a3dc0af659739381299"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7002abfc8f5ef598ff642a6de300becb"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#a7002abfc8f5ef598ff642a6de300becb">act_steep_jump</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:a7002abfc8f5ef598ff642a6de300becb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#a7002abfc8f5ef598ff642a6de300becb">act_steep_jump</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:a7002abfc8f5ef598ff642a6de300becb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac42db47178d660660ecfc34d1ae1305b"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#ac42db47178d660660ecfc34d1ae1305b">act_ground_pound</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:ac42db47178d660660ecfc34d1ae1305b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#ac42db47178d660660ecfc34d1ae1305b">act_ground_pound</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:ac42db47178d660660ecfc34d1ae1305b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3718418f88fe81e681f84421d2a2cd55"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#a3718418f88fe81e681f84421d2a2cd55">act_burning_jump</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:a3718418f88fe81e681f84421d2a2cd55"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#a3718418f88fe81e681f84421d2a2cd55">act_burning_jump</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:a3718418f88fe81e681f84421d2a2cd55"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac30faf60365dd52955969479ff850792"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#ac30faf60365dd52955969479ff850792">act_burning_fall</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:ac30faf60365dd52955969479ff850792"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#ac30faf60365dd52955969479ff850792">act_burning_fall</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:ac30faf60365dd52955969479ff850792"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7f23f7825ce745cd93d97221fb338674"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#a7f23f7825ce745cd93d97221fb338674">act_crazy_box_bounce</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:a7f23f7825ce745cd93d97221fb338674"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#a7f23f7825ce745cd93d97221fb338674">act_crazy_box_bounce</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:a7f23f7825ce745cd93d97221fb338674"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1343c9af9a1f7b6af720b3d984899c2a"><td class="memItemLeft" align="right" valign="top">static u32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#a1343c9af9a1f7b6af720b3d984899c2a">common_air_knockback_step</a> (struct MarioState *m, u32 landAction, u32 hardFallAction, s32 animation, f32 speed)</td></tr>
+<tr class="memitem:a1343c9af9a1f7b6af720b3d984899c2a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#a1343c9af9a1f7b6af720b3d984899c2a">common_air_knockback_step</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m, <a class="el" href="../../dd/da7/ultratypes_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a> landAction, <a class="el" href="../../dd/da7/ultratypes_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a> hardFallAction, <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> animation, <a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> speed)</td></tr>
 <tr class="separator:a1343c9af9a1f7b6af720b3d984899c2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a50f7001762824e88ebf7ab8b5b16fe30"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#a50f7001762824e88ebf7ab8b5b16fe30">func_8026CDFC</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:a50f7001762824e88ebf7ab8b5b16fe30"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#a50f7001762824e88ebf7ab8b5b16fe30">func_8026CDFC</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:a50f7001762824e88ebf7ab8b5b16fe30"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6d23a5312340d8b438106837562c2219"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#a6d23a5312340d8b438106837562c2219">act_backward_air_kb</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:a6d23a5312340d8b438106837562c2219"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#a6d23a5312340d8b438106837562c2219">act_backward_air_kb</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:a6d23a5312340d8b438106837562c2219"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4c960e0bd7b89119b31af95c65b889f7"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#a4c960e0bd7b89119b31af95c65b889f7">act_forward_air_kb</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:a4c960e0bd7b89119b31af95c65b889f7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#a4c960e0bd7b89119b31af95c65b889f7">act_forward_air_kb</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:a4c960e0bd7b89119b31af95c65b889f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1711ba29e672da7becd6f10e83f086f8"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#a1711ba29e672da7becd6f10e83f086f8">act_hard_backward_air_kb</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:a1711ba29e672da7becd6f10e83f086f8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#a1711ba29e672da7becd6f10e83f086f8">act_hard_backward_air_kb</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:a1711ba29e672da7becd6f10e83f086f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a80d034e1ef544731c878b9563c66c2a0"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#a80d034e1ef544731c878b9563c66c2a0">act_hard_forward_air_kb</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:a80d034e1ef544731c878b9563c66c2a0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#a80d034e1ef544731c878b9563c66c2a0">act_hard_forward_air_kb</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:a80d034e1ef544731c878b9563c66c2a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a888fe0749dca8326ce4d5970e7c0c070"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#a888fe0749dca8326ce4d5970e7c0c070">act_thrown_backward</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:a888fe0749dca8326ce4d5970e7c0c070"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#a888fe0749dca8326ce4d5970e7c0c070">act_thrown_backward</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:a888fe0749dca8326ce4d5970e7c0c070"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acdbd48521850b332abef74cbda42f38b"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#acdbd48521850b332abef74cbda42f38b">act_thrown_forward</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:acdbd48521850b332abef74cbda42f38b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#acdbd48521850b332abef74cbda42f38b">act_thrown_forward</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:acdbd48521850b332abef74cbda42f38b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a656919a46184aaa19f63c7b98658e7de"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#a656919a46184aaa19f63c7b98658e7de">act_soft_bonk</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:a656919a46184aaa19f63c7b98658e7de"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#a656919a46184aaa19f63c7b98658e7de">act_soft_bonk</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:a656919a46184aaa19f63c7b98658e7de"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab9dd579c28bd90fcbaf8e3fe19b56e5d"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#ab9dd579c28bd90fcbaf8e3fe19b56e5d">act_getting_blown</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:ab9dd579c28bd90fcbaf8e3fe19b56e5d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#ab9dd579c28bd90fcbaf8e3fe19b56e5d">act_getting_blown</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:ab9dd579c28bd90fcbaf8e3fe19b56e5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad274faf46d2cfb7436747f5efe2b081d"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#ad274faf46d2cfb7436747f5efe2b081d">act_air_hit_wall</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:ad274faf46d2cfb7436747f5efe2b081d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#ad274faf46d2cfb7436747f5efe2b081d">act_air_hit_wall</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:ad274faf46d2cfb7436747f5efe2b081d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5746b73fbc0512630ac39080da3c8962"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#a5746b73fbc0512630ac39080da3c8962">act_forward_rollout</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:a5746b73fbc0512630ac39080da3c8962"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#a5746b73fbc0512630ac39080da3c8962">act_forward_rollout</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:a5746b73fbc0512630ac39080da3c8962"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2e8fcc8b81cfd12d2d00c1fed7d9541e"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#a2e8fcc8b81cfd12d2d00c1fed7d9541e">act_backward_rollout</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:a2e8fcc8b81cfd12d2d00c1fed7d9541e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#a2e8fcc8b81cfd12d2d00c1fed7d9541e">act_backward_rollout</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:a2e8fcc8b81cfd12d2d00c1fed7d9541e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a228b5ec58ad7dfeb31d25d64c057e0d0"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#a228b5ec58ad7dfeb31d25d64c057e0d0">act_butt_slide_air</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:a228b5ec58ad7dfeb31d25d64c057e0d0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#a228b5ec58ad7dfeb31d25d64c057e0d0">act_butt_slide_air</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:a228b5ec58ad7dfeb31d25d64c057e0d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af63fab4c8e3917b8f5923c1269b2cbd1"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#af63fab4c8e3917b8f5923c1269b2cbd1">act_hold_butt_slide_air</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:af63fab4c8e3917b8f5923c1269b2cbd1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#af63fab4c8e3917b8f5923c1269b2cbd1">act_hold_butt_slide_air</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:af63fab4c8e3917b8f5923c1269b2cbd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac25f22dbbbf15a903be8cee5da147ed5"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#ac25f22dbbbf15a903be8cee5da147ed5">act_lava_boost</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:ac25f22dbbbf15a903be8cee5da147ed5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#ac25f22dbbbf15a903be8cee5da147ed5">act_lava_boost</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:ac25f22dbbbf15a903be8cee5da147ed5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa2d0b125015eb5b1984185864634ca44"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#aa2d0b125015eb5b1984185864634ca44">act_slide_kick</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:aa2d0b125015eb5b1984185864634ca44"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#aa2d0b125015eb5b1984185864634ca44">act_slide_kick</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:aa2d0b125015eb5b1984185864634ca44"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afdccb19ee5295229107437e4aecc7e61"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#afdccb19ee5295229107437e4aecc7e61">act_jump_kick</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:afdccb19ee5295229107437e4aecc7e61"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#afdccb19ee5295229107437e4aecc7e61">act_jump_kick</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:afdccb19ee5295229107437e4aecc7e61"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1bd49ca163011260d5172d64131c3d64"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#a1bd49ca163011260d5172d64131c3d64">act_shot_from_cannon</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:a1bd49ca163011260d5172d64131c3d64"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#a1bd49ca163011260d5172d64131c3d64">act_shot_from_cannon</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:a1bd49ca163011260d5172d64131c3d64"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a05e5a7359d3e9ea8fdf7a99652cbdced"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#a05e5a7359d3e9ea8fdf7a99652cbdced">act_flying</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:a05e5a7359d3e9ea8fdf7a99652cbdced"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#a05e5a7359d3e9ea8fdf7a99652cbdced">act_flying</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:a05e5a7359d3e9ea8fdf7a99652cbdced"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab635e9270516ca8c07788c1e0c1983db"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#ab635e9270516ca8c07788c1e0c1983db">act_riding_hoot</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:ab635e9270516ca8c07788c1e0c1983db"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#ab635e9270516ca8c07788c1e0c1983db">act_riding_hoot</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:ab635e9270516ca8c07788c1e0c1983db"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7623f25f81eb7be3c726c8df7b0a376b"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#a7623f25f81eb7be3c726c8df7b0a376b">act_flying_triple_jump</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:a7623f25f81eb7be3c726c8df7b0a376b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#a7623f25f81eb7be3c726c8df7b0a376b">act_flying_triple_jump</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:a7623f25f81eb7be3c726c8df7b0a376b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae5c8382fc7c2a31d7ac3c19495d200d2"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#ae5c8382fc7c2a31d7ac3c19495d200d2">act_top_of_pole_jump</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:ae5c8382fc7c2a31d7ac3c19495d200d2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#ae5c8382fc7c2a31d7ac3c19495d200d2">act_top_of_pole_jump</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:ae5c8382fc7c2a31d7ac3c19495d200d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a71a9f918d308ef214d17b7f3d6172302"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#a71a9f918d308ef214d17b7f3d6172302">act_vertical_wind</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:a71a9f918d308ef214d17b7f3d6172302"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#a71a9f918d308ef214d17b7f3d6172302">act_vertical_wind</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:a71a9f918d308ef214d17b7f3d6172302"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aada048a6d961fe34d0e7c397f274174e"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#aada048a6d961fe34d0e7c397f274174e">act_special_triple_jump</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:aada048a6d961fe34d0e7c397f274174e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#aada048a6d961fe34d0e7c397f274174e">act_special_triple_jump</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:aada048a6d961fe34d0e7c397f274174e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a47bed948b5947c951c2fe7affa29bbf5"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#a47bed948b5947c951c2fe7affa29bbf5">check_common_airborne_cancels</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:a47bed948b5947c951c2fe7affa29bbf5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#a47bed948b5947c951c2fe7affa29bbf5">check_common_airborne_cancels</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:a47bed948b5947c951c2fe7affa29bbf5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a51c781e0b5ab17b9e6a101535dabf9ea"><td class="memItemLeft" align="right" valign="top">s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#a51c781e0b5ab17b9e6a101535dabf9ea">mario_execute_airborne_action</a> (struct MarioState *m)</td></tr>
+<tr class="memitem:a51c781e0b5ab17b9e6a101535dabf9ea"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6b/mario__actions__airborne_8c.html#a51c781e0b5ab17b9e6a101535dabf9ea">mario_execute_airborne_action</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *m)</td></tr>
 <tr class="separator:a51c781e0b5ab17b9e6a101535dabf9ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -227,9 +227,9 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 act_air_hit_wall </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> act_air_hit_wall </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -254,9 +254,9 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 act_air_throw </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> act_air_throw </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -280,9 +280,9 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 act_backflip </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> act_backflip </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -306,9 +306,9 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 act_backward_air_kb </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> act_backward_air_kb </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -332,9 +332,9 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 act_backward_rollout </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> act_backward_rollout </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -358,9 +358,9 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 act_burning_fall </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> act_burning_fall </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -384,9 +384,9 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 act_burning_jump </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> act_burning_jump </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -410,9 +410,9 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 act_butt_slide_air </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> act_butt_slide_air </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -436,9 +436,9 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 act_crazy_box_bounce </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> act_crazy_box_bounce </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -462,9 +462,9 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 act_dive </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> act_dive </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -488,9 +488,9 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 act_double_jump </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> act_double_jump </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -514,9 +514,9 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 act_flying </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> act_flying </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -540,9 +540,9 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 act_flying_triple_jump </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> act_flying_triple_jump </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -566,9 +566,9 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 act_forward_air_kb </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> act_forward_air_kb </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -592,9 +592,9 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 act_forward_rollout </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> act_forward_rollout </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -618,9 +618,9 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 act_freefall </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> act_freefall </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -644,9 +644,9 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 act_getting_blown </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> act_getting_blown </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -670,9 +670,9 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 act_ground_pound </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> act_ground_pound </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -696,9 +696,9 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 act_hard_backward_air_kb </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> act_hard_backward_air_kb </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -722,9 +722,9 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 act_hard_forward_air_kb </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> act_hard_forward_air_kb </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -748,9 +748,9 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 act_hold_butt_slide_air </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> act_hold_butt_slide_air </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -774,9 +774,9 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 act_hold_freefall </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> act_hold_freefall </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -800,9 +800,9 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 act_hold_jump </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> act_hold_jump </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -826,9 +826,9 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 act_hold_water_jump </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> act_hold_water_jump </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -852,9 +852,9 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 act_jump </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> act_jump </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -878,9 +878,9 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 act_jump_kick </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> act_jump_kick </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -904,9 +904,9 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 act_lava_boost </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> act_lava_boost </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -930,9 +930,9 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 act_long_jump </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> act_long_jump </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -956,9 +956,9 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 act_riding_hoot </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> act_riding_hoot </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -982,9 +982,9 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 act_riding_shell_air </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> act_riding_shell_air </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1008,9 +1008,9 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 act_shot_from_cannon </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> act_shot_from_cannon </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1034,9 +1034,9 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 act_side_flip </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> act_side_flip </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1060,9 +1060,9 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 act_slide_kick </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> act_slide_kick </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1086,9 +1086,9 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 act_soft_bonk </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> act_soft_bonk </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1112,9 +1112,9 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 act_special_triple_jump </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> act_special_triple_jump </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1138,9 +1138,9 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 act_steep_jump </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> act_steep_jump </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1164,9 +1164,9 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 act_thrown_backward </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> act_thrown_backward </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1190,9 +1190,9 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 act_thrown_forward </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> act_thrown_forward </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1216,9 +1216,9 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 act_top_of_pole_jump </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> act_top_of_pole_jump </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1242,9 +1242,9 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 act_triple_jump </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> act_triple_jump </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1268,9 +1268,9 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 act_twirling </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> act_twirling </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1294,9 +1294,9 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 act_vertical_wind </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> act_vertical_wind </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1320,9 +1320,9 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 act_wall_kick_air </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> act_wall_kick_air </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1346,9 +1346,9 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 act_water_jump </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> act_water_jump </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1372,9 +1372,9 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 check_common_airborne_cancels </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> check_common_airborne_cancels </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1398,15 +1398,15 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 check_fall_damage </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> check_fall_damage </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">u32&#160;</td>
+          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a>&#160;</td>
           <td class="paramname"><em>hardFallAction</em>&#160;</td>
         </tr>
         <tr>
@@ -1435,15 +1435,15 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 check_fall_damage_or_get_stuck </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> check_fall_damage_or_get_stuck </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">u32&#160;</td>
+          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a>&#160;</td>
           <td class="paramname"><em>hardFallAction</em>&#160;</td>
         </tr>
         <tr>
@@ -1471,9 +1471,9 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 check_horizontal_wind </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> check_horizontal_wind </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1498,9 +1498,9 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 check_kick_or_dive_in_air </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> check_kick_or_dive_in_air </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1524,27 +1524,27 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static u32 common_air_action_step </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a> common_air_action_step </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">u32&#160;</td>
+          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a>&#160;</td>
           <td class="paramname"><em>landAction</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">s32&#160;</td>
+          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td>
           <td class="paramname"><em>animation</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">u32&#160;</td>
+          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a>&#160;</td>
           <td class="paramname"><em>stepArg</em>&#160;</td>
         </tr>
         <tr>
@@ -1572,33 +1572,33 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static u32 common_air_knockback_step </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a> common_air_knockback_step </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">u32&#160;</td>
+          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a>&#160;</td>
           <td class="paramname"><em>landAction</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">u32&#160;</td>
+          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a>&#160;</td>
           <td class="paramname"><em>hardFallAction</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">s32&#160;</td>
+          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td>
           <td class="paramname"><em>animation</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">f32&#160;</td>
+          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td>
           <td class="paramname"><em>speed</em>&#160;</td>
         </tr>
         <tr>
@@ -1626,9 +1626,9 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 func_8026CDFC </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> func_8026CDFC </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1652,9 +1652,9 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 lava_boost_on_wall </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> lava_boost_on_wall </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1675,9 +1675,9 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">s32 mario_execute_airborne_action </td>
+          <td class="memname"><a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> mario_execute_airborne_action </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1696,9 +1696,9 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static void play_far_fall_sound </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a> play_far_fall_sound </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1722,27 +1722,27 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static void play_flip_sounds </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a> play_flip_sounds </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">s16&#160;</td>
+          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a4cb19f4a3324cfe0938ddfbfabaa825b">s16</a>&#160;</td>
           <td class="paramname"><em>frame1</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">s16&#160;</td>
+          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a4cb19f4a3324cfe0938ddfbfabaa825b">s16</a>&#160;</td>
           <td class="paramname"><em>frame2</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">s16&#160;</td>
+          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a4cb19f4a3324cfe0938ddfbfabaa825b">s16</a>&#160;</td>
           <td class="paramname"><em>frame3</em>&#160;</td>
         </tr>
         <tr>
@@ -1770,9 +1770,9 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static s32 should_get_stuck_in_ground </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> should_get_stuck_in_ground </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1796,9 +1796,9 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static void update_air_with_turn </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a> update_air_with_turn </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1823,9 +1823,9 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static void update_air_without_turn </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a> update_air_without_turn </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1850,9 +1850,9 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static void update_flying </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a> update_flying </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1876,9 +1876,9 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static void update_flying_pitch </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a> update_flying_pitch </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1902,9 +1902,9 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static void update_flying_yaw </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a> update_flying_yaw </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1928,9 +1928,9 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static void update_lava_boost_or_twirling </td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a> update_lava_boost_or_twirling </td>
           <td>(</td>
-          <td class="paramtype">struct MarioState *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/dbb/structMarioState.html">MarioState</a> *&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
           <td></td>
         </tr>
