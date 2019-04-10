@@ -76,8 +76,8 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;stdint.h&gt;</code><br />
-<code>#include &lt;<a class="el" href="../../dc/d9c/stdlib_8h_source.html">stdlib.h</a>&gt;</code><br />
-<code>#include &quot;<a class="el" href="../../db/d7c/utf8_8h_source.html">utf8.h</a>&quot;</code><br />
+<code>#include &lt;stdlib.h&gt;</code><br />
+<code>#include &quot;utf8.h&quot;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
@@ -88,14 +88,14 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ae892be2f4c29efefa0fb871de44c1027"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d51/utf8_8c.html#ae892be2f4c29efefa0fb871de44c1027">decode</a> (uint32_t *state, uint32_t *codep, uint32_t byte)</td></tr>
+<tr class="memitem:ae892be2f4c29efefa0fb871de44c1027"><td class="memItemLeft" align="right" valign="top">static uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d51/utf8_8c.html#ae892be2f4c29efefa0fb871de44c1027">decode</a> (uint32_t *state, uint32_t *codep, uint32_t byte)</td></tr>
 <tr class="separator:ae892be2f4c29efefa0fb871de44c1027"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4011cfe6ff89f5d718a99529cd61ddfa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#ae30debe0ad3d7e219222e486ed5f9b95">char</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d51/utf8_8c.html#a4011cfe6ff89f5d718a99529cd61ddfa">utf8_decode</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#ae30debe0ad3d7e219222e486ed5f9b95">char</a> *str, uint32_t *codep)</td></tr>
+<tr class="memitem:a4011cfe6ff89f5d718a99529cd61ddfa"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d51/utf8_8c.html#a4011cfe6ff89f5d718a99529cd61ddfa">utf8_decode</a> (char *str, uint32_t *codep)</td></tr>
 <tr class="separator:a4011cfe6ff89f5d718a99529cd61ddfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:ad3b6e3136394f1dfb6e0f390f93bb2e0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../d9/d0b/err_8english_8cc.html#aad5e7b875a7ed5b415edbeb8529141d4">const</a> uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d51/utf8_8c.html#ad3b6e3136394f1dfb6e0f390f93bb2e0">utf8d</a> []</td></tr>
+<tr class="memitem:ad3b6e3136394f1dfb6e0f390f93bb2e0"><td class="memItemLeft" align="right" valign="top">static const uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d51/utf8_8c.html#ad3b6e3136394f1dfb6e0f390f93bb2e0">utf8d</a> []</td></tr>
 <tr class="separator:ad3b6e3136394f1dfb6e0f390f93bb2e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
@@ -138,7 +138,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> uint32_t decode </td>
+          <td class="memname">static uint32_t decode </td>
           <td>(</td>
           <td class="paramtype">uint32_t *&#160;</td>
           <td class="paramname"><em>state</em>, </td>
@@ -177,9 +177,9 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#ae30debe0ad3d7e219222e486ed5f9b95">char</a>* utf8_decode </td>
+          <td class="memname">char* utf8_decode </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#ae30debe0ad3d7e219222e486ed5f9b95">char</a> *&#160;</td>
+          <td class="paramtype">char *&#160;</td>
           <td class="paramname"><em>str</em>, </td>
         </tr>
         <tr>
@@ -209,7 +209,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#aad5e7b875a7ed5b415edbeb8529141d4">const</a> uint8_t utf8d[]</td>
+          <td class="memname">const uint8_t utf8d[]</td>
         </tr>
       </table>
   </td>

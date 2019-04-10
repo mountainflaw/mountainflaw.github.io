@@ -76,148 +76,148 @@ $(function() {
 <div class="title">behavior_actions.c File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;<a class="el" href="../../dd/d2f/ultra64_8h_source.html">ultra64.h</a>&gt;</code><br />
-<code>#include &quot;<a class="el" href="../../d5/dd8/sm64_8h_source.html">sm64.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d9/d49/types_8h_source.html">types.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d0/dcb/behavior__actions_8h_source.html">behavior_actions.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d2/dd5/game_8h_source.html">game.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d4/dbf/main_8h_source.html">main.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d9/db9/mario_8h_source.html">mario.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d0/d69/behavior__script_8h_source.html">engine/behavior_script.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d8/d11/math__util_8h_source.html">engine/math_util.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d3/dc7/object__helpers_8h_source.html">object_helpers.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../dd/d71/object__helpers2_8h_source.html">object_helpers2.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d6/d40/behavior__data_8h_source.html">behavior_data.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d8/da0/obj__behaviors_8h_source.html">obj_behaviors.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d2/da4/surface__collision_8h_source.html">engine/surface_collision.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../de/d1c/surface__load_8h_source.html">engine/surface_load.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d7/d0a/level__update_8h_source.html">level_update.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../de/de9/interface__2_8h_source.html">audio/interface_2.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d4/dad/save__file_8h_source.html">save_file.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d4/d1c/area_8h_source.html">area.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d1/dfc/graph__node_8h_source.html">engine/graph_node.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d7/df6/camera_8h_source.html">camera.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d4/d68/display_8h_source.html">display.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d4/d4e/spawn__object_8h_source.html">spawn_object.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d8/df7/mario__actions__cutscene_8h_source.html">mario_actions_cutscene.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d2/dd2/object__list__processor_8h_source.html">object_list_processor.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../dd/d48/spawn__sound_8h_source.html">spawn_sound.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../db/d16/debug_8h_source.html">debug.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../dd/dd3/object__constants_8h_source.html">object_constants.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d6/d2b/mario__step_8h_source.html">mario_step.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d0/dc6/obj__behaviors__2_8h_source.html">obj_behaviors_2.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d9/dfd/platform__displacement_8h_source.html">platform_displacement.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../da/d85/interaction_8h_source.html">interaction.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../da/dec/ingame__menu_8h_source.html">ingame_menu.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d9/dc0/room_8h_source.html">room.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../dd/d5f/rendering__graph__node_8h_source.html">rendering_graph_node.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d8/d14/star__door_8c_8inc.html">behaviors/star_door.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../df/d36/mr__i_8c_8inc.html">behaviors/mr_i.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d4/d5e/pole_8c_8inc.html">behaviors/pole.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../da/d67/thi__top_8c_8inc.html">behaviors/thi_top.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../df/dcb/capswitch_8c_8inc.html">behaviors/capswitch.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../db/df3/king__bobomb_8c_8inc.html">behaviors/king_bobomb.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d4/dcf/beta__chest_8c_8inc.html">behaviors/beta_chest.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d3/d77/water__objs_8c_8inc.html">behaviors/water_objs.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d7/d44/cannon_8c_8inc.html">behaviors/cannon.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../dd/d15/chuckya_8c_8inc.html">behaviors/chuckya.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d2/d03/breakable__wall_8c_8inc.html">behaviors/breakable_wall.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d8/dae/kickable__board_8c_8inc.html">behaviors/kickable_board.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../db/d47/tower__door_8c_8inc.html">behaviors/tower_door.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d4/d8c/rotating__platform_8c_8inc.html">behaviors/rotating_platform.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../db/d87/koopa__shell__underwater_8c_8inc.html">behaviors/koopa_shell_underwater.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d7/d75/warp_8c_8inc.html">behaviors/warp.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d3/d2a/white__puff__explode_8c_8inc.html">behaviors/white_puff_explode.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d6/d1f/sparkle__spawn__star_8c_8inc.html">behaviors/sparkle_spawn_star.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d2/d06/coin_8c_8inc.html">behaviors/coin.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../dd/d0b/collide__particles_8c_8inc.html">behaviors/collide_particles.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../dc/d14/door_8c_8inc.html">behaviors/door.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d9/d64/thwomp_8c_8inc.html">behaviors/thwomp.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d1/da3/tumbling__bridge_8c_8inc.html">behaviors/tumbling_bridge.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../da/de7/elevator_8c_8inc.html">behaviors/elevator.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d6/dc0/water__mist__particle_8c_8inc.html">behaviors/water_mist_particle.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d8/d87/break__particles_8c_8inc.html">behaviors/break_particles.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d9/d14/water__mist_8c_8inc.html">behaviors/water_mist.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d6/d7c/ground__particles_8c_8inc.html">behaviors/ground_particles.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d0/dde/wind_8c_8inc.html">behaviors/wind.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../da/dcc/piranha__particles_8c_8inc.html">behaviors/piranha_particles.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d6/dad/little__cage_8c_8inc.html">behaviors/little_cage.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d7/df7/falling__rising__platform_8c_8inc.html">behaviors/falling_rising_platform.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d7/d6c/fishing__boo_8c_8inc.html">behaviors/fishing_boo.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d3/d25/flamethrower_8c_8inc.html">behaviors/flamethrower.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d2/dd4/bouncing__fireball_8c_8inc.html">behaviors/bouncing_fireball.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../da/d49/shock__wave_8c_8inc.html">behaviors/shock_wave.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d4/d0a/flame__mario_8c_8inc.html">behaviors/flame_mario.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../dc/d51/unused__1298_8c_8inc.html">behaviors/unused_1298.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d0/d0c/spindrift_8c_8inc.html">behaviors/spindrift.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../dd/d34/tower__platform_8c_8inc.html">behaviors/tower_platform.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d3/d7a/tree__particles_8c_8inc.html">behaviors/tree_particles.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d2/d18/square__platform__cycle_8c_8inc.html">behaviors/square_platform_cycle.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../dc/d74/piranha__bubbles_8c_8inc.html">behaviors/piranha_bubbles.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../dc/d19/purple__switch_8c_8inc.html">behaviors/purple_switch.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d8/d0b/metal__box_8c_8inc.html">behaviors/metal_box.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../da/d25/switch__hidden__objects_8c_8inc.html">behaviors/switch_hidden_objects.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d6/d94/breakable__box_8c_8inc.html">behaviors/breakable_box.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d1/d98/heave__ho_8c_8inc.html">behaviors/heave_ho.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d9/d9b/spawn__star__exit_8c_8inc.html">behaviors/spawn_star_exit.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../de/db0/pound__explode_8c_8inc.html">behaviors/pound_explode.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../dc/dc2/beta__trampoline_8c_8inc.html">behaviors/beta_trampoline.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d3/d9c/jumping__box_8c_8inc.html">behaviors/jumping_box.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../dd/d14/boo__cage_8c_8inc.html">behaviors/boo_cage.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../da/df7/beta__boo__key_8c_8inc.html">behaviors/beta_boo_key.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d4/d59/grand__star_8c_8inc.html">behaviors/grand_star.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../df/d8f/bowser__key_8c_8inc.html">behaviors/bowser_key.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d3/da8/bullet__bill_8c_8inc.html">behaviors/bullet_bill.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d0/d72/bowser_8c_8inc.html">behaviors/bowser.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d7/df0/blue__fish_8c_8inc.html">behaviors/blue_fish.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../df/d4a/checkerboard__platform_8c_8inc.html">behaviors/checkerboard_platform.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../df/dcd/ddd__warp_8c_8inc.html">behaviors/ddd_warp.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d1/da2/water__pillar_8c_8inc.html">behaviors/water_pillar.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d1/d37/moat__drainer_8c_8inc.html">behaviors/moat_drainer.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../dc/dcf/door__key_8c_8inc.html">behaviors/door_key.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d4/d61/moat__grill_8c_8inc.html">behaviors/moat_grill.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d6/d40/clock__arm_8c_8inc.html">behaviors/clock_arm.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d4/dfe/ukiki__cage_8c_8inc.html">behaviors/ukiki_cage.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../df/d8a/lll__octagonal__rotating__mesh_8c_8inc.html">behaviors/lll_octagonal_rotating_mesh.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../df/d31/lll__sinking__rock__block_8c_8inc.html">behaviors/lll_sinking_rock_block.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d8/de5/lll__rotating__hex__flame_8c_8inc.html">behaviors/lll_rotating_hex_flame.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d1/d45/lll__floating__wood__piece_8c_8inc.html">behaviors/lll_floating_wood_piece.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d1/d09/lll__volcano__flames_8c_8inc.html">behaviors/lll_volcano_flames.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../dc/d90/lll__hexagonal__ring_8c_8inc.html">behaviors/lll_hexagonal_ring.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d6/d87/lll__sinking__rectangle_8c_8inc.html">behaviors/lll_sinking_rectangle.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../de/d71/lll__tilting__platform_8c_8inc.html">behaviors/lll_tilting_platform.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../de/d6b/koopa__shell_8c_8inc.html">behaviors/koopa_shell.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d6/d4a/tox__box_8c_8inc.html">behaviors/tox_box.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../df/dd4/piranha__plant_8c_8inc.html">behaviors/piranha_plant.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d4/de1/bowser__puzzle__piece_8c_8inc.html">behaviors/bowser_puzzle_piece.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../dc/da9/tuxie_8c_8inc.html">behaviors/tuxie.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../da/dc1/fish_8c_8inc.html">behaviors/fish.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d3/d05/express__elevator_8c_8inc.html">behaviors/express_elevator.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../dd/d46/bub_8c_8inc.html">behaviors/bub.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../dd/db1/exclamation__box_8c_8inc.html">behaviors/exclamation_box.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d8/d3c/sound__spawner_8c_8inc.html">behaviors/sound_spawner.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../df/d1d/ddd__sub_8c_8inc.html">behaviors/ddd_sub.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d7/d83/sushi_8c_8inc.html">behaviors/sushi.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d1/dbb/jrb__ship_8c_8inc.html">behaviors/jrb_ship.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d4/d8e/white__puff_8c_8inc.html">behaviors/white_puff.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d9/d02/blue__coin_8c_8inc.html">behaviors/blue_coin.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../de/df8/grill__door_8c_8inc.html">behaviors/grill_door.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d9/d48/wdw__water__level_8c_8inc.html">behaviors/wdw_water_level.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../db/d23/tweester_8c_8inc.html">behaviors/tweester.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d6/dfd/boo_8c_8inc.html">behaviors/boo.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../da/db1/bbh__tilt__floor_8c_8inc.html">behaviors/bbh_tilt_floor.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d3/d05/bbh__tumbling__bookshelf_8c_8inc.html">behaviors/bbh_tumbling_bookshelf.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../da/d56/bbh__merry__go__round_8c_8inc.html">behaviors/bbh_merry_go_round.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../da/d37/static__checkered__platform_8c_8inc.html">behaviors/static_checkered_platform.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../df/dee/bait__coin_8c_8inc.html">behaviors/bait_coin.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d2/d6a/castle__floor__trap_8c_8inc.html">behaviors/castle_floor_trap.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d4/dd4/powerup__sparkles_8c_8inc.html">behaviors/powerup_sparkles.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d8/d61/scuttlebug_8c_8inc.html">behaviors/scuttlebug.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d4/dc9/whomp_8c_8inc.html">behaviors/whomp.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d0/dde/water__splash_8c_8inc.html">behaviors/water_splash.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d1/d71/wind__particle_8c_8inc.html">behaviors/wind_particle.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../da/d0a/snowman__wind_8c_8inc.html">behaviors/snowman_wind.c.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../dc/db7/walking__penguin_8c_8inc.html">behaviors/walking_penguin.c.inc</a>&quot;</code><br />
+<div class="textblock"><code>#include &lt;ultra64.h&gt;</code><br />
+<code>#include &quot;sm64.h&quot;</code><br />
+<code>#include &quot;types.h&quot;</code><br />
+<code>#include &quot;behavior_actions.h&quot;</code><br />
+<code>#include &quot;game.h&quot;</code><br />
+<code>#include &quot;main.h&quot;</code><br />
+<code>#include &quot;mario.h&quot;</code><br />
+<code>#include &quot;engine/behavior_script.h&quot;</code><br />
+<code>#include &quot;engine/math_util.h&quot;</code><br />
+<code>#include &quot;object_helpers.h&quot;</code><br />
+<code>#include &quot;object_helpers2.h&quot;</code><br />
+<code>#include &quot;behavior_data.h&quot;</code><br />
+<code>#include &quot;obj_behaviors.h&quot;</code><br />
+<code>#include &quot;engine/surface_collision.h&quot;</code><br />
+<code>#include &quot;engine/surface_load.h&quot;</code><br />
+<code>#include &quot;level_update.h&quot;</code><br />
+<code>#include &quot;audio/interface_2.h&quot;</code><br />
+<code>#include &quot;save_file.h&quot;</code><br />
+<code>#include &quot;area.h&quot;</code><br />
+<code>#include &quot;engine/graph_node.h&quot;</code><br />
+<code>#include &quot;camera.h&quot;</code><br />
+<code>#include &quot;display.h&quot;</code><br />
+<code>#include &quot;spawn_object.h&quot;</code><br />
+<code>#include &quot;mario_actions_cutscene.h&quot;</code><br />
+<code>#include &quot;object_list_processor.h&quot;</code><br />
+<code>#include &quot;spawn_sound.h&quot;</code><br />
+<code>#include &quot;debug.h&quot;</code><br />
+<code>#include &quot;object_constants.h&quot;</code><br />
+<code>#include &quot;mario_step.h&quot;</code><br />
+<code>#include &quot;obj_behaviors_2.h&quot;</code><br />
+<code>#include &quot;platform_displacement.h&quot;</code><br />
+<code>#include &quot;interaction.h&quot;</code><br />
+<code>#include &quot;ingame_menu.h&quot;</code><br />
+<code>#include &quot;room.h&quot;</code><br />
+<code>#include &quot;rendering_graph_node.h&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d2/d26/star__door_8inc_8c.html">behaviors/star_door.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d4/d27/mr__i_8inc_8c.html">behaviors/mr_i.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d6/d67/pole_8inc_8c.html">behaviors/pole.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../da/d5b/thi__top_8inc_8c.html">behaviors/thi_top.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../dc/d37/capswitch_8inc_8c.html">behaviors/capswitch.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d8/d26/king__bobomb_8inc_8c.html">behaviors/king_bobomb.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../df/d22/beta__chest_8inc_8c.html">behaviors/beta_chest.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../da/db7/water__objs_8inc_8c.html">behaviors/water_objs.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../de/d15/cannon_8inc_8c.html">behaviors/cannon.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../dd/da9/chuckya_8inc_8c.html">behaviors/chuckya.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d2/d24/breakable__wall_8inc_8c.html">behaviors/breakable_wall.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../dd/dad/kickable__board_8inc_8c.html">behaviors/kickable_board.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d9/da2/tower__door_8inc_8c.html">behaviors/tower_door.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d0/d18/rotating__platform_8inc_8c.html">behaviors/rotating_platform.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d9/dac/koopa__shell__underwater_8inc_8c.html">behaviors/koopa_shell_underwater.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d8/dc0/warp_8inc_8c.html">behaviors/warp.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d5/d81/white__puff__explode_8inc_8c.html">behaviors/white_puff_explode.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d1/d15/sparkle__spawn__star_8inc_8c.html">behaviors/sparkle_spawn_star.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../db/d88/coin_8inc_8c.html">behaviors/coin.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d3/dc9/collide__particles_8inc_8c.html">behaviors/collide_particles.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../da/d30/door_8inc_8c.html">behaviors/door.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d4/d95/thwomp_8inc_8c.html">behaviors/thwomp.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../da/d8a/tumbling__bridge_8inc_8c.html">behaviors/tumbling_bridge.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d8/dc4/elevator_8inc_8c.html">behaviors/elevator.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d3/d6f/water__mist__particle_8inc_8c.html">behaviors/water_mist_particle.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../df/da3/break__particles_8inc_8c.html">behaviors/break_particles.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../dc/d4f/water__mist_8inc_8c.html">behaviors/water_mist.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../df/d14/ground__particles_8inc_8c.html">behaviors/ground_particles.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d3/d6a/wind_8inc_8c.html">behaviors/wind.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../db/d08/piranha__particles_8inc_8c.html">behaviors/piranha_particles.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d0/df6/little__cage_8inc_8c.html">behaviors/little_cage.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d1/d92/falling__rising__platform_8inc_8c.html">behaviors/falling_rising_platform.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../df/d14/fishing__boo_8inc_8c.html">behaviors/fishing_boo.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d8/dac/flamethrower_8inc_8c.html">behaviors/flamethrower.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../dc/da7/bouncing__fireball_8inc_8c.html">behaviors/bouncing_fireball.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d1/dbc/shock__wave_8inc_8c.html">behaviors/shock_wave.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d8/d67/flame__mario_8inc_8c.html">behaviors/flame_mario.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../dc/df2/unused__1298_8inc_8c.html">behaviors/unused_1298.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d3/d09/spindrift_8inc_8c.html">behaviors/spindrift.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d7/d4e/tower__platform_8inc_8c.html">behaviors/tower_platform.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d9/d33/tree__particles_8inc_8c.html">behaviors/tree_particles.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d8/d1c/square__platform__cycle_8inc_8c.html">behaviors/square_platform_cycle.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../de/d41/piranha__bubbles_8inc_8c.html">behaviors/piranha_bubbles.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../db/dbc/purple__switch_8inc_8c.html">behaviors/purple_switch.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../df/dd0/metal__box_8inc_8c.html">behaviors/metal_box.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d3/dce/switch__hidden__objects_8inc_8c.html">behaviors/switch_hidden_objects.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../da/da0/breakable__box_8inc_8c.html">behaviors/breakable_box.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../dd/d0c/heave__ho_8inc_8c.html">behaviors/heave_ho.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d1/dc3/spawn__star__exit_8inc_8c.html">behaviors/spawn_star_exit.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d4/d47/pound__explode_8inc_8c.html">behaviors/pound_explode.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../dc/d6d/beta__trampoline_8inc_8c.html">behaviors/beta_trampoline.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d9/deb/jumping__box_8inc_8c.html">behaviors/jumping_box.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../dd/d44/boo__cage_8inc_8c.html">behaviors/boo_cage.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d5/d96/beta__boo__key_8inc_8c.html">behaviors/beta_boo_key.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d8/dac/grand__star_8inc_8c.html">behaviors/grand_star.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d4/d8d/bowser__key_8inc_8c.html">behaviors/bowser_key.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d4/d2c/bullet__bill_8inc_8c.html">behaviors/bullet_bill.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d8/d10/bowser_8inc_8c.html">behaviors/bowser.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d7/dcd/blue__fish_8inc_8c.html">behaviors/blue_fish.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../df/dd0/checkerboard__platform_8inc_8c.html">behaviors/checkerboard_platform.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d4/da4/ddd__warp_8inc_8c.html">behaviors/ddd_warp.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d5/d38/water__pillar_8inc_8c.html">behaviors/water_pillar.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d4/d36/moat__drainer_8inc_8c.html">behaviors/moat_drainer.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d9/d44/door__key_8inc_8c.html">behaviors/door_key.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d7/d38/moat__grill_8inc_8c.html">behaviors/moat_grill.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../da/d59/clock__arm_8inc_8c.html">behaviors/clock_arm.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d6/d8f/ukiki__cage_8inc_8c.html">behaviors/ukiki_cage.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../dc/d02/lll__octagonal__rotating__mesh_8inc_8c.html">behaviors/lll_octagonal_rotating_mesh.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../db/d4b/lll__sinking__rock__block_8inc_8c.html">behaviors/lll_sinking_rock_block.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d3/db6/lll__rotating__hex__flame_8inc_8c.html">behaviors/lll_rotating_hex_flame.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../da/d1f/lll__floating__wood__piece_8inc_8c.html">behaviors/lll_floating_wood_piece.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../df/d97/lll__volcano__flames_8inc_8c.html">behaviors/lll_volcano_flames.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d5/dd7/lll__hexagonal__ring_8inc_8c.html">behaviors/lll_hexagonal_ring.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d9/d08/lll__sinking__rectangle_8inc_8c.html">behaviors/lll_sinking_rectangle.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d3/d78/lll__tilting__platform_8inc_8c.html">behaviors/lll_tilting_platform.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d4/d95/koopa__shell_8inc_8c.html">behaviors/koopa_shell.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../dd/da7/tox__box_8inc_8c.html">behaviors/tox_box.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d9/d21/piranha__plant_8inc_8c.html">behaviors/piranha_plant.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d2/dc9/bowser__puzzle__piece_8inc_8c.html">behaviors/bowser_puzzle_piece.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d3/d12/tuxie_8inc_8c.html">behaviors/tuxie.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../dd/dc7/fish_8inc_8c.html">behaviors/fish.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d5/de5/express__elevator_8inc_8c.html">behaviors/express_elevator.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../df/d9a/bub_8inc_8c.html">behaviors/bub.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d7/dbb/exclamation__box_8inc_8c.html">behaviors/exclamation_box.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d7/d5c/sound__spawner_8inc_8c.html">behaviors/sound_spawner.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../db/d8d/ddd__sub_8inc_8c.html">behaviors/ddd_sub.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d9/d19/sushi_8inc_8c.html">behaviors/sushi.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d4/d6e/jrb__ship_8inc_8c.html">behaviors/jrb_ship.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d2/de8/white__puff_8inc_8c.html">behaviors/white_puff.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d8/d34/blue__coin_8inc_8c.html">behaviors/blue_coin.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d0/d12/grill__door_8inc_8c.html">behaviors/grill_door.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../db/d3f/wdw__water__level_8inc_8c.html">behaviors/wdw_water_level.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d3/de0/tweester_8inc_8c.html">behaviors/tweester.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../de/db2/boo_8inc_8c.html">behaviors/boo.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d5/d2f/bbh__tilt__floor_8inc_8c.html">behaviors/bbh_tilt_floor.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d2/dc1/bbh__tumbling__bookshelf_8inc_8c.html">behaviors/bbh_tumbling_bookshelf.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../db/d8c/bbh__merry__go__round_8inc_8c.html">behaviors/bbh_merry_go_round.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d9/d68/static__checkered__platform_8inc_8c.html">behaviors/static_checkered_platform.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d2/dff/bait__coin_8inc_8c.html">behaviors/bait_coin.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d8/df2/castle__floor__trap_8inc_8c.html">behaviors/castle_floor_trap.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../db/d2d/powerup__sparkles_8inc_8c.html">behaviors/powerup_sparkles.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d9/df1/scuttlebug_8inc_8c.html">behaviors/scuttlebug.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d4/d88/whomp_8inc_8c.html">behaviors/whomp.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d5/dcb/water__splash_8inc_8c.html">behaviors/water_splash.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../de/d2c/wind__particle_8inc_8c.html">behaviors/wind_particle.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d3/daf/snowman__wind_8inc_8c.html">behaviors/snowman_wind.inc.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../db/dec/walking__penguin_8inc_8c.html">behaviors/walking_penguin.inc.c</a>&quot;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Data Structures</h2></td></tr>
@@ -240,59 +240,59 @@ Data Structures</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:ac9ba2c61c69c381438f186315b5f2e9b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dd6/behavior__actions_8c.html#ac9ba2c61c69c381438f186315b5f2e9b">o</a>&#160;&#160;&#160;<a class="el" href="../../d2/dd2/object__list__processor_8h.html#a96b0815e3dd13aaa23b4ba34380ec77b">gCurrentObject</a></td></tr>
+<tr class="memitem:ac9ba2c61c69c381438f186315b5f2e9b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dd6/behavior__actions_8c.html#ac9ba2c61c69c381438f186315b5f2e9b">o</a>&#160;&#160;&#160;<a class="el" href="../../da/d02/object__list__processor_8c.html#a96b0815e3dd13aaa23b4ba34380ec77b">gCurrentObject</a></td></tr>
 <tr class="separator:ac9ba2c61c69c381438f186315b5f2e9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ad27d4b0c112fafd8da21862d4b1fcf4a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dd6/behavior__actions_8c.html#ad27d4b0c112fafd8da21862d4b1fcf4a">BehClimbDetectLoop</a> ()</td></tr>
+<tr class="memitem:ad27d4b0c112fafd8da21862d4b1fcf4a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dd6/behavior__actions_8c.html#ad27d4b0c112fafd8da21862d4b1fcf4a">BehClimbDetectLoop</a> ()</td></tr>
 <tr class="separator:ad27d4b0c112fafd8da21862d4b1fcf4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2f6daf1d3dc938c59cc198cbb4760b66"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dd6/behavior__actions_8c.html#a2f6daf1d3dc938c59cc198cbb4760b66">func_802A8D18</a> (<a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>, <a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>, <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>)</td></tr>
+<tr class="memitem:a2f6daf1d3dc938c59cc198cbb4760b66"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dd6/behavior__actions_8c.html#a2f6daf1d3dc938c59cc198cbb4760b66">func_802A8D18</a> (f32, f32, s32)</td></tr>
 <tr class="separator:a2f6daf1d3dc938c59cc198cbb4760b66"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa812c82a69adeeedf3708594ab6b511b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dd6/behavior__actions_8c.html#aa812c82a69adeeedf3708594ab6b511b">func_802BDAD4</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>)</td></tr>
+<tr class="memitem:aa812c82a69adeeedf3708594ab6b511b"><td class="memItemLeft" align="right" valign="top">s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dd6/behavior__actions_8c.html#aa812c82a69adeeedf3708594ab6b511b">func_802BDAD4</a> (void)</td></tr>
 <tr class="separator:aa812c82a69adeeedf3708594ab6b511b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a21a781d3b590f1fa05bf7e62a6ad6323"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dd6/behavior__actions_8c.html#a21a781d3b590f1fa05bf7e62a6ad6323">func_802C49E0</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>)</td></tr>
+<tr class="memitem:a21a781d3b590f1fa05bf7e62a6ad6323"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dd6/behavior__actions_8c.html#a21a781d3b590f1fa05bf7e62a6ad6323">func_802C49E0</a> (void)</td></tr>
 <tr class="separator:a21a781d3b590f1fa05bf7e62a6ad6323"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a32769ca042ecf3643bc3d98ef96c6868"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dd6/behavior__actions_8c.html#a32769ca042ecf3643bc3d98ef96c6868">func_802AA618</a> (<a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> sp18, <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> sp1C, <a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> sp20)</td></tr>
+<tr class="memitem:a32769ca042ecf3643bc3d98ef96c6868"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dd6/behavior__actions_8c.html#a32769ca042ecf3643bc3d98ef96c6868">func_802AA618</a> (s32 sp18, s32 sp1C, f32 sp20)</td></tr>
 <tr class="separator:a32769ca042ecf3643bc3d98ef96c6868"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aec13a6a4ba463c06632b0d9a0c8dbade"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dd6/behavior__actions_8c.html#aec13a6a4ba463c06632b0d9a0c8dbade">Geo18_802B1BB0</a> (<a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> a0, <a class="el" href="../../d8/d4b/unused_8h.html#addf5ec070e9499d36b7f2009ce736076">UNUSED</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> a1, <a class="el" href="../../d9/d49/types_8h.html#ab7160f77e736961cfa2aff581aeee005">Mat4</a> <a class="el" href="../../de/d48/interface__1_8c.html#adbcaa199c8f4e499f2c3d049ff926d74">a2</a>)</td></tr>
+<tr class="memitem:aec13a6a4ba463c06632b0d9a0c8dbade"><td class="memItemLeft" align="right" valign="top">s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dd6/behavior__actions_8c.html#aec13a6a4ba463c06632b0d9a0c8dbade">Geo18_802B1BB0</a> (s32 a0, UNUSED s32 a1, Mat4 <a class="el" href="../../de/d48/interface__1_8c.html#adbcaa199c8f4e499f2c3d049ff926d74">a2</a>)</td></tr>
 <tr class="separator:aec13a6a4ba463c06632b0d9a0c8dbade"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abda2e8681cc2217106bb55004903cfcf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dd6/behavior__actions_8c.html#abda2e8681cc2217106bb55004903cfcf">func_802B2328</a> (<a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> n, <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> a1, <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> <a class="el" href="../../de/d48/interface__1_8c.html#adbcaa199c8f4e499f2c3d049ff926d74">a2</a>, <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> r)</td></tr>
+<tr class="memitem:abda2e8681cc2217106bb55004903cfcf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dd6/behavior__actions_8c.html#abda2e8681cc2217106bb55004903cfcf">func_802B2328</a> (s32 n, s32 a1, s32 <a class="el" href="../../de/d48/interface__1_8c.html#adbcaa199c8f4e499f2c3d049ff926d74">a2</a>, s32 r)</td></tr>
 <tr class="separator:abda2e8681cc2217106bb55004903cfcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:ac2e22c18e429db59f69917283255d095"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/da7/ultratypes_8h.html#a4cb19f4a3324cfe0938ddfbfabaa825b">s16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dd6/behavior__actions_8c.html#ac2e22c18e429db59f69917283255d095">D_8035FF10</a></td></tr>
+<tr class="memitem:ac2e22c18e429db59f69917283255d095"><td class="memItemLeft" align="right" valign="top">s16&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dd6/behavior__actions_8c.html#ac2e22c18e429db59f69917283255d095">D_8035FF10</a></td></tr>
 <tr class="separator:ac2e22c18e429db59f69917283255d095"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4b4e2a5b41cbff3d66c883691b0f38b8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/da7/ultratypes_8h.html#a4cb19f4a3324cfe0938ddfbfabaa825b">s16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dd6/behavior__actions_8c.html#a4b4e2a5b41cbff3d66c883691b0f38b8">gDebugInfo</a> [][8]</td></tr>
+<tr class="memitem:a4b4e2a5b41cbff3d66c883691b0f38b8"><td class="memItemLeft" align="right" valign="top">s16&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dd6/behavior__actions_8c.html#a4b4e2a5b41cbff3d66c883691b0f38b8">gDebugInfo</a> [][8]</td></tr>
 <tr class="separator:a4b4e2a5b41cbff3d66c883691b0f38b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac60a955d49f75f2a514da81ce6f0c729"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/da7/ultratypes_8h.html#a151f780fb455885061d3b77ec1c90c03">s8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dd6/behavior__actions_8c.html#ac60a955d49f75f2a514da81ce6f0c729">D_8035FE68</a> [][2]</td></tr>
+<tr class="memitem:ac60a955d49f75f2a514da81ce6f0c729"><td class="memItemLeft" align="right" valign="top">s8&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dd6/behavior__actions_8c.html#ac60a955d49f75f2a514da81ce6f0c729">D_8035FE68</a> [][2]</td></tr>
 <tr class="separator:ac60a955d49f75f2a514da81ce6f0c729"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6139270bdde145a428d8467febf2f7a6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dd6/behavior__actions_8c.html#a6139270bdde145a428d8467febf2f7a6">inside_castle_seg7_dl_0702A880</a></td></tr>
+<tr class="memitem:a6139270bdde145a428d8467febf2f7a6"><td class="memItemLeft" align="right" valign="top">s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dd6/behavior__actions_8c.html#a6139270bdde145a428d8467febf2f7a6">inside_castle_seg7_dl_0702A880</a></td></tr>
 <tr class="separator:a6139270bdde145a428d8467febf2f7a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af7c2ef1bff808cbb50ba1201251248f5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/da7/ultratypes_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dd6/behavior__actions_8c.html#af7c2ef1bff808cbb50ba1201251248f5">inside_castle_seg7_collision_ddd_warp_2</a> []</td></tr>
+<tr class="memitem:af7c2ef1bff808cbb50ba1201251248f5"><td class="memItemLeft" align="right" valign="top">u8&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dd6/behavior__actions_8c.html#af7c2ef1bff808cbb50ba1201251248f5">inside_castle_seg7_collision_ddd_warp_2</a> []</td></tr>
 <tr class="separator:af7c2ef1bff808cbb50ba1201251248f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1e8548b92574fdbf0c1a9436abc7589b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/da7/ultratypes_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dd6/behavior__actions_8c.html#a1e8548b92574fdbf0c1a9436abc7589b">inside_castle_seg7_collision_ddd_warp</a> []</td></tr>
+<tr class="memitem:a1e8548b92574fdbf0c1a9436abc7589b"><td class="memItemLeft" align="right" valign="top">u8&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dd6/behavior__actions_8c.html#a1e8548b92574fdbf0c1a9436abc7589b">inside_castle_seg7_collision_ddd_warp</a> []</td></tr>
 <tr class="separator:a1e8548b92574fdbf0c1a9436abc7589b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad25c96c74f5797893ec9993d251829ba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dd6/behavior__actions_8c.html#ad25c96c74f5797893ec9993d251829ba">gDialogueResponse</a></td></tr>
+<tr class="memitem:ad25c96c74f5797893ec9993d251829ba"><td class="memItemLeft" align="right" valign="top">s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dd6/behavior__actions_8c.html#ad25c96c74f5797893ec9993d251829ba">gDialogueResponse</a></td></tr>
 <tr class="separator:ad25c96c74f5797893ec9993d251829ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7d3332260a8efa4bf68e76d098ffd494"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dd6/behavior__actions_8c.html#a7d3332260a8efa4bf68e76d098ffd494">D_8033B858</a></td></tr>
+<tr class="memitem:a7d3332260a8efa4bf68e76d098ffd494"><td class="memItemLeft" align="right" valign="top">s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dd6/behavior__actions_8c.html#a7d3332260a8efa4bf68e76d098ffd494">D_8033B858</a></td></tr>
 <tr class="separator:a7d3332260a8efa4bf68e76d098ffd494"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acdee5e0598ec2c4471be16f0ede18da5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/da7/ultratypes_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dd6/behavior__actions_8c.html#acdee5e0598ec2c4471be16f0ede18da5">D_8032CFF4</a></td></tr>
+<tr class="memitem:acdee5e0598ec2c4471be16f0ede18da5"><td class="memItemLeft" align="right" valign="top">u8&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dd6/behavior__actions_8c.html#acdee5e0598ec2c4471be16f0ede18da5">D_8032CFF4</a></td></tr>
 <tr class="separator:acdee5e0598ec2c4471be16f0ede18da5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9f29a97c66ea0667665b64fa30c08ec9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/da7/ultratypes_8h.html#a151f780fb455885061d3b77ec1c90c03">s8</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dd6/behavior__actions_8c.html#a9f29a97c66ea0667665b64fa30c08ec9">D_8032F96C</a> []</td></tr>
+<tr class="memitem:a9f29a97c66ea0667665b64fa30c08ec9"><td class="memItemLeft" align="right" valign="top">s8 *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dd6/behavior__actions_8c.html#a9f29a97c66ea0667665b64fa30c08ec9">D_8032F96C</a> []</td></tr>
 <tr class="separator:a9f29a97c66ea0667665b64fa30c08ec9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2d4c72a9fdf6cf12a96722fa7a33f569"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/da7/ultratypes_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dd6/behavior__actions_8c.html#a2d4c72a9fdf6cf12a96722fa7a33f569">bowser_seg6_unkmoveshorts_060576FC</a> []</td></tr>
+<tr class="memitem:a2d4c72a9fdf6cf12a96722fa7a33f569"><td class="memItemLeft" align="right" valign="top">u32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dd6/behavior__actions_8c.html#a2d4c72a9fdf6cf12a96722fa7a33f569">bowser_seg6_unkmoveshorts_060576FC</a> []</td></tr>
 <tr class="separator:a2d4c72a9fdf6cf12a96722fa7a33f569"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a956a3ed4dc92a2f150531cabac49ad2c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/da7/ultratypes_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dd6/behavior__actions_8c.html#a956a3ed4dc92a2f150531cabac49ad2c">blue_fish_seg3_anims_0301C2B0</a> []</td></tr>
+<tr class="memitem:a956a3ed4dc92a2f150531cabac49ad2c"><td class="memItemLeft" align="right" valign="top">u32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dd6/behavior__actions_8c.html#a956a3ed4dc92a2f150531cabac49ad2c">blue_fish_seg3_anims_0301C2B0</a> []</td></tr>
 <tr class="separator:a956a3ed4dc92a2f150531cabac49ad2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1d5ddc2285f8af2fbd259c579c15dee1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/da7/ultratypes_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dd6/behavior__actions_8c.html#a1d5ddc2285f8af2fbd259c579c15dee1">cyan_fish_seg6_anims_0600E264</a> []</td></tr>
+<tr class="memitem:a1d5ddc2285f8af2fbd259c579c15dee1"><td class="memItemLeft" align="right" valign="top">u32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dd6/behavior__actions_8c.html#a1d5ddc2285f8af2fbd259c579c15dee1">cyan_fish_seg6_anims_0600E264</a> []</td></tr>
 <tr class="separator:a1d5ddc2285f8af2fbd259c579c15dee1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af7d6dae0c1959d1e62a020a826b9ed0c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dd6/behavior__actions_8c.html#af7d6dae0c1959d1e62a020a826b9ed0c">D_8032F0C0</a> [] = {<a class="el" href="../../d4/dad/save__file_8h.html#a0b63cbc723d79e119d1a8b96b9b20688">SAVE_FLAG_HAVE_WING_CAP</a>,<a class="el" href="../../d4/dad/save__file_8h.html#ad9a8c700779f015d374056138a94b14b">SAVE_FLAG_HAVE_METAL_CAP</a>,<a class="el" href="../../d4/dad/save__file_8h.html#a2bbe1aa13ea507b99690df79144be4f0">SAVE_FLAG_HAVE_VANISH_CAP</a>}</td></tr>
+<tr class="memitem:af7d6dae0c1959d1e62a020a826b9ed0c"><td class="memItemLeft" align="right" valign="top">s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dd6/behavior__actions_8c.html#af7d6dae0c1959d1e62a020a826b9ed0c">D_8032F0C0</a> [] = {SAVE_FLAG_HAVE_WING_CAP,SAVE_FLAG_HAVE_METAL_CAP,SAVE_FLAG_HAVE_VANISH_CAP}</td></tr>
 <tr class="separator:af7d6dae0c1959d1e62a020a826b9ed0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab76a60419e75c25ab4336abf3dfe2594"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/da7/ultratypes_8h.html#a4cb19f4a3324cfe0938ddfbfabaa825b">s16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dd6/behavior__actions_8c.html#ab76a60419e75c25ab4336abf3dfe2594">D_8032F0CC</a> [] = {6047,5664,5292,4934,4587,4254,3933,3624,3329,3046,2775,2517,2271,2039,1818,1611,1416,1233,1063,906,761,629,509,402,308,226,157,100,56,25,4,0}</td></tr>
+<tr class="memitem:ab76a60419e75c25ab4336abf3dfe2594"><td class="memItemLeft" align="right" valign="top">s16&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dd6/behavior__actions_8c.html#ab76a60419e75c25ab4336abf3dfe2594">D_8032F0CC</a> [] = {6047,5664,5292,4934,4587,4254,3933,3624,3329,3046,2775,2517,2271,2039,1818,1611,1416,1233,1063,906,761,629,509,402,308,226,157,100,56,25,4,0}</td></tr>
 <tr class="separator:ab76a60419e75c25ab4336abf3dfe2594"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afe3a192acddaafdbdc079ed6cf22fb10"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d1/df8/structSpawnParticlesInfo.html">SpawnParticlesInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dd6/behavior__actions_8c.html#afe3a192acddaafdbdc079ed6cf22fb10">D_8032F270</a> = {2,20,142,0,40,5,30,20,252,30,330.0f,10.0f}</td></tr>
+<tr class="memitem:afe3a192acddaafdbdc079ed6cf22fb10"><td class="memItemLeft" align="right" valign="top">struct SpawnParticlesInfo&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dd6/behavior__actions_8c.html#afe3a192acddaafdbdc079ed6cf22fb10">D_8032F270</a> = {2,20,142,0,40,5,30,20,252,30,330.0f,10.0f}</td></tr>
 <tr class="separator:afe3a192acddaafdbdc079ed6cf22fb10"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
@@ -303,7 +303,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define o&#160;&#160;&#160;<a class="el" href="../../d2/dd2/object__list__processor_8h.html#a96b0815e3dd13aaa23b4ba34380ec77b">gCurrentObject</a></td>
+          <td class="memname">#define o&#160;&#160;&#160;<a class="el" href="../../da/d02/object__list__processor_8c.html#a96b0815e3dd13aaa23b4ba34380ec77b">gCurrentObject</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -318,9 +318,9 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a> BehClimbDetectLoop </td>
+          <td class="memname">void BehClimbDetectLoop </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td>
+          <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -336,21 +336,21 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a> func_802A8D18 </td>
+          <td class="memname">void func_802A8D18 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td>
+          <td class="paramtype">f32&#160;</td>
           <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td>
+          <td class="paramtype">f32&#160;</td>
           <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td>
+          <td class="paramtype">s32&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>
@@ -370,21 +370,21 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a> func_802AA618 </td>
+          <td class="memname">void func_802AA618 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td>
+          <td class="paramtype">s32&#160;</td>
           <td class="paramname"><em>sp18</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td>
+          <td class="paramtype">s32&#160;</td>
           <td class="paramname"><em>sp1C</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td>
+          <td class="paramtype">f32&#160;</td>
           <td class="paramname"><em>sp20</em>&#160;</td>
         </tr>
         <tr>
@@ -404,27 +404,27 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a> func_802B2328 </td>
+          <td class="memname">void func_802B2328 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td>
+          <td class="paramtype">s32&#160;</td>
           <td class="paramname"><em>n</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td>
+          <td class="paramtype">s32&#160;</td>
           <td class="paramname"><em>a1</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td>
+          <td class="paramtype">s32&#160;</td>
           <td class="paramname"><em>a2</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td>
+          <td class="paramtype">s32&#160;</td>
           <td class="paramname"><em>r</em>&#160;</td>
         </tr>
         <tr>
@@ -444,9 +444,9 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> func_802BDAD4 </td>
+          <td class="memname">s32 func_802BDAD4 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td>
+          <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -462,9 +462,9 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a> func_802C49E0 </td>
+          <td class="memname">void func_802C49E0 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td>
+          <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -480,21 +480,21 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> Geo18_802B1BB0 </td>
+          <td class="memname">s32 Geo18_802B1BB0 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td>
+          <td class="paramtype">s32&#160;</td>
           <td class="paramname"><em>a0</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d8/d4b/unused_8h.html#addf5ec070e9499d36b7f2009ce736076">UNUSED</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td>
+          <td class="paramtype">UNUSED s32&#160;</td>
           <td class="paramname"><em>a1</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d9/d49/types_8h.html#ab7160f77e736961cfa2aff581aeee005">Mat4</a>&#160;</td>
+          <td class="paramtype">Mat4&#160;</td>
           <td class="paramname"><em>a2</em>&#160;</td>
         </tr>
         <tr>
@@ -515,7 +515,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/da7/ultratypes_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a> blue_fish_seg3_anims_0301C2B0</td>
+          <td class="memname">u32 blue_fish_seg3_anims_0301C2B0</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -529,7 +529,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/da7/ultratypes_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a> bowser_seg6_unkmoveshorts_060576FC[]</td>
+          <td class="memname">u32 bowser_seg6_unkmoveshorts_060576FC[]</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -543,7 +543,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/da7/ultratypes_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a> cyan_fish_seg6_anims_0600E264[]</td>
+          <td class="memname">u32 cyan_fish_seg6_anims_0600E264[]</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -557,7 +557,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/da7/ultratypes_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> D_8032CFF4</td>
+          <td class="memname">u8 D_8032CFF4</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -571,7 +571,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> D_8032F0C0[] = {<a class="el" href="../../d4/dad/save__file_8h.html#a0b63cbc723d79e119d1a8b96b9b20688">SAVE_FLAG_HAVE_WING_CAP</a>,<a class="el" href="../../d4/dad/save__file_8h.html#ad9a8c700779f015d374056138a94b14b">SAVE_FLAG_HAVE_METAL_CAP</a>,<a class="el" href="../../d4/dad/save__file_8h.html#a2bbe1aa13ea507b99690df79144be4f0">SAVE_FLAG_HAVE_VANISH_CAP</a>}</td>
+          <td class="memname">s32 D_8032F0C0[] = {SAVE_FLAG_HAVE_WING_CAP,SAVE_FLAG_HAVE_METAL_CAP,SAVE_FLAG_HAVE_VANISH_CAP}</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -585,7 +585,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/da7/ultratypes_8h.html#a4cb19f4a3324cfe0938ddfbfabaa825b">s16</a> D_8032F0CC[] = {6047,5664,5292,4934,4587,4254,3933,3624,3329,3046,2775,2517,2271,2039,1818,1611,1416,1233,1063,906,761,629,509,402,308,226,157,100,56,25,4,0}</td>
+          <td class="memname">s16 D_8032F0CC[] = {6047,5664,5292,4934,4587,4254,3933,3624,3329,3046,2775,2517,2271,2039,1818,1611,1416,1233,1063,906,761,629,509,402,308,226,157,100,56,25,4,0}</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -599,7 +599,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d1/df8/structSpawnParticlesInfo.html">SpawnParticlesInfo</a> D_8032F270 = {2,20,142,0,40,5,30,20,252,30,330.0f,10.0f}</td>
+          <td class="memname">struct SpawnParticlesInfo D_8032F270 = {2,20,142,0,40,5,30,20,252,30,330.0f,10.0f}</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -613,7 +613,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/da7/ultratypes_8h.html#a151f780fb455885061d3b77ec1c90c03">s8</a>* D_8032F96C[]</td>
+          <td class="memname">s8* D_8032F96C[]</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -627,7 +627,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> D_8033B858</td>
+          <td class="memname">s32 D_8033B858</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -641,7 +641,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/da7/ultratypes_8h.html#a151f780fb455885061d3b77ec1c90c03">s8</a> D_8035FE68[][2]</td>
+          <td class="memname">s8 D_8035FE68[][2]</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -655,7 +655,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/da7/ultratypes_8h.html#a4cb19f4a3324cfe0938ddfbfabaa825b">s16</a> D_8035FF10</td>
+          <td class="memname">s16 D_8035FF10</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -669,7 +669,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/da7/ultratypes_8h.html#a4cb19f4a3324cfe0938ddfbfabaa825b">s16</a> gDebugInfo[][8]</td>
+          <td class="memname">s16 gDebugInfo[][8]</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -683,7 +683,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> gDialogueResponse</td>
+          <td class="memname">s32 gDialogueResponse</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -697,7 +697,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/da7/ultratypes_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> inside_castle_seg7_collision_ddd_warp[]</td>
+          <td class="memname">u8 inside_castle_seg7_collision_ddd_warp[]</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -711,7 +711,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/da7/ultratypes_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> inside_castle_seg7_collision_ddd_warp_2[]</td>
+          <td class="memname">u8 inside_castle_seg7_collision_ddd_warp_2[]</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -725,7 +725,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> inside_castle_seg7_dl_0702A880</td>
+          <td class="memname">s32 inside_castle_seg7_dl_0702A880</td>
         </tr>
       </table>
 </div><div class="memdoc">

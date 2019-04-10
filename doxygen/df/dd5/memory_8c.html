@@ -76,13 +76,13 @@ $(function() {
 <div class="title">memory.c File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;<a class="el" href="../../dd/d2f/ultra64_8h_source.html">ultra64.h</a>&gt;</code><br />
-<code>#include &quot;<a class="el" href="../../d5/dd8/sm64_8h_source.html">sm64.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d9/d77/decompress_8h_source.html">decompress.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d2/dd5/game_8h_source.html">game.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d4/dbf/main_8h_source.html">main.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d3/d28/segments_8h_source.html">segments.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../dc/d18/memory_8h_source.html">memory.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &lt;ultra64.h&gt;</code><br />
+<code>#include &quot;sm64.h&quot;</code><br />
+<code>#include &quot;decompress.h&quot;</code><br />
+<code>#include &quot;game.h&quot;</code><br />
+<code>#include &quot;main.h&quot;</code><br />
+<code>#include &quot;segments.h&quot;</code><br />
+<code>#include &quot;memory.h&quot;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Data Structures</h2></td></tr>
@@ -108,105 +108,105 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:af343639d32ec9c860ebf1d3f847af80b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/da7/ultratypes_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd5/memory_8c.html#af343639d32ec9c860ebf1d3f847af80b">set_segment_base_addr</a> (<a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> segment, <a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a> *addr)</td></tr>
+<tr class="memitem:af343639d32ec9c860ebf1d3f847af80b"><td class="memItemLeft" align="right" valign="top">u32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd5/memory_8c.html#af343639d32ec9c860ebf1d3f847af80b">set_segment_base_addr</a> (s32 segment, void *addr)</td></tr>
 <tr class="separator:af343639d32ec9c860ebf1d3f847af80b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a87d9774af5803beb121d45c6be0c1514"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd5/memory_8c.html#a87d9774af5803beb121d45c6be0c1514">get_segment_base_addr</a> (<a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> segment)</td></tr>
+<tr class="memitem:a87d9774af5803beb121d45c6be0c1514"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd5/memory_8c.html#a87d9774af5803beb121d45c6be0c1514">get_segment_base_addr</a> (s32 segment)</td></tr>
 <tr class="separator:a87d9774af5803beb121d45c6be0c1514"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a70f2315005efebc870a2d1423f49c346"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd5/memory_8c.html#a70f2315005efebc870a2d1423f49c346">segmented_to_virtual</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a> *addr)</td></tr>
+<tr class="memitem:a70f2315005efebc870a2d1423f49c346"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd5/memory_8c.html#a70f2315005efebc870a2d1423f49c346">segmented_to_virtual</a> (void *addr)</td></tr>
 <tr class="separator:a70f2315005efebc870a2d1423f49c346"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae8e269a7a17a179e36ccf96d151ae032"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd5/memory_8c.html#ae8e269a7a17a179e36ccf96d151ae032">virtual_to_segmented</a> (<a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> segment, <a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a> *addr)</td></tr>
+<tr class="memitem:ae8e269a7a17a179e36ccf96d151ae032"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd5/memory_8c.html#ae8e269a7a17a179e36ccf96d151ae032">virtual_to_segmented</a> (s32 segment, void *addr)</td></tr>
 <tr class="separator:ae8e269a7a17a179e36ccf96d151ae032"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7c0c87d5c791d9405698582f9128f4ec"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd5/memory_8c.html#a7c0c87d5c791d9405698582f9128f4ec">move_segment_table_to_dmem</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>)</td></tr>
+<tr class="memitem:a7c0c87d5c791d9405698582f9128f4ec"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd5/memory_8c.html#a7c0c87d5c791d9405698582f9128f4ec">move_segment_table_to_dmem</a> (void)</td></tr>
 <tr class="separator:a7c0c87d5c791d9405698582f9128f4ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8ec61245592ce25a616e33b308e74934"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd5/memory_8c.html#a8ec61245592ce25a616e33b308e74934">main_pool_init</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a> *start, <a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a> *end)</td></tr>
+<tr class="memitem:a8ec61245592ce25a616e33b308e74934"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd5/memory_8c.html#a8ec61245592ce25a616e33b308e74934">main_pool_init</a> (void *start, void *end)</td></tr>
 <tr class="memdesc:a8ec61245592ce25a616e33b308e74934"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the main memory pool.  <a href="#a8ec61245592ce25a616e33b308e74934">More...</a><br /></td></tr>
 <tr class="separator:a8ec61245592ce25a616e33b308e74934"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8a6931586931e6c2c608b4fe6eafa747"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd5/memory_8c.html#a8a6931586931e6c2c608b4fe6eafa747">main_pool_alloc</a> (<a class="el" href="../../dd/da7/ultratypes_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a> size, <a class="el" href="../../dd/da7/ultratypes_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a> side)</td></tr>
+<tr class="memitem:a8a6931586931e6c2c608b4fe6eafa747"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd5/memory_8c.html#a8a6931586931e6c2c608b4fe6eafa747">main_pool_alloc</a> (u32 size, u32 side)</td></tr>
 <tr class="memdesc:a8a6931586931e6c2c608b4fe6eafa747"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocate a block of memory from the pool of given size, and from the specified side of the pool (MEMORY_POOL_LEFT or MEMORY_POOL_RIGHT).  <a href="#a8a6931586931e6c2c608b4fe6eafa747">More...</a><br /></td></tr>
 <tr class="separator:a8a6931586931e6c2c608b4fe6eafa747"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a928e540d0d391c85753a21594b03546d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/da7/ultratypes_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd5/memory_8c.html#a928e540d0d391c85753a21594b03546d">main_pool_free</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a> *addr)</td></tr>
+<tr class="memitem:a928e540d0d391c85753a21594b03546d"><td class="memItemLeft" align="right" valign="top">u32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd5/memory_8c.html#a928e540d0d391c85753a21594b03546d">main_pool_free</a> (void *addr)</td></tr>
 <tr class="memdesc:a928e540d0d391c85753a21594b03546d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Free a block of memory that was allocated from the pool.  <a href="#a928e540d0d391c85753a21594b03546d">More...</a><br /></td></tr>
 <tr class="separator:a928e540d0d391c85753a21594b03546d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae0495d142c75bfe5d245d16b88aa7e80"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd5/memory_8c.html#ae0495d142c75bfe5d245d16b88aa7e80">main_pool_realloc</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a> *addr, <a class="el" href="../../dd/da7/ultratypes_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a> size)</td></tr>
+<tr class="memitem:ae0495d142c75bfe5d245d16b88aa7e80"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd5/memory_8c.html#ae0495d142c75bfe5d245d16b88aa7e80">main_pool_realloc</a> (void *addr, u32 size)</td></tr>
 <tr class="memdesc:ae0495d142c75bfe5d245d16b88aa7e80"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resize a block of memory that was allocated from the left side of the pool.  <a href="#ae0495d142c75bfe5d245d16b88aa7e80">More...</a><br /></td></tr>
 <tr class="separator:ae0495d142c75bfe5d245d16b88aa7e80"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac97c738e7deac677b441aaa012b10037"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/da7/ultratypes_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd5/memory_8c.html#ac97c738e7deac677b441aaa012b10037">main_pool_available</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>)</td></tr>
+<tr class="memitem:ac97c738e7deac677b441aaa012b10037"><td class="memItemLeft" align="right" valign="top">u32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd5/memory_8c.html#ac97c738e7deac677b441aaa012b10037">main_pool_available</a> (void)</td></tr>
 <tr class="memdesc:ac97c738e7deac677b441aaa012b10037"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the size of the largest block that can currently be allocated from the pool.  <a href="#ac97c738e7deac677b441aaa012b10037">More...</a><br /></td></tr>
 <tr class="separator:ac97c738e7deac677b441aaa012b10037"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8c7433c12a6a37aa1b4745c2fb25b87a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/da7/ultratypes_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd5/memory_8c.html#a8c7433c12a6a37aa1b4745c2fb25b87a">main_pool_push_state</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>)</td></tr>
+<tr class="memitem:a8c7433c12a6a37aa1b4745c2fb25b87a"><td class="memItemLeft" align="right" valign="top">u32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd5/memory_8c.html#a8c7433c12a6a37aa1b4745c2fb25b87a">main_pool_push_state</a> (void)</td></tr>
 <tr class="memdesc:a8c7433c12a6a37aa1b4745c2fb25b87a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Push pool state, to be restored later.  <a href="#a8c7433c12a6a37aa1b4745c2fb25b87a">More...</a><br /></td></tr>
 <tr class="separator:a8c7433c12a6a37aa1b4745c2fb25b87a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a837332e49a77de13d576a74056fb46c7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/da7/ultratypes_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd5/memory_8c.html#a837332e49a77de13d576a74056fb46c7">main_pool_pop_state</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>)</td></tr>
+<tr class="memitem:a837332e49a77de13d576a74056fb46c7"><td class="memItemLeft" align="right" valign="top">u32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd5/memory_8c.html#a837332e49a77de13d576a74056fb46c7">main_pool_pop_state</a> (void)</td></tr>
 <tr class="memdesc:a837332e49a77de13d576a74056fb46c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Restore pool state from a previous call to main_pool_push_state.  <a href="#a837332e49a77de13d576a74056fb46c7">More...</a><br /></td></tr>
 <tr class="separator:a837332e49a77de13d576a74056fb46c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af9afb1038852b0ba5d025b0346c69ec7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd5/memory_8c.html#af9afb1038852b0ba5d025b0346c69ec7">dma_read</a> (<a class="el" href="../../dd/da7/ultratypes_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> *dest, <a class="el" href="../../dd/da7/ultratypes_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> *srcStart, <a class="el" href="../../dd/da7/ultratypes_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> *srcEnd)</td></tr>
+<tr class="memitem:af9afb1038852b0ba5d025b0346c69ec7"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd5/memory_8c.html#af9afb1038852b0ba5d025b0346c69ec7">dma_read</a> (u8 *dest, u8 *srcStart, u8 *srcEnd)</td></tr>
 <tr class="memdesc:af9afb1038852b0ba5d025b0346c69ec7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform a DMA read from ROM.  <a href="#af9afb1038852b0ba5d025b0346c69ec7">More...</a><br /></td></tr>
 <tr class="separator:af9afb1038852b0ba5d025b0346c69ec7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a596b076545b6cf347c4e1a276baa723c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd5/memory_8c.html#a596b076545b6cf347c4e1a276baa723c">dynamic_dma_read</a> (<a class="el" href="../../dd/da7/ultratypes_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> *srcStart, <a class="el" href="../../dd/da7/ultratypes_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> *srcEnd, <a class="el" href="../../dd/da7/ultratypes_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a> side)</td></tr>
+<tr class="memitem:a596b076545b6cf347c4e1a276baa723c"><td class="memItemLeft" align="right" valign="top">static void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd5/memory_8c.html#a596b076545b6cf347c4e1a276baa723c">dynamic_dma_read</a> (u8 *srcStart, u8 *srcEnd, u32 side)</td></tr>
 <tr class="memdesc:a596b076545b6cf347c4e1a276baa723c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform a DMA read from ROM, allocating space in the memory pool to write to.  <a href="#a596b076545b6cf347c4e1a276baa723c">More...</a><br /></td></tr>
 <tr class="separator:a596b076545b6cf347c4e1a276baa723c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1e02d8b5b405fefcf8e577d62ad1b194"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd5/memory_8c.html#a1e02d8b5b405fefcf8e577d62ad1b194">load_segment</a> (<a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> segment, <a class="el" href="../../dd/da7/ultratypes_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> *srcStart, <a class="el" href="../../dd/da7/ultratypes_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> *srcEnd, <a class="el" href="../../dd/da7/ultratypes_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a> side)</td></tr>
+<tr class="memitem:a1e02d8b5b405fefcf8e577d62ad1b194"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd5/memory_8c.html#a1e02d8b5b405fefcf8e577d62ad1b194">load_segment</a> (s32 segment, u8 *srcStart, u8 *srcEnd, u32 side)</td></tr>
 <tr class="memdesc:a1e02d8b5b405fefcf8e577d62ad1b194"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load data from ROM into a newly allocated block, and set the segment base address to this block.  <a href="#a1e02d8b5b405fefcf8e577d62ad1b194">More...</a><br /></td></tr>
 <tr class="separator:a1e02d8b5b405fefcf8e577d62ad1b194"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad375696940264ebc6d18130e4dfdbaa4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd5/memory_8c.html#ad375696940264ebc6d18130e4dfdbaa4">load_to_fixed_pool_addr</a> (<a class="el" href="../../dd/da7/ultratypes_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> *destAddr, <a class="el" href="../../dd/da7/ultratypes_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> *srcStart, <a class="el" href="../../dd/da7/ultratypes_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> *srcEnd)</td></tr>
+<tr class="memitem:ad375696940264ebc6d18130e4dfdbaa4"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd5/memory_8c.html#ad375696940264ebc6d18130e4dfdbaa4">load_to_fixed_pool_addr</a> (u8 *destAddr, u8 *srcStart, u8 *srcEnd)</td></tr>
 <tr class="separator:ad375696940264ebc6d18130e4dfdbaa4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aed75d040d79c4a763be2ab50e0911755"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd5/memory_8c.html#aed75d040d79c4a763be2ab50e0911755">load_segment_decompress</a> (<a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> segment, <a class="el" href="../../dd/da7/ultratypes_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> *srcStart, <a class="el" href="../../dd/da7/ultratypes_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> *srcEnd)</td></tr>
+<tr class="memitem:aed75d040d79c4a763be2ab50e0911755"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd5/memory_8c.html#aed75d040d79c4a763be2ab50e0911755">load_segment_decompress</a> (s32 segment, u8 *srcStart, u8 *srcEnd)</td></tr>
 <tr class="memdesc:aed75d040d79c4a763be2ab50e0911755"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decompress the block of ROM data from srcStart to srcEnd and return a pointer to an allocated buffer holding the decompressed data.  <a href="#aed75d040d79c4a763be2ab50e0911755">More...</a><br /></td></tr>
 <tr class="separator:aed75d040d79c4a763be2ab50e0911755"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a06a9e1db4ae0ca555fffb68a9fe90487"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd5/memory_8c.html#a06a9e1db4ae0ca555fffb68a9fe90487">func_80278304</a> (<a class="el" href="../../dd/da7/ultratypes_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a> segment, <a class="el" href="../../dd/da7/ultratypes_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> *srcStart, <a class="el" href="../../dd/da7/ultratypes_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> *srcEnd)</td></tr>
+<tr class="memitem:a06a9e1db4ae0ca555fffb68a9fe90487"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd5/memory_8c.html#a06a9e1db4ae0ca555fffb68a9fe90487">func_80278304</a> (u32 segment, u8 *srcStart, u8 *srcEnd)</td></tr>
 <tr class="separator:a06a9e1db4ae0ca555fffb68a9fe90487"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2b93bcd2c0d6f632842552e84fcae968"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd5/memory_8c.html#a2b93bcd2c0d6f632842552e84fcae968">load_engine_code_segment</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>)</td></tr>
+<tr class="memitem:a2b93bcd2c0d6f632842552e84fcae968"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd5/memory_8c.html#a2b93bcd2c0d6f632842552e84fcae968">load_engine_code_segment</a> (void)</td></tr>
 <tr class="separator:a2b93bcd2c0d6f632842552e84fcae968"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad6af9f94272a0479970273c3dfe7367b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d8/d1f/structAllocOnlyPool.html">AllocOnlyPool</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd5/memory_8c.html#ad6af9f94272a0479970273c3dfe7367b">alloc_only_pool_init</a> (<a class="el" href="../../dd/da7/ultratypes_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a> size, <a class="el" href="../../dd/da7/ultratypes_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a> side)</td></tr>
+<tr class="memitem:ad6af9f94272a0479970273c3dfe7367b"><td class="memItemLeft" align="right" valign="top">struct AllocOnlyPool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd5/memory_8c.html#ad6af9f94272a0479970273c3dfe7367b">alloc_only_pool_init</a> (u32 size, u32 side)</td></tr>
 <tr class="memdesc:ad6af9f94272a0479970273c3dfe7367b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocate an allocation-only pool from the main pool.  <a href="#ad6af9f94272a0479970273c3dfe7367b">More...</a><br /></td></tr>
 <tr class="separator:ad6af9f94272a0479970273c3dfe7367b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6b36e04a9f57ccfbcc1b7cf61f68e455"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd5/memory_8c.html#a6b36e04a9f57ccfbcc1b7cf61f68e455">alloc_only_pool_alloc</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d8/d1f/structAllocOnlyPool.html">AllocOnlyPool</a> *pool, <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> size)</td></tr>
+<tr class="memitem:a6b36e04a9f57ccfbcc1b7cf61f68e455"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd5/memory_8c.html#a6b36e04a9f57ccfbcc1b7cf61f68e455">alloc_only_pool_alloc</a> (struct AllocOnlyPool *pool, s32 size)</td></tr>
 <tr class="memdesc:a6b36e04a9f57ccfbcc1b7cf61f68e455"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocate from an allocation-only pool.  <a href="#a6b36e04a9f57ccfbcc1b7cf61f68e455">More...</a><br /></td></tr>
 <tr class="separator:a6b36e04a9f57ccfbcc1b7cf61f68e455"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a12514207e27653c61da533a20eaf92f2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d8/d1f/structAllocOnlyPool.html">AllocOnlyPool</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd5/memory_8c.html#a12514207e27653c61da533a20eaf92f2">alloc_only_pool_resize</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d8/d1f/structAllocOnlyPool.html">AllocOnlyPool</a> *pool, <a class="el" href="../../dd/da7/ultratypes_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a> size)</td></tr>
+<tr class="memitem:a12514207e27653c61da533a20eaf92f2"><td class="memItemLeft" align="right" valign="top">struct AllocOnlyPool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd5/memory_8c.html#a12514207e27653c61da533a20eaf92f2">alloc_only_pool_resize</a> (struct AllocOnlyPool *pool, u32 size)</td></tr>
 <tr class="memdesc:a12514207e27653c61da533a20eaf92f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resize an allocation-only pool.  <a href="#a12514207e27653c61da533a20eaf92f2">More...</a><br /></td></tr>
 <tr class="separator:a12514207e27653c61da533a20eaf92f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8e3943f6a6575350f99a5c8e983084d2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../de/d20/structMemoryPool.html">MemoryPool</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd5/memory_8c.html#a8e3943f6a6575350f99a5c8e983084d2">mem_pool_init</a> (<a class="el" href="../../dd/da7/ultratypes_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a> size, <a class="el" href="../../dd/da7/ultratypes_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a> side)</td></tr>
+<tr class="memitem:a8e3943f6a6575350f99a5c8e983084d2"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="../../de/d20/structMemoryPool.html">MemoryPool</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd5/memory_8c.html#a8e3943f6a6575350f99a5c8e983084d2">mem_pool_init</a> (u32 size, u32 side)</td></tr>
 <tr class="memdesc:a8e3943f6a6575350f99a5c8e983084d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocate a memory pool from the main pool.  <a href="#a8e3943f6a6575350f99a5c8e983084d2">More...</a><br /></td></tr>
 <tr class="separator:a8e3943f6a6575350f99a5c8e983084d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afcd38d11c14d038e6f3ed48457511a83"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd5/memory_8c.html#afcd38d11c14d038e6f3ed48457511a83">mem_pool_alloc</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../de/d20/structMemoryPool.html">MemoryPool</a> *pool, <a class="el" href="../../dd/da7/ultratypes_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a> size)</td></tr>
+<tr class="memitem:afcd38d11c14d038e6f3ed48457511a83"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd5/memory_8c.html#afcd38d11c14d038e6f3ed48457511a83">mem_pool_alloc</a> (struct <a class="el" href="../../de/d20/structMemoryPool.html">MemoryPool</a> *pool, u32 size)</td></tr>
 <tr class="memdesc:afcd38d11c14d038e6f3ed48457511a83"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocate from a memory pool.  <a href="#afcd38d11c14d038e6f3ed48457511a83">More...</a><br /></td></tr>
 <tr class="separator:afcd38d11c14d038e6f3ed48457511a83"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa3fcffb4dc07abb5333967953743864a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd5/memory_8c.html#aa3fcffb4dc07abb5333967953743864a">mem_pool_free</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../de/d20/structMemoryPool.html">MemoryPool</a> *pool, <a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a> *addr)</td></tr>
+<tr class="memitem:aa3fcffb4dc07abb5333967953743864a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd5/memory_8c.html#aa3fcffb4dc07abb5333967953743864a">mem_pool_free</a> (struct <a class="el" href="../../de/d20/structMemoryPool.html">MemoryPool</a> *pool, void *addr)</td></tr>
 <tr class="memdesc:aa3fcffb4dc07abb5333967953743864a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Free a block that was allocated using mem_pool_alloc.  <a href="#aa3fcffb4dc07abb5333967953743864a">More...</a><br /></td></tr>
 <tr class="separator:aa3fcffb4dc07abb5333967953743864a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8e4ec4c3462515d759a5926e42d79837"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd5/memory_8c.html#a8e4ec4c3462515d759a5926e42d79837">alloc_display_list</a> (<a class="el" href="../../dd/da7/ultratypes_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a> size)</td></tr>
+<tr class="memitem:a8e4ec4c3462515d759a5926e42d79837"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd5/memory_8c.html#a8e4ec4c3462515d759a5926e42d79837">alloc_display_list</a> (u32 size)</td></tr>
 <tr class="separator:a8e4ec4c3462515d759a5926e42d79837"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac3a017d9b7efca0596e896196bd80c91"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d7/d04/structMarioAnimDmaRelatedThing.html">MarioAnimDmaRelatedThing</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd5/memory_8c.html#ac3a017d9b7efca0596e896196bd80c91">func_802789F0</a> (<a class="el" href="../../dd/da7/ultratypes_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> *srcAddr)</td></tr>
+<tr class="memitem:ac3a017d9b7efca0596e896196bd80c91"><td class="memItemLeft" align="right" valign="top">static struct MarioAnimDmaRelatedThing *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd5/memory_8c.html#ac3a017d9b7efca0596e896196bd80c91">func_802789F0</a> (u8 *srcAddr)</td></tr>
 <tr class="separator:ac3a017d9b7efca0596e896196bd80c91"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac759a99d5cfe20080eaed0f6296ae37b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd5/memory_8c.html#ac759a99d5cfe20080eaed0f6296ae37b">func_80278A78</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../dd/d9a/structMarioAnimation.html">MarioAnimation</a> *<a class="el" href="../../d9/d0b/err_8english_8cc.html#a812e69332e4b56fafe227a3a1b78cf18">a</a>, <a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a> *b, <a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a> *c)</td></tr>
+<tr class="memitem:ac759a99d5cfe20080eaed0f6296ae37b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd5/memory_8c.html#ac759a99d5cfe20080eaed0f6296ae37b">func_80278A78</a> (struct MarioAnimation *a, void *b, void *c)</td></tr>
 <tr class="separator:ac759a99d5cfe20080eaed0f6296ae37b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af12bcd7fa646c093272a8c8996740bed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd5/memory_8c.html#af12bcd7fa646c093272a8c8996740bed">func_80278AD4</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../dd/d9a/structMarioAnimation.html">MarioAnimation</a> *<a class="el" href="../../d9/d0b/err_8english_8cc.html#a812e69332e4b56fafe227a3a1b78cf18">a</a>, <a class="el" href="../../dd/da7/ultratypes_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a> b)</td></tr>
+<tr class="memitem:af12bcd7fa646c093272a8c8996740bed"><td class="memItemLeft" align="right" valign="top">s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd5/memory_8c.html#af12bcd7fa646c093272a8c8996740bed">func_80278AD4</a> (struct MarioAnimation *a, u32 b)</td></tr>
 <tr class="separator:af12bcd7fa646c093272a8c8996740bed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:abaffd28f2f16f11d08765fb343296c1a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/da7/ultratypes_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd5/memory_8c.html#abaffd28f2f16f11d08765fb343296c1a">_engineSegmentRomStart</a> []</td></tr>
+<tr class="memitem:abaffd28f2f16f11d08765fb343296c1a"><td class="memItemLeft" align="right" valign="top">u8&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd5/memory_8c.html#abaffd28f2f16f11d08765fb343296c1a">_engineSegmentRomStart</a> []</td></tr>
 <tr class="separator:abaffd28f2f16f11d08765fb343296c1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1045f94e18c29221590c2c91e0eb515f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/da7/ultratypes_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd5/memory_8c.html#a1045f94e18c29221590c2c91e0eb515f">_engineSegmentRomEnd</a> []</td></tr>
+<tr class="memitem:a1045f94e18c29221590c2c91e0eb515f"><td class="memItemLeft" align="right" valign="top">u8&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd5/memory_8c.html#a1045f94e18c29221590c2c91e0eb515f">_engineSegmentRomEnd</a> []</td></tr>
 <tr class="separator:a1045f94e18c29221590c2c91e0eb515f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaeedb9576a9e3f961bbd2444e09fd139"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/da7/ultratypes_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd5/memory_8c.html#aaeedb9576a9e3f961bbd2444e09fd139">gDecompressionHeap</a> []</td></tr>
+<tr class="memitem:aaeedb9576a9e3f961bbd2444e09fd139"><td class="memItemLeft" align="right" valign="top">u8&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd5/memory_8c.html#aaeedb9576a9e3f961bbd2444e09fd139">gDecompressionHeap</a> []</td></tr>
 <tr class="separator:aaeedb9576a9e3f961bbd2444e09fd139"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad624f2f9c63ef75d8e8613315ab699ed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd5/memory_8c.html#ad624f2f9c63ef75d8e8613315ab699ed">sSegmentTable</a> [32]</td></tr>
+<tr class="memitem:ad624f2f9c63ef75d8e8613315ab699ed"><td class="memItemLeft" align="right" valign="top">static u32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd5/memory_8c.html#ad624f2f9c63ef75d8e8613315ab699ed">sSegmentTable</a> [32]</td></tr>
 <tr class="separator:ad624f2f9c63ef75d8e8613315ab699ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7d14b9ef4822d506cc4e4fa7c15a2767"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd5/memory_8c.html#a7d14b9ef4822d506cc4e4fa7c15a2767">sPoolFreeSpace</a></td></tr>
+<tr class="memitem:a7d14b9ef4822d506cc4e4fa7c15a2767"><td class="memItemLeft" align="right" valign="top">static u32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd5/memory_8c.html#a7d14b9ef4822d506cc4e4fa7c15a2767">sPoolFreeSpace</a></td></tr>
 <tr class="separator:a7d14b9ef4822d506cc4e4fa7c15a2767"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae67d31f7c2c89e8f3fd010ee0d1e53d4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd5/memory_8c.html#ae67d31f7c2c89e8f3fd010ee0d1e53d4">sPoolStart</a></td></tr>
+<tr class="memitem:ae67d31f7c2c89e8f3fd010ee0d1e53d4"><td class="memItemLeft" align="right" valign="top">static u8 *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd5/memory_8c.html#ae67d31f7c2c89e8f3fd010ee0d1e53d4">sPoolStart</a></td></tr>
 <tr class="separator:ae67d31f7c2c89e8f3fd010ee0d1e53d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a63c61b978faf3353961efddeba7ef87a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd5/memory_8c.html#a63c61b978faf3353961efddeba7ef87a">sPoolEnd</a></td></tr>
+<tr class="memitem:a63c61b978faf3353961efddeba7ef87a"><td class="memItemLeft" align="right" valign="top">static u8 *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd5/memory_8c.html#a63c61b978faf3353961efddeba7ef87a">sPoolEnd</a></td></tr>
 <tr class="separator:a63c61b978faf3353961efddeba7ef87a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5acf731ae5b068194cef9f13e31e03dc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d1/de2/structMainPoolBlock.html">MainPoolBlock</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd5/memory_8c.html#a5acf731ae5b068194cef9f13e31e03dc">sPoolListHeadL</a></td></tr>
+<tr class="memitem:a5acf731ae5b068194cef9f13e31e03dc"><td class="memItemLeft" align="right" valign="top">static struct <a class="el" href="../../d1/de2/structMainPoolBlock.html">MainPoolBlock</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd5/memory_8c.html#a5acf731ae5b068194cef9f13e31e03dc">sPoolListHeadL</a></td></tr>
 <tr class="separator:a5acf731ae5b068194cef9f13e31e03dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7e6b81bec34f58da17f2de948ec44dc8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d1/de2/structMainPoolBlock.html">MainPoolBlock</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd5/memory_8c.html#a7e6b81bec34f58da17f2de948ec44dc8">sPoolListHeadR</a></td></tr>
+<tr class="memitem:a7e6b81bec34f58da17f2de948ec44dc8"><td class="memItemLeft" align="right" valign="top">static struct <a class="el" href="../../d1/de2/structMainPoolBlock.html">MainPoolBlock</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd5/memory_8c.html#a7e6b81bec34f58da17f2de948ec44dc8">sPoolListHeadR</a></td></tr>
 <tr class="separator:a7e6b81bec34f58da17f2de948ec44dc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa17825b92229129724f8e9f4229497ff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../de/d20/structMemoryPool.html">MemoryPool</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd5/memory_8c.html#aa17825b92229129724f8e9f4229497ff">D_8033A124</a></td></tr>
+<tr class="memitem:aa17825b92229129724f8e9f4229497ff"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="../../de/d20/structMemoryPool.html">MemoryPool</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd5/memory_8c.html#aa17825b92229129724f8e9f4229497ff">D_8033A124</a></td></tr>
 <tr class="separator:aa17825b92229129724f8e9f4229497ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa124e5309ca66077ae36d26dae0b9036"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../de/d14/structMainPoolState.html">MainPoolState</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd5/memory_8c.html#aa124e5309ca66077ae36d26dae0b9036">gMainPoolState</a> = <a class="el" href="../../de/d48/dac_8c.html#a1a05ede2ad100bf5de5dfa7ccdfa4397">NULL</a></td></tr>
+<tr class="memitem:aa124e5309ca66077ae36d26dae0b9036"><td class="memItemLeft" align="right" valign="top">static struct <a class="el" href="../../de/d14/structMainPoolState.html">MainPoolState</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd5/memory_8c.html#aa124e5309ca66077ae36d26dae0b9036">gMainPoolState</a> = <a class="el" href="../../de/d48/dac_8c.html#a1a05ede2ad100bf5de5dfa7ccdfa4397">NULL</a></td></tr>
 <tr class="separator:aa124e5309ca66077ae36d26dae0b9036"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
@@ -286,9 +286,9 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>* alloc_display_list </td>
+          <td class="memname">void* alloc_display_list </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a>&#160;</td>
+          <td class="paramtype">u32&#160;</td>
           <td class="paramname"><em>size</em></td><td>)</td>
           <td></td>
         </tr>
@@ -304,15 +304,15 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>* alloc_only_pool_alloc </td>
+          <td class="memname">void* alloc_only_pool_alloc </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d8/d1f/structAllocOnlyPool.html">AllocOnlyPool</a> *&#160;</td>
+          <td class="paramtype">struct AllocOnlyPool *&#160;</td>
           <td class="paramname"><em>pool</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td>
+          <td class="paramtype">s32&#160;</td>
           <td class="paramname"><em>size</em>&#160;</td>
         </tr>
         <tr>
@@ -335,15 +335,15 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d8/d1f/structAllocOnlyPool.html">AllocOnlyPool</a>* alloc_only_pool_init </td>
+          <td class="memname">struct AllocOnlyPool* alloc_only_pool_init </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a>&#160;</td>
+          <td class="paramtype">u32&#160;</td>
           <td class="paramname"><em>size</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a>&#160;</td>
+          <td class="paramtype">u32&#160;</td>
           <td class="paramname"><em>side</em>&#160;</td>
         </tr>
         <tr>
@@ -366,15 +366,15 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d8/d1f/structAllocOnlyPool.html">AllocOnlyPool</a>* alloc_only_pool_resize </td>
+          <td class="memname">struct AllocOnlyPool* alloc_only_pool_resize </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d8/d1f/structAllocOnlyPool.html">AllocOnlyPool</a> *&#160;</td>
+          <td class="paramtype">struct AllocOnlyPool *&#160;</td>
           <td class="paramname"><em>pool</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a>&#160;</td>
+          <td class="paramtype">u32&#160;</td>
           <td class="paramname"><em>size</em>&#160;</td>
         </tr>
         <tr>
@@ -400,21 +400,21 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a> dma_read </td>
+          <td class="memname">static void dma_read </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> *&#160;</td>
+          <td class="paramtype">u8 *&#160;</td>
           <td class="paramname"><em>dest</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> *&#160;</td>
+          <td class="paramtype">u8 *&#160;</td>
           <td class="paramname"><em>srcStart</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> *&#160;</td>
+          <td class="paramtype">u8 *&#160;</td>
           <td class="paramname"><em>srcEnd</em>&#160;</td>
         </tr>
         <tr>
@@ -445,21 +445,21 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>* dynamic_dma_read </td>
+          <td class="memname">static void* dynamic_dma_read </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> *&#160;</td>
+          <td class="paramtype">u8 *&#160;</td>
           <td class="paramname"><em>srcStart</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> *&#160;</td>
+          <td class="paramtype">u8 *&#160;</td>
           <td class="paramname"><em>srcEnd</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a>&#160;</td>
+          <td class="paramtype">u32&#160;</td>
           <td class="paramname"><em>side</em>&#160;</td>
         </tr>
         <tr>
@@ -487,21 +487,21 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>* func_80278304 </td>
+          <td class="memname">void* func_80278304 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a>&#160;</td>
+          <td class="paramtype">u32&#160;</td>
           <td class="paramname"><em>segment</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> *&#160;</td>
+          <td class="paramtype">u8 *&#160;</td>
           <td class="paramname"><em>srcStart</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> *&#160;</td>
+          <td class="paramtype">u8 *&#160;</td>
           <td class="paramname"><em>srcEnd</em>&#160;</td>
         </tr>
         <tr>
@@ -524,9 +524,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d7/d04/structMarioAnimDmaRelatedThing.html">MarioAnimDmaRelatedThing</a>* func_802789F0 </td>
+          <td class="memname">static struct MarioAnimDmaRelatedThing* func_802789F0 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> *&#160;</td>
+          <td class="paramtype">u8 *&#160;</td>
           <td class="paramname"><em>srcAddr</em></td><td>)</td>
           <td></td>
         </tr>
@@ -547,21 +547,21 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a> func_80278A78 </td>
+          <td class="memname">void func_80278A78 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../dd/d9a/structMarioAnimation.html">MarioAnimation</a> *&#160;</td>
+          <td class="paramtype">struct MarioAnimation *&#160;</td>
           <td class="paramname"><em>a</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a> *&#160;</td>
+          <td class="paramtype">void *&#160;</td>
           <td class="paramname"><em>b</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a> *&#160;</td>
+          <td class="paramtype">void *&#160;</td>
           <td class="paramname"><em>c</em>&#160;</td>
         </tr>
         <tr>
@@ -581,15 +581,15 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> func_80278AD4 </td>
+          <td class="memname">s32 func_80278AD4 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../dd/d9a/structMarioAnimation.html">MarioAnimation</a> *&#160;</td>
+          <td class="paramtype">struct MarioAnimation *&#160;</td>
           <td class="paramname"><em>a</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a>&#160;</td>
+          <td class="paramtype">u32&#160;</td>
           <td class="paramname"><em>b</em>&#160;</td>
         </tr>
         <tr>
@@ -609,9 +609,9 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>* get_segment_base_addr </td>
+          <td class="memname">void* get_segment_base_addr </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td>
+          <td class="paramtype">s32&#160;</td>
           <td class="paramname"><em>segment</em></td><td>)</td>
           <td></td>
         </tr>
@@ -627,9 +627,9 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a> load_engine_code_segment </td>
+          <td class="memname">void load_engine_code_segment </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td>
+          <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -645,27 +645,27 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>* load_segment </td>
+          <td class="memname">void* load_segment </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td>
+          <td class="paramtype">s32&#160;</td>
           <td class="paramname"><em>segment</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> *&#160;</td>
+          <td class="paramtype">u8 *&#160;</td>
           <td class="paramname"><em>srcStart</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> *&#160;</td>
+          <td class="paramtype">u8 *&#160;</td>
           <td class="paramname"><em>srcEnd</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a>&#160;</td>
+          <td class="paramtype">u32&#160;</td>
           <td class="paramname"><em>side</em>&#160;</td>
         </tr>
         <tr>
@@ -687,21 +687,21 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>* load_segment_decompress </td>
+          <td class="memname">void* load_segment_decompress </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td>
+          <td class="paramtype">s32&#160;</td>
           <td class="paramname"><em>segment</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> *&#160;</td>
+          <td class="paramtype">u8 *&#160;</td>
           <td class="paramname"><em>srcStart</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> *&#160;</td>
+          <td class="paramtype">u8 *&#160;</td>
           <td class="paramname"><em>srcEnd</em>&#160;</td>
         </tr>
         <tr>
@@ -724,21 +724,21 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>* load_to_fixed_pool_addr </td>
+          <td class="memname">void* load_to_fixed_pool_addr </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> *&#160;</td>
+          <td class="paramtype">u8 *&#160;</td>
           <td class="paramname"><em>destAddr</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> *&#160;</td>
+          <td class="paramtype">u8 *&#160;</td>
           <td class="paramname"><em>srcStart</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> *&#160;</td>
+          <td class="paramtype">u8 *&#160;</td>
           <td class="paramname"><em>srcEnd</em>&#160;</td>
         </tr>
         <tr>
@@ -758,15 +758,15 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>* main_pool_alloc </td>
+          <td class="memname">void* main_pool_alloc </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a>&#160;</td>
+          <td class="paramtype">u32&#160;</td>
           <td class="paramname"><em>size</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a>&#160;</td>
+          <td class="paramtype">u32&#160;</td>
           <td class="paramname"><em>side</em>&#160;</td>
         </tr>
         <tr>
@@ -789,9 +789,9 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/da7/ultratypes_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a> main_pool_available </td>
+          <td class="memname">u32 main_pool_available </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td>
+          <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -809,9 +809,9 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/da7/ultratypes_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a> main_pool_free </td>
+          <td class="memname">u32 main_pool_free </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a> *&#160;</td>
+          <td class="paramtype">void *&#160;</td>
           <td class="paramname"><em>addr</em></td><td>)</td>
           <td></td>
         </tr>
@@ -830,15 +830,15 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a> main_pool_init </td>
+          <td class="memname">void main_pool_init </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a> *&#160;</td>
+          <td class="paramtype">void *&#160;</td>
           <td class="paramname"><em>start</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a> *&#160;</td>
+          <td class="paramtype">void *&#160;</td>
           <td class="paramname"><em>end</em>&#160;</td>
         </tr>
         <tr>
@@ -861,9 +861,9 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/da7/ultratypes_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a> main_pool_pop_state </td>
+          <td class="memname">u32 main_pool_pop_state </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td>
+          <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -882,9 +882,9 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/da7/ultratypes_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a> main_pool_push_state </td>
+          <td class="memname">u32 main_pool_push_state </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td>
+          <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -903,15 +903,15 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>* main_pool_realloc </td>
+          <td class="memname">void* main_pool_realloc </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a> *&#160;</td>
+          <td class="paramtype">void *&#160;</td>
           <td class="paramname"><em>addr</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a>&#160;</td>
+          <td class="paramtype">u32&#160;</td>
           <td class="paramname"><em>size</em>&#160;</td>
         </tr>
         <tr>
@@ -934,15 +934,15 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>* mem_pool_alloc </td>
+          <td class="memname">void* mem_pool_alloc </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../de/d20/structMemoryPool.html">MemoryPool</a> *&#160;</td>
+          <td class="paramtype">struct <a class="el" href="../../de/d20/structMemoryPool.html">MemoryPool</a> *&#160;</td>
           <td class="paramname"><em>pool</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a>&#160;</td>
+          <td class="paramtype">u32&#160;</td>
           <td class="paramname"><em>size</em>&#160;</td>
         </tr>
         <tr>
@@ -965,15 +965,15 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a> mem_pool_free </td>
+          <td class="memname">void mem_pool_free </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../de/d20/structMemoryPool.html">MemoryPool</a> *&#160;</td>
+          <td class="paramtype">struct <a class="el" href="../../de/d20/structMemoryPool.html">MemoryPool</a> *&#160;</td>
           <td class="paramname"><em>pool</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a> *&#160;</td>
+          <td class="paramtype">void *&#160;</td>
           <td class="paramname"><em>addr</em>&#160;</td>
         </tr>
         <tr>
@@ -995,15 +995,15 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../de/d20/structMemoryPool.html">MemoryPool</a>* mem_pool_init </td>
+          <td class="memname">struct <a class="el" href="../../de/d20/structMemoryPool.html">MemoryPool</a>* mem_pool_init </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a>&#160;</td>
+          <td class="paramtype">u32&#160;</td>
           <td class="paramname"><em>size</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a>&#160;</td>
+          <td class="paramtype">u32&#160;</td>
           <td class="paramname"><em>side</em>&#160;</td>
         </tr>
         <tr>
@@ -1026,9 +1026,9 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a> move_segment_table_to_dmem </td>
+          <td class="memname">void move_segment_table_to_dmem </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td>
+          <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -1044,9 +1044,9 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>* segmented_to_virtual </td>
+          <td class="memname">void* segmented_to_virtual </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a> *&#160;</td>
+          <td class="paramtype">void *&#160;</td>
           <td class="paramname"><em>addr</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1062,15 +1062,15 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/da7/ultratypes_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a> set_segment_base_addr </td>
+          <td class="memname">u32 set_segment_base_addr </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td>
+          <td class="paramtype">s32&#160;</td>
           <td class="paramname"><em>segment</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a> *&#160;</td>
+          <td class="paramtype">void *&#160;</td>
           <td class="paramname"><em>addr</em>&#160;</td>
         </tr>
         <tr>
@@ -1090,15 +1090,15 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>* virtual_to_segmented </td>
+          <td class="memname">void* virtual_to_segmented </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td>
+          <td class="paramtype">s32&#160;</td>
           <td class="paramname"><em>segment</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a> *&#160;</td>
+          <td class="paramtype">void *&#160;</td>
           <td class="paramname"><em>addr</em>&#160;</td>
         </tr>
         <tr>
@@ -1119,7 +1119,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/da7/ultratypes_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> _engineSegmentRomEnd[]</td>
+          <td class="memname">u8 _engineSegmentRomEnd[]</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1133,7 +1133,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/da7/ultratypes_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> _engineSegmentRomStart[]</td>
+          <td class="memname">u8 _engineSegmentRomStart[]</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1147,7 +1147,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../de/d20/structMemoryPool.html">MemoryPool</a>* D_8033A124</td>
+          <td class="memname">struct <a class="el" href="../../de/d20/structMemoryPool.html">MemoryPool</a>* D_8033A124</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1161,7 +1161,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/da7/ultratypes_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> gDecompressionHeap[]</td>
+          <td class="memname">u8 gDecompressionHeap[]</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1178,7 +1178,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../de/d14/structMainPoolState.html">MainPoolState</a>* gMainPoolState = <a class="el" href="../../de/d48/dac_8c.html#a1a05ede2ad100bf5de5dfa7ccdfa4397">NULL</a></td>
+          <td class="memname">struct <a class="el" href="../../de/d14/structMainPoolState.html">MainPoolState</a>* gMainPoolState = <a class="el" href="../../de/d48/dac_8c.html#a1a05ede2ad100bf5de5dfa7ccdfa4397">NULL</a></td>
         </tr>
       </table>
   </td>
@@ -1200,7 +1200,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/da7/ultratypes_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>* sPoolEnd</td>
+          <td class="memname">u8* sPoolEnd</td>
         </tr>
       </table>
   </td>
@@ -1222,7 +1222,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/da7/ultratypes_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a> sPoolFreeSpace</td>
+          <td class="memname">u32 sPoolFreeSpace</td>
         </tr>
       </table>
   </td>
@@ -1244,7 +1244,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d1/de2/structMainPoolBlock.html">MainPoolBlock</a>* sPoolListHeadL</td>
+          <td class="memname">struct <a class="el" href="../../d1/de2/structMainPoolBlock.html">MainPoolBlock</a>* sPoolListHeadL</td>
         </tr>
       </table>
   </td>
@@ -1266,7 +1266,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d1/de2/structMainPoolBlock.html">MainPoolBlock</a>* sPoolListHeadR</td>
+          <td class="memname">struct <a class="el" href="../../d1/de2/structMainPoolBlock.html">MainPoolBlock</a>* sPoolListHeadR</td>
         </tr>
       </table>
   </td>
@@ -1288,7 +1288,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/da7/ultratypes_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>* sPoolStart</td>
+          <td class="memname">u8* sPoolStart</td>
         </tr>
       </table>
   </td>
@@ -1310,7 +1310,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/da7/ultratypes_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a> sSegmentTable[32]</td>
+          <td class="memname">u32 sSegmentTable[32]</td>
         </tr>
       </table>
   </td>

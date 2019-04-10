@@ -75,17 +75,17 @@ $(function() {
 <div class="title">surface_collision.c File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;<a class="el" href="../../dd/d2f/ultra64_8h_source.html">ultra64.h</a>&gt;</code><br />
-<code>#include &quot;<a class="el" href="../../d5/dd8/sm64_8h_source.html">sm64.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d7/d0a/level__update_8h_source.html">game/level_update.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../db/d16/debug_8h_source.html">game/debug.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d7/df6/camera_8h_source.html">game/camera.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d9/db9/mario_8h_source.html">game/mario.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d0/d69/behavior__script_8h_source.html">behavior_script.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d2/da4/surface__collision_8h_source.html">surface_collision.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../de/d1c/surface__load_8h_source.html">surface_load.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d2/dd2/object__list__processor_8h_source.html">game/object_list_processor.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d9/dc0/room_8h_source.html">game/room.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &lt;ultra64.h&gt;</code><br />
+<code>#include &quot;sm64.h&quot;</code><br />
+<code>#include &quot;game/level_update.h&quot;</code><br />
+<code>#include &quot;game/debug.h&quot;</code><br />
+<code>#include &quot;game/camera.h&quot;</code><br />
+<code>#include &quot;game/mario.h&quot;</code><br />
+<code>#include &quot;behavior_script.h&quot;</code><br />
+<code>#include &quot;surface_collision.h&quot;</code><br />
+<code>#include &quot;surface_load.h&quot;</code><br />
+<code>#include &quot;game/object_list_processor.h&quot;</code><br />
+<code>#include &quot;game/room.h&quot;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Data Structures</h2></td></tr>
@@ -94,44 +94,44 @@ Data Structures</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a0c0f06a49136c3f0c396ce75406861c9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d09/surface__collision_8c.html#a0c0f06a49136c3f0c396ce75406861c9">find_wall_collisions_from_list</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d0/da1/structSurfaceNode.html">SurfaceNode</a> *surfaceNode, <a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../de/d1c/structWallCollisionData.html">WallCollisionData</a> *<a class="el" href="../../d8/d51/dma_8c.html#a511ae0b1c13f95e5f08f1a0dd3da3d93">data</a>)</td></tr>
+<tr class="memitem:a0c0f06a49136c3f0c396ce75406861c9"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d09/surface__collision_8c.html#a0c0f06a49136c3f0c396ce75406861c9">find_wall_collisions_from_list</a> (struct SurfaceNode *surfaceNode, struct WallCollisionData *<a class="el" href="../../d8/d51/dma_8c.html#a511ae0b1c13f95e5f08f1a0dd3da3d93">data</a>)</td></tr>
 <tr class="separator:a0c0f06a49136c3f0c396ce75406861c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac82a41996342feffe550689c1064f93f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d09/surface__collision_8c.html#ac82a41996342feffe550689c1064f93f">resolve_wall_collisions</a> (<a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> *xPtr, <a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> *yPtr, <a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> *zPtr, <a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> offsetY, <a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> radius)</td></tr>
+<tr class="memitem:ac82a41996342feffe550689c1064f93f"><td class="memItemLeft" align="right" valign="top">s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d09/surface__collision_8c.html#ac82a41996342feffe550689c1064f93f">resolve_wall_collisions</a> (f32 *xPtr, f32 *yPtr, f32 *zPtr, f32 offsetY, f32 radius)</td></tr>
 <tr class="separator:ac82a41996342feffe550689c1064f93f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0c7feb4c582dfaf622cbf24c2682ea5c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d09/surface__collision_8c.html#a0c7feb4c582dfaf622cbf24c2682ea5c">find_wall_collisions</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../de/d1c/structWallCollisionData.html">WallCollisionData</a> *colData)</td></tr>
+<tr class="memitem:a0c7feb4c582dfaf622cbf24c2682ea5c"><td class="memItemLeft" align="right" valign="top">s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d09/surface__collision_8c.html#a0c7feb4c582dfaf622cbf24c2682ea5c">find_wall_collisions</a> (struct WallCollisionData *colData)</td></tr>
 <tr class="separator:a0c7feb4c582dfaf622cbf24c2682ea5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af652ea86085398150669172ed82bedde"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../db/d89/structSurface.html">Surface</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d09/surface__collision_8c.html#af652ea86085398150669172ed82bedde">find_ceil_from_list</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d0/da1/structSurfaceNode.html">SurfaceNode</a> *surfaceNode, <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> x, <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> y, <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> z, <a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> *pheight)</td></tr>
+<tr class="memitem:af652ea86085398150669172ed82bedde"><td class="memItemLeft" align="right" valign="top">static struct Surface *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d09/surface__collision_8c.html#af652ea86085398150669172ed82bedde">find_ceil_from_list</a> (struct SurfaceNode *surfaceNode, s32 x, s32 y, s32 z, f32 *pheight)</td></tr>
 <tr class="separator:af652ea86085398150669172ed82bedde"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a71861f59dcab03f5f0e37e8d5c0064ff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d09/surface__collision_8c.html#a71861f59dcab03f5f0e37e8d5c0064ff">find_ceil</a> (<a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> posX, <a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> posY, <a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> posZ, <a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../db/d89/structSurface.html">Surface</a> **pceil)</td></tr>
+<tr class="memitem:a71861f59dcab03f5f0e37e8d5c0064ff"><td class="memItemLeft" align="right" valign="top">f32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d09/surface__collision_8c.html#a71861f59dcab03f5f0e37e8d5c0064ff">find_ceil</a> (f32 posX, f32 posY, f32 posZ, struct Surface **pceil)</td></tr>
 <tr class="separator:a71861f59dcab03f5f0e37e8d5c0064ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4d401faede2c47b51a0f97f4559e7b6c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d09/surface__collision_8c.html#a4d401faede2c47b51a0f97f4559e7b6c">unused_find_floor_height</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../de/de7/structObject.html">Object</a> *obj)</td></tr>
+<tr class="memitem:a4d401faede2c47b51a0f97f4559e7b6c"><td class="memItemLeft" align="right" valign="top">static f32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d09/surface__collision_8c.html#a4d401faede2c47b51a0f97f4559e7b6c">unused_find_floor_height</a> (struct Object *obj)</td></tr>
 <tr class="separator:a4d401faede2c47b51a0f97f4559e7b6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af5e0fe55275ef52f7622093ae2dbd260"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d09/surface__collision_8c.html#af5e0fe55275ef52f7622093ae2dbd260">func_803814B8</a> (<a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> xPos, <a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> yPos, <a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> zPos, <a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> **sp2C)</td></tr>
+<tr class="memitem:af5e0fe55275ef52f7622093ae2dbd260"><td class="memItemLeft" align="right" valign="top">f32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d09/surface__collision_8c.html#af5e0fe55275ef52f7622093ae2dbd260">func_803814B8</a> (f32 xPos, f32 yPos, f32 zPos, f32 **sp2C)</td></tr>
 <tr class="separator:af5e0fe55275ef52f7622093ae2dbd260"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaf36104b738b050775eb610e3c41ceb7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../db/d89/structSurface.html">Surface</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d09/surface__collision_8c.html#aaf36104b738b050775eb610e3c41ceb7">find_floor_from_list</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d0/da1/structSurfaceNode.html">SurfaceNode</a> *surfaceNode, <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> x, <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> y, <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> z, <a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> *pheight)</td></tr>
+<tr class="memitem:aaf36104b738b050775eb610e3c41ceb7"><td class="memItemLeft" align="right" valign="top">static struct Surface *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d09/surface__collision_8c.html#aaf36104b738b050775eb610e3c41ceb7">find_floor_from_list</a> (struct SurfaceNode *surfaceNode, s32 x, s32 y, s32 z, f32 *pheight)</td></tr>
 <tr class="separator:aaf36104b738b050775eb610e3c41ceb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aca0cc1f5d0fc6fe8556fb1e50f9f3174"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d09/surface__collision_8c.html#aca0cc1f5d0fc6fe8556fb1e50f9f3174">find_floor_height</a> (<a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> x, <a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> y, <a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> z)</td></tr>
+<tr class="memitem:aca0cc1f5d0fc6fe8556fb1e50f9f3174"><td class="memItemLeft" align="right" valign="top">f32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d09/surface__collision_8c.html#aca0cc1f5d0fc6fe8556fb1e50f9f3174">find_floor_height</a> (f32 x, f32 y, f32 z)</td></tr>
 <tr class="separator:aca0cc1f5d0fc6fe8556fb1e50f9f3174"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5667d72fac93b8a2c9cbde0feb7fefce"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d09/surface__collision_8c.html#a5667d72fac93b8a2c9cbde0feb7fefce">find_dynamic_floor</a> (<a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> xPos, <a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> yPos, <a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> zPos, <a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../db/d89/structSurface.html">Surface</a> **pfloor)</td></tr>
+<tr class="memitem:a5667d72fac93b8a2c9cbde0feb7fefce"><td class="memItemLeft" align="right" valign="top">static f32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d09/surface__collision_8c.html#a5667d72fac93b8a2c9cbde0feb7fefce">find_dynamic_floor</a> (f32 xPos, f32 yPos, f32 zPos, struct Surface **pfloor)</td></tr>
 <tr class="separator:a5667d72fac93b8a2c9cbde0feb7fefce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab17fd0ed8290a626439a3c5814e6ca79"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d09/surface__collision_8c.html#ab17fd0ed8290a626439a3c5814e6ca79">find_floor</a> (<a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> xPos, <a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> yPos, <a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> zPos, <a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../db/d89/structSurface.html">Surface</a> **pfloor)</td></tr>
+<tr class="memitem:ab17fd0ed8290a626439a3c5814e6ca79"><td class="memItemLeft" align="right" valign="top">f32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d09/surface__collision_8c.html#ab17fd0ed8290a626439a3c5814e6ca79">find_floor</a> (f32 xPos, f32 yPos, f32 zPos, struct Surface **pfloor)</td></tr>
 <tr class="separator:ab17fd0ed8290a626439a3c5814e6ca79"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9637066d8bed5d02e6cf93819c4365a6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d09/surface__collision_8c.html#a9637066d8bed5d02e6cf93819c4365a6">find_water_level</a> (<a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> x, <a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> z)</td></tr>
+<tr class="memitem:a9637066d8bed5d02e6cf93819c4365a6"><td class="memItemLeft" align="right" valign="top">f32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d09/surface__collision_8c.html#a9637066d8bed5d02e6cf93819c4365a6">find_water_level</a> (f32 x, f32 z)</td></tr>
 <tr class="separator:a9637066d8bed5d02e6cf93819c4365a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6d921959095418681b6764277fe78601"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d09/surface__collision_8c.html#a6d921959095418681b6764277fe78601">func_80381D3C</a> (<a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> x, <a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> z)</td></tr>
+<tr class="memitem:a6d921959095418681b6764277fe78601"><td class="memItemLeft" align="right" valign="top">f32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d09/surface__collision_8c.html#a6d921959095418681b6764277fe78601">func_80381D3C</a> (f32 x, f32 z)</td></tr>
 <tr class="separator:a6d921959095418681b6764277fe78601"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af352213e6c4b9e9bd3aef8bead7489d6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d09/surface__collision_8c.html#af352213e6c4b9e9bd3aef8bead7489d6">surface_list_length</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d0/da1/structSurfaceNode.html">SurfaceNode</a> *<a class="el" href="../../d9/d0b/err_8english_8cc.html#adfeb1a3f72e5e2c2ddf0e27f39c07ba5">list</a>)</td></tr>
+<tr class="memitem:af352213e6c4b9e9bd3aef8bead7489d6"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d09/surface__collision_8c.html#af352213e6c4b9e9bd3aef8bead7489d6">surface_list_length</a> (struct SurfaceNode *list)</td></tr>
 <tr class="separator:af352213e6c4b9e9bd3aef8bead7489d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af68d72efeae70c94a79f3145d9f00310"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d09/surface__collision_8c.html#af68d72efeae70c94a79f3145d9f00310">debug_surface_list_info</a> (<a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> xPos, <a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> zPos)</td></tr>
+<tr class="memitem:af68d72efeae70c94a79f3145d9f00310"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d09/surface__collision_8c.html#af68d72efeae70c94a79f3145d9f00310">debug_surface_list_info</a> (f32 xPos, f32 zPos)</td></tr>
 <tr class="separator:af68d72efeae70c94a79f3145d9f00310"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ada2638236c3b458d3f1a1a8fd6337111"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d09/surface__collision_8c.html#ada2638236c3b458d3f1a1a8fd6337111">unused_resolve_floor_or_ceil_collisions</a> (<a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> checkCeil, <a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> *px, <a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> *py, <a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> *pz, <a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> radius, <a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../db/d89/structSurface.html">Surface</a> **psurface, <a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> *surfaceHeight)</td></tr>
+<tr class="memitem:ada2638236c3b458d3f1a1a8fd6337111"><td class="memItemLeft" align="right" valign="top">static s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d09/surface__collision_8c.html#ada2638236c3b458d3f1a1a8fd6337111">unused_resolve_floor_or_ceil_collisions</a> (s32 checkCeil, f32 *px, f32 *py, f32 *pz, f32 radius, struct Surface **psurface, f32 *surfaceHeight)</td></tr>
 <tr class="separator:ada2638236c3b458d3f1a1a8fd6337111"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a0fd09efd0f8629da30f7a393bc4c78a8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../dd/d64/structStruct8038BE30.html">Struct8038BE30</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d09/surface__collision_8c.html#a0fd09efd0f8629da30f7a393bc4c78a8">D_8038BE30</a></td></tr>
+<tr class="memitem:a0fd09efd0f8629da30f7a393bc4c78a8"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="../../dd/d64/structStruct8038BE30.html">Struct8038BE30</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d09/surface__collision_8c.html#a0fd09efd0f8629da30f7a393bc4c78a8">D_8038BE30</a></td></tr>
 <tr class="separator:a0fd09efd0f8629da30f7a393bc4c78a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7878df0a6cd4cd8dd90077df51c84b18"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d09/surface__collision_8c.html#a7878df0a6cd4cd8dd90077df51c84b18">unused8038BE50</a> [0x40]</td></tr>
+<tr class="memitem:a7878df0a6cd4cd8dd90077df51c84b18"><td class="memItemLeft" align="right" valign="top">static u8&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d09/surface__collision_8c.html#a7878df0a6cd4cd8dd90077df51c84b18">unused8038BE50</a> [0x40]</td></tr>
 <tr class="separator:a7878df0a6cd4cd8dd90077df51c84b18"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -142,15 +142,15 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a> debug_surface_list_info </td>
+          <td class="memname">void debug_surface_list_info </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td>
+          <td class="paramtype">f32&#160;</td>
           <td class="paramname"><em>xPos</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td>
+          <td class="paramtype">f32&#160;</td>
           <td class="paramname"><em>zPos</em>&#160;</td>
         </tr>
         <tr>
@@ -170,27 +170,27 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> find_ceil </td>
+          <td class="memname">f32 find_ceil </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td>
+          <td class="paramtype">f32&#160;</td>
           <td class="paramname"><em>posX</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td>
+          <td class="paramtype">f32&#160;</td>
           <td class="paramname"><em>posY</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td>
+          <td class="paramtype">f32&#160;</td>
           <td class="paramname"><em>posZ</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../db/d89/structSurface.html">Surface</a> **&#160;</td>
+          <td class="paramtype">struct Surface **&#160;</td>
           <td class="paramname"><em>pceil</em>&#160;</td>
         </tr>
         <tr>
@@ -214,33 +214,33 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../db/d89/structSurface.html">Surface</a>* find_ceil_from_list </td>
+          <td class="memname">static struct Surface* find_ceil_from_list </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d0/da1/structSurfaceNode.html">SurfaceNode</a> *&#160;</td>
+          <td class="paramtype">struct SurfaceNode *&#160;</td>
           <td class="paramname"><em>surfaceNode</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td>
+          <td class="paramtype">s32&#160;</td>
           <td class="paramname"><em>x</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td>
+          <td class="paramtype">s32&#160;</td>
           <td class="paramname"><em>y</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td>
+          <td class="paramtype">s32&#160;</td>
           <td class="paramname"><em>z</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> *&#160;</td>
+          <td class="paramtype">f32 *&#160;</td>
           <td class="paramname"><em>pheight</em>&#160;</td>
         </tr>
         <tr>
@@ -268,27 +268,27 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> find_dynamic_floor </td>
+          <td class="memname">static f32 find_dynamic_floor </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td>
+          <td class="paramtype">f32&#160;</td>
           <td class="paramname"><em>xPos</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td>
+          <td class="paramtype">f32&#160;</td>
           <td class="paramname"><em>yPos</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td>
+          <td class="paramtype">f32&#160;</td>
           <td class="paramname"><em>zPos</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../db/d89/structSurface.html">Surface</a> **&#160;</td>
+          <td class="paramtype">struct Surface **&#160;</td>
           <td class="paramname"><em>pfloor</em>&#160;</td>
         </tr>
         <tr>
@@ -314,27 +314,27 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> find_floor </td>
+          <td class="memname">f32 find_floor </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td>
+          <td class="paramtype">f32&#160;</td>
           <td class="paramname"><em>xPos</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td>
+          <td class="paramtype">f32&#160;</td>
           <td class="paramname"><em>yPos</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td>
+          <td class="paramtype">f32&#160;</td>
           <td class="paramname"><em>zPos</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../db/d89/structSurface.html">Surface</a> **&#160;</td>
+          <td class="paramtype">struct Surface **&#160;</td>
           <td class="paramname"><em>pfloor</em>&#160;</td>
         </tr>
         <tr>
@@ -358,33 +358,33 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../db/d89/structSurface.html">Surface</a>* find_floor_from_list </td>
+          <td class="memname">static struct Surface* find_floor_from_list </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d0/da1/structSurfaceNode.html">SurfaceNode</a> *&#160;</td>
+          <td class="paramtype">struct SurfaceNode *&#160;</td>
           <td class="paramname"><em>surfaceNode</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td>
+          <td class="paramtype">s32&#160;</td>
           <td class="paramname"><em>x</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td>
+          <td class="paramtype">s32&#160;</td>
           <td class="paramname"><em>y</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td>
+          <td class="paramtype">s32&#160;</td>
           <td class="paramname"><em>z</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> *&#160;</td>
+          <td class="paramtype">f32 *&#160;</td>
           <td class="paramname"><em>pheight</em>&#160;</td>
         </tr>
         <tr>
@@ -409,21 +409,21 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> find_floor_height </td>
+          <td class="memname">f32 find_floor_height </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td>
+          <td class="paramtype">f32&#160;</td>
           <td class="paramname"><em>x</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td>
+          <td class="paramtype">f32&#160;</td>
           <td class="paramname"><em>y</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td>
+          <td class="paramtype">f32&#160;</td>
           <td class="paramname"><em>z</em>&#160;</td>
         </tr>
         <tr>
@@ -443,9 +443,9 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> find_wall_collisions </td>
+          <td class="memname">s32 find_wall_collisions </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../de/d1c/structWallCollisionData.html">WallCollisionData</a> *&#160;</td>
+          <td class="paramtype">struct WallCollisionData *&#160;</td>
           <td class="paramname"><em>colData</em></td><td>)</td>
           <td></td>
         </tr>
@@ -464,15 +464,15 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> find_wall_collisions_from_list </td>
+          <td class="memname">static s32 find_wall_collisions_from_list </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d0/da1/structSurfaceNode.html">SurfaceNode</a> *&#160;</td>
+          <td class="paramtype">struct SurfaceNode *&#160;</td>
           <td class="paramname"><em>surfaceNode</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../de/d1c/structWallCollisionData.html">WallCollisionData</a> *&#160;</td>
+          <td class="paramtype">struct WallCollisionData *&#160;</td>
           <td class="paramname"><em>data</em>&#160;</td>
         </tr>
         <tr>
@@ -498,15 +498,15 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> find_water_level </td>
+          <td class="memname">f32 find_water_level </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td>
+          <td class="paramtype">f32&#160;</td>
           <td class="paramname"><em>x</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td>
+          <td class="paramtype">f32&#160;</td>
           <td class="paramname"><em>z</em>&#160;</td>
         </tr>
         <tr>
@@ -526,27 +526,27 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> func_803814B8 </td>
+          <td class="memname">f32 func_803814B8 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td>
+          <td class="paramtype">f32&#160;</td>
           <td class="paramname"><em>xPos</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td>
+          <td class="paramtype">f32&#160;</td>
           <td class="paramname"><em>yPos</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td>
+          <td class="paramtype">f32&#160;</td>
           <td class="paramname"><em>zPos</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> **&#160;</td>
+          <td class="paramtype">f32 **&#160;</td>
           <td class="paramname"><em>sp2C</em>&#160;</td>
         </tr>
         <tr>
@@ -566,15 +566,15 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> func_80381D3C </td>
+          <td class="memname">f32 func_80381D3C </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td>
+          <td class="paramtype">f32&#160;</td>
           <td class="paramname"><em>x</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td>
+          <td class="paramtype">f32&#160;</td>
           <td class="paramname"><em>z</em>&#160;</td>
         </tr>
         <tr>
@@ -594,33 +594,33 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> resolve_wall_collisions </td>
+          <td class="memname">s32 resolve_wall_collisions </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> *&#160;</td>
+          <td class="paramtype">f32 *&#160;</td>
           <td class="paramname"><em>xPtr</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> *&#160;</td>
+          <td class="paramtype">f32 *&#160;</td>
           <td class="paramname"><em>yPtr</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> *&#160;</td>
+          <td class="paramtype">f32 *&#160;</td>
           <td class="paramname"><em>zPtr</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td>
+          <td class="paramtype">f32&#160;</td>
           <td class="paramname"><em>offsetY</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td>
+          <td class="paramtype">f32&#160;</td>
           <td class="paramname"><em>radius</em>&#160;</td>
         </tr>
         <tr>
@@ -643,9 +643,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> surface_list_length </td>
+          <td class="memname">static s32 surface_list_length </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d0/da1/structSurfaceNode.html">SurfaceNode</a> *&#160;</td>
+          <td class="paramtype">struct SurfaceNode *&#160;</td>
           <td class="paramname"><em>list</em></td><td>)</td>
           <td></td>
         </tr>
@@ -669,9 +669,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> unused_find_floor_height </td>
+          <td class="memname">static f32 unused_find_floor_height </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../de/de7/structObject.html">Object</a> *&#160;</td>
+          <td class="paramtype">struct Object *&#160;</td>
           <td class="paramname"><em>obj</em></td><td>)</td>
           <td></td>
         </tr>
@@ -695,45 +695,45 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> unused_resolve_floor_or_ceil_collisions </td>
+          <td class="memname">static s32 unused_resolve_floor_or_ceil_collisions </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td>
+          <td class="paramtype">s32&#160;</td>
           <td class="paramname"><em>checkCeil</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> *&#160;</td>
+          <td class="paramtype">f32 *&#160;</td>
           <td class="paramname"><em>px</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> *&#160;</td>
+          <td class="paramtype">f32 *&#160;</td>
           <td class="paramname"><em>py</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> *&#160;</td>
+          <td class="paramtype">f32 *&#160;</td>
           <td class="paramname"><em>pz</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td>
+          <td class="paramtype">f32&#160;</td>
           <td class="paramname"><em>radius</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../db/d89/structSurface.html">Surface</a> **&#160;</td>
+          <td class="paramtype">struct Surface **&#160;</td>
           <td class="paramname"><em>psurface</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> *&#160;</td>
+          <td class="paramtype">f32 *&#160;</td>
           <td class="paramname"><em>surfaceHeight</em>&#160;</td>
         </tr>
         <tr>
@@ -759,7 +759,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../dd/d64/structStruct8038BE30.html">Struct8038BE30</a> D_8038BE30</td>
+          <td class="memname">struct <a class="el" href="../../dd/d64/structStruct8038BE30.html">Struct8038BE30</a> D_8038BE30</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -776,7 +776,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/da7/ultratypes_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> unused8038BE50[0x40]</td>
+          <td class="memname">u8 unused8038BE50[0x40]</td>
         </tr>
       </table>
   </td>

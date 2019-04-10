@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['dummy63',['Dummy63',['../dd/d63/prevent__bss__reordering_8h.html#ac08f1a33de0568b6b92163bd58bed7b1',1,'prevent_bss_reordering.h']]],
-  ['dynid',['DynId',['../da/dbd/dynlist__proc_8h.html#a2cef162e6b05faca9bf16f244c045592',1,'dynlist_proc.h']]]
+  ['intptr_5ft',['intptr_t',['../df/d64/mario__head__6_8c.html#a0bf2a1ddd563125ff7848b2f2c729ef3',1,'mario_head_6.c']]]
 ];

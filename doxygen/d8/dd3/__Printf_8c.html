@@ -75,14 +75,14 @@ $(function() {
 <div class="title">_Printf.c File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../d1/d19/libultra__internal_8h_source.html">libultra_internal.h</a>&quot;</code><br />
-<code>#include &lt;<a class="el" href="../../d1/d2d/stdarg_8h_source.html">stdarg.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="../../da/d66/string_8h_source.html">string.h</a>&gt;</code><br />
-<code>#include &quot;<a class="el" href="../../d3/d6b/printf_8h_source.html">printf.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;libultra_internal.h&quot;</code><br />
+<code>#include &lt;stdarg.h&gt;</code><br />
+<code>#include &lt;string.h&gt;</code><br />
+<code>#include &quot;printf.h&quot;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:aebab167b5338849aa942f73732bfece2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd3/__Printf_8c.html#aebab167b5338849aa942f73732bfece2">ATOI</a>(<a class="el" href="../../d0/d75/something_8c.html#a7ec87d74df43b901c45d11e475d78a60">i</a>,  <a class="el" href="../../d9/d0b/err_8english_8cc.html#a812e69332e4b56fafe227a3a1b78cf18">a</a>)</td></tr>
+<tr class="memitem:aebab167b5338849aa942f73732bfece2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd3/__Printf_8c.html#aebab167b5338849aa942f73732bfece2">ATOI</a>(<a class="el" href="../../d0/d75/something_8c.html#a7ec87d74df43b901c45d11e475d78a60">i</a>,  a)</td></tr>
 <tr class="separator:aebab167b5338849aa942f73732bfece2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae2bc8b7a49a07ccb955c3ea5a3c60cdf"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd3/__Printf_8c.html#ae2bc8b7a49a07ccb955c3ea5a3c60cdf">_PROUT</a>(dst,  fmt,  _size)</td></tr>
 <tr class="separator:ae2bc8b7a49a07ccb955c3ea5a3c60cdf"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -91,22 +91,22 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a971e39cf9a3d2f31a00ed3ac3f504c43"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd3/__Printf_8c.html#a971e39cf9a3d2f31a00ed3ac3f504c43">_Putfld</a> (<a class="el" href="../../d6/de4/structprintf__struct.html">printf_struct</a> *, <a class="el" href="../../d1/d2d/stdarg_8h.html#abaefbc6cabb217bf0138d4f9c94d4775">va_list</a> *, <a class="el" href="../../dd/da7/ultratypes_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>, <a class="el" href="../../dd/da7/ultratypes_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> *)</td></tr>
+<tr class="memitem:a971e39cf9a3d2f31a00ed3ac3f504c43"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd3/__Printf_8c.html#a971e39cf9a3d2f31a00ed3ac3f504c43">_Putfld</a> (printf_struct *, va_list *, u8, u8 *)</td></tr>
 <tr class="separator:a971e39cf9a3d2f31a00ed3ac3f504c43"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a692e78f8225262c5db56720f9ed716e3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd3/__Printf_8c.html#a692e78f8225262c5db56720f9ed716e3">_Printf</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#ae30debe0ad3d7e219222e486ed5f9b95">char</a> *prout(<a class="el" href="../../d9/d0b/err_8english_8cc.html#ae30debe0ad3d7e219222e486ed5f9b95">char</a> *, <a class="el" href="../../d9/d0b/err_8english_8cc.html#aad5e7b875a7ed5b415edbeb8529141d4">const</a> <a class="el" href="../../d9/d0b/err_8english_8cc.html#ae30debe0ad3d7e219222e486ed5f9b95">char</a> *, <a class="el" href="../../dd/da7/ultratypes_8h.html#acf18a0d6c4b39d531e021702e9a77984">size_t</a>), <a class="el" href="../../d9/d0b/err_8english_8cc.html#ae30debe0ad3d7e219222e486ed5f9b95">char</a> *dst, <a class="el" href="../../d9/d0b/err_8english_8cc.html#aad5e7b875a7ed5b415edbeb8529141d4">const</a> <a class="el" href="../../d9/d0b/err_8english_8cc.html#ae30debe0ad3d7e219222e486ed5f9b95">char</a> *fmt, <a class="el" href="../../d1/d2d/stdarg_8h.html#abaefbc6cabb217bf0138d4f9c94d4775">va_list</a> args)</td></tr>
+<tr class="memitem:a692e78f8225262c5db56720f9ed716e3"><td class="memItemLeft" align="right" valign="top">s32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd3/__Printf_8c.html#a692e78f8225262c5db56720f9ed716e3">_Printf</a> (char *prout(char *, const char *, size_t), char *dst, const char *fmt, va_list args)</td></tr>
 <tr class="separator:a692e78f8225262c5db56720f9ed716e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a7159006223a809718c3dcf7345b5c873"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#aad5e7b875a7ed5b415edbeb8529141d4">const</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd3/__Printf_8c.html#a7159006223a809718c3dcf7345b5c873">length_str</a> [] = &quot;hlL&quot;</td></tr>
+<tr class="memitem:a7159006223a809718c3dcf7345b5c873"><td class="memItemLeft" align="right" valign="top">const u8&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd3/__Printf_8c.html#a7159006223a809718c3dcf7345b5c873">length_str</a> [] = &quot;hlL&quot;</td></tr>
 <tr class="separator:a7159006223a809718c3dcf7345b5c873"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a45329b7a7c49d72a5f80d4cda457431b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#aad5e7b875a7ed5b415edbeb8529141d4">const</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd3/__Printf_8c.html#a45329b7a7c49d72a5f80d4cda457431b">flags_str</a> [] = &quot; +-#0&quot;</td></tr>
+<tr class="memitem:a45329b7a7c49d72a5f80d4cda457431b"><td class="memItemLeft" align="right" valign="top">const u8&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd3/__Printf_8c.html#a45329b7a7c49d72a5f80d4cda457431b">flags_str</a> [] = &quot; +-#0&quot;</td></tr>
 <tr class="separator:a45329b7a7c49d72a5f80d4cda457431b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4ee3dcc71cd84a3ea6d024651b4cafad"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#aad5e7b875a7ed5b415edbeb8529141d4">const</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd3/__Printf_8c.html#a4ee3dcc71cd84a3ea6d024651b4cafad">flags_arr</a> [] = {<a class="el" href="../../d3/d6b/printf_8h.html#a2c249ce13d36626995f96880028b3d0a">FLAGS_SPACE</a>, <a class="el" href="../../d3/d6b/printf_8h.html#a3d8b1bd3dd657ac7856e8aa67b170fee">FLAGS_PLUS</a>, <a class="el" href="../../d3/d6b/printf_8h.html#a9abccbcd9326e1cc999367bbc0bec548">FLAGS_MINUS</a>, <a class="el" href="../../d3/d6b/printf_8h.html#a4e4ed2c9a700bf9cfddabb05debd4790">FLAGS_HASH</a>, <a class="el" href="../../d3/d6b/printf_8h.html#ae2270595ff6744883da0fe3ff9a3ca7e">FLAGS_ZERO</a>, 0}</td></tr>
+<tr class="memitem:a4ee3dcc71cd84a3ea6d024651b4cafad"><td class="memItemLeft" align="right" valign="top">const u32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd3/__Printf_8c.html#a4ee3dcc71cd84a3ea6d024651b4cafad">flags_arr</a> [] = {FLAGS_SPACE, FLAGS_PLUS, FLAGS_MINUS, FLAGS_HASH, FLAGS_ZERO, 0}</td></tr>
 <tr class="separator:a4ee3dcc71cd84a3ea6d024651b4cafad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4d0d03ac98a65cf288e4c2ce265e7094"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#ae30debe0ad3d7e219222e486ed5f9b95">char</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd3/__Printf_8c.html#a4d0d03ac98a65cf288e4c2ce265e7094">_spaces</a> [] = &quot; &quot;</td></tr>
+<tr class="memitem:a4d0d03ac98a65cf288e4c2ce265e7094"><td class="memItemLeft" align="right" valign="top">char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd3/__Printf_8c.html#a4d0d03ac98a65cf288e4c2ce265e7094">_spaces</a> [] = &quot; &quot;</td></tr>
 <tr class="separator:a4d0d03ac98a65cf288e4c2ce265e7094"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a78be9534200581ba7896f384d8b4c6ca"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#ae30debe0ad3d7e219222e486ed5f9b95">char</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd3/__Printf_8c.html#a78be9534200581ba7896f384d8b4c6ca">_zeroes</a> [] = &quot;00000000000000000000000000000000&quot;</td></tr>
+<tr class="memitem:a78be9534200581ba7896f384d8b4c6ca"><td class="memItemLeft" align="right" valign="top">char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd3/__Printf_8c.html#a78be9534200581ba7896f384d8b4c6ca">_zeroes</a> [] = &quot;00000000000000000000000000000000&quot;</td></tr>
 <tr class="separator:a78be9534200581ba7896f384d8b4c6ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
@@ -153,8 +153,7 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"><span class="keywordflow">if</span> (extracond &amp;&amp; m &gt; 0)           \</div><div class="line">        for (<a class="code" href="../../d0/d75/something_8c.html#a7ec87d74df43b901c45d11e475d78a60">i</a> = m; <a class="code" href="../../d0/d75/something_8c.html#a7ec87d74df43b901c45d11e475d78a60">i</a> &gt; 0; <a class="code" href="../../d0/d75/something_8c.html#a7ec87d74df43b901c45d11e475d78a60">i</a> -= c)    \</div><div class="line">        {                             \</div><div class="line">            if ((<a class="code" href="../../dd/da7/ultratypes_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a>)<a class="code" href="../../d0/d75/something_8c.html#a7ec87d74df43b901c45d11e475d78a60">i</a> &gt; 32)          \</div><div class="line">                c = 32;               \</div><div class="line">            else                      \</div><div class="line">                c = <a class="code" href="../../d0/d75/something_8c.html#a7ec87d74df43b901c45d11e475d78a60">i</a>;                \</div><div class="line">            _PROUT(dst, src, c);      \</div><div class="line">        }</div><div class="ttc" id="something_8c_html_a7ec87d74df43b901c45d11e475d78a60"><div class="ttname"><a href="../../d0/d75/something_8c.html#a7ec87d74df43b901c45d11e475d78a60">i</a></div><div class="ttdeci">s32 i</div><div class="ttdef"><b>Definition:</b> something.c:2069</div></div>
-<div class="ttc" id="ultratypes_8h_html_a10e94b422ef0c20dcdec20d31a1f5049"><div class="ttname"><a href="../../dd/da7/ultratypes_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a></div><div class="ttdeci">unsigned int u32</div><div class="ttdef"><b>Definition:</b> ultratypes.h:16</div></div>
+<b>Value:</b><div class="fragment"><div class="line"><span class="keywordflow">if</span> (extracond &amp;&amp; m &gt; 0)           \</div><div class="line">        for (<a class="code" href="../../d0/d75/something_8c.html#a7ec87d74df43b901c45d11e475d78a60">i</a> = m; <a class="code" href="../../d0/d75/something_8c.html#a7ec87d74df43b901c45d11e475d78a60">i</a> &gt; 0; <a class="code" href="../../d0/d75/something_8c.html#a7ec87d74df43b901c45d11e475d78a60">i</a> -= c)    \</div><div class="line">        {                             \</div><div class="line">            if ((u32)<a class="code" href="../../d0/d75/something_8c.html#a7ec87d74df43b901c45d11e475d78a60">i</a> &gt; 32)          \</div><div class="line">                c = 32;               \</div><div class="line">            else                      \</div><div class="line">                c = <a class="code" href="../../d0/d75/something_8c.html#a7ec87d74df43b901c45d11e475d78a60">i</a>;                \</div><div class="line">            _PROUT(dst, src, c);      \</div><div class="line">        }</div><div class="ttc" id="something_8c_html_a7ec87d74df43b901c45d11e475d78a60"><div class="ttname"><a href="../../d0/d75/something_8c.html#a7ec87d74df43b901c45d11e475d78a60">i</a></div><div class="ttdeci">s32 i</div><div class="ttdef"><b>Definition:</b> something.c:2069</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -208,7 +207,7 @@ Variables</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a812e69332e4b56fafe227a3a1b78cf18">a</a>&#160;</td>
+          <td class="paramname">a&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -217,8 +216,7 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"><span class="keywordflow">for</span> (<a class="code" href="../../d0/d75/something_8c.html#a7ec87d74df43b901c45d11e475d78a60">i</a> = 0; *<a class="code" href="../../d9/d0b/err_8english_8cc.html#a94eb816e27f68e8e043135af829de926">a</a> &gt;= <span class="charliteral">&#39;0&#39;</span> &amp;&amp; *<a class="code" href="../../d9/d0b/err_8english_8cc.html#a94eb816e27f68e8e043135af829de926">a</a> &lt;= <span class="charliteral">&#39;9&#39;</span>; <a class="code" href="../../d9/d0b/err_8english_8cc.html#a94eb816e27f68e8e043135af829de926">a</a>++) \</div><div class="line">        <span class="keywordflow">if</span> (<a class="code" href="../../d0/d75/something_8c.html#a7ec87d74df43b901c45d11e475d78a60">i</a> &lt; 999)                         \</div><div class="line">            i = *<a class="code" href="../../d9/d0b/err_8english_8cc.html#a94eb816e27f68e8e043135af829de926">a</a> + <a class="code" href="../../d0/d75/something_8c.html#a7ec87d74df43b901c45d11e475d78a60">i</a> * 10 - <span class="charliteral">&#39;0&#39;</span>;</div><div class="ttc" id="something_8c_html_a7ec87d74df43b901c45d11e475d78a60"><div class="ttname"><a href="../../d0/d75/something_8c.html#a7ec87d74df43b901c45d11e475d78a60">i</a></div><div class="ttdeci">s32 i</div><div class="ttdef"><b>Definition:</b> something.c:2069</div></div>
-<div class="ttc" id="err_8english_8cc_html_a94eb816e27f68e8e043135af829de926"><div class="ttname"><a href="../../d9/d0b/err_8english_8cc.html#a94eb816e27f68e8e043135af829de926">a</a></div><div class="ttdeci">at end of structure union member declaration In standard C each member declaration must be terminated by a</div><div class="ttdef"><b>Definition:</b> err.english.cc:690</div></div>
+<b>Value:</b><div class="fragment"><div class="line"><span class="keywordflow">for</span> (<a class="code" href="../../d0/d75/something_8c.html#a7ec87d74df43b901c45d11e475d78a60">i</a> = 0; *a &gt;= <span class="charliteral">&#39;0&#39;</span> &amp;&amp; *a &lt;= <span class="charliteral">&#39;9&#39;</span>; a++) \</div><div class="line">        <span class="keywordflow">if</span> (<a class="code" href="../../d0/d75/something_8c.html#a7ec87d74df43b901c45d11e475d78a60">i</a> &lt; 999)                         \</div><div class="line">            i = *a + <a class="code" href="../../d0/d75/something_8c.html#a7ec87d74df43b901c45d11e475d78a60">i</a> * 10 - <span class="charliteral">&#39;0&#39;</span>;</div><div class="ttc" id="something_8c_html_a7ec87d74df43b901c45d11e475d78a60"><div class="ttname"><a href="../../d0/d75/something_8c.html#a7ec87d74df43b901c45d11e475d78a60">i</a></div><div class="ttdeci">s32 i</div><div class="ttdef"><b>Definition:</b> something.c:2069</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -230,27 +228,27 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a> _Printf </td>
+          <td class="memname">s32 _Printf </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#ae30debe0ad3d7e219222e486ed5f9b95">char</a> *&#160;</td>
+          <td class="paramtype">char *&#160;</td>
           <td class="paramname"><em>prout</em>char *, const char *, size_t, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#ae30debe0ad3d7e219222e486ed5f9b95">char</a> *&#160;</td>
+          <td class="paramtype">char *&#160;</td>
           <td class="paramname"><em>dst</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#aad5e7b875a7ed5b415edbeb8529141d4">const</a> <a class="el" href="../../d9/d0b/err_8english_8cc.html#ae30debe0ad3d7e219222e486ed5f9b95">char</a> *&#160;</td>
+          <td class="paramtype">const char *&#160;</td>
           <td class="paramname"><em>fmt</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d1/d2d/stdarg_8h.html#abaefbc6cabb217bf0138d4f9c94d4775">va_list</a>&#160;</td>
+          <td class="paramtype">va_list&#160;</td>
           <td class="paramname"><em>args</em>&#160;</td>
         </tr>
         <tr>
@@ -270,27 +268,27 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a> _Putfld </td>
+          <td class="memname">void _Putfld </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d6/de4/structprintf__struct.html">printf_struct</a> *&#160;</td>
+          <td class="paramtype">printf_struct *&#160;</td>
           <td class="paramname"><em>a0</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d1/d2d/stdarg_8h.html#abaefbc6cabb217bf0138d4f9c94d4775">va_list</a> *&#160;</td>
+          <td class="paramtype">va_list *&#160;</td>
           <td class="paramname"><em>args</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td>
+          <td class="paramtype">u8&#160;</td>
           <td class="paramname"><em>type</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> *&#160;</td>
+          <td class="paramtype">u8 *&#160;</td>
           <td class="paramname"><em>buff</em>&#160;</td>
         </tr>
         <tr>
@@ -311,7 +309,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#ae30debe0ad3d7e219222e486ed5f9b95">char</a> _spaces[] = &quot; &quot;</td>
+          <td class="memname">char _spaces[] = &quot; &quot;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -325,7 +323,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#ae30debe0ad3d7e219222e486ed5f9b95">char</a> _zeroes[] = &quot;00000000000000000000000000000000&quot;</td>
+          <td class="memname">char _zeroes[] = &quot;00000000000000000000000000000000&quot;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -339,7 +337,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#aad5e7b875a7ed5b415edbeb8529141d4">const</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a> flags_arr[] = {<a class="el" href="../../d3/d6b/printf_8h.html#a2c249ce13d36626995f96880028b3d0a">FLAGS_SPACE</a>, <a class="el" href="../../d3/d6b/printf_8h.html#a3d8b1bd3dd657ac7856e8aa67b170fee">FLAGS_PLUS</a>, <a class="el" href="../../d3/d6b/printf_8h.html#a9abccbcd9326e1cc999367bbc0bec548">FLAGS_MINUS</a>, <a class="el" href="../../d3/d6b/printf_8h.html#a4e4ed2c9a700bf9cfddabb05debd4790">FLAGS_HASH</a>, <a class="el" href="../../d3/d6b/printf_8h.html#ae2270595ff6744883da0fe3ff9a3ca7e">FLAGS_ZERO</a>, 0}</td>
+          <td class="memname">const u32 flags_arr[] = {FLAGS_SPACE, FLAGS_PLUS, FLAGS_MINUS, FLAGS_HASH, FLAGS_ZERO, 0}</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -353,7 +351,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#aad5e7b875a7ed5b415edbeb8529141d4">const</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> flags_str[] = &quot; +-#0&quot;</td>
+          <td class="memname">const u8 flags_str[] = &quot; +-#0&quot;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -367,7 +365,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#aad5e7b875a7ed5b415edbeb8529141d4">const</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> length_str[] = &quot;hlL&quot;</td>
+          <td class="memname">const u8 length_str[] = &quot;hlL&quot;</td>
         </tr>
       </table>
 </div><div class="memdoc">

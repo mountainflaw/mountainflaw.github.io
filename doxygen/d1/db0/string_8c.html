@@ -73,16 +73,16 @@ $(function() {
 <div class="title">string.c File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../d1/d19/libultra__internal_8h_source.html">libultra_internal.h</a>&quot;</code><br />
-<code>#include &lt;<a class="el" href="../../da/d66/string_8h_source.html">string.h</a>&gt;</code><br />
+<div class="textblock"><code>#include &quot;libultra_internal.h&quot;</code><br />
+<code>#include &lt;string.h&gt;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a221995d01087b6da7d0df8d004c7797b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/db0/string_8c.html#a221995d01087b6da7d0df8d004c7797b">memcpy</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a> *dst, <a class="el" href="../../d9/d0b/err_8english_8cc.html#aad5e7b875a7ed5b415edbeb8529141d4">const</a> <a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a> *src, <a class="el" href="../../dd/da7/ultratypes_8h.html#acf18a0d6c4b39d531e021702e9a77984">size_t</a> size)</td></tr>
+<tr class="memitem:a221995d01087b6da7d0df8d004c7797b"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/db0/string_8c.html#a221995d01087b6da7d0df8d004c7797b">memcpy</a> (void *dst, const void *src, size_t size)</td></tr>
 <tr class="separator:a221995d01087b6da7d0df8d004c7797b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a48c31025d704a8294fd5e5c84ca0e58a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/da7/ultratypes_8h.html#acf18a0d6c4b39d531e021702e9a77984">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/db0/string_8c.html#a48c31025d704a8294fd5e5c84ca0e58a">strlen</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#aad5e7b875a7ed5b415edbeb8529141d4">const</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> *str)</td></tr>
+<tr class="memitem:a48c31025d704a8294fd5e5c84ca0e58a"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/db0/string_8c.html#a48c31025d704a8294fd5e5c84ca0e58a">strlen</a> (const u8 *str)</td></tr>
 <tr class="separator:a48c31025d704a8294fd5e5c84ca0e58a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa5bad51ccae44923cb7a972a92b9afeb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#aad5e7b875a7ed5b415edbeb8529141d4">const</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/db0/string_8c.html#aa5bad51ccae44923cb7a972a92b9afeb">strchr</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#aad5e7b875a7ed5b415edbeb8529141d4">const</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> *str, <a class="el" href="../../dd/da7/ultratypes_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a> ch)</td></tr>
+<tr class="memitem:aa5bad51ccae44923cb7a972a92b9afeb"><td class="memItemLeft" align="right" valign="top">const u8 *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/db0/string_8c.html#aa5bad51ccae44923cb7a972a92b9afeb">strchr</a> (const u8 *str, u32 ch)</td></tr>
 <tr class="separator:aa5bad51ccae44923cb7a972a92b9afeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -93,21 +93,21 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>* memcpy </td>
+          <td class="memname">void* memcpy </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a> *&#160;</td>
+          <td class="paramtype">void *&#160;</td>
           <td class="paramname"><em>dst</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#aad5e7b875a7ed5b415edbeb8529141d4">const</a> <a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a> *&#160;</td>
+          <td class="paramtype">const void *&#160;</td>
           <td class="paramname"><em>src</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#acf18a0d6c4b39d531e021702e9a77984">size_t</a>&#160;</td>
+          <td class="paramtype">size_t&#160;</td>
           <td class="paramname"><em>size</em>&#160;</td>
         </tr>
         <tr>
@@ -127,15 +127,15 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#aad5e7b875a7ed5b415edbeb8529141d4">const</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>* strchr </td>
+          <td class="memname">const u8* strchr </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#aad5e7b875a7ed5b415edbeb8529141d4">const</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> *&#160;</td>
+          <td class="paramtype">const u8 *&#160;</td>
           <td class="paramname"><em>str</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a>&#160;</td>
+          <td class="paramtype">u32&#160;</td>
           <td class="paramname"><em>ch</em>&#160;</td>
         </tr>
         <tr>
@@ -155,9 +155,9 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/da7/ultratypes_8h.html#acf18a0d6c4b39d531e021702e9a77984">size_t</a> strlen </td>
+          <td class="memname">size_t strlen </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#aad5e7b875a7ed5b415edbeb8529141d4">const</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> *&#160;</td>
+          <td class="paramtype">const u8 *&#160;</td>
           <td class="paramname"><em>str</em></td><td>)</td>
           <td></td>
         </tr>

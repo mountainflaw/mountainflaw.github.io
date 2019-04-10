@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['betavtx',['BetaVtx',['../d2/ddd/structBetaVtx.html',1,'']]],
-  ['bullycollisiondata',['BullyCollisionData',['../db/d1a/structBullyCollisionData.html',1,'']]]
+  ['du',['du',['../d0/dd2/uniondu.html',1,'']]],
+  ['dynlistbankinfo',['DynListBankInfo',['../d2/d91/structDynListBankInfo.html',1,'']]],
+  ['dynobjinfo',['DynObjInfo',['../d6/d69/structDynObjInfo.html',1,'']]]
 ];

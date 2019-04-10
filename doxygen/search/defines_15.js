@@ -1,13 +1,15 @@
 var searchData=
 [
-  ['u_5fcbuttons',['U_CBUTTONS',['../d9/dff/os__cont_8h.html#a4e49cf555d366ccdf312acddaf9b90ac',1,'os_cont.h']]],
-  ['u_5fjpad',['U_JPAD',['../d9/dff/os__cont_8h.html#a8dc1c5424dfe2c222a8aff0bcde0b955',1,'os_cont.h']]],
-  ['unused',['UNUSED',['../d8/d4b/unused_8h.html#addf5ec070e9499d36b7f2009ce736076',1,'unused.h']]],
-  ['us_5ffloat',['US_FLOAT',['../d1/df5/interface__2_8c.html#aa8d5fa5d7506353e4e791caab237c721',1,'US_FLOAT():&#160;interface_2.c'],['../da/d95/playback_8c.html#aa8d5fa5d7506353e4e791caab237c721',1,'US_FLOAT():&#160;playback.c'],['../d0/d75/something_8c.html#aa8d5fa5d7506353e4e791caab237c721',1,'US_FLOAT():&#160;something.c']]],
-  ['used_5fg_5fmem_5fblock',['USED_G_MEM_BLOCK',['../d9/d5e/debug__memory_8h.html#aa348c3b187dbcb056d7ef6c9a5749d67',1,'debug_memory.h']]],
-  ['useintid',['UseIntId',['../de/d3c/macros_8h.html#a157d40d9079f3de1a7e201045a47fe11',1,'macros.h']]],
-  ['useobj',['UseObj',['../de/d3c/macros_8h.html#a7519f295ac4398ced63f1a6798398a51',1,'macros.h']]],
-  ['usetexture',['UseTexture',['../de/d3c/macros_8h.html#a8ea0d377287e3495be4589e25e9d74e6',1,'macros.h']]],
-  ['utf8_5faccept',['UTF8_ACCEPT',['../df/d51/utf8_8c.html#a82b09bd7c24e408c73e16db56b8db6cf',1,'utf8.c']]],
-  ['utf8_5freject',['UTF8_REJECT',['../df/d51/utf8_8c.html#a2e385a04dd7c4529414ab34a75a4f9ef',1,'utf8.c']]]
+  ['warp_5fnode_5fcredits_5fend',['WARP_NODE_CREDITS_END',['../db/dda/level__update_8c.html#a05b6799aa3f133679fc17271b77637b7',1,'level_update.c']]],
+  ['warp_5fnode_5fcredits_5fmin',['WARP_NODE_CREDITS_MIN',['../db/dda/level__update_8c.html#aeb1e5087388d41b41044118d471412ff',1,'level_update.c']]],
+  ['warp_5fnode_5fcredits_5fnext',['WARP_NODE_CREDITS_NEXT',['../db/dda/level__update_8c.html#a906b556d9c3493a7bd01e5403b6ead5d',1,'level_update.c']]],
+  ['warp_5fnode_5fcredits_5fstart',['WARP_NODE_CREDITS_START',['../db/dda/level__update_8c.html#aee7acc1a76591725adf6a7979c65eb25',1,'level_update.c']]],
+  ['warp_5fnode_5fdeath',['WARP_NODE_DEATH',['../db/dda/level__update_8c.html#a84d8f35fad79efe22dcffdcd77cff40d',1,'level_update.c']]],
+  ['warp_5fnode_5ff0',['WARP_NODE_F0',['../db/dda/level__update_8c.html#aaa5f377840f1fb678e90453acfa7153b',1,'level_update.c']]],
+  ['warp_5fnode_5ff2',['WARP_NODE_F2',['../db/dda/level__update_8c.html#acb907b817f8751f96205a4eb3dbd467c',1,'level_update.c']]],
+  ['warp_5fnode_5fwarp_5ffloor',['WARP_NODE_WARP_FLOOR',['../db/dda/level__update_8c.html#afe8c8d6f00a5a246be3cfe8fbd789f27',1,'level_update.c']]],
+  ['warp_5ftype_5fchange_5farea',['WARP_TYPE_CHANGE_AREA',['../db/dda/level__update_8c.html#af5d4a2822855da7f15dfa63ccc57c884',1,'level_update.c']]],
+  ['warp_5ftype_5fchange_5flevel',['WARP_TYPE_CHANGE_LEVEL',['../db/dda/level__update_8c.html#acba43bc4c0757b3a050b305966c16d18',1,'level_update.c']]],
+  ['warp_5ftype_5fnot_5fwarping',['WARP_TYPE_NOT_WARPING',['../db/dda/level__update_8c.html#a07d6d44f6dda6f224f79173cbb203e95',1,'level_update.c']]],
+  ['warp_5ftype_5fsame_5farea',['WARP_TYPE_SAME_AREA',['../db/dda/level__update_8c.html#a3c4e8b01ecafe352c7aaa25a702634ad',1,'level_update.c']]]
 ];

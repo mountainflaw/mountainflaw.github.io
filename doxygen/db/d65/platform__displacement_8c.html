@@ -74,43 +74,43 @@ $(function() {
 <div class="title">platform_displacement.c File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;<a class="el" href="../../dd/d2f/ultra64_8h_source.html">ultra64.h</a>&gt;</code><br />
-<code>#include &quot;<a class="el" href="../../d5/dd8/sm64_8h_source.html">sm64.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d9/dfd/platform__displacement_8h_source.html">platform_displacement.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d8/d11/math__util_8h_source.html">engine/math_util.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d3/dc7/object__helpers_8h_source.html">object_helpers.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../dd/d71/object__helpers2_8h_source.html">object_helpers2.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d9/db9/mario_8h_source.html">mario.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d0/d69/behavior__script_8h_source.html">engine/behavior_script.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d7/d0a/level__update_8h_source.html">level_update.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d2/da4/surface__collision_8h_source.html">engine/surface_collision.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d2/dd2/object__list__processor_8h_source.html">object_list_processor.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &lt;ultra64.h&gt;</code><br />
+<code>#include &quot;sm64.h&quot;</code><br />
+<code>#include &quot;platform_displacement.h&quot;</code><br />
+<code>#include &quot;engine/math_util.h&quot;</code><br />
+<code>#include &quot;object_helpers.h&quot;</code><br />
+<code>#include &quot;object_helpers2.h&quot;</code><br />
+<code>#include &quot;mario.h&quot;</code><br />
+<code>#include &quot;engine/behavior_script.h&quot;</code><br />
+<code>#include &quot;level_update.h&quot;</code><br />
+<code>#include &quot;engine/surface_collision.h&quot;</code><br />
+<code>#include &quot;object_list_processor.h&quot;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a33de6d079be3c5454bee6ffe547fe7e9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d65/platform__displacement_8c.html#a33de6d079be3c5454bee6ffe547fe7e9">update_mario_platform</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>)</td></tr>
+<tr class="memitem:a33de6d079be3c5454bee6ffe547fe7e9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d65/platform__displacement_8c.html#a33de6d079be3c5454bee6ffe547fe7e9">update_mario_platform</a> (void)</td></tr>
 <tr class="memdesc:a33de6d079be3c5454bee6ffe547fe7e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determine if mario is standing on a platform object, meaning that he is within 4 units of the floor.  <a href="#a33de6d079be3c5454bee6ffe547fe7e9">More...</a><br /></td></tr>
 <tr class="separator:a33de6d079be3c5454bee6ffe547fe7e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a532d97b35d493de1d0ef00666e94fb27"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d65/platform__displacement_8c.html#a532d97b35d493de1d0ef00666e94fb27">get_mario_pos</a> (<a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> *x, <a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> *y, <a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> *z)</td></tr>
+<tr class="memitem:a532d97b35d493de1d0ef00666e94fb27"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d65/platform__displacement_8c.html#a532d97b35d493de1d0ef00666e94fb27">get_mario_pos</a> (f32 *x, f32 *y, f32 *z)</td></tr>
 <tr class="memdesc:a532d97b35d493de1d0ef00666e94fb27"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get mario's position and store it in x, y, and z.  <a href="#a532d97b35d493de1d0ef00666e94fb27">More...</a><br /></td></tr>
 <tr class="separator:a532d97b35d493de1d0ef00666e94fb27"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab64ae9980b925aaf3f27eb37c1ca7734"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d65/platform__displacement_8c.html#ab64ae9980b925aaf3f27eb37c1ca7734">set_mario_pos</a> (<a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> x, <a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> y, <a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> z)</td></tr>
+<tr class="memitem:ab64ae9980b925aaf3f27eb37c1ca7734"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d65/platform__displacement_8c.html#ab64ae9980b925aaf3f27eb37c1ca7734">set_mario_pos</a> (f32 x, f32 y, f32 z)</td></tr>
 <tr class="memdesc:ab64ae9980b925aaf3f27eb37c1ca7734"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set mario's position.  <a href="#ab64ae9980b925aaf3f27eb37c1ca7734">More...</a><br /></td></tr>
 <tr class="separator:ab64ae9980b925aaf3f27eb37c1ca7734"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a902b1c0c27a4356ca9f39dd3a37ad46c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d65/platform__displacement_8c.html#a902b1c0c27a4356ca9f39dd3a37ad46c">apply_platform_displacement</a> (<a class="el" href="../../dd/da7/ultratypes_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a> isMario, <a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../de/de7/structObject.html">Object</a> *platform)</td></tr>
+<tr class="memitem:a902b1c0c27a4356ca9f39dd3a37ad46c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d65/platform__displacement_8c.html#a902b1c0c27a4356ca9f39dd3a37ad46c">apply_platform_displacement</a> (u32 isMario, struct Object *platform)</td></tr>
 <tr class="memdesc:a902b1c0c27a4356ca9f39dd3a37ad46c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply one frame of platform rotation to mario or an object using the given platform.  <a href="#a902b1c0c27a4356ca9f39dd3a37ad46c">More...</a><br /></td></tr>
 <tr class="separator:a902b1c0c27a4356ca9f39dd3a37ad46c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a55cc79d607ecb19725783b6364887059"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d65/platform__displacement_8c.html#a55cc79d607ecb19725783b6364887059">apply_mario_platform_displacement</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>)</td></tr>
+<tr class="memitem:a55cc79d607ecb19725783b6364887059"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d65/platform__displacement_8c.html#a55cc79d607ecb19725783b6364887059">apply_mario_platform_displacement</a> (void)</td></tr>
 <tr class="memdesc:a55cc79d607ecb19725783b6364887059"><td class="mdescLeft">&#160;</td><td class="mdescRight">If mario's platform is not null, apply platform displacement.  <a href="#a55cc79d607ecb19725783b6364887059">More...</a><br /></td></tr>
 <tr class="separator:a55cc79d607ecb19725783b6364887059"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a420d793e7339ab4bca13f4fe24fd7602"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/da7/ultratypes_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d65/platform__displacement_8c.html#a420d793e7339ab4bca13f4fe24fd7602">D_8032FEC0</a> = 0</td></tr>
+<tr class="memitem:a420d793e7339ab4bca13f4fe24fd7602"><td class="memItemLeft" align="right" valign="top">u16&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d65/platform__displacement_8c.html#a420d793e7339ab4bca13f4fe24fd7602">D_8032FEC0</a> = 0</td></tr>
 <tr class="separator:a420d793e7339ab4bca13f4fe24fd7602"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2ae282636796212dcb7d0426a006eca3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/da7/ultratypes_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d65/platform__displacement_8c.html#a2ae282636796212dcb7d0426a006eca3">unused_8032FEC4</a> [4] = {0}</td></tr>
+<tr class="memitem:a2ae282636796212dcb7d0426a006eca3"><td class="memItemLeft" align="right" valign="top">u32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d65/platform__displacement_8c.html#a2ae282636796212dcb7d0426a006eca3">unused_8032FEC4</a> [4] = {0}</td></tr>
 <tr class="separator:a2ae282636796212dcb7d0426a006eca3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a004e5ffd05555ab20278493690ccfd4b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../de/de7/structObject.html">Object</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d65/platform__displacement_8c.html#a004e5ffd05555ab20278493690ccfd4b">gMarioPlatform</a> = <a class="el" href="../../de/d48/dac_8c.html#a1a05ede2ad100bf5de5dfa7ccdfa4397">NULL</a></td></tr>
+<tr class="memitem:a004e5ffd05555ab20278493690ccfd4b"><td class="memItemLeft" align="right" valign="top">struct Object *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d65/platform__displacement_8c.html#a004e5ffd05555ab20278493690ccfd4b">gMarioPlatform</a> = <a class="el" href="../../de/d48/dac_8c.html#a1a05ede2ad100bf5de5dfa7ccdfa4397">NULL</a></td></tr>
 <tr class="separator:a004e5ffd05555ab20278493690ccfd4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -121,9 +121,9 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a> apply_mario_platform_displacement </td>
+          <td class="memname">void apply_mario_platform_displacement </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td>
+          <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -141,15 +141,15 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a> apply_platform_displacement </td>
+          <td class="memname">void apply_platform_displacement </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a>&#160;</td>
+          <td class="paramtype">u32&#160;</td>
           <td class="paramname"><em>isMario</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../de/de7/structObject.html">Object</a> *&#160;</td>
+          <td class="paramtype">struct Object *&#160;</td>
           <td class="paramname"><em>platform</em>&#160;</td>
         </tr>
         <tr>
@@ -172,21 +172,21 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a> get_mario_pos </td>
+          <td class="memname">void get_mario_pos </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> *&#160;</td>
+          <td class="paramtype">f32 *&#160;</td>
           <td class="paramname"><em>x</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> *&#160;</td>
+          <td class="paramtype">f32 *&#160;</td>
           <td class="paramname"><em>y</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> *&#160;</td>
+          <td class="paramtype">f32 *&#160;</td>
           <td class="paramname"><em>z</em>&#160;</td>
         </tr>
         <tr>
@@ -208,21 +208,21 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a> set_mario_pos </td>
+          <td class="memname">void set_mario_pos </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td>
+          <td class="paramtype">f32&#160;</td>
           <td class="paramname"><em>x</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td>
+          <td class="paramtype">f32&#160;</td>
           <td class="paramname"><em>y</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td>
+          <td class="paramtype">f32&#160;</td>
           <td class="paramname"><em>z</em>&#160;</td>
         </tr>
         <tr>
@@ -244,9 +244,9 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a> update_mario_platform </td>
+          <td class="memname">void update_mario_platform </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td>
+          <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -266,7 +266,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/da7/ultratypes_8h.html#aa0b167025ed1eead1300bc4dbdfb230e">u16</a> D_8032FEC0 = 0</td>
+          <td class="memname">u16 D_8032FEC0 = 0</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -280,7 +280,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../de/de7/structObject.html">Object</a>* gMarioPlatform = <a class="el" href="../../de/d48/dac_8c.html#a1a05ede2ad100bf5de5dfa7ccdfa4397">NULL</a></td>
+          <td class="memname">struct Object* gMarioPlatform = <a class="el" href="../../de/d48/dac_8c.html#a1a05ede2ad100bf5de5dfa7ccdfa4397">NULL</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -294,7 +294,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/da7/ultratypes_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a> unused_8032FEC4[4] = {0}</td>
+          <td class="memname">u32 unused_8032FEC4[4] = {0}</td>
         </tr>
       </table>
 </div><div class="memdoc">
