@@ -79,7 +79,7 @@ $(function() {
 <code>#include &quot;<a class="el" href="../../d5/dd8/sm64_8h_source.html">sm64.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d7/df6/camera_8h_source.html">camera.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../de/de9/interface__2_8h_source.html">audio/interface_2.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d3/d59/castle__message__behaviors_8h_source.html">castle_message_behaviors.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d5/d8b/mario__misc_8h_source.html">mario_misc.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d2/dd5/game_8h_source.html">game.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../df/d1b/hud_8h_source.html">hud.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d8/d11/math__util_8h_source.html">engine/math_util.h</a>&quot;</code><br />
@@ -106,9 +106,9 @@ Macros</h2></td></tr>
 <tr class="separator:a5d96aa3741722d7fb5f0be42b7ffdfd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adb590c1a66a38cd3c47cbf63a38d0eb8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/de0/camera_8c.html#adb590c1a66a38cd3c47cbf63a38d0eb8">CBUTTON_MASK</a>&#160;&#160;&#160;(<a class="el" href="../../d9/dff/os__cont_8h.html#a4e49cf555d366ccdf312acddaf9b90ac">U_CBUTTONS</a> | <a class="el" href="../../d9/dff/os__cont_8h.html#a5ef612288a93912c5e576682dd9b43f8">D_CBUTTONS</a> | <a class="el" href="../../d9/dff/os__cont_8h.html#a47d030c53afb3f152847babbc0f818c2">L_CBUTTONS</a> | <a class="el" href="../../d9/dff/os__cont_8h.html#af40485f86077e6b8ffb5bf8835a89520">R_CBUTTONS</a>)</td></tr>
 <tr class="separator:adb590c1a66a38cd3c47cbf63a38d0eb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a30e05b4d50f065b7cc86c2a6d40b7956"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/de0/camera_8c.html#a30e05b4d50f065b7cc86c2a6d40b7956">TABLE_EMPTY</a>&#160;&#160;&#160;{0, <a class="el" href="../../de/d48/dac_8c.html#a1a05ede2ad100bf5de5dfa7ccdfa4397">NULL</a>, 0, 0, 0, 0, 0, 0, 0}</td></tr>
+<tr class="memitem:a30e05b4d50f065b7cc86c2a6d40b7956"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/de0/camera_8c.html#a30e05b4d50f065b7cc86c2a6d40b7956">TABLE_EMPTY</a>&#160;&#160;&#160;{0, <a class="el" href="../../dd/d53/exoquant_8c.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, 0, 0, 0, 0, 0, 0, 0}</td></tr>
 <tr class="separator:a30e05b4d50f065b7cc86c2a6d40b7956"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:accf538132d3c8c4de46e57adbb175997"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/de0/camera_8c.html#accf538132d3c8c4de46e57adbb175997">SET_CREDITS_PRESET</a>(casenum,  <a class="el" href="../../d0/d75/something_8c.html#af64f1943416c0afe07712c44f1eeb064">arg1</a>,  <a class="el" href="../../d0/d75/something_8c.html#a338d53095ee1e3d4a50f34f480eba8fe">arg2</a>)</td></tr>
+<tr class="memitem:accf538132d3c8c4de46e57adbb175997"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/de0/camera_8c.html#accf538132d3c8c4de46e57adbb175997">SET_CREDITS_PRESET</a>(casenum,  arg1,  arg2)</td></tr>
 <tr class="separator:accf538132d3c8c4de46e57adbb175997"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa472806a45823ff2e8a31dfc4feba6be"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/de0/camera_8c.html#aa472806a45823ff2e8a31dfc4feba6be">CUTSCENE_TABLE_JUMP</a>(casenum,  table)</td></tr>
 <tr class="separator:aa472806a45823ff2e8a31dfc4feba6be"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1352,13 +1352,13 @@ Variables</h2></td></tr>
 <tr class="separator:ad404dfc4313d048e434ee5709b98d90d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aec1171bd7956e01cd91b25e013ae3ca8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/da7/ultratypes_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/de0/camera_8c.html#aec1171bd7956e01cd91b25e013ae3ca8">D_8032CFC0</a> = 0</td></tr>
 <tr class="separator:aec1171bd7956e01cd91b25e013ae3ca8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa9775fb49b6c1a0cd1039aa303a3b468"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../de/de7/structObject.html">Object</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/de0/camera_8c.html#aa9775fb49b6c1a0cd1039aa303a3b468">D_8032CFC4</a> = <a class="el" href="../../de/d48/dac_8c.html#a1a05ede2ad100bf5de5dfa7ccdfa4397">NULL</a></td></tr>
+<tr class="memitem:aa9775fb49b6c1a0cd1039aa303a3b468"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../de/de7/structObject.html">Object</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/de0/camera_8c.html#aa9775fb49b6c1a0cd1039aa303a3b468">D_8032CFC4</a> = <a class="el" href="../../dd/d53/exoquant_8c.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></td></tr>
 <tr class="separator:aa9775fb49b6c1a0cd1039aa303a3b468"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac14b285c68dd5bffd1be889108da2b30"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/da7/ultratypes_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/de0/camera_8c.html#ac14b285c68dd5bffd1be889108da2b30">D_8032CFC8</a> = 0</td></tr>
 <tr class="separator:ac14b285c68dd5bffd1be889108da2b30"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a25d0c44a1436edfde3ce43973bac3333"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/da7/ultratypes_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/de0/camera_8c.html#a25d0c44a1436edfde3ce43973bac3333">D_8032CFCC</a> = 0</td></tr>
 <tr class="separator:a25d0c44a1436edfde3ce43973bac3333"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9acf2129b505bf2a8953279633677807"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../de/de7/structObject.html">Object</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/de0/camera_8c.html#a9acf2129b505bf2a8953279633677807">D_8032CFD0</a> = <a class="el" href="../../de/d48/dac_8c.html#a1a05ede2ad100bf5de5dfa7ccdfa4397">NULL</a></td></tr>
+<tr class="memitem:a9acf2129b505bf2a8953279633677807"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../de/de7/structObject.html">Object</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/de0/camera_8c.html#a9acf2129b505bf2a8953279633677807">D_8032CFD0</a> = <a class="el" href="../../dd/d53/exoquant_8c.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></td></tr>
 <tr class="separator:a9acf2129b505bf2a8953279633677807"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a94b022a303369ce891c6651e2e2b617f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/da7/ultratypes_8h.html#a4cb19f4a3324cfe0938ddfbfabaa825b">s16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/de0/camera_8c.html#a94b022a303369ce891c6651e2e2b617f">D_8032CFD4</a> = 1024</td></tr>
 <tr class="separator:a94b022a303369ce891c6651e2e2b617f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1736,13 +1736,13 @@ Variables</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="../../d0/d75/something_8c.html#af64f1943416c0afe07712c44f1eeb064">arg1</a>, </td>
+          <td class="paramname">arg1, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="../../d0/d75/something_8c.html#a338d53095ee1e3d4a50f34f480eba8fe">arg2</a>&#160;</td>
+          <td class="paramname">arg2&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1751,9 +1751,7 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"><span class="keywordflow">case</span> casenum: \</div><div class="line">            sp30 = <a class="code" href="../../de/d48/dac_8c.html#a95cb436548fcb1bfad6da5930a5961a9">arg1</a>; \</div><div class="line">            sp34 = <a class="code" href="../../de/d48/dac_8c.html#a2bdc2f582f021ce0fbf0d9deec817a74">arg2</a>; \</div><div class="line">            break;</div><div class="ttc" id="dac_8c_html_a95cb436548fcb1bfad6da5930a5961a9"><div class="ttname"><a href="../../de/d48/dac_8c.html#a95cb436548fcb1bfad6da5930a5961a9">arg1</a></div><div class="ttdeci">void * arg1</div><div class="ttdef"><b>Definition:</b> dac.c:158</div></div>
-<div class="ttc" id="dac_8c_html_a2bdc2f582f021ce0fbf0d9deec817a74"><div class="ttname"><a href="../../de/d48/dac_8c.html#a2bdc2f582f021ce0fbf0d9deec817a74">arg2</a></div><div class="ttdeci">void u32 arg2</div><div class="ttdef"><b>Definition:</b> dac.c:159</div></div>
-</div><!-- fragment -->
+<b>Value:</b><div class="fragment"><div class="line"><span class="keywordflow">case</span> casenum: \</div><div class="line">            sp30 = arg1; \</div><div class="line">            sp34 = arg2; \</div><div class="line">            break;</div></div><!-- fragment -->
 </div>
 </div>
 <a id="a30e05b4d50f065b7cc86c2a6d40b7956"></a>
@@ -1763,7 +1761,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define TABLE_EMPTY&#160;&#160;&#160;{0, <a class="el" href="../../de/d48/dac_8c.html#a1a05ede2ad100bf5de5dfa7ccdfa4397">NULL</a>, 0, 0, 0, 0, 0, 0, 0}</td>
+          <td class="memname">#define TABLE_EMPTY&#160;&#160;&#160;{0, <a class="el" href="../../dd/d53/exoquant_8c.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, 0, 0, 0, 0, 0, 0, 0}</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -15260,7 +15258,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../de/de7/structObject.html">Object</a>* D_8032CFC4 = <a class="el" href="../../de/d48/dac_8c.html#a1a05ede2ad100bf5de5dfa7ccdfa4397">NULL</a></td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../de/de7/structObject.html">Object</a>* D_8032CFC4 = <a class="el" href="../../dd/d53/exoquant_8c.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -15302,7 +15300,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../de/de7/structObject.html">Object</a>* D_8032CFD0 = <a class="el" href="../../de/d48/dac_8c.html#a1a05ede2ad100bf5de5dfa7ccdfa4397">NULL</a></td>
+          <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../de/de7/structObject.html">Object</a>* D_8032CFD0 = <a class="el" href="../../dd/d53/exoquant_8c.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -17828,8 +17826,7 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= {</div><div class="line">    <a class="code" href="../../de/d48/dac_8c.html#a1a05ede2ad100bf5de5dfa7ccdfa4397">NULL</a>,</div><div class="line">    <a class="code" href="../../d1/de0/camera_8c.html#a462a56605218b97c03c81275f1e29e96">CameraChange01</a>,</div><div class="line">    <a class="code" href="../../d1/de0/camera_8c.html#aba9414af49485a39d3b154dfda0b767b">CameraChange02</a>,</div><div class="line">    <a class="code" href="../../d1/de0/camera_8c.html#a209b49efe3edeacbaf55855a9f6797cf">CameraChange03</a>,</div><div class="line">    <a class="code" href="../../d1/de0/camera_8c.html#a35f6d5d0bc1d2dedf46cc482f4c2d21a">CameraChange040710</a>,</div><div class="line">    <a class="code" href="../../d1/de0/camera_8c.html#ae87739556c9cd87febbc3ccef274ebff">CameraChange05</a>,</div><div class="line">    <a class="code" href="../../d1/de0/camera_8c.html#aaca2b39b482dcbbef8d47318b5234561">CameraChange06</a>,</div><div class="line">    <a class="code" href="../../d1/de0/camera_8c.html#a35f6d5d0bc1d2dedf46cc482f4c2d21a">CameraChange040710</a>,</div><div class="line">    <a class="code" href="../../d1/de0/camera_8c.html#a8d8d27224e9d00c1e3e4b7c66bdd5f5a">CameraChange08</a>,</div><div class="line">    <a class="code" href="../../d1/de0/camera_8c.html#a610a8b6e6e946a0023f5d1bc65c8ca51">CameraChange090F</a>,</div><div class="line">    <a class="code" href="../../d1/de0/camera_8c.html#a0147e738caef99a8a1013cd29bca94f5">CameraChange0A</a>,</div><div class="line">    <a class="code" href="../../d1/de0/camera_8c.html#af256a2d682d2c2fb2444f65b0c792b0f">CameraChange0B</a>,</div><div class="line">    <a class="code" href="../../d1/de0/camera_8c.html#ad25fbfd5a80be280cfb3044522935b84">CameraChange0C</a>,</div><div class="line">    <a class="code" href="../../d1/de0/camera_8c.html#ac7d0ce63a2d55f13386ae054dec15cb0">CameraChange0D</a>,</div><div class="line">    <a class="code" href="../../d1/de0/camera_8c.html#a668173431150e5d11eb83cd7e18c6030">CameraChange0E</a>,</div><div class="line">    <a class="code" href="../../d1/de0/camera_8c.html#a610a8b6e6e946a0023f5d1bc65c8ca51">CameraChange090F</a>,</div><div class="line">    <a class="code" href="../../d1/de0/camera_8c.html#a35f6d5d0bc1d2dedf46cc482f4c2d21a">CameraChange040710</a>,</div><div class="line">    <a class="code" href="../../d1/de0/camera_8c.html#a56d820a896fa65a656dd0a9395c84eee">CameraChange11</a></div><div class="line">}</div><div class="ttc" id="dac_8c_html_a1a05ede2ad100bf5de5dfa7ccdfa4397"><div class="ttname"><a href="../../de/d48/dac_8c.html#a1a05ede2ad100bf5de5dfa7ccdfa4397">NULL</a></div><div class="ttdeci">return NULL</div><div class="ttdef"><b>Definition:</b> dac.c:756</div></div>
-<div class="ttc" id="camera_8c_html_aaca2b39b482dcbbef8d47318b5234561"><div class="ttname"><a href="../../d1/de0/camera_8c.html#aaca2b39b482dcbbef8d47318b5234561">CameraChange06</a></div><div class="ttdeci">s32 CameraChange06(struct LevelCamera *, Vec3f, Vec3f)</div></div>
+<b>Initial value:</b><div class="fragment"><div class="line">= {</div><div class="line">    <a class="code" href="../../dd/de5/mbi_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>,</div><div class="line">    <a class="code" href="../../d1/de0/camera_8c.html#a462a56605218b97c03c81275f1e29e96">CameraChange01</a>,</div><div class="line">    <a class="code" href="../../d1/de0/camera_8c.html#aba9414af49485a39d3b154dfda0b767b">CameraChange02</a>,</div><div class="line">    <a class="code" href="../../d1/de0/camera_8c.html#a209b49efe3edeacbaf55855a9f6797cf">CameraChange03</a>,</div><div class="line">    <a class="code" href="../../d1/de0/camera_8c.html#a35f6d5d0bc1d2dedf46cc482f4c2d21a">CameraChange040710</a>,</div><div class="line">    <a class="code" href="../../d1/de0/camera_8c.html#ae87739556c9cd87febbc3ccef274ebff">CameraChange05</a>,</div><div class="line">    <a class="code" href="../../d1/de0/camera_8c.html#aaca2b39b482dcbbef8d47318b5234561">CameraChange06</a>,</div><div class="line">    <a class="code" href="../../d1/de0/camera_8c.html#a35f6d5d0bc1d2dedf46cc482f4c2d21a">CameraChange040710</a>,</div><div class="line">    <a class="code" href="../../d1/de0/camera_8c.html#a8d8d27224e9d00c1e3e4b7c66bdd5f5a">CameraChange08</a>,</div><div class="line">    <a class="code" href="../../d1/de0/camera_8c.html#a610a8b6e6e946a0023f5d1bc65c8ca51">CameraChange090F</a>,</div><div class="line">    <a class="code" href="../../d1/de0/camera_8c.html#a0147e738caef99a8a1013cd29bca94f5">CameraChange0A</a>,</div><div class="line">    <a class="code" href="../../d1/de0/camera_8c.html#af256a2d682d2c2fb2444f65b0c792b0f">CameraChange0B</a>,</div><div class="line">    <a class="code" href="../../d1/de0/camera_8c.html#ad25fbfd5a80be280cfb3044522935b84">CameraChange0C</a>,</div><div class="line">    <a class="code" href="../../d1/de0/camera_8c.html#ac7d0ce63a2d55f13386ae054dec15cb0">CameraChange0D</a>,</div><div class="line">    <a class="code" href="../../d1/de0/camera_8c.html#a668173431150e5d11eb83cd7e18c6030">CameraChange0E</a>,</div><div class="line">    <a class="code" href="../../d1/de0/camera_8c.html#a610a8b6e6e946a0023f5d1bc65c8ca51">CameraChange090F</a>,</div><div class="line">    <a class="code" href="../../d1/de0/camera_8c.html#a35f6d5d0bc1d2dedf46cc482f4c2d21a">CameraChange040710</a>,</div><div class="line">    <a class="code" href="../../d1/de0/camera_8c.html#a56d820a896fa65a656dd0a9395c84eee">CameraChange11</a></div><div class="line">}</div><div class="ttc" id="camera_8c_html_aaca2b39b482dcbbef8d47318b5234561"><div class="ttname"><a href="../../d1/de0/camera_8c.html#aaca2b39b482dcbbef8d47318b5234561">CameraChange06</a></div><div class="ttdeci">s32 CameraChange06(struct LevelCamera *, Vec3f, Vec3f)</div></div>
 <div class="ttc" id="camera_8c_html_a462a56605218b97c03c81275f1e29e96"><div class="ttname"><a href="../../d1/de0/camera_8c.html#a462a56605218b97c03c81275f1e29e96">CameraChange01</a></div><div class="ttdeci">s32 CameraChange01(struct LevelCamera *, Vec3f, Vec3f)</div><div class="ttdef"><b>Definition:</b> camera.c:524</div></div>
 <div class="ttc" id="camera_8c_html_a668173431150e5d11eb83cd7e18c6030"><div class="ttname"><a href="../../d1/de0/camera_8c.html#a668173431150e5d11eb83cd7e18c6030">CameraChange0E</a></div><div class="ttdeci">s32 CameraChange0E(struct LevelCamera *, Vec3f, Vec3f)</div><div class="ttdef"><b>Definition:</b> camera.c:546</div></div>
 <div class="ttc" id="camera_8c_html_ad25fbfd5a80be280cfb3044522935b84"><div class="ttname"><a href="../../d1/de0/camera_8c.html#ad25fbfd5a80be280cfb3044522935b84">CameraChange0C</a></div><div class="ttdeci">s32 CameraChange0C(struct LevelCamera *, Vec3f, Vec3f)</div><div class="ttdef"><b>Definition:</b> camera.c:816</div></div>
@@ -17841,6 +17838,7 @@ Variables</h2></td></tr>
 <div class="ttc" id="camera_8c_html_a8d8d27224e9d00c1e3e4b7c66bdd5f5a"><div class="ttname"><a href="../../d1/de0/camera_8c.html#a8d8d27224e9d00c1e3e4b7c66bdd5f5a">CameraChange08</a></div><div class="ttdeci">s32 CameraChange08(struct LevelCamera *, Vec3f, Vec3f)</div></div>
 <div class="ttc" id="camera_8c_html_a0147e738caef99a8a1013cd29bca94f5"><div class="ttname"><a href="../../d1/de0/camera_8c.html#a0147e738caef99a8a1013cd29bca94f5">CameraChange0A</a></div><div class="ttdeci">s32 CameraChange0A(struct LevelCamera *, Vec3f, Vec3f)</div></div>
 <div class="ttc" id="camera_8c_html_af256a2d682d2c2fb2444f65b0c792b0f"><div class="ttname"><a href="../../d1/de0/camera_8c.html#af256a2d682d2c2fb2444f65b0c792b0f">CameraChange0B</a></div><div class="ttdeci">s32 CameraChange0B(struct LevelCamera *, Vec3f, Vec3f)</div><div class="ttdef"><b>Definition:</b> camera.c:1045</div></div>
+<div class="ttc" id="mbi_8h_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../dd/de5/mbi_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> mbi.h:101</div></div>
 <div class="ttc" id="camera_8c_html_a610a8b6e6e946a0023f5d1bc65c8ca51"><div class="ttname"><a href="../../d1/de0/camera_8c.html#a610a8b6e6e946a0023f5d1bc65c8ca51">CameraChange090F</a></div><div class="ttdeci">s32 CameraChange090F(struct LevelCamera *, Vec3f, Vec3f)</div></div>
 <div class="ttc" id="camera_8c_html_ac7d0ce63a2d55f13386ae054dec15cb0"><div class="ttname"><a href="../../d1/de0/camera_8c.html#ac7d0ce63a2d55f13386ae054dec15cb0">CameraChange0D</a></div><div class="ttdeci">s32 CameraChange0D(struct LevelCamera *, Vec3f, Vec3f)</div></div>
 </div><!-- fragment -->

@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['kb',['KB',['../d5/d60/utils_8h.html#a1841fd1a462d245d8c73dce55e2f45da',1,'utils.h']]],
+  ['kb',['KB',['../d9/d34/n64graphics__ci__dir_2utils_8h.html#a1841fd1a462d245d8c73dce55e2f45da',1,'KB():&#160;utils.h'],['../d5/d60/utils_8h.html#a1841fd1a462d245d8c73dce55e2f45da',1,'KB():&#160;utils.h']]],
   ['klepto_5fact_5fapproach_5ftarget_5fholding',['KLEPTO_ACT_APPROACH_TARGET_HOLDING',['../dd/dd3/object__constants_8h.html#a99f693b20ced6d59956da71c38eaf944',1,'object_constants.h']]],
   ['klepto_5fact_5fcircle_5ftarget_5fholding',['KLEPTO_ACT_CIRCLE_TARGET_HOLDING',['../dd/dd3/object__constants_8h.html#aa535bbe589cf80ba3fde61746e2f5a5d',1,'object_constants.h']]],
   ['klepto_5fact_5fdive_5fat_5fmario',['KLEPTO_ACT_DIVE_AT_MARIO',['../dd/dd3/object__constants_8h.html#a9d9ab8fe4be5c3e3cca4f50711a1ff34',1,'object_constants.h']]],

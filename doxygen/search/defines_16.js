@@ -35,6 +35,6 @@ var searchData=
   ['vi_5fx_5fscale_5freg',['VI_X_SCALE_REG',['../d7/de1/hardware_8h.html#a6ddd799f7135fd0d9195166d8d04f6ed',1,'hardware.h']]],
   ['vi_5fy_5fscale_5freg',['VI_Y_SCALE_REG',['../d7/de1/hardware_8h.html#a38ee0ea45ba06bb669cdbd889a7672cc',1,'hardware.h']]],
   ['virtual_5fto_5fphysical',['VIRTUAL_TO_PHYSICAL',['../d5/dd8/sm64_8h.html#af0a1d439c0dd0d6ceb64be64f1650bbc',1,'sm64.h']]],
-  ['vtx_5fbuf_5fsz',['VTX_BUF_SZ',['../d3/df9/dynlist__proc_8c.html#a0b2e1a63fb91e52d9cdc8d9c56c9c3cc',1,'dynlist_proc.c']]],
+  ['vtx_5fbuf_5fsize',['VTX_BUF_SIZE',['../d3/df9/dynlist__proc_8c.html#a36f517f9ab0a68409e5ed0201b3138a0',1,'dynlist_proc.c']]],
   ['vtx_5fnum',['VTX_NUM',['../d1/d1a/dynlist__mario__face_8c.html#a7d78164f8b4e8e30235ce4f02a83da73',1,'VTX_NUM():&#160;dynlist_mario_face.c'],['../d7/d46/dynlists__mario__eyebrows__mustache_8c.html#a7d78164f8b4e8e30235ce4f02a83da73',1,'VTX_NUM():&#160;dynlists_mario_eyebrows_mustache.c'],['../d7/d46/dynlists__mario__eyebrows__mustache_8c.html#a7d78164f8b4e8e30235ce4f02a83da73',1,'VTX_NUM():&#160;dynlists_mario_eyebrows_mustache.c'],['../d7/d46/dynlists__mario__eyebrows__mustache_8c.html#a7d78164f8b4e8e30235ce4f02a83da73',1,'VTX_NUM():&#160;dynlists_mario_eyebrows_mustache.c'],['../d9/d66/dynlists__mario__eyes_8c.html#a7d78164f8b4e8e30235ce4f02a83da73',1,'VTX_NUM():&#160;dynlists_mario_eyes.c'],['../d9/d66/dynlists__mario__eyes_8c.html#a7d78164f8b4e8e30235ce4f02a83da73',1,'VTX_NUM():&#160;dynlists_mario_eyes.c']]]
 ];

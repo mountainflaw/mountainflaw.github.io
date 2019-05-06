@@ -115,7 +115,7 @@ Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
 <tr class="memitem:aa6c8ae310d731cc9d04ff34cdc6e099a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/d8e/structObjectHitbox.html">ObjectHitbox</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/de3/goomba_8inc_8c.html#aa6c8ae310d731cc9d04ff34cdc6e099a">sGoombaHitbox</a></td></tr>
-<tr class="memdesc:aa6c8ae310d731cc9d04ff34cdc6e099a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Behavior for bGoomba and bGoombaTripletSpawner, Goombas can either be spawned individually, or spawned by a triplet spawner.  <a href="#aa6c8ae310d731cc9d04ff34cdc6e099a">More...</a><br /></td></tr>
+<tr class="memdesc:aa6c8ae310d731cc9d04ff34cdc6e099a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Behavior for bhvGoomba and bhvGoombaTripletSpawner, Goombas can either be spawned individually, or spawned by a triplet spawner.  <a href="#aa6c8ae310d731cc9d04ff34cdc6e099a">More...</a><br /></td></tr>
 <tr class="separator:aa6c8ae310d731cc9d04ff34cdc6e099a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a198858f0366d6cf96ecde17842cab604"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d1/dfd/structGoombaProperties.html">GoombaProperties</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/de3/goomba_8inc_8c.html#a198858f0366d6cf96ecde17842cab604">sGoombaProperties</a> []</td></tr>
 <tr class="memdesc:a198858f0366d6cf96ecde17842cab604"><td class="mdescLeft">&#160;</td><td class="mdescRight">Properties for regular, huge, and tiny goombas.  <a href="#a198858f0366d6cf96ecde17842cab604">More...</a><br /></td></tr>
@@ -182,6 +182,7 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Update function for goomba. </p>
+<dl class="bug"><dt><b><a class="el" href="../../de/da5/bug.html#_bug000001">Bug:</a></b></dt><dd>Weak attacks on huge goombas in a triplet mark them as dead even if they're not. </dd></dl>
 
 </div>
 </div>
@@ -402,7 +403,7 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">=</div><div class="line">{</div><div class="line">     <a class="code" href="../../da/d85/interaction_8h.html#ade6c4ee7ed876f22d79ece3844297c5a">INTERACT_BOUNCE_TOP</a>,</div><div class="line">     0,</div><div class="line">     1,</div><div class="line">     0,</div><div class="line">     1,</div><div class="line">     72,</div><div class="line">     50,</div><div class="line">     42,</div><div class="line">     40,</div><div class="line">}</div><div class="ttc" id="interaction_8h_html_ade6c4ee7ed876f22d79ece3844297c5a"><div class="ttname"><a href="../../da/d85/interaction_8h.html#ade6c4ee7ed876f22d79ece3844297c5a">INTERACT_BOUNCE_TOP</a></div><div class="ttdeci">#define INTERACT_BOUNCE_TOP</div><div class="ttdef"><b>Definition:</b> interaction.h:21</div></div>
 </div><!-- fragment -->
-<p>Behavior for bGoomba and bGoombaTripletSpawner, Goombas can either be spawned individually, or spawned by a triplet spawner. </p>
+<p>Behavior for bhvGoomba and bhvGoombaTripletSpawner, Goombas can either be spawned individually, or spawned by a triplet spawner. </p>
 <p>The triplet spawner comes before its spawned goombas in processing order. Hitbox for goomba. </p>
 
 </div>
@@ -426,8 +427,8 @@ Variables</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">=</div><div class="line">{</div><div class="line">    { 1.5f, <a class="code" href="../../d2/d99/audio__defines_8h.html#a9eb93a1d9bc3d152576a37ac3614570d">SOUND_OBJECT_ENEMYDEATHHIGH</a>, 4000, 1 },</div><div class="line">    { 3.5f, <a class="code" href="../../d2/d99/audio__defines_8h.html#adb72383179d95de92d904b4b70c1f7ca">SOUND_OBJECT_ENEMYDEATHLOW</a>, 4000, 2 },</div><div class="line">    { 0.5f, <a class="code" href="../../d2/d99/audio__defines_8h.html#a9eb93a1d9bc3d152576a37ac3614570d">SOUND_OBJECT_ENEMYDEATHHIGH</a>, 1500, 0 },</div><div class="line">}</div><div class="ttc" id="audio__defines_8h_html_a9eb93a1d9bc3d152576a37ac3614570d"><div class="ttname"><a href="../../d2/d99/audio__defines_8h.html#a9eb93a1d9bc3d152576a37ac3614570d">SOUND_OBJECT_ENEMYDEATHHIGH</a></div><div class="ttdeci">#define SOUND_OBJECT_ENEMYDEATHHIGH</div><div class="ttdef"><b>Definition:</b> audio_defines.h:487</div></div>
-<div class="ttc" id="audio__defines_8h_html_adb72383179d95de92d904b4b70c1f7ca"><div class="ttname"><a href="../../d2/d99/audio__defines_8h.html#adb72383179d95de92d904b4b70c1f7ca">SOUND_OBJECT_ENEMYDEATHLOW</a></div><div class="ttdeci">#define SOUND_OBJECT_ENEMYDEATHLOW</div><div class="ttdef"><b>Definition:</b> audio_defines.h:488</div></div>
+<b>Initial value:</b><div class="fragment"><div class="line">=</div><div class="line">{</div><div class="line">    { 1.5f, <a class="code" href="../../d2/d99/audio__defines_8h.html#a9eb93a1d9bc3d152576a37ac3614570d">SOUND_OBJECT_ENEMYDEATHHIGH</a>, 4000, 1 },</div><div class="line">    { 3.5f, <a class="code" href="../../d2/d99/audio__defines_8h.html#adb72383179d95de92d904b4b70c1f7ca">SOUND_OBJECT_ENEMYDEATHLOW</a>, 4000, 2 },</div><div class="line">    { 0.5f, <a class="code" href="../../d2/d99/audio__defines_8h.html#a9eb93a1d9bc3d152576a37ac3614570d">SOUND_OBJECT_ENEMYDEATHHIGH</a>, 1500, 0 },</div><div class="line">}</div><div class="ttc" id="audio__defines_8h_html_a9eb93a1d9bc3d152576a37ac3614570d"><div class="ttname"><a href="../../d2/d99/audio__defines_8h.html#a9eb93a1d9bc3d152576a37ac3614570d">SOUND_OBJECT_ENEMYDEATHHIGH</a></div><div class="ttdeci">#define SOUND_OBJECT_ENEMYDEATHHIGH</div><div class="ttdef"><b>Definition:</b> audio_defines.h:513</div></div>
+<div class="ttc" id="audio__defines_8h_html_adb72383179d95de92d904b4b70c1f7ca"><div class="ttname"><a href="../../d2/d99/audio__defines_8h.html#adb72383179d95de92d904b4b70c1f7ca">SOUND_OBJECT_ENEMYDEATHLOW</a></div><div class="ttdeci">#define SOUND_OBJECT_ENEMYDEATHLOW</div><div class="ttdef"><b>Definition:</b> audio_defines.h:514</div></div>
 </div><!-- fragment -->
 <p>Properties for regular, huge, and tiny goombas. </p>
 

@@ -42,6 +42,10 @@ var searchData=
   ['water_5fbomb_5fact_5fexplode',['WATER_BOMB_ACT_EXPLODE',['../dd/dd3/object__constants_8h.html#a7eec6ffe63e4662fd1f3412db85ac9f1',1,'object_constants.h']]],
   ['water_5fbomb_5fact_5finit',['WATER_BOMB_ACT_INIT',['../dd/dd3/object__constants_8h.html#a3d540860e8217dcc12540ea467c0dc61',1,'object_constants.h']]],
   ['water_5fbomb_5fact_5fshot_5ffrom_5fcannon',['WATER_BOMB_ACT_SHOT_FROM_CANNON',['../dd/dd3/object__constants_8h.html#aac12f81def195be75fb55ecedfd19b16',1,'object_constants.h']]],
+  ['water_5flevel_5fdiamond_5fact_5fchange_5fwater_5flevel',['WATER_LEVEL_DIAMOND_ACT_CHANGE_WATER_LEVEL',['../dd/dd3/object__constants_8h.html#a0801a4fde5686c46c9aabb53a4830e8d',1,'object_constants.h']]],
+  ['water_5flevel_5fdiamond_5fact_5fidle',['WATER_LEVEL_DIAMOND_ACT_IDLE',['../dd/dd3/object__constants_8h.html#af3f6547a37d6dd0bc3517c51dd5ef85c',1,'object_constants.h']]],
+  ['water_5flevel_5fdiamond_5fact_5fidle_5fspinning',['WATER_LEVEL_DIAMOND_ACT_IDLE_SPINNING',['../dd/dd3/object__constants_8h.html#a28bed5cb2265a0b5abd1c8edc70adf34',1,'object_constants.h']]],
+  ['water_5flevel_5fdiamond_5fact_5finit',['WATER_LEVEL_DIAMOND_ACT_INIT',['../dd/dd3/object__constants_8h.html#a00e4fb28e416d17c37784273b5c35ace',1,'object_constants.h']]],
   ['water_5fring_5fact_5fcollected',['WATER_RING_ACT_COLLECTED',['../dd/dd3/object__constants_8h.html#acdd2a3a7dca4e4692a2ed073d27fb86b',1,'object_constants.h']]],
   ['water_5fring_5fact_5fnot_5fcollected',['WATER_RING_ACT_NOT_COLLECTED',['../dd/dd3/object__constants_8h.html#a355208a45eaa355c2be62c25be839edf',1,'object_constants.h']]],
   ['water_5fsplash_5fflag_5frand_5fangle',['WATER_SPLASH_FLAG_RAND_ANGLE',['../d3/dc7/object__helpers_8h.html#a309832c23fd47dec64e8a757f17fffee',1,'object_helpers.h']]],
@@ -75,6 +79,6 @@ var searchData=
   ['wiggler_5ftext_5fstatus_5fcompleted_5fdialogue',['WIGGLER_TEXT_STATUS_COMPLETED_DIALOGUE',['../dd/dd3/object__constants_8h.html#ac7448a7c42b9be3d977c671a4cfc5ecd',1,'object_constants.h']]],
   ['wiggler_5ftext_5fstatus_5fshowing_5fdialogue',['WIGGLER_TEXT_STATUS_SHOWING_DIALOGUE',['../dd/dd3/object__constants_8h.html#a0a5656571fe29962721bb72f239c6fe2',1,'object_constants.h']]],
   ['wooden_5fpost_5fbp_5fno_5fcoins_5fmask',['WOODEN_POST_BP_NO_COINS_MASK',['../dd/dd3/object__constants_8h.html#a825d2a6e689120182a80268295917c89',1,'object_constants.h']]],
-  ['write_5fu16_5fbe',['write_u16_be',['../d5/d60/utils_8h.html#a2e8078f954970ad2a2e2b3eae281ac1c',1,'utils.h']]],
-  ['write_5fu32_5fbe',['write_u32_be',['../d5/d60/utils_8h.html#a976d2bd4d23d61ee62396dfc7b3f2f64',1,'utils.h']]]
+  ['write_5fu16_5fbe',['write_u16_be',['../d9/d34/n64graphics__ci__dir_2utils_8h.html#a2e8078f954970ad2a2e2b3eae281ac1c',1,'write_u16_be():&#160;utils.h'],['../d5/d60/utils_8h.html#a2e8078f954970ad2a2e2b3eae281ac1c',1,'write_u16_be():&#160;utils.h']]],
+  ['write_5fu32_5fbe',['write_u32_be',['../d9/d34/n64graphics__ci__dir_2utils_8h.html#a976d2bd4d23d61ee62396dfc7b3f2f64',1,'write_u32_be():&#160;utils.h'],['../d5/d60/utils_8h.html#a976d2bd4d23d61ee62396dfc7b3f2f64',1,'write_u32_be():&#160;utils.h']]]
 ];

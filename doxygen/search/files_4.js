@@ -10,6 +10,7 @@ var searchData=
   ['debug_2ec',['debug.c',['../d1/d72/debug_8c.html',1,'']]],
   ['debug_2eh',['debug.h',['../db/d16/debug_8h.html',1,'']]],
   ['debug_5fcourse_2ec',['debug_course.c',['../d6/dfd/debug__course_8c.html',1,'']]],
+  ['debug_5fcourse_2eh',['debug_course.h',['../db/d2d/debug__course_8h.html',1,'']]],
   ['decompress_2eh',['decompress.h',['../d9/d77/decompress_8h.html',1,'']]],
   ['display_2ec',['display.c',['../db/d85/display_8c.html',1,'']]],
   ['display_2eh',['display.h',['../d4/d68/display_8h.html',1,'']]],

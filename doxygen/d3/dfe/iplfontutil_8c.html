@@ -98,9 +98,9 @@ Macros</h2></td></tr>
 <tr class="separator:aefe397a94e8feddc652f92ef40ce9597"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a18372412ad2fc3ce1e3240b3cf0efe78"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dfe/iplfontutil_8c.html#a18372412ad2fc3ce1e3240b3cf0efe78">STB_IMAGE_IMPLEMENTATION</a></td></tr>
 <tr class="separator:a18372412ad2fc3ce1e3240b3cf0efe78"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1efeafe3b17ac7617ae7d0a59838dc7d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dfe/iplfontutil_8c.html#a1efeafe3b17ac7617ae7d0a59838dc7d">GETBIT</a>(<a class="el" href="../../d8/d51/dma_8c.html#a90fb543e9ed9788949d8fc120faa61a3">buf</a>,  idx)&#160;&#160;&#160;((<a class="el" href="../../d8/d51/dma_8c.html#a90fb543e9ed9788949d8fc120faa61a3">buf</a>[(idx)/8] &gt;&gt; (7-((idx)%8))) &amp; 1)</td></tr>
+<tr class="memitem:a1efeafe3b17ac7617ae7d0a59838dc7d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dfe/iplfontutil_8c.html#a1efeafe3b17ac7617ae7d0a59838dc7d">GETBIT</a>(buf,  idx)&#160;&#160;&#160;((buf[(idx)/8] &gt;&gt; (7-((idx)%8))) &amp; 1)</td></tr>
 <tr class="separator:a1efeafe3b17ac7617ae7d0a59838dc7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a414a4b2dff48d0880c0daeafe5a10ff8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dfe/iplfontutil_8c.html#a414a4b2dff48d0880c0daeafe5a10ff8">SETBIT</a>(<a class="el" href="../../d8/d51/dma_8c.html#a90fb543e9ed9788949d8fc120faa61a3">buf</a>,  idx)&#160;&#160;&#160;<a class="el" href="../../d8/d51/dma_8c.html#a90fb543e9ed9788949d8fc120faa61a3">buf</a>[(idx)/8] |= (1 &lt;&lt; (7-((idx)%8)))</td></tr>
+<tr class="memitem:a414a4b2dff48d0880c0daeafe5a10ff8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dfe/iplfontutil_8c.html#a414a4b2dff48d0880c0daeafe5a10ff8">SETBIT</a>(buf,  idx)&#160;&#160;&#160;buf[(idx)/8] |= (1 &lt;&lt; (7-((idx)%8)))</td></tr>
 <tr class="separator:a414a4b2dff48d0880c0daeafe5a10ff8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a17457e7a07e8546ace556e5ec26d64f0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dfe/iplfontutil_8c.html#a17457e7a07e8546ace556e5ec26d64f0">IPL3_FONT_NCHARS</a>&#160;&#160;&#160;50</td></tr>
 <tr class="separator:a17457e7a07e8546ace556e5ec26d64f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -137,7 +137,7 @@ Functions</h2></td></tr>
           <td class="memname">#define GETBIT</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="../../d8/d51/dma_8c.html#a90fb543e9ed9788949d8fc120faa61a3">buf</a>, </td>
+          <td class="paramname">buf, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -148,7 +148,7 @@ Functions</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;((<a class="el" href="../../d8/d51/dma_8c.html#a90fb543e9ed9788949d8fc120faa61a3">buf</a>[(idx)/8] &gt;&gt; (7-((idx)%8))) &amp; 1)</td>
+          <td></td><td>&#160;&#160;&#160;((buf[(idx)/8] &gt;&gt; (7-((idx)%8))) &amp; 1)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -263,7 +263,7 @@ Functions</h2></td></tr>
           <td class="memname">#define SETBIT</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="../../d8/d51/dma_8c.html#a90fb543e9ed9788949d8fc120faa61a3">buf</a>, </td>
+          <td class="paramname">buf, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -274,7 +274,7 @@ Functions</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;<a class="el" href="../../d8/d51/dma_8c.html#a90fb543e9ed9788949d8fc120faa61a3">buf</a>[(idx)/8] |= (1 &lt;&lt; (7-((idx)%8)))</td>
+          <td></td><td>&#160;&#160;&#160;buf[(idx)/8] |= (1 &lt;&lt; (7-((idx)%8)))</td>
         </tr>
       </table>
 </div><div class="memdoc">

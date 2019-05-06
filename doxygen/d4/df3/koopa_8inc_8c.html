@@ -169,13 +169,13 @@ Functions</h2></td></tr>
 <tr class="memdesc:a2d770e2125adecf47930d2e4a5b491d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update function.  <a href="#a2d770e2125adecf47930d2e4a5b491d1">More...</a><br /></td></tr>
 <tr class="separator:a2d770e2125adecf47930d2e4a5b491d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae21ebfe538a044b91b84d206bf620eb5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/df3/koopa_8inc_8c.html#ae21ebfe538a044b91b84d206bf620eb5">bhv_koopa_race_endpoint_update</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>)</td></tr>
-<tr class="memdesc:ae21ebfe538a044b91b84d206bf620eb5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update function for bKoopaRaceEndpoint.  <a href="#ae21ebfe538a044b91b84d206bf620eb5">More...</a><br /></td></tr>
+<tr class="memdesc:ae21ebfe538a044b91b84d206bf620eb5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update function for bhvKoopaRaceEndpoint.  <a href="#ae21ebfe538a044b91b84d206bf620eb5">More...</a><br /></td></tr>
 <tr class="separator:ae21ebfe538a044b91b84d206bf620eb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
 <tr class="memitem:a01e4542c27ec8fc292234bfc7aae4a9f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/d8e/structObjectHitbox.html">ObjectHitbox</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/df3/koopa_8inc_8c.html#a01e4542c27ec8fc292234bfc7aae4a9f">sKoopaHitbox</a></td></tr>
-<tr class="memdesc:a01e4542c27ec8fc292234bfc7aae4a9f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Behavior for bKoopa and bKoopaRaceEndpoint.  <a href="#a01e4542c27ec8fc292234bfc7aae4a9f">More...</a><br /></td></tr>
+<tr class="memdesc:a01e4542c27ec8fc292234bfc7aae4a9f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Behavior for bhvKoopa and bhvKoopaRaceEndpoint.  <a href="#a01e4542c27ec8fc292234bfc7aae4a9f">More...</a><br /></td></tr>
 <tr class="separator:a01e4542c27ec8fc292234bfc7aae4a9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a17aee0ff27fd61375300435357c8154a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../dd/da7/ultratypes_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/df3/koopa_8inc_8c.html#a17aee0ff27fd61375300435357c8154a">sKoopaUnshelledAttackHandlers</a> []</td></tr>
 <tr class="memdesc:a17aee0ff27fd61375300435357c8154a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attack handlers for unshelled koopa and tiny shelled koopa.  <a href="#a17aee0ff27fd61375300435357c8154a">More...</a><br /></td></tr>
@@ -224,7 +224,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Update function for bKoopaRaceEndpoint. </p>
+<p>Update function for bhvKoopaRaceEndpoint. </p>
 
 </div>
 </div>
@@ -1008,8 +1008,8 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">=</div><div class="line">{</div><div class="line">     <a class="code" href="../../da/d85/interaction_8h.html#a05dac46a33e8c235021c0e1528112e52">INTERACT_KOOPA</a>,</div><div class="line">     0,</div><div class="line">     0,</div><div class="line">     0,</div><div class="line">     -1,</div><div class="line">     60,</div><div class="line">     40,</div><div class="line">     40,</div><div class="line">     30,</div><div class="line">}</div><div class="ttc" id="interaction_8h_html_a05dac46a33e8c235021c0e1528112e52"><div class="ttname"><a href="../../da/d85/interaction_8h.html#a05dac46a33e8c235021c0e1528112e52">INTERACT_KOOPA</a></div><div class="ttdeci">#define INTERACT_KOOPA</div><div class="ttdef"><b>Definition:</b> interaction.h:13</div></div>
 </div><!-- fragment -->
-<p>Behavior for bKoopa and bKoopaRaceEndpoint. </p>
-<p>bKoopa includes normal, unshelled, tiny, and Koopa the Quick. When the race begins, koopa the quick sets his parent to bKoopaRaceEndpoint which assists in determining the state of the race. It is positioned at the flag. Hitbox for koopa - this is used for every form except Koopa the Quick, which uses a hardcoded soft hitbox. </p>
+<p>Behavior for bhvKoopa and bhvKoopaRaceEndpoint. </p>
+<p>bhvKoopa includes normal, unshelled, tiny, and Koopa the Quick. When the race begins, koopa the quick sets his parent to bhvKoopaRaceEndpoint which assists in determining the state of the race. It is positioned at the flag. Hitbox for koopa - this is used for every form except Koopa the Quick, which uses a hardcoded soft hitbox. </p>
 
 </div>
 </div>

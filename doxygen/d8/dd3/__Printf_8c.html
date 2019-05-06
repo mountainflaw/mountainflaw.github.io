@@ -82,11 +82,11 @@ $(function() {
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:aebab167b5338849aa942f73732bfece2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd3/__Printf_8c.html#aebab167b5338849aa942f73732bfece2">ATOI</a>(<a class="el" href="../../d0/d75/something_8c.html#a7ec87d74df43b901c45d11e475d78a60">i</a>,  <a class="el" href="../../d9/d0b/err_8english_8cc.html#a812e69332e4b56fafe227a3a1b78cf18">a</a>)</td></tr>
+<tr class="memitem:aebab167b5338849aa942f73732bfece2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd3/__Printf_8c.html#aebab167b5338849aa942f73732bfece2">ATOI</a>(i,  <a class="el" href="../../d9/d0b/err_8english_8cc.html#a812e69332e4b56fafe227a3a1b78cf18">a</a>)</td></tr>
 <tr class="separator:aebab167b5338849aa942f73732bfece2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae2bc8b7a49a07ccb955c3ea5a3c60cdf"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd3/__Printf_8c.html#ae2bc8b7a49a07ccb955c3ea5a3c60cdf">_PROUT</a>(dst,  fmt,  _size)</td></tr>
 <tr class="separator:ae2bc8b7a49a07ccb955c3ea5a3c60cdf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5a33028196be271f183bd8aff867d897"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd3/__Printf_8c.html#a5a33028196be271f183bd8aff867d897">_PAD</a>(<a class="el" href="../../d0/d75/something_8c.html#a7ec87d74df43b901c45d11e475d78a60">i</a>,  m,  c,  src,  extracond)</td></tr>
+<tr class="memitem:a5a33028196be271f183bd8aff867d897"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd3/__Printf_8c.html#a5a33028196be271f183bd8aff867d897">_PAD</a>(i,  m,  c,  src,  extracond)</td></tr>
 <tr class="separator:a5a33028196be271f183bd8aff867d897"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
@@ -120,7 +120,7 @@ Variables</h2></td></tr>
           <td class="memname">#define _PAD</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="../../d0/d75/something_8c.html#a7ec87d74df43b901c45d11e475d78a60">i</a>, </td>
+          <td class="paramname">i, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -153,8 +153,7 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"><span class="keywordflow">if</span> (extracond &amp;&amp; m &gt; 0)           \</div><div class="line">        for (<a class="code" href="../../d0/d75/something_8c.html#a7ec87d74df43b901c45d11e475d78a60">i</a> = m; <a class="code" href="../../d0/d75/something_8c.html#a7ec87d74df43b901c45d11e475d78a60">i</a> &gt; 0; <a class="code" href="../../d0/d75/something_8c.html#a7ec87d74df43b901c45d11e475d78a60">i</a> -= c)    \</div><div class="line">        {                             \</div><div class="line">            if ((<a class="code" href="../../dd/da7/ultratypes_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a>)<a class="code" href="../../d0/d75/something_8c.html#a7ec87d74df43b901c45d11e475d78a60">i</a> &gt; 32)          \</div><div class="line">                c = 32;               \</div><div class="line">            else                      \</div><div class="line">                c = <a class="code" href="../../d0/d75/something_8c.html#a7ec87d74df43b901c45d11e475d78a60">i</a>;                \</div><div class="line">            _PROUT(dst, src, c);      \</div><div class="line">        }</div><div class="ttc" id="something_8c_html_a7ec87d74df43b901c45d11e475d78a60"><div class="ttname"><a href="../../d0/d75/something_8c.html#a7ec87d74df43b901c45d11e475d78a60">i</a></div><div class="ttdeci">s32 i</div><div class="ttdef"><b>Definition:</b> something.c:2069</div></div>
-<div class="ttc" id="ultratypes_8h_html_a10e94b422ef0c20dcdec20d31a1f5049"><div class="ttname"><a href="../../dd/da7/ultratypes_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a></div><div class="ttdeci">unsigned int u32</div><div class="ttdef"><b>Definition:</b> ultratypes.h:16</div></div>
+<b>Value:</b><div class="fragment"><div class="line"><span class="keywordflow">if</span> (extracond &amp;&amp; m &gt; 0)           \</div><div class="line">        for (i = m; i &gt; 0; i -= c)    \</div><div class="line">        {                             \</div><div class="line">            if ((<a class="code" href="../../dd/da7/ultratypes_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a>)i &gt; 32)          \</div><div class="line">                c = 32;               \</div><div class="line">            else                      \</div><div class="line">                c = i;                \</div><div class="line">            _PROUT(dst, src, c);      \</div><div class="line">        }</div><div class="ttc" id="ultratypes_8h_html_a10e94b422ef0c20dcdec20d31a1f5049"><div class="ttname"><a href="../../dd/da7/ultratypes_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a></div><div class="ttdeci">unsigned int u32</div><div class="ttdef"><b>Definition:</b> ultratypes.h:16</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -202,7 +201,7 @@ Variables</h2></td></tr>
           <td class="memname">#define ATOI</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="../../d0/d75/something_8c.html#a7ec87d74df43b901c45d11e475d78a60">i</a>, </td>
+          <td class="paramname">i, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -217,8 +216,7 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"><span class="keywordflow">for</span> (<a class="code" href="../../d0/d75/something_8c.html#a7ec87d74df43b901c45d11e475d78a60">i</a> = 0; *<a class="code" href="../../d9/d0b/err_8english_8cc.html#a94eb816e27f68e8e043135af829de926">a</a> &gt;= <span class="charliteral">&#39;0&#39;</span> &amp;&amp; *<a class="code" href="../../d9/d0b/err_8english_8cc.html#a94eb816e27f68e8e043135af829de926">a</a> &lt;= <span class="charliteral">&#39;9&#39;</span>; <a class="code" href="../../d9/d0b/err_8english_8cc.html#a94eb816e27f68e8e043135af829de926">a</a>++) \</div><div class="line">        <span class="keywordflow">if</span> (<a class="code" href="../../d0/d75/something_8c.html#a7ec87d74df43b901c45d11e475d78a60">i</a> &lt; 999)                         \</div><div class="line">            i = *<a class="code" href="../../d9/d0b/err_8english_8cc.html#a94eb816e27f68e8e043135af829de926">a</a> + <a class="code" href="../../d0/d75/something_8c.html#a7ec87d74df43b901c45d11e475d78a60">i</a> * 10 - <span class="charliteral">&#39;0&#39;</span>;</div><div class="ttc" id="something_8c_html_a7ec87d74df43b901c45d11e475d78a60"><div class="ttname"><a href="../../d0/d75/something_8c.html#a7ec87d74df43b901c45d11e475d78a60">i</a></div><div class="ttdeci">s32 i</div><div class="ttdef"><b>Definition:</b> something.c:2069</div></div>
-<div class="ttc" id="err_8english_8cc_html_a94eb816e27f68e8e043135af829de926"><div class="ttname"><a href="../../d9/d0b/err_8english_8cc.html#a94eb816e27f68e8e043135af829de926">a</a></div><div class="ttdeci">at end of structure union member declaration In standard C each member declaration must be terminated by a</div><div class="ttdef"><b>Definition:</b> err.english.cc:690</div></div>
+<b>Value:</b><div class="fragment"><div class="line"><span class="keywordflow">for</span> (i = 0; *<a class="code" href="../../d9/d0b/err_8english_8cc.html#a94eb816e27f68e8e043135af829de926">a</a> &gt;= <span class="charliteral">&#39;0&#39;</span> &amp;&amp; *<a class="code" href="../../d9/d0b/err_8english_8cc.html#a94eb816e27f68e8e043135af829de926">a</a> &lt;= <span class="charliteral">&#39;9&#39;</span>; <a class="code" href="../../d9/d0b/err_8english_8cc.html#a94eb816e27f68e8e043135af829de926">a</a>++) \</div><div class="line">        <span class="keywordflow">if</span> (i &lt; 999)                         \</div><div class="line">            i = *<a class="code" href="../../d9/d0b/err_8english_8cc.html#a94eb816e27f68e8e043135af829de926">a</a> + i * 10 - <span class="charliteral">&#39;0&#39;</span>;</div><div class="ttc" id="err_8english_8cc_html_a94eb816e27f68e8e043135af829de926"><div class="ttname"><a href="../../d9/d0b/err_8english_8cc.html#a94eb816e27f68e8e043135af829de926">a</a></div><div class="ttdeci">at end of structure union member declaration In standard C each member declaration must be terminated by a</div><div class="ttdef"><b>Definition:</b> err.english.cc:690</div></div>
 </div><!-- fragment -->
 </div>
 </div>

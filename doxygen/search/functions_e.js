@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['n64graphics_5fget_5fread_5fversion',['n64graphics_get_read_version',['../d2/d17/n64graphics_8c.html#a25ac7ce01571ae62245035be88490808',1,'n64graphics_get_read_version(void):&#160;n64graphics.c'],['../db/d56/n64graphics_8h.html#a25ac7ce01571ae62245035be88490808',1,'n64graphics_get_read_version(void):&#160;n64graphics.c']]],
-  ['n64graphics_5fget_5fwrite_5fversion',['n64graphics_get_write_version',['../d2/d17/n64graphics_8c.html#ac07b2444a5aa49d004381f7542d43cca',1,'n64graphics_get_write_version(void):&#160;n64graphics.c'],['../db/d56/n64graphics_8h.html#ac07b2444a5aa49d004381f7542d43cca',1,'n64graphics_get_write_version(void):&#160;n64graphics.c']]],
+  ['n64graphics_5fget_5fread_5fversion',['n64graphics_get_read_version',['../d2/d17/n64graphics_8c.html#a25ac7ce01571ae62245035be88490808',1,'n64graphics_get_read_version(void):&#160;n64graphics.c'],['../db/d56/n64graphics_8h.html#a25ac7ce01571ae62245035be88490808',1,'n64graphics_get_read_version(void):&#160;n64graphics.c'],['../db/d75/n64graphics__ci_8c.html#a25ac7ce01571ae62245035be88490808',1,'n64graphics_get_read_version(void):&#160;n64graphics_ci.c'],['../dc/d02/n64graphics__ci_8h.html#a25ac7ce01571ae62245035be88490808',1,'n64graphics_get_read_version(void):&#160;n64graphics.c']]],
+  ['n64graphics_5fget_5fwrite_5fversion',['n64graphics_get_write_version',['../d2/d17/n64graphics_8c.html#ac07b2444a5aa49d004381f7542d43cca',1,'n64graphics_get_write_version(void):&#160;n64graphics.c'],['../db/d56/n64graphics_8h.html#ac07b2444a5aa49d004381f7542d43cca',1,'n64graphics_get_write_version(void):&#160;n64graphics.c'],['../db/d75/n64graphics__ci_8c.html#ac07b2444a5aa49d004381f7542d43cca',1,'n64graphics_get_write_version(void):&#160;n64graphics_ci.c'],['../dc/d02/n64graphics__ci_8h.html#ac07b2444a5aa49d004381f7542d43cca',1,'n64graphics_get_write_version(void):&#160;n64graphics.c']]],
   ['name',['name',['../d9/d0b/err_8english_8cc.html#a2bf984c884bd194e0bae32e77ca82545',1,'err.english.cc']]],
   ['new_5fgd_5fdl',['new_gd_dl',['../df/d64/mario__head__6_8c.html#a54f29e6b921bc6b3a3c525dcf7af5862',1,'mario_head_6.c']]],
   ['new_5fgddl_5ffrom',['new_gddl_from',['../df/d64/mario__head__6_8c.html#aec68964275b16b4fd9fe79d5f399a7e0',1,'new_gddl_from(Gfx *, s32):&#160;mario_head_6.c'],['../df/d64/mario__head__6_8c.html#aa4af2e70d83dc25d1ef6d70939d01230',1,'new_gddl_from(Gfx *dl, UNUSED s32 arg1):&#160;mario_head_6.c']]],
@@ -12,6 +12,7 @@ var searchData=
   ['next_5fmtx',['next_mtx',['../df/d64/mario__head__6_8c.html#a145a9323d6905de69d8efd5a4fef2ee4',1,'mario_head_6.c']]],
   ['next_5fvp',['next_vp',['../df/d64/mario__head__6_8c.html#a2a2698c598af16b154c987ec4ace3a92',1,'mario_head_6.c']]],
   ['next_5fvtx',['next_vtx',['../df/d64/mario__head__6_8c.html#a1edf1efa90f1d82bf67972c50d28e127',1,'mario_head_6.c']]],
+  ['no_5fop',['no_op',['../d7/d32/save__file_8c.html#a56b71451fe70695323b99f8dfc8ea65d',1,'save_file.c']]],
   ['nop_5f802497fc',['nop_802497FC',['../db/dda/level__update_8c.html#a892f622bd8c41c067c75477df4e0bda7',1,'level_update.c']]],
   ['nop_5f80254e3c',['nop_80254E3C',['../df/d90/mario__step_8c.html#a81c038b9925eadfc25fd84eda74bfcd4',1,'nop_80254E3C(UNUSED struct MarioState *x):&#160;mario_step.c'],['../d6/d2b/mario__step_8h.html#ae30292964ff024fc2e0af2b111756c6b',1,'nop_80254E3C(struct MarioState *):&#160;mario_step.h']]],
   ['nop_5f80254e50',['nop_80254E50',['../df/d90/mario__step_8c.html#a5261f93dc5a656baac307998e91e9dcc',1,'nop_80254E50(void):&#160;mario_step.c'],['../d6/d2b/mario__step_8h.html#a5261f93dc5a656baac307998e91e9dcc',1,'nop_80254E50(void):&#160;mario_step.c']]],
@@ -20,7 +21,7 @@ var searchData=
   ['nop_5f802a3380',['nop_802A3380',['../db/d81/object__helpers_8c.html#a0bb1af8a7065dd38aca6b4c78dfe02d9',1,'object_helpers.c']]],
   ['nop_5f802a3544',['nop_802A3544',['../db/d81/object__helpers_8c.html#a47299bddc66242d99089895c62787749',1,'object_helpers.c']]],
   ['nop_5f802a3968',['nop_802A3968',['../db/d81/object__helpers_8c.html#ab5ca5337f88a91d84f1463e2f075280a',1,'object_helpers.c']]],
-  ['nop_5fchange_5fcourse',['nop_change_course',['../d6/dfd/debug__course_8c.html#a2d3ed40bd78372e44c9c192f07de621c',1,'nop_change_course():&#160;debug_course.c'],['../d2/dd2/object__list__processor_8h.html#a2bd7dc506d05f8c6b07fa210f4e60628',1,'nop_change_course(void):&#160;debug_course.c']]],
+  ['nop_5fchange_5fcourse',['nop_change_course',['../d6/dfd/debug__course_8c.html#a2bd7dc506d05f8c6b07fa210f4e60628',1,'nop_change_course(void):&#160;debug_course.c'],['../db/d2d/debug__course_8h.html#a2bd7dc506d05f8c6b07fa210f4e60628',1,'nop_change_course(void):&#160;debug_course.c']]],
   ['nop_5fobj_5fdraw',['nop_obj_draw',['../dc/d8a/draw__objects_8c.html#a39f473d851e0493a2b5d5a56452d8d25',1,'nop_obj_draw(UNUSED struct GdObj *nop):&#160;draw_objects.c'],['../da/dc8/draw__objects_8h.html#a08d30bdc89d5a07e3c6859918e9412ff',1,'nop_obj_draw(struct GdObj *):&#160;draw_objects.h']]],
   ['null_5fobj_5flists',['null_obj_lists',['../df/de6/mario__head__1_8c.html#a45efb7f2d29c528368fd3799bdce79eb',1,'null_obj_lists(void):&#160;mario_head_1.c'],['../d2/d13/mario__head__1_8h.html#a45efb7f2d29c528368fd3799bdce79eb',1,'null_obj_lists(void):&#160;mario_head_1.c']]],
   ['number',['number',['../d9/d0b/err_8english_8cc.html#abc23ab6cce18438940dbc3ddeaa74270',1,'err.english.cc']]]

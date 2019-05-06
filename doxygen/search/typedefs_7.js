@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['ia',['ia',['../db/d56/n64graphics_8h.html#ae909c1a347ef88775a79bee6894c6a1d',1,'n64graphics.h']]],
-  ['intptr_5ft',['intptr_t',['../df/d64/mario__head__6_8c.html#a0bf2a1ddd563125ff7848b2f2c729ef3',1,'mario_head_6.c']]]
+  ['hashfunc',['HashFunc',['../dd/d16/hashtable_8h.html#aafbbb4c5c9424283648cfc6fd3dbdbff',1,'hashtable.h']]],
+  ['hashvaluecmpfunc',['HashValueCmpFunc',['../dd/d16/hashtable_8h.html#afa4ff6a91a65353f6ffba6647c3fecbf',1,'hashtable.h']]]
 ];

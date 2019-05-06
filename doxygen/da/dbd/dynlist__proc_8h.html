@@ -68,8 +68,6 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#define-members">Macros</a> &#124;
-<a href="#typedef-members">Typedefs</a> &#124;
 <a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
@@ -81,26 +79,20 @@ $(function() {
 </div>
 <p><a href="../../da/dbd/dynlist__proc_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:ac144164ed05a32bd87fb8b3f4491fcf9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dbd/dynlist__proc_8h.html#ac144164ed05a32bd87fb8b3f4491fcf9">DynIdAsStr</a>(id)&#160;&#160;&#160;((<a class="el" href="../../d9/d0b/err_8english_8cc.html#ae30debe0ad3d7e219222e486ed5f9b95">char</a> *)(id))</td></tr>
-<tr class="separator:ac144164ed05a32bd87fb8b3f4491fcf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac99d939fef77f4c35838850dc2968822"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dbd/dynlist__proc_8h.html#ac99d939fef77f4c35838850dc2968822">DynIdAsInt</a>(id)&#160;&#160;&#160;((<a class="el" href="../../dd/da7/ultratypes_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a>)(id))</td></tr>
-<tr class="separator:ac99d939fef77f4c35838850dc2968822"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0004f59ee0006f54f7a5e84bee4b66bf"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dbd/dynlist__proc_8h.html#a0004f59ee0006f54f7a5e84bee4b66bf">AsDynId</a>(unk)&#160;&#160;&#160;((<a class="el" href="../../da/dbd/dynlist__proc_8h.html#a2cef162e6b05faca9bf16f244c045592">DynId</a>)(unk))</td></tr>
-<tr class="separator:a0004f59ee0006f54f7a5e84bee4b66bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
-Typedefs</h2></td></tr>
-<tr class="memitem:a2cef162e6b05faca9bf16f244c045592"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#ab46757f4f70d07f999e87f548a66e8c4">typedef</a> <a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dbd/dynlist__proc_8h.html#a2cef162e6b05faca9bf16f244c045592">DynId</a></td></tr>
-<tr class="separator:a2cef162e6b05faca9bf16f244c045592"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
 <tr class="memitem:a3fe431cb654991c1a9fd1c4a89dcb677"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dbd/dynlist__proc_8h.html#a3fe431cb654991c1a9fd1c4a89dcb677">DParmPtr</a> { <a class="el" href="../../da/dbd/dynlist__proc_8h.html#a3fe431cb654991c1a9fd1c4a89dcb677ae73e88a51a6d750355a0027204e9a6fc">PARM_PTR_OBJ_VTX</a> = 1, 
 <a class="el" href="../../da/dbd/dynlist__proc_8h.html#a3fe431cb654991c1a9fd1c4a89dcb677a34cb9f9734e6d186722b29c1705b1a5f">PARM_PTR_CHAR</a> = 5
  }</td></tr>
+<tr class="memdesc:a3fe431cb654991c1a9fd1c4a89dcb677"><td class="mdescLeft">&#160;</td><td class="mdescRight">parameters types for <code><a class="el" href="da/dbd/dynlist__proc_8h.html#a9175c6c3f5e055e40b6489d225ceb2b1" title="Set various pointer parameters for the current dynamic object. ">d_set_parm_ptr()</a></code>  <a href="../../da/dbd/dynlist__proc_8h.html#a3fe431cb654991c1a9fd1c4a89dcb677">More...</a><br /></td></tr>
 <tr class="separator:a3fe431cb654991c1a9fd1c4a89dcb677"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60388212ebd979d0ca165c4780fe2e1a"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dbd/dynlist__proc_8h.html#a60388212ebd979d0ca165c4780fe2e1a">DParmF</a> { <a class="el" href="../../da/dbd/dynlist__proc_8h.html#a60388212ebd979d0ca165c4780fe2e1aa968c08b1f399ba2b56ac356909a3ac91">PARM_F_ALPHA</a> = 1, 
+<a class="el" href="../../da/dbd/dynlist__proc_8h.html#a60388212ebd979d0ca165c4780fe2e1aa7ba8244e36c73b6b17e666f6513ac02e">PARM_F_RANGE_LEFT</a> = 2, 
+<a class="el" href="../../da/dbd/dynlist__proc_8h.html#a60388212ebd979d0ca165c4780fe2e1aaefb5a5b1f156f350b8ceb2f3a58415dd">PARM_F_RANGE_RIGHT</a> = 3, 
+<a class="el" href="../../da/dbd/dynlist__proc_8h.html#a60388212ebd979d0ca165c4780fe2e1aa1e946699d4910e2dd343bda3bbec2455">PARM_F_VARVAL</a> = 6
+ }</td></tr>
+<tr class="memdesc:a60388212ebd979d0ca165c4780fe2e1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">parameters for <code><a class="el" href="da/dbd/dynlist__proc_8h.html#a0d4f65dfc8bec8df9eb75bcef97e4ba6" title="Set variable float parameters on the current dynamic object. ">d_set_parm_f()</a></code>  <a href="../../da/dbd/dynlist__proc_8h.html#a60388212ebd979d0ca165c4780fe2e1a">More...</a><br /></td></tr>
+<tr class="separator:a60388212ebd979d0ca165c4780fe2e1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a45f898fe2af878727906bbe9006ddc25"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dbd/dynlist__proc_8h.html#a45f898fe2af878727906bbe9006ddc25">DObjTypes</a> { <br />
 &#160;&#160;<a class="el" href="../../da/dbd/dynlist__proc_8h.html#a45f898fe2af878727906bbe9006ddc25aaa83a93c1b18f80c697a7e8cfb81d3ca">D_CAR_DYNAMICS</a> = 0, 
 <a class="el" href="../../da/dbd/dynlist__proc_8h.html#a45f898fe2af878727906bbe9006ddc25a585240a86ecb68eb067ba106bb3f83b7">D_NET</a> = 1, 
@@ -127,86 +119,137 @@ Enumerations</h2></td></tr>
 <a class="el" href="../../da/dbd/dynlist__proc_8h.html#a45f898fe2af878727906bbe9006ddc25a77392f4ccb3225c2a38282164871919a">D_GROUP</a> = 18
 <br />
  }</td></tr>
+<tr class="memdesc:a45f898fe2af878727906bbe9006ddc25"><td class="mdescLeft">&#160;</td><td class="mdescRight"><code><a class="el" href="da/dbd/dynlist__proc_8h.html#aef7ca348b0fa6cdae7cd4a3c5bb2ab9e" title="Create a new GdObj of type and add that object to the dynamic object list with id. ">d_makeobj()</a></code> object types  <a href="../../da/dbd/dynlist__proc_8h.html#a45f898fe2af878727906bbe9006ddc25">More...</a><br /></td></tr>
 <tr class="separator:a45f898fe2af878727906bbe9006ddc25"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a8c21408b120edd3748585ab8609047e3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dbd/dynlist__proc_8h.html#a8c21408b120edd3748585ab8609047e3">push_dynobj_stash</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>)</td></tr>
+<tr class="memdesc:a8c21408b120edd3748585ab8609047e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Store the active dynamic <code><a class="el" href="../../dc/d1d/structGdObj.html" title="The base of structure of all of Goddard&#39;s objects. ">GdObj</a></code> into a one object stash.  <a href="#a8c21408b120edd3748585ab8609047e3">More...</a><br /></td></tr>
 <tr class="separator:a8c21408b120edd3748585ab8609047e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:accabbe3c243ffb3529ebf46103cc9d49"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dbd/dynlist__proc_8h.html#accabbe3c243ffb3529ebf46103cc9d49">pop_dynobj_stash</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>)</td></tr>
+<tr class="memdesc:accabbe3c243ffb3529ebf46103cc9d49"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the stashed <code><a class="el" href="../../dc/d1d/structGdObj.html" title="The base of structure of all of Goddard&#39;s objects. ">GdObj</a></code> as the active dynamic <code><a class="el" href="../../dc/d1d/structGdObj.html" title="The base of structure of all of Goddard&#39;s objects. ">GdObj</a></code>.  <a href="#accabbe3c243ffb3529ebf46103cc9d49">More...</a><br /></td></tr>
 <tr class="separator:accabbe3c243ffb3529ebf46103cc9d49"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a33d5306650c9dc23ba5c61efcfb9f69b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dbd/dynlist__proc_8h.html#a33d5306650c9dc23ba5c61efcfb9f69b">reset_dynlist</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>)</td></tr>
+<tr class="memdesc:a33d5306650c9dc23ba5c61efcfb9f69b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset dynlist related variables to a starting state.  <a href="#a33d5306650c9dc23ba5c61efcfb9f69b">More...</a><br /></td></tr>
 <tr class="separator:a33d5306650c9dc23ba5c61efcfb9f69b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a10bffa2bec6b08620e739055cd668b01"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../dc/d1d/structGdObj.html">GdObj</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dbd/dynlist__proc_8h.html#a10bffa2bec6b08620e739055cd668b01">proc_dynlist</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d0/dc0/structDynList.html">DynList</a> *dylist)</td></tr>
+<tr class="memdesc:a10bffa2bec6b08620e739055cd668b01"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parse a <code><a class="el" href="../../d0/dc0/structDynList.html">DynList</a></code> array into active <code><a class="el" href="../../dc/d1d/structGdObj.html" title="The base of structure of all of Goddard&#39;s objects. ">GdObj</a></code>s.  <a href="#a10bffa2bec6b08620e739055cd668b01">More...</a><br /></td></tr>
 <tr class="separator:a10bffa2bec6b08620e739055cd668b01"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acfaa2a9b2521b2d90627cb091453d58e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dbd/dynlist__proc_8h.html#acfaa2a9b2521b2d90627cb091453d58e">d_copystr_to_idbuf</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#ae30debe0ad3d7e219222e486ed5f9b95">char</a> *)</td></tr>
+<tr class="memdesc:acfaa2a9b2521b2d90627cb091453d58e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy input <code>str</code> into a buffer that will be concatenated to a dynamic <code><a class="el" href="../../dc/d1d/structGdObj.html" title="The base of structure of all of Goddard&#39;s objects. ">GdObj</a></code>'s name string when creating a new dynamic object.  <a href="#acfaa2a9b2521b2d90627cb091453d58e">More...</a><br /></td></tr>
 <tr class="separator:acfaa2a9b2521b2d90627cb091453d58e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aef7ca348b0fa6cdae7cd4a3c5bb2ab9e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../dc/d1d/structGdObj.html">GdObj</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dbd/dynlist__proc_8h.html#aef7ca348b0fa6cdae7cd4a3c5bb2ab9e">d_makeobj</a> (enum <a class="el" href="../../da/dbd/dynlist__proc_8h.html#a45f898fe2af878727906bbe9006ddc25">DObjTypes</a> <a class="el" href="../../d9/d0b/err_8english_8cc.html#a1c82239ecc3b1bb5b8aba0fdad8e5e0b">type</a>, <a class="el" href="../../da/dbd/dynlist__proc_8h.html#a2cef162e6b05faca9bf16f244c045592">DynId</a> id)</td></tr>
+<tr class="memdesc:aef7ca348b0fa6cdae7cd4a3c5bb2ab9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a new <code><a class="el" href="../../dc/d1d/structGdObj.html" title="The base of structure of all of Goddard&#39;s objects. ">GdObj</a></code> of <code>type</code> and add that object to the dynamic object list with <code>id</code>.  <a href="#aef7ca348b0fa6cdae7cd4a3c5bb2ab9e">More...</a><br /></td></tr>
 <tr class="separator:aef7ca348b0fa6cdae7cd4a3c5bb2ab9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad1563b9ae34b3adaa6448a0cda5f0da4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dbd/dynlist__proc_8h.html#ad1563b9ae34b3adaa6448a0cda5f0da4">d_set_shapeptrptr</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d7/da7/structObjShape.html">ObjShape</a> **)</td></tr>
+<tr class="memdesc:ad1563b9ae34b3adaa6448a0cda5f0da4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the shape pointer of the current active dynamic object to the pointer pointed to by <code>shpPtrptr</code>.  <a href="#ad1563b9ae34b3adaa6448a0cda5f0da4">More...</a><br /></td></tr>
 <tr class="separator:ad1563b9ae34b3adaa6448a0cda5f0da4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab8aa26797dc510bb59e314135ade4bb0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../dc/d1d/structGdObj.html">GdObj</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dbd/dynlist__proc_8h.html#ab8aa26797dc510bb59e314135ade4bb0">d_use_obj</a> (<a class="el" href="../../da/dbd/dynlist__proc_8h.html#a2cef162e6b05faca9bf16f244c045592">DynId</a>)</td></tr>
+<tr class="memdesc:ab8aa26797dc510bb59e314135ade4bb0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the current active dynamic object to object <code>id</code>.  <a href="#ab8aa26797dc510bb59e314135ade4bb0">More...</a><br /></td></tr>
 <tr class="separator:ab8aa26797dc510bb59e314135ade4bb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a530aec561b86567c08f72f9855d77f72"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dbd/dynlist__proc_8h.html#a530aec561b86567c08f72f9855d77f72">set_cur_dynobj</a> ()</td></tr>
 <tr class="separator:a530aec561b86567c08f72f9855d77f72"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a473d39f5acae1cef7dfe00ec7a51bee0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dbd/dynlist__proc_8h.html#a473d39f5acae1cef7dfe00ec7a51bee0">d_start_group</a> (<a class="el" href="../../da/dbd/dynlist__proc_8h.html#a2cef162e6b05faca9bf16f244c045592">DynId</a>)</td></tr>
+<tr class="memdesc:a473d39f5acae1cef7dfe00ec7a51bee0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start a dynamic <code><a class="el" href="../../d2/d38/structObjGroup.html" title="This is test documentation comment for ObjGroup. ">ObjGroup</a></code> identified with <code>id</code>.  <a href="#a473d39f5acae1cef7dfe00ec7a51bee0">More...</a><br /></td></tr>
 <tr class="separator:a473d39f5acae1cef7dfe00ec7a51bee0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af6eb8c5211bb317f767dfa482c15f14b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dbd/dynlist__proc_8h.html#af6eb8c5211bb317f767dfa482c15f14b">d_end_group</a> (<a class="el" href="../../da/dbd/dynlist__proc_8h.html#a2cef162e6b05faca9bf16f244c045592">DynId</a>)</td></tr>
+<tr class="memdesc:af6eb8c5211bb317f767dfa482c15f14b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add all dynamic objects created between the start of dynamic <code><a class="el" href="../../d2/d38/structObjGroup.html" title="This is test documentation comment for ObjGroup. ">ObjGroup</a></code> <code>id</code> and this call.  <a href="#af6eb8c5211bb317f767dfa482c15f14b">More...</a><br /></td></tr>
 <tr class="separator:af6eb8c5211bb317f767dfa482c15f14b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a19cb9ac28235d15dfa7251e2da7e52a4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dbd/dynlist__proc_8h.html#a19cb9ac28235d15dfa7251e2da7e52a4">dynid_is_int</a> (<a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>)</td></tr>
+<tr class="memdesc:a19cb9ac28235d15dfa7251e2da7e52a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set if <code>DynId</code> should be treated as integer values, or as <code>char *</code> string pointers.  <a href="#a19cb9ac28235d15dfa7251e2da7e52a4">More...</a><br /></td></tr>
 <tr class="separator:a19cb9ac28235d15dfa7251e2da7e52a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2e4c9608acaacf6fa5d3daa6aef185f7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dbd/dynlist__proc_8h.html#a2e4c9608acaacf6fa5d3daa6aef185f7">d_set_init_pos</a> (<a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>, <a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>, <a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>)</td></tr>
+<tr class="memdesc:a2e4c9608acaacf6fa5d3daa6aef185f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the initial position of the current dynamic object to <code>(x, y, z)</code>.  <a href="#a2e4c9608acaacf6fa5d3daa6aef185f7">More...</a><br /></td></tr>
 <tr class="separator:a2e4c9608acaacf6fa5d3daa6aef185f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a523c851326eae200f2fc757e08274fe8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dbd/dynlist__proc_8h.html#a523c851326eae200f2fc757e08274fe8">d_get_init_pos</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d9/d09/structMyVec3f.html">MyVec3f</a> *)</td></tr>
+<tr class="memdesc:a523c851326eae200f2fc757e08274fe8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the initial position of the current dynamic object and store in <code>dst</code>.  <a href="#a523c851326eae200f2fc757e08274fe8">More...</a><br /></td></tr>
 <tr class="separator:a523c851326eae200f2fc757e08274fe8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a10f163bae0f9cb3f580c4282b2edc40d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dbd/dynlist__proc_8h.html#a10f163bae0f9cb3f580c4282b2edc40d">d_get_init_rot</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d9/d09/structMyVec3f.html">MyVec3f</a> *)</td></tr>
+<tr class="memdesc:a10f163bae0f9cb3f580c4282b2edc40d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the initial rotation of the current dynamic object and store in <code>dst</code>.  <a href="#a10f163bae0f9cb3f580c4282b2edc40d">More...</a><br /></td></tr>
 <tr class="separator:a10f163bae0f9cb3f580c4282b2edc40d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a07fafa2f8f2756a94411fecf1131a034"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dbd/dynlist__proc_8h.html#a07fafa2f8f2756a94411fecf1131a034">d_set_rel_pos</a> (<a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>, <a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>, <a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>)</td></tr>
+<tr class="memdesc:a07fafa2f8f2756a94411fecf1131a034"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the position of the current dynamic object.  <a href="#a07fafa2f8f2756a94411fecf1131a034">More...</a><br /></td></tr>
 <tr class="separator:a07fafa2f8f2756a94411fecf1131a034"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8eac6abdda1849743c7b2da258c43a13"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dbd/dynlist__proc_8h.html#a8eac6abdda1849743c7b2da258c43a13">d_get_rel_pos</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d9/d09/structMyVec3f.html">MyVec3f</a> *)</td></tr>
+<tr class="memdesc:a8eac6abdda1849743c7b2da258c43a13"><td class="mdescLeft">&#160;</td><td class="mdescRight">Store the current dynamic object's position into <code>dst</code>.  <a href="#a8eac6abdda1849743c7b2da258c43a13">More...</a><br /></td></tr>
 <tr class="separator:a8eac6abdda1849743c7b2da258c43a13"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aba49ff7519b78ea03a5a70a130a44635"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d2/d38/structObjGroup.html">ObjGroup</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dbd/dynlist__proc_8h.html#aba49ff7519b78ea03a5a70a130a44635">d_get_att_objgroup</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>)</td></tr>
+<tr class="memdesc:aba49ff7519b78ea03a5a70a130a44635"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a pointer to the attached object group of the current dynamic object.  <a href="#aba49ff7519b78ea03a5a70a130a44635">More...</a><br /></td></tr>
 <tr class="separator:aba49ff7519b78ea03a5a70a130a44635"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa33aae21a417c9701177195af0661a47"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dbd/dynlist__proc_8h.html#aa33aae21a417c9701177195af0661a47">d_get_scale</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d9/d09/structMyVec3f.html">MyVec3f</a> *)</td></tr>
+<tr class="memdesc:aa33aae21a417c9701177195af0661a47"><td class="mdescLeft">&#160;</td><td class="mdescRight">Store the current dynamic object's scale into <code>dst</code>.  <a href="#aa33aae21a417c9701177195af0661a47">More...</a><br /></td></tr>
 <tr class="separator:aa33aae21a417c9701177195af0661a47"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a296fb1787ce6282db9f562113fca5c0e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dbd/dynlist__proc_8h.html#a296fb1787ce6282db9f562113fca5c0e">d_set_world_pos</a> (<a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>, <a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>, <a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>)</td></tr>
+<tr class="memdesc:a296fb1787ce6282db9f562113fca5c0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the world position of the current dynamic object.  <a href="#a296fb1787ce6282db9f562113fca5c0e">More...</a><br /></td></tr>
 <tr class="separator:a296fb1787ce6282db9f562113fca5c0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac575547286904bf2fe84158d72a25c53"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dbd/dynlist__proc_8h.html#ac575547286904bf2fe84158d72a25c53">d_get_world_pos</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d9/d09/structMyVec3f.html">MyVec3f</a> *)</td></tr>
+<tr class="memdesc:ac575547286904bf2fe84158d72a25c53"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy the world position of the current dynamic object into <code>dst</code>.  <a href="#ac575547286904bf2fe84158d72a25c53">More...</a><br /></td></tr>
 <tr class="separator:ac575547286904bf2fe84158d72a25c53"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af19fca0b3af875808301de28c4ad5a40"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dbd/dynlist__proc_8h.html#af19fca0b3af875808301de28c4ad5a40">d_set_scale</a> (<a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>, <a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>, <a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>)</td></tr>
+<tr class="memdesc:af19fca0b3af875808301de28c4ad5a40"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scale the current dynamic object by factor <code>(x, y, z)</code>.  <a href="#af19fca0b3af875808301de28c4ad5a40">More...</a><br /></td></tr>
 <tr class="separator:af19fca0b3af875808301de28c4ad5a40"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adbd2ad714ab217e3a8560cb3355ff9bd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dbd/dynlist__proc_8h.html#adbd2ad714ab217e3a8560cb3355ff9bd">d_add_valptr</a> (<a class="el" href="../../da/dbd/dynlist__proc_8h.html#a2cef162e6b05faca9bf16f244c045592">DynId</a>, <a class="el" href="../../dd/da7/ultratypes_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a>, <a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>, <a class="el" href="../../dd/da7/ultratypes_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a>)</td></tr>
+<tr class="memdesc:adbd2ad714ab217e3a8560cb3355ff9bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a new <code>ObjValPtr</code> to dynamic object <code>objId</code> and attach that valptr to the current dynamic object.  <a href="#adbd2ad714ab217e3a8560cb3355ff9bd">More...</a><br /></td></tr>
 <tr class="separator:adbd2ad714ab217e3a8560cb3355ff9bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a930d5af5327f9c786e4419f505b54bff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dbd/dynlist__proc_8h.html#a930d5af5327f9c786e4419f505b54bff">d_add_valproc</a> (union <a class="el" href="../../d2/dca/unionObjVarVal.html">ObjVarVal</a> *(*)(union <a class="el" href="../../d2/dca/unionObjVarVal.html">ObjVarVal</a> *, union <a class="el" href="../../d2/dca/unionObjVarVal.html">ObjVarVal</a>))</td></tr>
 <tr class="separator:a930d5af5327f9c786e4419f505b54bff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad11013765ba27545fb5a466a0f04f12b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dbd/dynlist__proc_8h.html#ad11013765ba27545fb5a466a0f04f12b">d_set_flags</a> (<a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>)</td></tr>
+<tr class="memdesc:ad11013765ba27545fb5a466a0f04f12b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the object specific flags of the current dynamic object.  <a href="#ad11013765ba27545fb5a466a0f04f12b">More...</a><br /></td></tr>
 <tr class="separator:ad11013765ba27545fb5a466a0f04f12b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6d2592419b704106937a6b08652ea353"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dbd/dynlist__proc_8h.html#a6d2592419b704106937a6b08652ea353">d_set_parm_f</a> (<a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>, <a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>)</td></tr>
-<tr class="separator:a6d2592419b704106937a6b08652ea353"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d4f65dfc8bec8df9eb75bcef97e4ba6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dbd/dynlist__proc_8h.html#a0d4f65dfc8bec8df9eb75bcef97e4ba6">d_set_parm_f</a> (enum <a class="el" href="../../da/dbd/dynlist__proc_8h.html#a60388212ebd979d0ca165c4780fe2e1a">DParmF</a>, <a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>)</td></tr>
+<tr class="memdesc:a0d4f65dfc8bec8df9eb75bcef97e4ba6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set variable float parameters on the current dynamic object.  <a href="#a0d4f65dfc8bec8df9eb75bcef97e4ba6">More...</a><br /></td></tr>
+<tr class="separator:a0d4f65dfc8bec8df9eb75bcef97e4ba6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9175c6c3f5e055e40b6489d225ceb2b1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dbd/dynlist__proc_8h.html#a9175c6c3f5e055e40b6489d225ceb2b1">d_set_parm_ptr</a> (enum <a class="el" href="../../da/dbd/dynlist__proc_8h.html#a3fe431cb654991c1a9fd1c4a89dcb677">DParmPtr</a>, <a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a> *)</td></tr>
+<tr class="memdesc:a9175c6c3f5e055e40b6489d225ceb2b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set various pointer parameters for the current dynamic object.  <a href="#a9175c6c3f5e055e40b6489d225ceb2b1">More...</a><br /></td></tr>
 <tr class="separator:a9175c6c3f5e055e40b6489d225ceb2b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a956aad1abbe9ec3a86db84424129673a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dbd/dynlist__proc_8h.html#a956aad1abbe9ec3a86db84424129673a">d_set_obj_draw_flag</a> (enum <a class="el" href="../../d7/df0/gd__types_8h.html#ae32fadd9ca605b3cee299699f3ffafc9">ObjDrawingFlags</a>)</td></tr>
+<tr class="memdesc:a956aad1abbe9ec3a86db84424129673a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the generic drawing flags for the current dynamic object.  <a href="#a956aad1abbe9ec3a86db84424129673a">More...</a><br /></td></tr>
 <tr class="separator:a956aad1abbe9ec3a86db84424129673a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaa17f5c6947fec84496b5dcb94b7c014"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dbd/dynlist__proc_8h.html#aaa17f5c6947fec84496b5dcb94b7c014">d_set_type</a> (<a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>)</td></tr>
+<tr class="memdesc:aaa17f5c6947fec84496b5dcb94b7c014"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set an object specific type field for the current dynamic object.  <a href="#aaa17f5c6947fec84496b5dcb94b7c014">More...</a><br /></td></tr>
 <tr class="separator:aaa17f5c6947fec84496b5dcb94b7c014"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a581030e49d258f274c7771ae9cbe2b0d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dbd/dynlist__proc_8h.html#a581030e49d258f274c7771ae9cbe2b0d">d_set_colour_num</a> (<a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>)</td></tr>
+<tr class="memdesc:a581030e49d258f274c7771ae9cbe2b0d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the colour of the current dynamic object.  <a href="#a581030e49d258f274c7771ae9cbe2b0d">More...</a><br /></td></tr>
 <tr class="separator:a581030e49d258f274c7771ae9cbe2b0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af6d4d597c16118657176c3f0bc24fd4b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dbd/dynlist__proc_8h.html#af6d4d597c16118657176c3f0bc24fd4b">d_set_diffuse</a> (<a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>, <a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>, <a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>)</td></tr>
+<tr class="memdesc:af6d4d597c16118657176c3f0bc24fd4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the diffuse color of the current dynamic <code><a class="el" href="../../d8/d72/structObjMaterial.html">ObjMaterial</a></code> or <code><a class="el" href="../../d0/ddc/structObjLight.html">ObjLight</a></code>.  <a href="#af6d4d597c16118657176c3f0bc24fd4b">More...</a><br /></td></tr>
 <tr class="separator:af6d4d597c16118657176c3f0bc24fd4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5fabee1b8e860d1309283dd99203aa4a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d7/dc4/structGdPlaneF.html">GdPlaneF</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dbd/dynlist__proc_8h.html#a5fabee1b8e860d1309283dd99203aa4a">d_get_plane</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>)</td></tr>
+<tr class="memdesc:a5fabee1b8e860d1309283dd99203aa4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a pointer to a <code><a class="el" href="../../d7/dc4/structGdPlaneF.html">GdPlaneF</a></code> in the current dynamic object.  <a href="#a5fabee1b8e860d1309283dd99203aa4a">More...</a><br /></td></tr>
 <tr class="separator:a5fabee1b8e860d1309283dd99203aa4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa4a16008595420e35a0decf0fe2d5fc4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dbd/dynlist__proc_8h.html#aa4a16008595420e35a0decf0fe2d5fc4">d_get_matrix</a> (<a class="el" href="../../d9/d49/types_8h.html#ab7160f77e736961cfa2aff581aeee005">Mat4</a> *)</td></tr>
+<tr class="memdesc:aa4a16008595420e35a0decf0fe2d5fc4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy the matrix from the current dynamic object into <code>dst</code>.  <a href="#aa4a16008595420e35a0decf0fe2d5fc4">More...</a><br /></td></tr>
 <tr class="separator:aa4a16008595420e35a0decf0fe2d5fc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a725f979dfcd66e3ce50c3dcd6b5d7b19"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d49/types_8h.html#ab7160f77e736961cfa2aff581aeee005">Mat4</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dbd/dynlist__proc_8h.html#a725f979dfcd66e3ce50c3dcd6b5d7b19">d_get_rot_mtx_ptr</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>)</td></tr>
+<tr class="memdesc:a725f979dfcd66e3ce50c3dcd6b5d7b19"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a pointer to the current dynamic object's rotation matrix.  <a href="#a725f979dfcd66e3ce50c3dcd6b5d7b19">More...</a><br /></td></tr>
 <tr class="separator:a725f979dfcd66e3ce50c3dcd6b5d7b19"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a565b34d4579b286cefadbef9b95e100f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dbd/dynlist__proc_8h.html#a565b34d4579b286cefadbef9b95e100f">d_set_idn_mtx</a> (<a class="el" href="../../d9/d49/types_8h.html#ab7160f77e736961cfa2aff581aeee005">Mat4</a> *)</td></tr>
+<tr class="memdesc:a565b34d4579b286cefadbef9b95e100f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy <code>src</code> into the identity matrix of the current dynamic object.  <a href="#a565b34d4579b286cefadbef9b95e100f">More...</a><br /></td></tr>
 <tr class="separator:a565b34d4579b286cefadbef9b95e100f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae1a50f2a8ce3272e02f5e8e6084149b6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d49/types_8h.html#ab7160f77e736961cfa2aff581aeee005">Mat4</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dbd/dynlist__proc_8h.html#ae1a50f2a8ce3272e02f5e8e6084149b6">d_get_matrix_ptr</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>)</td></tr>
+<tr class="memdesc:ae1a50f2a8ce3272e02f5e8e6084149b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a pointer to the current dynamic object's matrix.  <a href="#ae1a50f2a8ce3272e02f5e8e6084149b6">More...</a><br /></td></tr>
 <tr class="separator:ae1a50f2a8ce3272e02f5e8e6084149b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae2286c3be51c1e9ee6494750d86d3432"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d49/types_8h.html#ab7160f77e736961cfa2aff581aeee005">Mat4</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dbd/dynlist__proc_8h.html#ae2286c3be51c1e9ee6494750d86d3432">d_get_idn_mtx_ptr</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a>)</td></tr>
+<tr class="memdesc:ae2286c3be51c1e9ee6494750d86d3432"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a pointer to the current dynamic object's identity matrix.  <a href="#ae2286c3be51c1e9ee6494750d86d3432">More...</a><br /></td></tr>
 <tr class="separator:ae2286c3be51c1e9ee6494750d86d3432"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7c5886f7a77274cc3b9c053b4b0025fb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dbd/dynlist__proc_8h.html#a7c5886f7a77274cc3b9c053b4b0025fb">d_calc_world_dist_btwn</a> (<a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../dc/d1d/structGdObj.html">GdObj</a> *, <a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../dc/d1d/structGdObj.html">GdObj</a> *)</td></tr>
+<tr class="memdesc:a7c5886f7a77274cc3b9c053b4b0025fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Use the dynamic object system to calculate the distance between two <code><a class="el" href="../../dc/d1d/structGdObj.html" title="The base of structure of all of Goddard&#39;s objects. ">GdObj</a></code>s.  <a href="#a7c5886f7a77274cc3b9c053b4b0025fb">More...</a><br /></td></tr>
 <tr class="separator:a7c5886f7a77274cc3b9c053b4b0025fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
+DynId Type</h2></td></tr>
+<tr><td class="ititle" colspan="2"><p><a class="anchor" id="amgrp5e179a6a1eee7a77976c8b9acf83e055"></a>A new type for identification of <code><a class="el" href="../../dc/d1d/structGdObj.html" title="The base of structure of all of Goddard&#39;s objects. ">GdObj</a></code>s in the dynamic object list.</p>
+</td></tr>
+<tr class="memitem:ac144164ed05a32bd87fb8b3f4491fcf9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dbd/dynlist__proc_8h.html#ac144164ed05a32bd87fb8b3f4491fcf9">DynIdAsStr</a>(id)&#160;&#160;&#160;((<a class="el" href="../../d9/d0b/err_8english_8cc.html#ae30debe0ad3d7e219222e486ed5f9b95">char</a> *)(id))</td></tr>
+<tr class="memdesc:ac144164ed05a32bd87fb8b3f4491fcf9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Macros for casting between types of ids, as the id can be either a number or a string.  <a href="#ac144164ed05a32bd87fb8b3f4491fcf9">More...</a><br /></td></tr>
+<tr class="separator:ac144164ed05a32bd87fb8b3f4491fcf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac99d939fef77f4c35838850dc2968822"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dbd/dynlist__proc_8h.html#ac99d939fef77f4c35838850dc2968822">DynIdAsInt</a>(id)&#160;&#160;&#160;((<a class="el" href="../../dd/da7/ultratypes_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a>)(id))</td></tr>
+<tr class="separator:ac99d939fef77f4c35838850dc2968822"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0004f59ee0006f54f7a5e84bee4b66bf"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dbd/dynlist__proc_8h.html#a0004f59ee0006f54f7a5e84bee4b66bf">AsDynId</a>(unk)&#160;&#160;&#160;((<a class="el" href="../../da/dbd/dynlist__proc_8h.html#a2cef162e6b05faca9bf16f244c045592">DynId</a>)(unk))</td></tr>
+<tr class="separator:a0004f59ee0006f54f7a5e84bee4b66bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2cef162e6b05faca9bf16f244c045592"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#ab46757f4f70d07f999e87f548a66e8c4">typedef</a> <a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dbd/dynlist__proc_8h.html#a2cef162e6b05faca9bf16f244c045592">DynId</a></td></tr>
+<tr class="separator:a2cef162e6b05faca9bf16f244c045592"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="a0004f59ee0006f54f7a5e84bee4b66bf"></a>
@@ -261,6 +304,8 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Macros for casting between types of ids, as the id can be either a number or a string. </p>
+
 </div>
 </div>
 <h2 class="groupheader">Typedef Documentation</h2>
@@ -290,6 +335,8 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p><code><a class="el" href="../../da/dbd/dynlist__proc_8h.html#aef7ca348b0fa6cdae7cd4a3c5bb2ab9e" title="Create a new GdObj of type and add that object to the dynamic object list with id. ">d_makeobj()</a></code> object types </p>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a45f898fe2af878727906bbe9006ddc25aaa83a93c1b18f80c697a7e8cfb81d3ca"></a>D_CAR_DYNAMICS&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a45f898fe2af878727906bbe9006ddc25a585240a86ecb68eb067ba106bb3f83b7"></a>D_NET&#160;</td><td class="fielddoc"></td></tr>
@@ -306,10 +353,37 @@ Functions</h2></td></tr>
 <tr><td class="fieldname"><a id="a45f898fe2af878727906bbe9006ddc25a69080f166d4346cbc6d30e477e2de1a3"></a>D_LABEL&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a45f898fe2af878727906bbe9006ddc25a3c932fbe47803a59649b0e8f9ab6e706"></a>D_VIEW&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a45f898fe2af878727906bbe9006ddc25a480058b893f528a290d67f308ef499fa"></a>D_ANIMATOR&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a45f898fe2af878727906bbe9006ddc25a9d14b1dd4ea365ca48db683c834b09b3"></a>D_DATA_GRP&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a45f898fe2af878727906bbe9006ddc25a9d14b1dd4ea365ca48db683c834b09b3"></a>D_DATA_GRP&#160;</td><td class="fielddoc"><p>An <code><a class="el" href="../../d2/d38/structObjGroup.html" title="This is test documentation comment for ObjGroup. ">ObjGroup</a></code> that links to raw vertex or face data. </p>
+</td></tr>
 <tr><td class="fieldname"><a id="a45f898fe2af878727906bbe9006ddc25aa0668f8ecbd5990311c22c992ae79736"></a>D_PARTICLE&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a45f898fe2af878727906bbe9006ddc25a242c1640c670b2c9a151562a1c14b666"></a>D_LIGHT&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a45f898fe2af878727906bbe9006ddc25a77392f4ccb3225c2a38282164871919a"></a>D_GROUP&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<a id="a60388212ebd979d0ca165c4780fe2e1a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a60388212ebd979d0ca165c4780fe2e1a">&#9670;&nbsp;</a></span>DParmF</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../da/dbd/dynlist__proc_8h.html#a60388212ebd979d0ca165c4780fe2e1a">DParmF</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>parameters for <code><a class="el" href="../../da/dbd/dynlist__proc_8h.html#a0d4f65dfc8bec8df9eb75bcef97e4ba6" title="Set variable float parameters on the current dynamic object. ">d_set_parm_f()</a></code> </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a60388212ebd979d0ca165c4780fe2e1aa968c08b1f399ba2b56ac356909a3ac91"></a>PARM_F_ALPHA&#160;</td><td class="fielddoc"><p>Set the alpha value for an <code><a class="el" href="../../d7/da7/structObjShape.html">ObjShape</a></code> or <code><a class="el" href="../../da/d84/structObjVertex.html">ObjVertex</a></code> </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a60388212ebd979d0ca165c4780fe2e1aa7ba8244e36c73b6b17e666f6513ac02e"></a>PARM_F_RANGE_LEFT&#160;</td><td class="fielddoc"><p>Set the left range for an <code><a class="el" href="../../de/d08/structObjGadget.html">ObjGadget</a></code> </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a60388212ebd979d0ca165c4780fe2e1aaefb5a5b1f156f350b8ceb2f3a58415dd"></a>PARM_F_RANGE_RIGHT&#160;</td><td class="fielddoc"><p>Set the right range for an <code><a class="el" href="../../de/d08/structObjGadget.html">ObjGadget</a></code> </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a60388212ebd979d0ca165c4780fe2e1aa1e946699d4910e2dd343bda3bbec2455"></a>PARM_F_VARVAL&#160;</td><td class="fielddoc"><p>Set the float variable value union in an <code><a class="el" href="../../de/d08/structObjGadget.html">ObjGadget</a></code> </p>
+</td></tr>
 </table>
 
 </div>
@@ -325,9 +399,13 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>parameters types for <code><a class="el" href="../../da/dbd/dynlist__proc_8h.html#a9175c6c3f5e055e40b6489d225ceb2b1" title="Set various pointer parameters for the current dynamic object. ">d_set_parm_ptr()</a></code> </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a3fe431cb654991c1a9fd1c4a89dcb677ae73e88a51a6d750355a0027204e9a6fc"></a>PARM_PTR_OBJ_VTX&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3fe431cb654991c1a9fd1c4a89dcb677a34cb9f9734e6d186722b29c1705b1a5f"></a>PARM_PTR_CHAR&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a3fe431cb654991c1a9fd1c4a89dcb677ae73e88a51a6d750355a0027204e9a6fc"></a>PARM_PTR_OBJ_VTX&#160;</td><td class="fielddoc"><p>parameter is an <code><a class="el" href="../../da/d84/structObjVertex.html">ObjVertex</a></code> to add to an <code><a class="el" href="../../db/d64/structObjFace.html">ObjFace</a></code> </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a3fe431cb654991c1a9fd1c4a89dcb677a34cb9f9734e6d186722b29c1705b1a5f"></a>PARM_PTR_CHAR&#160;</td><td class="fielddoc"><p>parameter is a <code>char *</code> </p>
+</td></tr>
 </table>
 
 </div>
@@ -361,25 +439,25 @@ Functions</h2></td></tr>
           <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a> d_add_valptr </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../da/dbd/dynlist__proc_8h.html#a2cef162e6b05faca9bf16f244c045592">DynId</a>&#160;</td>
-          <td class="paramname">, </td>
+          <td class="paramname"><em>objId</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a>&#160;</td>
-          <td class="paramname">, </td>
+          <td class="paramname"><em>vflags</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td>
-          <td class="paramname">, </td>
+          <td class="paramname"><em>type</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a10e94b422ef0c20dcdec20d31a1f5049">u32</a>&#160;</td>
-          <td class="paramname">&#160;</td>
+          <td class="paramname"><em>offset</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -388,6 +466,14 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Create a new <code>ObjValPtr</code> to dynamic object <code>objId</code> and attach that valptr to the current dynamic object. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">type</td><td><code><a class="el" href="../../d7/df0/gd__types_8h.html#a1291038da4c7431aa4627f679358385e">ValPtrType</a></code> </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -401,13 +487,13 @@ Functions</h2></td></tr>
           <td class="memname"><a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> d_calc_world_dist_btwn </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../dc/d1d/structGdObj.html">GdObj</a> *&#160;</td>
-          <td class="paramname">, </td>
+          <td class="paramname"><em>obj1</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../dc/d1d/structGdObj.html">GdObj</a> *&#160;</td>
-          <td class="paramname">&#160;</td>
+          <td class="paramname"><em>obj2</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -416,6 +502,9 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Use the dynamic object system to calculate the distance between two <code><a class="el" href="../../dc/d1d/structGdObj.html" title="The base of structure of all of Goddard&#39;s objects. ">GdObj</a></code>s. </p>
+<p>The objects don't have to be dynamic objects. </p>
 
 </div>
 </div>
@@ -429,11 +518,14 @@ Functions</h2></td></tr>
           <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a> d_copystr_to_idbuf </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#ae30debe0ad3d7e219222e486ed5f9b95">char</a> *&#160;</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramname"><em>str</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Copy input <code>str</code> into a buffer that will be concatenated to a dynamic <code><a class="el" href="../../dc/d1d/structGdObj.html" title="The base of structure of all of Goddard&#39;s objects. ">GdObj</a></code>'s name string when creating a new dynamic object. </p>
+<p>If input is <code>NULL</code>, then a generic string is created based on the number of unnamed objects. </p>
 
 </div>
 </div>
@@ -453,6 +545,8 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Add all dynamic objects created between the start of dynamic <code><a class="el" href="../../d2/d38/structObjGroup.html" title="This is test documentation comment for ObjGroup. ">ObjGroup</a></code> <code>id</code> and this call. </p>
+
 </div>
 </div>
 <a id="aba49ff7519b78ea03a5a70a130a44635"></a>
@@ -470,6 +564,8 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Return a pointer to the attached object group of the current dynamic object. </p>
 
 </div>
 </div>
@@ -489,6 +585,8 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Get a pointer to the current dynamic object's identity matrix. </p>
+
 </div>
 </div>
 <a id="a523c851326eae200f2fc757e08274fe8"></a>
@@ -506,6 +604,8 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Get the initial position of the current dynamic object and store in <code>dst</code>. </p>
 
 </div>
 </div>
@@ -525,6 +625,8 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Get the initial rotation of the current dynamic object and store in <code>dst</code>. </p>
+
 </div>
 </div>
 <a id="aa4a16008595420e35a0decf0fe2d5fc4"></a>
@@ -542,6 +644,8 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Copy the matrix from the current dynamic object into <code>dst</code>. </p>
 
 </div>
 </div>
@@ -561,6 +665,8 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Get a pointer to the current dynamic object's matrix. </p>
+
 </div>
 </div>
 <a id="a5fabee1b8e860d1309283dd99203aa4a"></a>
@@ -578,6 +684,9 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Get a pointer to a <code><a class="el" href="../../d7/dc4/structGdPlaneF.html">GdPlaneF</a></code> in the current dynamic object. </p>
+<p>If the current object does not have a plane, a pointer to a global plane at (0,0) is returned. </p>
 
 </div>
 </div>
@@ -597,6 +706,8 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Store the current dynamic object's position into <code>dst</code>. </p>
+
 </div>
 </div>
 <a id="a725f979dfcd66e3ce50c3dcd6b5d7b19"></a>
@@ -614,6 +725,8 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Get a pointer to the current dynamic object's rotation matrix. </p>
 
 </div>
 </div>
@@ -633,6 +746,8 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Store the current dynamic object's scale into <code>dst</code>. </p>
+
 </div>
 </div>
 <a id="ac575547286904bf2fe84158d72a25c53"></a>
@@ -650,6 +765,8 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Copy the world position of the current dynamic object into <code>dst</code>. </p>
 
 </div>
 </div>
@@ -678,8 +795,12 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<dl class="bug"><dt><b><a class="el" href="../../de/da5/bug.html#_bug000003">Bug:</a></b></dt><dd>Returns garbage when making <code>D_DATA_GRP</code> object </dd></dl>
-<dl class="bug"><dt><b><a class="el" href="../../de/da5/bug.html#_bug000004">Bug:</a></b></dt><dd>When making a <code>D_LABEL</code>, the call to <code><a class="el" href="../../dc/d4c/bad__declarations_8h.html#a07ea98fe965965aa9f15bde55a42220e">make_label()</a></code> compiles incorrectly due to Goddard only declaring the functions, not prototyping the functions </dd></dl>
+
+<p>Create a new <code><a class="el" href="../../dc/d1d/structGdObj.html" title="The base of structure of all of Goddard&#39;s objects. ">GdObj</a></code> of <code>type</code> and add that object to the dynamic object list with <code>id</code>. </p>
+<p>Created objects have default parameters, which are usually 0 or NULL.</p>
+<dl class="section return"><dt>Returns</dt><dd>pointer to created object </dd></dl>
+<dl class="bug"><dt><b><a class="el" href="../../de/da5/bug.html#_bug000007">Bug:</a></b></dt><dd>Returns garbage when making <code>D_DATA_GRP</code> object </dd></dl>
+<dl class="bug"><dt><b><a class="el" href="../../de/da5/bug.html#_bug000008">Bug:</a></b></dt><dd>When making a <code>D_LABEL</code>, the call to <code><a class="el" href="../../dc/d4c/bad__declarations_8h.html#a07ea98fe965965aa9f15bde55a42220e">make_label()</a></code> compiles incorrectly due to Goddard only declaring the functions, not prototyping the functions </dd></dl>
 
 </div>
 </div>
@@ -693,11 +814,14 @@ Functions</h2></td></tr>
           <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a> d_set_colour_num </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramname"><em>colornum</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Set the colour of the current dynamic object. </p>
+<p>The input color is an index for <code><a class="el" href="../../dc/d8a/draw__objects_8c.html#a23780c18ca0449b6f7c1a74e15893641" title="Convert a numeric index into pointer to a struct GdColour. ">gd_get_colour()</a></code> </p>
 
 </div>
 </div>
@@ -733,6 +857,8 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Set the diffuse color of the current dynamic <code><a class="el" href="../../d8/d72/structObjMaterial.html">ObjMaterial</a></code> or <code><a class="el" href="../../d0/ddc/structObjLight.html">ObjLight</a></code>. </p>
+
 </div>
 </div>
 <a id="ad11013765ba27545fb5a466a0f04f12b"></a>
@@ -751,6 +877,8 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Set the object specific flags of the current dynamic object. </p>
+
 </div>
 </div>
 <a id="a565b34d4579b286cefadbef9b95e100f"></a>
@@ -768,6 +896,8 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Copy <code>src</code> into the identity matrix of the current dynamic object. </p>
 
 </div>
 </div>
@@ -803,6 +933,8 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Set the initial position of the current dynamic object to <code>(x, y, z)</code>. </p>
+
 </div>
 </div>
 <a id="a956aad1abbe9ec3a86db84424129673a"></a>
@@ -821,10 +953,12 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Set the generic drawing flags for the current dynamic object. </p>
+
 </div>
 </div>
-<a id="a6d2592419b704106937a6b08652ea353"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6d2592419b704106937a6b08652ea353">&#9670;&nbsp;</a></span>d_set_parm_f()</h2>
+<a id="a0d4f65dfc8bec8df9eb75bcef97e4ba6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d4f65dfc8bec8df9eb75bcef97e4ba6">&#9670;&nbsp;</a></span>d_set_parm_f()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -832,14 +966,14 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a> d_set_parm_f </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td>
-          <td class="paramname">, </td>
+          <td class="paramtype">enum <a class="el" href="../../da/dbd/dynlist__proc_8h.html#a60388212ebd979d0ca165c4780fe2e1a">DParmF</a>&#160;</td>
+          <td class="paramname"><em>param</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td>
-          <td class="paramname">&#160;</td>
+          <td class="paramname"><em>val</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -848,6 +982,9 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Set variable float parameters on the current dynamic object. </p>
+<p>These are mainly used for <code><a class="el" href="../../de/d08/structObjGadget.html">ObjGadget</a></code>s to set the drawing size range. </p>
 
 </div>
 </div>
@@ -860,14 +997,14 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a> d_set_parm_ptr </td>
           <td>(</td>
-          <td class="paramtype">enum&#160;</td>
-          <td class="paramname"><em>DParmPtr</em>, </td>
+          <td class="paramtype">enum <a class="el" href="../../da/dbd/dynlist__proc_8h.html#a3fe431cb654991c1a9fd1c4a89dcb677">DParmPtr</a>&#160;</td>
+          <td class="paramname"><em>param</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a> *&#160;</td>
-          <td class="paramname">&#160;</td>
+          <td class="paramname"><em>ptr</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -876,6 +1013,9 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Set various pointer parameters for the current dynamic object. </p>
+<p>Normally, this is used to set <code>char *</code> pointer for various objects, but it can also set the vertices for an <code><a class="el" href="../../db/d64/structObjFace.html">ObjFace</a></code>. </p>
 
 </div>
 </div>
@@ -889,19 +1029,19 @@ Functions</h2></td></tr>
           <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a> d_set_rel_pos </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td>
-          <td class="paramname">, </td>
+          <td class="paramname"><em>x</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td>
-          <td class="paramname">, </td>
+          <td class="paramname"><em>y</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td>
-          <td class="paramname">&#160;</td>
+          <td class="paramname"><em>z</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -910,6 +1050,9 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Set the position of the current dynamic object. </p>
+<dl class="section note"><dt>Note</dt><dd>This function automatically adjusts the three zoom levels for an <code><a class="el" href="../../d2/dfc/structObjCamera.html">ObjCamera</a></code>. </dd></dl>
 
 </div>
 </div>
@@ -923,19 +1066,19 @@ Functions</h2></td></tr>
           <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a> d_set_scale </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td>
-          <td class="paramname">, </td>
+          <td class="paramname"><em>x</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td>
-          <td class="paramname">, </td>
+          <td class="paramname"><em>y</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td>
-          <td class="paramname">&#160;</td>
+          <td class="paramname"><em>z</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -944,6 +1087,9 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Scale the current dynamic object by factor <code>(x, y, z)</code>. </p>
+<dl class="section note"><dt>Note</dt><dd>Sets the lower right coordinates of an <code><a class="el" href="../../d9/d12/structObjView.html">ObjView</a></code> </dd></dl>
 
 </div>
 </div>
@@ -963,6 +1109,8 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Set the shape pointer of the current active dynamic object to the pointer pointed to by <code>shpPtrptr</code>. </p>
+
 </div>
 </div>
 <a id="aaa17f5c6947fec84496b5dcb94b7c014"></a>
@@ -981,6 +1129,8 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Set an object specific type field for the current dynamic object. </p>
+
 </div>
 </div>
 <a id="a296fb1787ce6282db9f562113fca5c0e"></a>
@@ -993,19 +1143,19 @@ Functions</h2></td></tr>
           <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a> d_set_world_pos </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td>
-          <td class="paramname">, </td>
+          <td class="paramname"><em>x</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td>
-          <td class="paramname">, </td>
+          <td class="paramname"><em>y</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td>
-          <td class="paramname">&#160;</td>
+          <td class="paramname"><em>z</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1014,6 +1164,9 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Set the world position of the current dynamic object. </p>
+<dl class="section note"><dt>Note</dt><dd>Sets the upper left coordinates of an <code><a class="el" href="../../d9/d12/structObjView.html">ObjView</a></code> </dd></dl>
 
 </div>
 </div>
@@ -1033,6 +1186,8 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Start a dynamic <code><a class="el" href="../../d2/d38/structObjGroup.html" title="This is test documentation comment for ObjGroup. ">ObjGroup</a></code> identified with <code>id</code>. </p>
+
 </div>
 </div>
 <a id="ab8aa26797dc510bb59e314135ade4bb0"></a>
@@ -1051,6 +1206,8 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Set the current active dynamic object to object <code>id</code>. </p>
+
 </div>
 </div>
 <a id="a19cb9ac28235d15dfa7251e2da7e52a4"></a>
@@ -1063,11 +1220,19 @@ Functions</h2></td></tr>
           <td class="memname"><a class="el" href="../../d9/d0b/err_8english_8cc.html#abb178ecd93afd9b8177853194c3c833c">void</a> dynid_is_int </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../dd/da7/ultratypes_8h.html#a0ce6887c26c1c49ad3be5710dd42bfd6">s32</a>&#160;</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramname"><em>isIntBool</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Set if <code>DynId</code> should be treated as integer values, or as <code>char *</code> string pointers. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">isIntBool</td><td><code>TRUE</code> to interpret ids as integers </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -1087,6 +1252,8 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Set the stashed <code><a class="el" href="../../dc/d1d/structGdObj.html" title="The base of structure of all of Goddard&#39;s objects. ">GdObj</a></code> as the active dynamic <code><a class="el" href="../../dc/d1d/structGdObj.html" title="The base of structure of all of Goddard&#39;s objects. ">GdObj</a></code>. </p>
+
 </div>
 </div>
 <a id="a10bffa2bec6b08620e739055cd668b01"></a>
@@ -1104,6 +1271,9 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Parse a <code><a class="el" href="../../d0/dc0/structDynList.html">DynList</a></code> array into active <code><a class="el" href="../../dc/d1d/structGdObj.html" title="The base of structure of all of Goddard&#39;s objects. ">GdObj</a></code>s. </p>
+<dl class="section return"><dt>Returns</dt><dd>Pointer to current dynamically created dynamic <code><a class="el" href="../../dc/d1d/structGdObj.html" title="The base of structure of all of Goddard&#39;s objects. ">GdObj</a></code>. Normally the dynlist specifically sets an object for return. </dd></dl>
 
 </div>
 </div>
@@ -1123,6 +1293,8 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Store the active dynamic <code><a class="el" href="../../dc/d1d/structGdObj.html" title="The base of structure of all of Goddard&#39;s objects. ">GdObj</a></code> into a one object stash. </p>
+
 </div>
 </div>
 <a id="a33d5306650c9dc23ba5c61efcfb9f69b"></a>
@@ -1140,6 +1312,8 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Reset dynlist related variables to a starting state. </p>
 
 </div>
 </div>

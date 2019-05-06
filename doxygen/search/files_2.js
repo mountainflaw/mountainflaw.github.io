@@ -1,7 +1,6 @@
 var searchData=
 [
   ['bad_5fdeclarations_2eh',['bad_declarations.h',['../dc/d4c/bad__declarations_8h.html',1,'']]],
-  ['bait_5fcoin_2einc_2ec',['bait_coin.inc.c',['../d2/dff/bait__coin_8inc_8c.html',1,'']]],
   ['bbh_5fmerry_5fgo_5fround_2einc_2ec',['bbh_merry_go_round.inc.c',['../db/d8c/bbh__merry__go__round_8inc_8c.html',1,'']]],
   ['bbh_5ftilt_5ffloor_2einc_2ec',['bbh_tilt_floor.inc.c',['../d5/d2f/bbh__tilt__floor_8inc_8c.html',1,'']]],
   ['bbh_5ftumbling_5fbookshelf_2einc_2ec',['bbh_tumbling_bookshelf.inc.c',['../d2/dc1/bbh__tumbling__bookshelf_8inc_8c.html',1,'']]],
@@ -12,6 +11,8 @@ var searchData=
   ['behavior_5fscript_2eh',['behavior_script.h',['../d0/d69/behavior__script_8h.html',1,'']]],
   ['beta_5fboo_5fkey_2einc_2ec',['beta_boo_key.inc.c',['../d5/d96/beta__boo__key_8inc_8c.html',1,'']]],
   ['beta_5fchest_2einc_2ec',['beta_chest.inc.c',['../df/d22/beta__chest_8inc_8c.html',1,'']]],
+  ['beta_5ffish_5fsplash_5fspawner_2einc_2ec',['beta_fish_splash_spawner.inc.c',['../d6/db0/beta__fish__splash__spawner_8inc_8c.html',1,'']]],
+  ['beta_5ffollowing_5fcircling_5fobj_2einc_2ec',['beta_following_circling_obj.inc.c',['../d9/d41/beta__following__circling__obj_8inc_8c.html',1,'']]],
   ['beta_5fgreen_5fshell_2einc_2ec',['beta_green_shell.inc.c',['../d4/d67/beta__green__shell_8inc_8c.html',1,'']]],
   ['beta_5ftrampoline_2einc_2ec',['beta_trampoline.inc.c',['../dc/d6d/beta__trampoline_8inc_8c.html',1,'']]],
   ['bird_2einc_2ec',['bird.inc.c',['../de/df1/bird_8inc_8c.html',1,'']]],

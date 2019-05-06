@@ -131,7 +131,7 @@ Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
 <tr class="memitem:ae88de9929fe04d3f870f22ff01fa89d0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d0b/err_8english_8cc.html#a998a59fdeacd19b205c29911f4a91717">static</a> <a class="el" href="../../d9/d0b/err_8english_8cc.html#af4a03635eed55b742e4da098aa994408">struct</a> <a class="el" href="../../d5/d8e/structObjectHitbox.html">ObjectHitbox</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/ddb/chain__chomp_8inc_8c.html#ae88de9929fe04d3f870f22ff01fa89d0">sChainChompHitbox</a></td></tr>
-<tr class="memdesc:ae88de9929fe04d3f870f22ff01fa89d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Behavior for bChainChomp, bChainChompChainPart, bWoodenPost, and bChainChompGate.  <a href="#ae88de9929fe04d3f870f22ff01fa89d0">More...</a><br /></td></tr>
+<tr class="memdesc:ae88de9929fe04d3f870f22ff01fa89d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Behavior for bhvChainChomp, bhvChainChompChainPart, bhvWoodenPost, and bhvChainChompGate.  <a href="#ae88de9929fe04d3f870f22ff01fa89d0">More...</a><br /></td></tr>
 <tr class="separator:ae88de9929fe04d3f870f22ff01fa89d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -598,8 +598,8 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">=</div><div class="line">{</div><div class="line">          <a class="code" href="../../da/d85/interaction_8h.html#a76e2b40692bbf22e5d7906ae93653b6d">INTERACT_MR_BLIZZARD</a>,</div><div class="line">            0,</div><div class="line">     3,</div><div class="line">                1,</div><div class="line">          0,</div><div class="line">                80,</div><div class="line">                160,</div><div class="line">         80,</div><div class="line">         160,</div><div class="line">}</div><div class="ttc" id="interaction_8h_html_a76e2b40692bbf22e5d7906ae93653b6d"><div class="ttname"><a href="../../da/d85/interaction_8h.html#a76e2b40692bbf22e5d7906ae93653b6d">INTERACT_MR_BLIZZARD</a></div><div class="ttdeci">#define INTERACT_MR_BLIZZARD</div><div class="ttdef"><b>Definition:</b> interaction.h:27</div></div>
 </div><!-- fragment -->
-<p>Behavior for bChainChomp, bChainChompChainPart, bWoodenPost, and bChainChompGate. </p>
-<p>bChainChomp spawns its bWoodenPost in its behavior script. It spawns 5 chain parts. Part 0 is the "pivot", which is positioned at the wooden post while the chomp is chained up. Parts 1-4 are the other parts, starting from the chain chomp and moving toward the pivot. Processing order is bWoodenPost, bChainChompGate, bChainChomp, bChainChompChainPart. The chain parts are processed starting at the post and ending at the chomp. Hitbox for chain chomp. </p>
+<p>Behavior for bhvChainChomp, bhvChainChompChainPart, bhvWoodenPost, and bhvChainChompGate. </p>
+<p>bhvChainChomp spawns its bhvWoodenPost in its behavior script. It spawns 5 chain parts. Part 0 is the "pivot", which is positioned at the wooden post while the chomp is chained up. Parts 1-4 are the other parts, starting from the chain chomp and moving toward the pivot. Processing order is bhvWoodenPost, bhvChainChompGate, bhvChainChomp, bhvChainChompChainPart. The chain parts are processed starting at the post and ending at the chomp. Hitbox for chain chomp. </p>
 
 </div>
 </div>

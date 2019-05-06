@@ -129,6 +129,9 @@ $(function() {
 <li>oActivatedBackAndForthPlatformVertical
 : <a class="el" href="dc/de1/object__fields_8h.html#ac859928a1e7395eab1d18fbbf9b849f2">object_fields.h</a>
 </li>
+<li>oActiveParticleFlags
+: <a class="el" href="dc/de1/object__fields_8h.html#a6587e23b86881bb2dd4b16099a738479">object_fields.h</a>
+</li>
 <li>oAmpHomingAvgY
 : <a class="el" href="dc/de1/object__fields_8h.html#af835629d28fe0a72bf3514d8c7d1b04e">object_fields.h</a>
 </li>
@@ -182,12 +185,6 @@ $(function() {
 </li>
 <li>oBBallSpwnrSpawnOdds
 : <a class="el" href="dc/de1/object__fields_8h.html#a669b12a2bd9177ca18b943d11ee0a0d5">object_fields.h</a>
-</li>
-<li>oBBCBRespawnerBehaviorToSpawn
-: <a class="el" href="dc/de1/object__fields_8h.html#ad63346a7f649d23549432a3e77a6f3bd">object_fields.h</a>
-</li>
-<li>oBBCBRespawnerMinSpawnDist
-: <a class="el" href="dc/de1/object__fields_8h.html#af79c7b1b33263bcb062435f2dd76f4b9">object_fields.h</a>
 </li>
 <li>oBehParams
 : <a class="el" href="dc/de1/object__fields_8h.html#a64b5d2aae5e9e805b948c02fda0a445f">object_fields.h</a>
@@ -243,8 +240,8 @@ $(function() {
 , <a class="el" href="d3/dc7/object__helpers_8h.html#aec70275785ebdd109f3e6ae1b9ae7b8e">object_helpers.h</a>
 </li>
 <li>obj_apply_drag_xz()
-: <a class="el" href="d3/dc7/object__helpers_8h.html#ab855a325c064513cbb43ce69eb7c375a">object_helpers.h</a>
-, <a class="el" href="db/d81/object__helpers_8c.html#a57e3dc62cfbcbd34233131835abc05f2">object_helpers.c</a>
+: <a class="el" href="db/d81/object__helpers_8c.html#a57e3dc62cfbcbd34233131835abc05f2">object_helpers.c</a>
+, <a class="el" href="d3/dc7/object__helpers_8h.html#ab855a325c064513cbb43ce69eb7c375a">object_helpers.h</a>
 </li>
 <li>obj_become_intangible()
 : <a class="el" href="db/d81/object__helpers_8c.html#ab51e835dbcab469171471d4b59bba139">object_helpers.c</a>
@@ -393,9 +390,6 @@ $(function() {
 <li>OBJ_FLAG_30
 : <a class="el" href="dd/dd3/object__constants_8h.html#a4c94ac79199a0f1c4524ba0adb9ed314">object_constants.h</a>
 </li>
-<li>OBJ_FLAG_4000
-: <a class="el" href="dd/dd3/object__constants_8h.html#ad218be095634e08b599c2eb305d0da7a">object_constants.h</a>
-</li>
 <li>OBJ_FLAG_8000
 : <a class="el" href="dd/dd3/object__constants_8h.html#abd8528c6e0c0751b976dd06cfe985a55">object_constants.h</a>
 </li>
@@ -416,6 +410,9 @@ $(function() {
 </li>
 <li>OBJ_FLAG_MOVE_Y_WITH_TERMINAL_VEL
 : <a class="el" href="dd/dd3/object__constants_8h.html#ae983e7adbb053e87eabcef0caf21a1e2">object_constants.h</a>
+</li>
+<li>OBJ_FLAG_PERSISTENT_RESPAWN
+: <a class="el" href="dd/dd3/object__constants_8h.html#a66dbe77c50c8c5f49b156d8b08e242d8">object_constants.h</a>
 </li>
 <li>OBJ_FLAG_SET_FACE_YAW_TO_MOVE_YAW
 : <a class="el" href="dd/dd3/object__constants_8h.html#aaee24ef1c464ddc88fcbeb0cd48f7192">object_constants.h</a>
@@ -511,43 +508,43 @@ $(function() {
 , <a class="el" href="d3/dc7/object__helpers_8h.html#a8edae51440a43128abb601a5723bed3e">object_helpers.h</a>
 </li>
 <li>OBJ_LIST_DEFAULT
-: <a class="el" href="d7/d9e/object__lists_8h.html#acbb4b9c0c8c0f0f36f139f8840f4c53e">object_lists.h</a>
+: <a class="el" href="d2/dd2/object__list__processor_8h.html#a1a5dccb544a81ec4f995cc08d6cbd0eea1702392064e3983cc256d65cc42b4204">object_list_processor.h</a>
 </li>
 <li>OBJ_LIST_DESTRUCTIVE
-: <a class="el" href="d7/d9e/object__lists_8h.html#aaf0d589f618857d738a98afc5cbd2502">object_lists.h</a>
+: <a class="el" href="d2/dd2/object__list__processor_8h.html#a1a5dccb544a81ec4f995cc08d6cbd0eea2f9ce548237e633f96acc8815b07c21d">object_list_processor.h</a>
 </li>
 <li>OBJ_LIST_GENACTOR
-: <a class="el" href="d7/d9e/object__lists_8h.html#ac617a489ea54521aae47525dd9930e82">object_lists.h</a>
+: <a class="el" href="d2/dd2/object__list__processor_8h.html#a1a5dccb544a81ec4f995cc08d6cbd0eea86d582e934fcb9faf91c4e275a3809b2">object_list_processor.h</a>
 </li>
 <li>OBJ_LIST_LEVEL
-: <a class="el" href="d7/d9e/object__lists_8h.html#af42da9f99acdf220116f626a2b9527f6">object_lists.h</a>
+: <a class="el" href="d2/dd2/object__list__processor_8h.html#a1a5dccb544a81ec4f995cc08d6cbd0eea835dc34c9752b4967212a46818e05782">object_list_processor.h</a>
 </li>
 <li>OBJ_LIST_PLAYER
-: <a class="el" href="d7/d9e/object__lists_8h.html#abfdc63541ccee6b576f3cd36bbbe51d1">object_lists.h</a>
+: <a class="el" href="d2/dd2/object__list__processor_8h.html#a1a5dccb544a81ec4f995cc08d6cbd0eea7bae9bae9e9d15df053a2b8801f5e6a4">object_list_processor.h</a>
 </li>
 <li>OBJ_LIST_POLELIKE
-: <a class="el" href="d7/d9e/object__lists_8h.html#ae4c95ae5aad0febd38138fd792132cc2">object_lists.h</a>
+: <a class="el" href="d2/dd2/object__list__processor_8h.html#a1a5dccb544a81ec4f995cc08d6cbd0eeaa0b00f95adc3a911818ddb9764d46ba9">object_list_processor.h</a>
 </li>
 <li>OBJ_LIST_PUSHABLE
-: <a class="el" href="d7/d9e/object__lists_8h.html#a16840b7227623e01f2d9fa6a589e193f">object_lists.h</a>
+: <a class="el" href="d2/dd2/object__list__processor_8h.html#a1a5dccb544a81ec4f995cc08d6cbd0eea5146e9739882ca7a6848e45684d2d841">object_list_processor.h</a>
 </li>
 <li>OBJ_LIST_SPAWNER
-: <a class="el" href="d7/d9e/object__lists_8h.html#acc0b717b5028150ec14b19d5559c8102">object_lists.h</a>
+: <a class="el" href="d2/dd2/object__list__processor_8h.html#a1a5dccb544a81ec4f995cc08d6cbd0eea049d6214253ccaa01e19b4a2d05332e1">object_list_processor.h</a>
 </li>
 <li>OBJ_LIST_SURFACE
-: <a class="el" href="d7/d9e/object__lists_8h.html#a92f059ef3f189305c185e2859f070a25">object_lists.h</a>
+: <a class="el" href="d2/dd2/object__list__processor_8h.html#a1a5dccb544a81ec4f995cc08d6cbd0eeafd08c388dbe23fbd8d25f7c36a0c6ec8">object_list_processor.h</a>
 </li>
 <li>OBJ_LIST_UNIMPORTANT
-: <a class="el" href="d7/d9e/object__lists_8h.html#a46133ac5d84935061f50c946f5b0e657">object_lists.h</a>
+: <a class="el" href="d2/dd2/object__list__processor_8h.html#a1a5dccb544a81ec4f995cc08d6cbd0eea2ae56e4043c0045a456771e0a9ca9635">object_list_processor.h</a>
 </li>
-<li>OBJ_LIST_UNK1
-: <a class="el" href="d7/d9e/object__lists_8h.html#a24e7da323e3188f0befb9356e23c79c2">object_lists.h</a>
+<li>OBJ_LIST_UNUSED_1
+: <a class="el" href="d2/dd2/object__list__processor_8h.html#a1a5dccb544a81ec4f995cc08d6cbd0eea235b2221dd5b80bfee4f2b951555ab31">object_list_processor.h</a>
 </li>
-<li>OBJ_LIST_UNK3
-: <a class="el" href="d7/d9e/object__lists_8h.html#a983b24c7442483ec6ea7d04f8fe0bfcc">object_lists.h</a>
+<li>OBJ_LIST_UNUSED_3
+: <a class="el" href="d2/dd2/object__list__processor_8h.html#a1a5dccb544a81ec4f995cc08d6cbd0eea7965b3ecc0d7e1d21cdce8e2ba67b942">object_list_processor.h</a>
 </li>
-<li>OBJ_LIST_UNK7
-: <a class="el" href="d7/d9e/object__lists_8h.html#a4976bbf840b612000ffffb74d0899078">object_lists.h</a>
+<li>OBJ_LIST_UNUSED_7
+: <a class="el" href="d2/dd2/object__list__processor_8h.html#a1a5dccb544a81ec4f995cc08d6cbd0eeac7cc8e7cc6f1d600dcc3dfa6c75dda22">object_list_processor.h</a>
 </li>
 <li>obj_mario_far_away()
 : <a class="el" href="db/d81/object__helpers_8c.html#a51384bc08dafcb40eac285cda7a6e660">object_helpers.c</a>
@@ -723,12 +720,12 @@ $(function() {
 : <a class="el" href="db/d1a/obj__behaviors__2_8c.html#a566d9dfd593e14b37add28542a62646e">obj_behaviors_2.c</a>
 </li>
 <li>obj_rotate_yaw_toward()
-: <a class="el" href="d3/dc7/object__helpers_8h.html#aca67b9fb7c839483278e22ebb4b64ff2">object_helpers.h</a>
-, <a class="el" href="db/d81/object__helpers_8c.html#af0a5b48e58fa1aaa934bb196a4227c5d">object_helpers.c</a>
+: <a class="el" href="db/d81/object__helpers_8c.html#af0a5b48e58fa1aaa934bb196a4227c5d">object_helpers.c</a>
+, <a class="el" href="d3/dc7/object__helpers_8h.html#aca67b9fb7c839483278e22ebb4b64ff2">object_helpers.h</a>
 </li>
 <li>obj_scale()
 : <a class="el" href="db/d81/object__helpers_8c.html#adcde916e8cce19e2f0bd7fbb594c9144">object_helpers.c</a>
-, <a class="el" href="d3/dc7/object__helpers_8h.html#a2c9071736b6f144f3fa21101fe37bee4">object_helpers.h</a>
+, <a class="el" href="d3/dc7/object__helpers_8h.html#a9a5e8dffd355a0e220c9773ad8a0ae55">object_helpers.h</a>
 </li>
 <li>obj_set_behavior()
 : <a class="el" href="db/d81/object__helpers_8c.html#a317f639a65b3e6e42d484ad94cad6a5e">object_helpers.c</a>
@@ -976,9 +973,6 @@ $(function() {
 <li>object_and_int
 : <a class="el" href="d0/d69/behavior__script_8h.html#a649b2d7a3b4be6bb2a51a47f67b7f001">behavior_script.h</a>
 </li>
-<li>OBJECT_ARRAY_SIZE
-: <a class="el" href="d2/dd2/object__list__processor_8h.html#a48e74f6d850c4f831e1113a32b516a72">object_list_processor.h</a>
-</li>
 <li>object_facing_mario()
 : <a class="el" href="d1/d79/interaction_8c.html#a8c6ee909c5d147671e43b701cf03c4c3">interaction.c</a>
 </li>
@@ -1015,9 +1009,6 @@ $(function() {
 <li>OBJECT_FIELD_U32
 : <a class="el" href="dc/de1/object__fields_8h.html#a88ec842239eb0ef70a83cd3795dbca92">object_fields.h</a>
 </li>
-<li>OBJECT_FIELD_U8
-: <a class="el" href="dc/de1/object__fields_8h.html#abb9f9a0fbc986b5c10c8d34fc8f15aba">object_fields.h</a>
-</li>
 <li>OBJECT_FIELD_VOIDP
 : <a class="el" href="dc/de1/object__fields_8h.html#a6745660a5f45211d3573a60105191f61">object_fields.h</a>
 </li>
@@ -1031,9 +1022,15 @@ $(function() {
 : <a class="el" href="db/d81/object__helpers_8c.html#aa01c01baa28a3b54e2bb92691bb6b365">object_helpers.c</a>
 , <a class="el" href="d3/dc7/object__helpers_8h.html#a890143a9c5853d7eb7d875c495f8dcdd">object_helpers.h</a>
 </li>
+<li>OBJECT_POOL_CAPACITY
+: <a class="el" href="d2/dd2/object__list__processor_8h.html#a00ac0e5ea0f16dba67f75b67a9aaad68">object_list_processor.h</a>
+</li>
 <li>object_pos_to_vec3f()
 : <a class="el" href="d1/de0/camera_8c.html#ae837923462b049e0c0b5d21a2eaec0aa">camera.c</a>
 , <a class="el" href="d7/df6/camera_8h.html#aa6685acfd66c8df0f232e80398905e81">camera.h</a>
+</li>
+<li>ObjectList
+: <a class="el" href="d2/dd2/object__list__processor_8h.html#a1a5dccb544a81ec4f995cc08d6cbd0ee">object_list_processor.h</a>
 </li>
 <li>ObjectStep()
 : <a class="el" href="d2/d1c/obj__behaviors_8c.html#acd15cc53c798f52207478c317735e1cc">obj_behaviors.c</a>
@@ -1246,8 +1243,11 @@ $(function() {
 <li>oBowserUnkF8
 : <a class="el" href="dc/de1/object__fields_8h.html#a3352c8a701869d820217d1cff2e7a0ef">object_fields.h</a>
 </li>
-<li>oBreakableBoxBackupUnkF4
-: <a class="el" href="dc/de1/object__fields_8h.html#a7aa86ff3e654c4c918286e2fabb7cf6f">object_fields.h</a>
+<li>oBreakableBoxSmallFramesSinceReleased
+: <a class="el" href="dc/de1/object__fields_8h.html#abef77081570fa3894b867b02f47e3f12">object_fields.h</a>
+</li>
+<li>oBreakableBoxSmallReleased
+: <a class="el" href="dc/de1/object__fields_8h.html#acb99594b91141150823276625724e76a">object_fields.h</a>
 </li>
 <li>oBubbaUnk100
 : <a class="el" href="dc/de1/object__fields_8h.html#a8924c4750b7fb85b8feffe650171667a">object_fields.h</a>
@@ -1557,6 +1557,9 @@ $(function() {
 </li>
 <li>oEyerokReceivedAttack
 : <a class="el" href="dc/de1/object__fields_8h.html#af2dc1888499fd192059f47e0c5c3fc46">object_fields.h</a>
+</li>
+<li>oEyesShut
+: <a class="el" href="dc/de1/object__fields_8h.html#a1eccb880ecdfb451558c7991e5038fd0">object_fields.h</a>
 </li>
 <li>oFaceAnglePitch
 : <a class="el" href="dc/de1/object__fields_8h.html#a4e7493ac4d56c286f1ad2e98aa2f8897">object_fields.h</a>
@@ -2306,8 +2309,17 @@ $(function() {
 : <a class="el" href="dc/de1/object__fields_8h.html#ad50cfb2fa07711a27aac105b12b7987e">object_fields.h</a>
 </li>
 <li>orbit_from_positions()
-: <a class="el" href="d6/d07/envfx__snow_8c.html#ab3767f57de2e0823fa128150d030bd6a">envfx_snow.c</a>
-, <a class="el" href="df/d55/envfx__snow_8h.html#ab3767f57de2e0823fa128150d030bd6a">envfx_snow.h</a>
+: <a class="el" href="df/d55/envfx__snow_8h.html#ab3767f57de2e0823fa128150d030bd6a">envfx_snow.h</a>
+, <a class="el" href="d6/d07/envfx__snow_8c.html#ab3767f57de2e0823fa128150d030bd6a">envfx_snow.c</a>
+</li>
+<li>oRespawnerBehaviorToRespawn
+: <a class="el" href="dc/de1/object__fields_8h.html#a6deb751b29ac223929f34ad8c6e10964">object_fields.h</a>
+</li>
+<li>oRespawnerMinSpawnDist
+: <a class="el" href="dc/de1/object__fields_8h.html#adfe9c0cadb9f10086de1e5fccc5e49c0">object_fields.h</a>
+</li>
+<li>oRespawnerModelToRespawn
+: <a class="el" href="dc/de1/object__fields_8h.html#a5fb02abc9a95ce3b12af9b2143b765f3">object_fields.h</a>
 </li>
 <li>oRoom
 : <a class="el" href="dc/de1/object__fields_8h.html#a99e8fb622094c06480e3e175eb286456">object_fields.h</a>
@@ -2685,11 +2697,11 @@ $(function() {
 : <a class="el" href="db/d1a/obj__behaviors__2_8c.html#a6a10a44075ab17513b28a477afefc68b">obj_behaviors_2.c</a>
 </li>
 <li>osClockRate
-: <a class="el" href="d5/d85/osInitialize_8c.html#a115ccbb72ad3e50a0af6e1889d835e45">osInitialize.c</a>
-, <a class="el" href="dd/dff/profiler_8h.html#a115ccbb72ad3e50a0af6e1889d835e45">profiler.h</a>
+: <a class="el" href="dd/dff/profiler_8h.html#a115ccbb72ad3e50a0af6e1889d835e45">profiler.h</a>
 , <a class="el" href="d6/d93/osContInit_8c.html#a115ccbb72ad3e50a0af6e1889d835e45">osContInit.c</a>
-, <a class="el" href="dd/d3c/osEepromLongWrite_8c.html#a115ccbb72ad3e50a0af6e1889d835e45">osEepromLongWrite.c</a>
+, <a class="el" href="d5/d85/osInitialize_8c.html#a115ccbb72ad3e50a0af6e1889d835e45">osInitialize.c</a>
 , <a class="el" href="d9/db2/osEepromLongRead_8c.html#a115ccbb72ad3e50a0af6e1889d835e45">osEepromLongRead.c</a>
+, <a class="el" href="dd/d3c/osEepromLongWrite_8c.html#a115ccbb72ad3e50a0af6e1889d835e45">osEepromLongWrite.c</a>
 </li>
 <li>osContGetReadData()
 : <a class="el" href="d9/d0d/osContStartReadData_8c.html#a1f254463b03eb972abbf6c693077f397">osContStartReadData.c</a>
@@ -2708,8 +2720,8 @@ $(function() {
 , <a class="el" href="d6/ddd/os__pi_8h.html#a75139a417f68f985cd7bb9a2ca166f98">os_pi.h</a>
 </li>
 <li>osCreateThread()
-: <a class="el" href="d5/d85/os__thread_8h.html#a215c9681dbf26ff00e8b240491f605fa">os_thread.h</a>
-, <a class="el" href="d5/dd5/osCreateThread_8c.html#a215c9681dbf26ff00e8b240491f605fa">osCreateThread.c</a>
+: <a class="el" href="d5/dd5/osCreateThread_8c.html#a215c9681dbf26ff00e8b240491f605fa">osCreateThread.c</a>
+, <a class="el" href="d5/d85/os__thread_8h.html#a215c9681dbf26ff00e8b240491f605fa">os_thread.h</a>
 </li>
 <li>osCreateViManager()
 : <a class="el" href="d6/d27/osCreateViManager_8c.html#a0b32162ed7cfeee6f51f2187052268e2">osCreateViManager.c</a>
@@ -2909,8 +2921,8 @@ $(function() {
 : <a class="el" href="dc/de1/object__fields_8h.html#a8d050eb1371f40a44ce39ba9d82735e6">object_fields.h</a>
 </li>
 <li>osPiRawReadIo()
-: <a class="el" href="d0/da9/osPiRawReadIo_8c.html#ab8c59c07ecc578959b5c68a3b34e6d77">osPiRawReadIo.c</a>
-, <a class="el" href="d1/d19/libultra__internal_8h.html#ab8c59c07ecc578959b5c68a3b34e6d77">libultra_internal.h</a>
+: <a class="el" href="d1/d19/libultra__internal_8h.html#ab8c59c07ecc578959b5c68a3b34e6d77">libultra_internal.h</a>
+, <a class="el" href="d0/da9/osPiRawReadIo_8c.html#ab8c59c07ecc578959b5c68a3b34e6d77">osPiRawReadIo.c</a>
 </li>
 <li>osPiRawStartDma()
 : <a class="el" href="d4/dd1/osPiRawStartDma_8c.html#abd439f44acb52526d411fb4e61639b9a">osPiRawStartDma.c</a>
@@ -2933,13 +2945,13 @@ $(function() {
 : <a class="el" href="df/d47/osRecvMesg_8c.html#aa254dc33e373f235a99e17f7717493dc">osRecvMesg.c</a>
 </li>
 <li>osResetType
-: <a class="el" href="d5/d85/osInitialize_8c.html#a0a4ec2aee4185607c2c8b0592483b053">osInitialize.c</a>
-, <a class="el" href="d1/dc3/libultra_8h.html#a0a4ec2aee4185607c2c8b0592483b053">libultra.h</a>
+: <a class="el" href="d1/dc3/libultra_8h.html#a0a4ec2aee4185607c2c8b0592483b053">libultra.h</a>
+, <a class="el" href="d5/d85/osInitialize_8c.html#a0a4ec2aee4185607c2c8b0592483b053">osInitialize.c</a>
 </li>
 <li>osRomBase
 : <a class="el" href="d1/dc3/libultra_8h.html#aa3a1dc7939fd49721d4353372722722c">libultra.h</a>
-, <a class="el" href="d4/dd1/osPiRawStartDma_8c.html#aa3a1dc7939fd49721d4353372722722c">osPiRawStartDma.c</a>
 , <a class="el" href="d0/da9/osPiRawReadIo_8c.html#aa3a1dc7939fd49721d4353372722722c">osPiRawReadIo.c</a>
+, <a class="el" href="d4/dd1/osPiRawStartDma_8c.html#aa3a1dc7939fd49721d4353372722722c">osPiRawStartDma.c</a>
 </li>
 <li>osSendMesg()
 : <a class="el" href="d2/d55/osSendMesg_8c.html#a413bd1b0a16c54dcc9e59c48b3d7f142">osSendMesg.c</a>
@@ -2948,34 +2960,34 @@ $(function() {
 : <a class="el" href="db/dc8/osSetEventMesg_8c.html#a5babbb1725f699553d02e6b2ca01936e">osSetEventMesg.c</a>
 </li>
 <li>osSetThreadPri()
-: <a class="el" href="d5/d85/os__thread_8h.html#a0ba3a1830df80ec8ddc33aec4ba85f2b">os_thread.h</a>
-, <a class="el" href="d0/db0/osSetThreadPri_8c.html#a0ba3a1830df80ec8ddc33aec4ba85f2b">osSetThreadPri.c</a>
+: <a class="el" href="d0/db0/osSetThreadPri_8c.html#a0ba3a1830df80ec8ddc33aec4ba85f2b">osSetThreadPri.c</a>
+, <a class="el" href="d5/d85/os__thread_8h.html#a0ba3a1830df80ec8ddc33aec4ba85f2b">os_thread.h</a>
 </li>
 <li>osSetTime()
 : <a class="el" href="df/d21/osSetTime_8c.html#a0d98a2d307753fb3c3764940365ecb65">osSetTime.c</a>
 , <a class="el" href="d4/da4/os__time_8h.html#a0d98a2d307753fb3c3764940365ecb65">os_time.h</a>
 </li>
 <li>osSetTimer()
-: <a class="el" href="d2/dc3/osSetTimer_8c.html#ae185ba75a7718dbf19268876ea9b1b0e">osSetTimer.c</a>
-, <a class="el" href="d4/da4/os__time_8h.html#a86164abf0f406169b15cade951fe5728">os_time.h</a>
+: <a class="el" href="d4/da4/os__time_8h.html#a86164abf0f406169b15cade951fe5728">os_time.h</a>
+, <a class="el" href="d2/dc3/osSetTimer_8c.html#ae185ba75a7718dbf19268876ea9b1b0e">osSetTimer.c</a>
 </li>
 <li>osSiMesgBuff
 : <a class="el" href="d6/d31/____osSiCreateAccessQueue_8c.html#adee5d5de1761338737a43a95b330cd5c">__osSiCreateAccessQueue.c</a>
 </li>
 <li>osSpTaskLoad()
-: <a class="el" href="d1/da1/osSpTaskLoadGo_8c.html#a1a7e41a12f9ade8d32f68d637cd4a608">osSpTaskLoadGo.c</a>
-, <a class="el" href="d2/d17/sptask_8h.html#a1a7e41a12f9ade8d32f68d637cd4a608">sptask.h</a>
+: <a class="el" href="d2/d17/sptask_8h.html#a1a7e41a12f9ade8d32f68d637cd4a608">sptask.h</a>
+, <a class="el" href="d1/da1/osSpTaskLoadGo_8c.html#a1a7e41a12f9ade8d32f68d637cd4a608">osSpTaskLoadGo.c</a>
 </li>
 <li>osSpTaskStart
 : <a class="el" href="d2/d17/sptask_8h.html#abe89843a02f6c90333ddfc1ebfa0fa7f">sptask.h</a>
 </li>
 <li>osSpTaskStartGo()
-: <a class="el" href="d2/d17/sptask_8h.html#ab01e07bb0670d1c81482392803af52c2">sptask.h</a>
-, <a class="el" href="d1/da1/osSpTaskLoadGo_8c.html#ad5b72d5132a9f85e6c02a18bd67f6c2c">osSpTaskLoadGo.c</a>
+: <a class="el" href="d1/da1/osSpTaskLoadGo_8c.html#ad5b72d5132a9f85e6c02a18bd67f6c2c">osSpTaskLoadGo.c</a>
+, <a class="el" href="d2/d17/sptask_8h.html#ab01e07bb0670d1c81482392803af52c2">sptask.h</a>
 </li>
 <li>osSpTaskYield()
-: <a class="el" href="dc/d9f/osSpTaskYield_8c.html#ac8c09ee2c394376309833268ca43db9b">osSpTaskYield.c</a>
-, <a class="el" href="d2/d17/sptask_8h.html#ac8c09ee2c394376309833268ca43db9b">sptask.h</a>
+: <a class="el" href="d2/d17/sptask_8h.html#ac8c09ee2c394376309833268ca43db9b">sptask.h</a>
+, <a class="el" href="dc/d9f/osSpTaskYield_8c.html#ac8c09ee2c394376309833268ca43db9b">osSpTaskYield.c</a>
 </li>
 <li>osSpTaskYielded()
 : <a class="el" href="d2/d17/sptask_8h.html#ab8f1191f687a4eb639b60c394e364ec2">sptask.h</a>
@@ -3022,16 +3034,16 @@ $(function() {
 : <a class="el" href="dc/de1/object__fields_8h.html#a16db28dbe646ba0ee6fbc66818acd2ff">object_fields.h</a>
 </li>
 <li>osViBlack()
-: <a class="el" href="d1/deb/osViBlack_8c.html#a6446513d8cd19001210d458f11b12df4">osViBlack.c</a>
-, <a class="el" href="d4/df6/os__vi_8h.html#a6446513d8cd19001210d458f11b12df4">os_vi.h</a>
+: <a class="el" href="d4/df6/os__vi_8h.html#a6446513d8cd19001210d458f11b12df4">os_vi.h</a>
+, <a class="el" href="d1/deb/osViBlack_8c.html#a6446513d8cd19001210d458f11b12df4">osViBlack.c</a>
 </li>
 <li>osViModeTable
-: <a class="el" href="d6/d27/osCreateViManager_8c.html#a1bd0fb40b87060535b5ec4561bbd7523">osCreateViManager.c</a>
-, <a class="el" href="d4/df6/os__vi_8h.html#a1bd0fb40b87060535b5ec4561bbd7523">os_vi.h</a>
+: <a class="el" href="d4/df6/os__vi_8h.html#a1bd0fb40b87060535b5ec4561bbd7523">os_vi.h</a>
+, <a class="el" href="d6/d27/osCreateViManager_8c.html#a1bd0fb40b87060535b5ec4561bbd7523">osCreateViManager.c</a>
 </li>
 <li>osVirtualToPhysical()
-: <a class="el" href="d1/d15/os__misc_8h.html#a6a619fd95d5e9764fc4acbde59b90412">os_misc.h</a>
-, <a class="el" href="de/d31/osVirtualToPhysical_8c.html#a0fe80bcf7e639e354b64df69d385bcdd">osVirtualToPhysical.c</a>
+: <a class="el" href="de/d31/osVirtualToPhysical_8c.html#a0fe80bcf7e639e354b64df69d385bcdd">osVirtualToPhysical.c</a>
+, <a class="el" href="d1/d15/os__misc_8h.html#a6a619fd95d5e9764fc4acbde59b90412">os_misc.h</a>
 </li>
 <li>osViSetEvent()
 : <a class="el" href="d2/d5e/osViSetEvent_8c.html#a77e9140da93b81b60780d3862001999b">osViSetEvent.c</a>
@@ -3327,9 +3339,6 @@ $(function() {
 <li>oUnk1AE
 : <a class="el" href="dc/de1/object__fields_8h.html#a9e32873baa3923281588bfaee80a9153">object_fields.h</a>
 </li>
-<li>oUnk1AF
-: <a class="el" href="dc/de1/object__fields_8h.html#af9404cb9e00b919c862c1729ad2568e4">object_fields.h</a>
-</li>
 <li>oUnk1B0
 : <a class="el" href="dc/de1/object__fields_8h.html#a43bcd5d05a4344c9c1623eb032daa8f7">object_fields.h</a>
 </li>
@@ -3350,9 +3359,6 @@ $(function() {
 </li>
 <li>oUnkC0
 : <a class="el" href="dc/de1/object__fields_8h.html#a3aed9b4fa9ca54440d7e7b64ea1e5cc0">object_fields.h</a>
-</li>
-<li>oUnkE0
-: <a class="el" href="dc/de1/object__fields_8h.html#adef97d11fe9f3de642daed40274912ef">object_fields.h</a>
 </li>
 <li>oUnknownUnk100_S32
 : <a class="el" href="dc/de1/object__fields_8h.html#a1b18f4fa7a1b04a69fccb06d0dfbb9bd">object_fields.h</a>
@@ -3468,11 +3474,11 @@ $(function() {
 <li>oWaterLevelPillarUnkF8
 : <a class="el" href="dc/de1/object__fields_8h.html#adb40a33a3fac2f1ea1c32b8567bb6b3a">object_fields.h</a>
 </li>
+<li>oWaterLevelTriggerTargetWaterLevel
+: <a class="el" href="dc/de1/object__fields_8h.html#ae443b61dfb3fd4f26d65e50e1c1c6e81">object_fields.h</a>
+</li>
 <li>oWaterLevelTriggerUnkF4
 : <a class="el" href="dc/de1/object__fields_8h.html#ae9066336eeaeeacca69d13abe11d7465">object_fields.h</a>
-</li>
-<li>oWaterLevelTriggerUnkF8
-: <a class="el" href="dc/de1/object__fields_8h.html#a0ec470b259e3cd835f9a1717c9698ed3">object_fields.h</a>
 </li>
 <li>oWaterRingAvgScale
 : <a class="el" href="dc/de1/object__fields_8h.html#a84b4738d35706cb5f7e14cf82504a568">object_fields.h</a>
@@ -3570,14 +3576,14 @@ $(function() {
 <li>oWoodenPostTotalMarioAngle
 : <a class="el" href="dc/de1/object__fields_8h.html#a0fb7afb338954efbb2dfb806004d0ce3">object_fields.h</a>
 </li>
-<li>oYoshiUnk100
-: <a class="el" href="dc/de1/object__fields_8h.html#a99f77f41d47b929faf9cf605d7bad1e5">object_fields.h</a>
+<li>oYoshiChosenHome
+: <a class="el" href="dc/de1/object__fields_8h.html#af6ee173a9917b082de670ef9549a2742">object_fields.h</a>
+</li>
+<li>oYoshiTargetYaw
+: <a class="el" href="dc/de1/object__fields_8h.html#a1a66ff75a65b1f7558ce41f7e7e644b2">object_fields.h</a>
 </li>
 <li>oYoshiUnkF4
 : <a class="el" href="dc/de1/object__fields_8h.html#ab106777e7363c034975a015772bf3e93">object_fields.h</a>
-</li>
-<li>oYoshiUnkFC
-: <a class="el" href="dc/de1/object__fields_8h.html#a17938e3af6c3c822ce7e7038754c674e">object_fields.h</a>
 </li>
 </ul>
 </div><!-- contents -->

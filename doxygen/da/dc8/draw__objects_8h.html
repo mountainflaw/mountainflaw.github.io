@@ -255,7 +255,7 @@ Variables</h2></td></tr>
 
 <p>Rendering function for <code><a class="el" href="../../db/d64/structObjFace.html">ObjFace</a></code> structures. </p>
 <p>It has a fair amount of stub code </p>
-<dl class="bug"><dt><b><a class="el" href="../../de/da5/bug.html#_bug000001">Bug:</a></b></dt><dd>This function seems to have some parts based on older versions of <a class="el" href="../../da/d84/structObjVertex.html">ObjVertex</a> as the struct requests fields passed the end of an <a class="el" href="../../da/d84/structObjVertex.html">ObjVertex</a>. The bad code is statically unreachable, so... </dd></dl>
+<dl class="bug"><dt><b><a class="el" href="../../de/da5/bug.html#_bug000005">Bug:</a></b></dt><dd>This function seems to have some parts based on older versions of <a class="el" href="../../da/d84/structObjVertex.html">ObjVertex</a> as the struct requests fields passed the end of an <a class="el" href="../../da/d84/structObjVertex.html">ObjVertex</a>. The bad code is statically unreachable, so... </dd></dl>
 
 </div>
 </div>
@@ -487,7 +487,7 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Convert a numeric index into pointer to a struct <a class="el" href="../../de/d1a/structGdColour.html">GdColour</a>. </p>
-<p>A simple switch case to convert from index <code>idx</code> to a pointer to the three float <a class="el" href="../../de/d1a/structGdColour.html">GdColour</a> structure. Goddard stored the index in a structure, and uses this function to get the colour RGB values if needed. -1 uses the environment colour. A possible enhancement for this is to ennumerate all colours, and then use those enumerations and/or enum type where ever a colour is requested</p>
+<p>A simple switch case to convert from index <code>idx</code> to a pointer to the three f32 <a class="el" href="../../de/d1a/structGdColour.html">GdColour</a> structure. Goddard stored the index in a structure, and uses this function to get the colour RGB values if needed. -1 uses the environment colour. A possible enhancement for this is to ennumerate all colours, and then use those enumerations and/or enum type where ever a colour is requested</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">idx</td><td>Index of colour </td></tr>
@@ -525,7 +525,7 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Map material id's to <code><a class="el" href="../../d8/d72/structObjMaterial.html">ObjMaterial</a></code> pointers for an <code><a class="el" href="../../d2/d38/structObjGroup.html" title="This is test documentation comment for ObjGroup. ">ObjGroup</a></code> of <code><a class="el" href="../../db/d64/structObjFace.html">ObjFace</a></code> structs. </p>
-<p>This is the final function used in dynlist processing (see <code><a class="el" href="../../d3/df9/dynlist__proc_8c.html#a8895d5ca8d08097a141a0f527cfbe163">chk_shapegen()</a></code>)</p>
+<p>This is the final function used in dynlist processing (see <code><a class="el" href="../../d3/df9/dynlist__proc_8c.html#a8895d5ca8d08097a141a0f527cfbe163" title="Generate or create the various ObjVertex, ObjFace, and/or ObjMaterial when groups of those structures...">chk_shapegen()</a></code>)</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in,out]</td><td class="paramname">faces</td><td><code><a class="el" href="../../d2/d38/structObjGroup.html" title="This is test documentation comment for ObjGroup. ">ObjGroup</a></code> of <code><a class="el" href="../../db/d64/structObjFace.html">ObjFace</a></code> structs to map over </td></tr>
@@ -573,7 +573,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
-<dl class="section note"><dt>Note</dt><dd>It seems that this function was replaced by <code><a class="el" href="../../d3/df9/dynlist__proc_8c.html#a8895d5ca8d08097a141a0f527cfbe163">chk_shapegen()</a></code>, which performs a very similar task... </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>It seems that this function was replaced by <code><a class="el" href="../../d3/df9/dynlist__proc_8c.html#a8895d5ca8d08097a141a0f527cfbe163" title="Generate or create the various ObjVertex, ObjFace, and/or ObjMaterial when groups of those structures...">chk_shapegen()</a></code>, which performs a very similar task... </dd></dl>
 
 </div>
 </div>

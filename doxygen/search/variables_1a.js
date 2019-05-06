@@ -1,11 +1,11 @@
 var searchData=
 [
-  ['y',['y',['../db/d89/structSurface.html#a6f40cdac9cf39d2bb50c488087751cb2',1,'Surface::y()'],['../d9/d09/structMyVec3f.html#a43953c027d3e147ab06218f0080a9d97',1,'MyVec3f::y()'],['../d9/d6e/structGraphNodeScreenArea.html#a3026c07f044c813640a286027045fccc',1,'GraphNodeScreenArea::y()'],['../de/d1c/structWallCollisionData.html#a88fe4da965d74ecda14540c09aacccf3',1,'WallCollisionData::y()'],['../d4/d4d/structSnowFlakeVertex.html#a459cb1296440bc857a2f7dc0ae06e026',1,'SnowFlakeVertex::y()'],['../d5/da9/structPowerMeterHUD.html#abb43881d317b91f40dfa9a31da8dec17',1,'PowerMeterHUD::y()'],['../d2/d46/structTextLabel.html#a0e4eb2232c5fa9c5ef4b1d3f23dfb3b0',1,'TextLabel::y()'],['../d0/d5e/structuObjMtx__t.html#a77cba098affd2443453774614aecc253',1,'uObjMtx_t::Y()'],['../de/d77/structuObjSubMtx__t.html#acaddc66617be3440fa68c567fd41e1b8',1,'uObjSubMtx_t::Y()']]],
-  ['y1',['y1',['../dc/d9d/structHilite__t.html#a9a3fe84defca2debe6648895c9ce5ad5',1,'Hilite_t']]],
-  ['y2',['y2',['../dc/d9d/structHilite__t.html#ae4367303f90bb5b6c1c8cc7de24cd0d2',1,'Hilite_t']]],
-  ['yaw',['yaw',['../d0/d00/structChainSegment.html#a21fdf4ba62e690c5ea17584f266461bd',1,'ChainSegment']]],
-  ['yield_5fdata_5fptr',['yield_data_ptr',['../dc/da4/structOSTask__t.html#a5868c5466cab75b5228dcb8417193936',1,'OSTask_t']]],
-  ['yield_5fdata_5fsize',['yield_data_size',['../dc/da4/structOSTask__t.html#a1bcd2f971b875cc4dd35593122b75048',1,'OSTask_t']]],
-  ['ypos',['yPos',['../d7/d73/structEnvFxParticle.html#a2208da78072c826a8dbb0328cde310b9',1,'EnvFxParticle']]],
-  ['yscale',['yScale',['../d5/d35/structOSViFieldRegs.html#a1a39cfe1ebe1efe3da6765e009a6d252',1,'OSViFieldRegs']]]
+  ['z',['z',['../db/d89/structSurface.html#a079fead470a92175173d6c81a23c7971',1,'Surface::z()'],['../d9/d09/structMyVec3f.html#a7902a66bd8669a24984ccac2c8f2b7c6',1,'MyVec3f::z()'],['../de/d1c/structWallCollisionData.html#a001975dd64ddffd1560a69a248187e0b',1,'WallCollisionData::z()'],['../d4/d4d/structSnowFlakeVertex.html#aacef71662cb01029bdf0eefc3d17c844',1,'SnowFlakeVertex::z()']]],
+  ['zbuf',['zbuf',['../d9/d12/structObjView.html#ac404172a6e98da7e9a4e6800d5b5da49',1,'ObjView']]],
+  ['zbufferptr',['zBufferPtr',['../d1/dcb/game_8c.html#a267c6f50454591664b3a13dccc875cd1',1,'zBufferPtr():&#160;game.c'],['../d2/dd5/game_8h.html#a267c6f50454591664b3a13dccc875cd1',1,'zBufferPtr():&#160;game.c']]],
+  ['zero',['zero',['../d0/d77/structuObjTxtrTLUT__t.html#a38959f822cce627bc704ed281a91dd8f',1,'uObjTxtrTLUT_t::zero()'],['../de/d10/cosf_8c.html#a930c6354299da6653ced4e299fa5a39c',1,'zero():&#160;cosf.c'],['../d0/d03/sinf_8c.html#a930c6354299da6653ced4e299fa5a39c',1,'zero():&#160;sinf.c']]],
+  ['zeromtx',['zeroMtx',['../d8/d49/graph__node_8c.html#a770a2a514e34f5807b1dded8855429bc',1,'graph_node.c']]],
+  ['zoom',['zoom',['../d2/dfc/structObjCamera.html#aa9829c1e229e565c6bf8ae091d761dd5',1,'ObjCamera']]],
+  ['zoomlevels',['zoomLevels',['../d2/dfc/structObjCamera.html#a016c48145de06fd950d6c869f59deeab',1,'ObjCamera']]],
+  ['zpos',['zPos',['../d7/d73/structEnvFxParticle.html#a7e416438348d9f93ad505b87e503a3fc',1,'EnvFxParticle']]]
 ];
