@@ -1,6 +1,7 @@
 var searchData=
 [
   ['kb',['KB',['../d9/d34/n64graphics__ci__dir_2utils_8h.html#a1841fd1a462d245d8c73dce55e2f45da',1,'KB():&#160;utils.h'],['../d5/d60/utils_8h.html#a1841fd1a462d245d8c73dce55e2f45da',1,'KB():&#160;utils.h']]],
+  ['kbomb',['KBOMB',['../d2/d2c/external_8c.html#a526890fdb5542c25f3d7839de9f521a8',1,'external.c']]],
   ['klepto_5fact_5fapproach_5ftarget_5fholding',['KLEPTO_ACT_APPROACH_TARGET_HOLDING',['../dd/dd3/object__constants_8h.html#a99f693b20ced6d59956da71c38eaf944',1,'object_constants.h']]],
   ['klepto_5fact_5fcircle_5ftarget_5fholding',['KLEPTO_ACT_CIRCLE_TARGET_HOLDING',['../dd/dd3/object__constants_8h.html#aa535bbe589cf80ba3fde61746e2f5a5d',1,'object_constants.h']]],
   ['klepto_5fact_5fdive_5fat_5fmario',['KLEPTO_ACT_DIVE_AT_MARIO',['../dd/dd3/object__constants_8h.html#a9d9ab8fe4be5c3e3cca4f50711a1ff34',1,'object_constants.h']]],
@@ -12,6 +13,7 @@ var searchData=
   ['klepto_5fanim_5fstate_5fholding_5fcap',['KLEPTO_ANIM_STATE_HOLDING_CAP',['../dd/dd3/object__constants_8h.html#acc3143d7e44f6b145074741e0fc198e5',1,'object_constants.h']]],
   ['klepto_5fanim_5fstate_5fholding_5fnothing',['KLEPTO_ANIM_STATE_HOLDING_NOTHING',['../dd/dd3/object__constants_8h.html#a5dcf71a7fc3db1434d9c13d547eca05f',1,'object_constants.h']]],
   ['klepto_5fanim_5fstate_5fholding_5fstar',['KLEPTO_ANIM_STATE_HOLDING_STAR',['../dd/dd3/object__constants_8h.html#aa1ce851cadcae2e3248a30b201b2aec9',1,'object_constants.h']]],
+  ['koopa',['KOOPA',['../d2/d2c/external_8c.html#a5239efefb716afbfd99e784c2a1c2fb7',1,'external.c']]],
   ['koopa_5fbp_5fkoopa_5fthe_5fquick_5fbase',['KOOPA_BP_KOOPA_THE_QUICK_BASE',['../dd/dd3/object__constants_8h.html#acb67cf54f5f93e3e9d099972470c94b4',1,'object_constants.h']]],
   ['koopa_5fbp_5fkoopa_5fthe_5fquick_5fbob',['KOOPA_BP_KOOPA_THE_QUICK_BOB',['../dd/dd3/object__constants_8h.html#a9019ccd59df2fd30b45761c993cfb5d6',1,'object_constants.h']]],
   ['koopa_5fbp_5fkoopa_5fthe_5fquick_5fthi',['KOOPA_BP_KOOPA_THE_QUICK_THI',['../dd/dd3/object__constants_8h.html#a7b12cbd7e1056393d973ba46754e26a5',1,'object_constants.h']]],

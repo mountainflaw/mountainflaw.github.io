@@ -13,6 +13,7 @@ var searchData=
   ['level_5fcastle_5fgrounds',['LEVEL_CASTLE_GROUNDS',['../d4/d1c/area_8h.html#ac33d4ae6129164d0ed94efc813cbd740a4cc983faff9ebaca09d09befcbb82500',1,'area.h']]],
   ['level_5fccm',['LEVEL_CCM',['../d4/d1c/area_8h.html#ac33d4ae6129164d0ed94efc813cbd740a2ea4487b04c1f1b1b935af8bccc5bde6',1,'area.h']]],
   ['level_5fcotmc',['LEVEL_COTMC',['../d4/d1c/area_8h.html#ac33d4ae6129164d0ed94efc813cbd740a836bd534e40a037e2d83cca45ca6e180',1,'area.h']]],
+  ['level_5fcount',['LEVEL_COUNT',['../d4/d1c/area_8h.html#ac33d4ae6129164d0ed94efc813cbd740ac045554d18c23cdf17782ba0aab2269e',1,'area.h']]],
   ['level_5fddd',['LEVEL_DDD',['../d4/d1c/area_8h.html#ac33d4ae6129164d0ed94efc813cbd740a83605ac5e002a810bd3782daa2717b8d',1,'area.h']]],
   ['level_5fending',['LEVEL_ENDING',['../d4/d1c/area_8h.html#ac33d4ae6129164d0ed94efc813cbd740a8615c5614d97010acf9574b281baeccc',1,'area.h']]],
   ['level_5fhmc',['LEVEL_HMC',['../d4/d1c/area_8h.html#ac33d4ae6129164d0ed94efc813cbd740acc0cba013cf235106dc309a72ab638ab',1,'area.h']]],

@@ -1,21 +1,14 @@
 var searchData=
 [
-  ['walking_5fpenguin_2einc_2ec',['walking_penguin.inc.c',['../db/dec/walking__penguin_8inc_8c.html',1,'']]],
-  ['warp_2einc_2ec',['warp.inc.c',['../d8/dc0/warp_8inc_8c.html',1,'']]],
-  ['water_5fbomb_2einc_2ec',['water_bomb.inc.c',['../df/d9b/water__bomb_8inc_8c.html',1,'']]],
-  ['water_5fmist_2einc_2ec',['water_mist.inc.c',['../dc/d4f/water__mist_8inc_8c.html',1,'']]],
-  ['water_5fmist_5fparticle_2einc_2ec',['water_mist_particle.inc.c',['../d3/d6f/water__mist__particle_8inc_8c.html',1,'']]],
-  ['water_5fobjs_2einc_2ec',['water_objs.inc.c',['../da/db7/water__objs_8inc_8c.html',1,'']]],
-  ['water_5fpillar_2einc_2ec',['water_pillar.inc.c',['../d5/d38/water__pillar_8inc_8c.html',1,'']]],
-  ['water_5fring_2einc_2ec',['water_ring.inc.c',['../d7/dd9/water__ring_8inc_8c.html',1,'']]],
-  ['water_5fsplash_2einc_2ec',['water_splash.inc.c',['../d5/dcb/water__splash_8inc_8c.html',1,'']]],
-  ['water_5fwave_2einc_2ec',['water_wave.inc.c',['../d3/d4f/water__wave_8inc_8c.html',1,'']]],
-  ['wdw_5fwater_5flevel_2einc_2ec',['wdw_water_level.inc.c',['../db/d3f/wdw__water__level_8inc_8c.html',1,'']]],
-  ['whirlpool_2einc_2ec',['whirlpool.inc.c',['../de/d5a/whirlpool_8inc_8c.html',1,'']]],
-  ['white_5fpuff_2einc_2ec',['white_puff.inc.c',['../d2/de8/white__puff_8inc_8c.html',1,'']]],
-  ['white_5fpuff_5fexplode_2einc_2ec',['white_puff_explode.inc.c',['../d5/d81/white__puff__explode_8inc_8c.html',1,'']]],
-  ['whomp_2einc_2ec',['whomp.inc.c',['../d4/d88/whomp_8inc_8c.html',1,'']]],
-  ['wiggler_2einc_2ec',['wiggler.inc.c',['../d8/d21/wiggler_8inc_8c.html',1,'']]],
-  ['wind_2einc_2ec',['wind.inc.c',['../d3/d6a/wind_8inc_8c.html',1,'']]],
-  ['wind_5fparticle_2einc_2ec',['wind_particle.inc.c',['../de/d2c/wind__particle_8inc_8c.html',1,'']]]
+  ['ucode_2eh',['ucode.h',['../db/da6/ucode_8h.html',1,'']]],
+  ['ukiki_5fcage_2einc_2ec',['ukiki_cage.inc.c',['../d6/d8f/ukiki__cage_8inc_8c.html',1,'']]],
+  ['ultra64_2eh',['ultra64.h',['../dd/d2f/ultra64_8h.html',1,'']]],
+  ['ultratypes_2eh',['ultratypes.h',['../dd/da7/ultratypes_8h.html',1,'']]],
+  ['unused_5fparticle_5fspawn_2einc_2ec',['unused_particle_spawn.inc.c',['../d8/d45/unused__particle__spawn_8inc_8c.html',1,'']]],
+  ['unused_5fpoundable_5fplatform_2einc_2ec',['unused_poundable_platform.inc.c',['../d1/d8c/unused__poundable__platform_8inc_8c.html',1,'']]],
+  ['utf8_2ec',['utf8.c',['../df/d51/utf8_8c.html',1,'']]],
+  ['utf8_2eh',['utf8.h',['../db/d7c/utf8_8h.html',1,'']]],
+  ['util_2ec',['util.c',['../de/df1/util_8c.html',1,'']]],
+  ['utils_2ec',['utils.c',['../d1/d5b/n64graphics__ci__dir_2utils_8c.html',1,'(Global Namespace)'],['../d3/d91/utils_8c.html',1,'(Global Namespace)']]],
+  ['utils_2eh',['utils.h',['../d9/d34/n64graphics__ci__dir_2utils_8h.html',1,'(Global Namespace)'],['../d5/d60/utils_8h.html',1,'(Global Namespace)']]]
 ];

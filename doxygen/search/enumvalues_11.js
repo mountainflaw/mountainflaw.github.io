@@ -1,7 +1,15 @@
 var searchData=
 [
-  ['table_5fend',['TABLE_END',['../df/d64/mario__head__6_8c.html#abfc9b8f2f565c8cb86a6348c2b45857aae257414e33a81c4eb6ceb94ab0b5bc5f',1,'mario_head_6.c']]],
+  ['table_5fend',['TABLE_END',['../de/d89/renderer_8c.html#abfc9b8f2f565c8cb86a6348c2b45857aae257414e33a81c4eb6ceb94ab0b5bc5f',1,'renderer.c']]],
   ['tasks_5fqueued',['TASKS_QUEUED',['../dd/dff/profiler_8h.html#af588a3a9b27840d837d5417d4be531e8aa142d28df284f9bfff756a3909c0c35f',1,'profiler.h']]],
+  ['tex_5fpyramid_5fsand_5fssl',['TEX_PYRAMID_SAND_SSL',['../dc/d09/moving__texture_8h.html#a176fd8f5666baeddb4c4e529195225eaa3eab6668c61a53acb45d24f49d86d390',1,'moving_texture.h']]],
+  ['tex_5fquicksand_5fssl',['TEX_QUICKSAND_SSL',['../dc/d09/moving__texture_8h.html#a176fd8f5666baeddb4c4e529195225eaa83bc558941f077ce49ba7ecc47982f60',1,'moving_texture.h']]],
+  ['tex_5fyellow_5ftri_5fttc',['TEX_YELLOW_TRI_TTC',['../dc/d09/moving__texture_8h.html#a176fd8f5666baeddb4c4e529195225eaa3b47da73b00ac1766afe65ececef9571',1,'moving_texture.h']]],
+  ['texture_5fjrb_5fwater',['TEXTURE_JRB_WATER',['../dc/d09/moving__texture_8h.html#a176fd8f5666baeddb4c4e529195225eaa9bd1264d2b56bdb7484e52123dc6b3a9',1,'moving_texture.h']]],
+  ['texture_5flava',['TEXTURE_LAVA',['../dc/d09/moving__texture_8h.html#a176fd8f5666baeddb4c4e529195225eaa468db8513640081ea82eef17f259e847',1,'moving_texture.h']]],
+  ['texture_5fmist',['TEXTURE_MIST',['../dc/d09/moving__texture_8h.html#a176fd8f5666baeddb4c4e529195225eaa515399ed2bb3f1e45829e8b8bbf01b01',1,'moving_texture.h']]],
+  ['texture_5funk_5fwater',['TEXTURE_UNK_WATER',['../dc/d09/moving__texture_8h.html#a176fd8f5666baeddb4c4e529195225eaaa68cdb38259c8ce2262625105dcada20',1,'moving_texture.h']]],
+  ['texture_5fwater',['TEXTURE_WATER',['../dc/d09/moving__texture_8h.html#a176fd8f5666baeddb4c4e529195225eaae3d292a1957aac44e62c22a7d3887666',1,'moving_texture.h']]],
   ['thread5_5fend',['THREAD5_END',['../dd/dff/profiler_8h.html#a464075ec8b898dea3a20b3166dd123bfa432564756714f2d08ddc8cdce8864121',1,'profiler.h']]],
   ['thread5_5fstart',['THREAD5_START',['../dd/dff/profiler_8h.html#a464075ec8b898dea3a20b3166dd123bfae1c2cd75906b0b1c3a01bd16a37f373a',1,'profiler.h']]],
   ['toad_5fmessage_5ffaded',['TOAD_MESSAGE_FADED',['../d5/d8b/mario__misc_8h.html#ae3424813c15fde3ed03e73588888f9c5a9fdff99bcb3cebc0cf96855cee06725a',1,'mario_misc.h']]],

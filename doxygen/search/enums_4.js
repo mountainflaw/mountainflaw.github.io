@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['img_5fformat',['img_format',['../d2/d17/n64graphics_8c.html#ab6449adc0397042b8c6b443890544da1',1,'img_format():&#160;n64graphics.c'],['../db/d75/n64graphics__ci_8c.html#ab6449adc0397042b8c6b443890544da1',1,'img_format():&#160;n64graphics_ci.c']]]
+  ['huddisplayflag',['HUDDisplayFlag',['../d7/d0a/level__update_8h.html#a2db1f690c26aa1a2709a8bd9a05994dc',1,'level_update.h']]],
+  ['hudfonttype',['HudFontType',['../da/dec/ingame__menu_8h.html#a920f1bf2bb2685324d319cc42f9710de',1,'ingame_menu.h']]],
+  ['hudspecialchars',['HudSpecialChars',['../d0/d84/ingame__menu_8c.html#a5bd688bb2fb4de768955f759c512e456',1,'ingame_menu.c']]]
 ];

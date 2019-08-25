@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['wait_5ffor_5faudio_5fframes',['wait_for_audio_frames',['../de/df7/audio_2memory_8c.html#abcad68115d2b3bbd033540a205d7f133',1,'memory.c']]],
   ['water_5fbomb_5fact_5fdrop',['water_bomb_act_drop',['../df/d9b/water__bomb_8inc_8c.html#a97c86882a21934cff2f2dc84f3a73f4b',1,'water_bomb.inc.c']]],
   ['water_5fbomb_5fact_5fexplode',['water_bomb_act_explode',['../df/d9b/water__bomb_8inc_8c.html#ac6b7c8de0d69ef9700ca1537d0c09a6c',1,'water_bomb.inc.c']]],
   ['water_5fbomb_5fact_5finit',['water_bomb_act_init',['../df/d9b/water__bomb_8inc_8c.html#a94e0f418d3e39bf28f70243a6eb0b068',1,'water_bomb.inc.c']]],
@@ -19,6 +20,11 @@ var searchData=
   ['wiggler_5fupdate_5fsegments',['wiggler_update_segments',['../d8/d21/wiggler_8inc_8c.html#a263c31ad78e22c4e360171bed32e5301',1,'wiggler.inc.c']]],
   ['wipe_5fmain_5fmenu_5fdata',['wipe_main_menu_data',['../d7/d32/save__file_8c.html#a6c3b1ca220834751f9ee057468e3d8f3',1,'save_file.c']]],
   ['write',['write',['../d8/d12/classasm-processor_1_1ElfFile.html#ababf3f77475f012b775e9e229d8c986b',1,'asm-processor::ElfFile']]],
+  ['write_5faifc',['write_aifc',['../d9/d74/namespacedisassemble__sound.html#a828094f2996865aaca2fe05f48f80f28',1,'disassemble_sound']]],
+  ['write_5faiff',['write_aiff',['../d9/d74/namespacedisassemble__sound.html#a511da47de23900db20ca2b060a9ea736',1,'disassemble_sound']]],
   ['write_5feeprom_5fdata',['write_eeprom_data',['../d7/d32/save__file_8c.html#a3747216888f0533105301efdcb227d83',1,'save_file.c']]],
-  ['write_5ffile',['write_file',['../d1/d5b/n64graphics__ci__dir_2utils_8c.html#ac85ea9e8cf3bdf166c1aaa4034ba7d17',1,'write_file(const char *file_name, unsigned char *data, long length):&#160;utils.c'],['../d9/d34/n64graphics__ci__dir_2utils_8h.html#ac85ea9e8cf3bdf166c1aaa4034ba7d17',1,'write_file(const char *file_name, unsigned char *data, long length):&#160;utils.c'],['../d3/d91/utils_8c.html#ac85ea9e8cf3bdf166c1aaa4034ba7d17',1,'write_file(const char *file_name, unsigned char *data, long length):&#160;utils.c'],['../d5/d60/utils_8h.html#ac85ea9e8cf3bdf166c1aaa4034ba7d17',1,'write_file(const char *file_name, unsigned char *data, long length):&#160;utils.c']]]
+  ['write_5ffile',['write_file',['../d1/d5b/n64graphics__ci__dir_2utils_8c.html#ac85ea9e8cf3bdf166c1aaa4034ba7d17',1,'write_file(const char *file_name, unsigned char *data, long length):&#160;utils.c'],['../d9/d34/n64graphics__ci__dir_2utils_8h.html#ac85ea9e8cf3bdf166c1aaa4034ba7d17',1,'write_file(const char *file_name, unsigned char *data, long length):&#160;utils.c'],['../d3/d91/utils_8c.html#ac85ea9e8cf3bdf166c1aaa4034ba7d17',1,'write_file(const char *file_name, unsigned char *data, long length):&#160;utils.c'],['../d5/d60/utils_8h.html#ac85ea9e8cf3bdf166c1aaa4034ba7d17',1,'write_file(const char *file_name, unsigned char *data, long length):&#160;utils.c']]],
+  ['write_5fheader',['write_header',['../d5/dfa/aifc__decode_8c.html#a19883fd92d7c96ec3b8d76ca1a59e378',1,'aifc_decode.c']]],
+  ['write_5fsequences',['write_sequences',['../d9/dce/namespaceassemble__sound.html#a0dd708993a2ff572bdbd6e70a8e39278',1,'assemble_sound']]],
+  ['writeout',['writeout',['../d5/de7/sampleio_8c.html#a88240caeb37cf1b8fc631530b592c8d9',1,'writeout(FILE *outfd, s32 size, s32 *l_out, s32 *r_out, s32 chans):&#160;sampleio.c'],['../d8/dea/vadpcm_8h.html#a88240caeb37cf1b8fc631530b592c8d9',1,'writeout(FILE *outfd, s32 size, s32 *l_out, s32 *r_out, s32 chans):&#160;sampleio.c']]]
 ];

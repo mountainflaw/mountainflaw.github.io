@@ -1,10 +1,19 @@
 var searchData=
 [
   ['camerahud',['CameraHUD',['../d6/d5c/structCameraHUD.html',1,'']]],
+  ['cameraplayerstatus',['CameraPlayerStatus',['../d1/d06/structCameraPlayerStatus.html',1,'']]],
+  ['camerastate',['CameraState',['../d7/d75/structCameraState.html',1,'']]],
   ['chainsegment',['ChainSegment',['../d0/d00/structChainSegment.html',1,'']]],
+  ['channelvolumescalefade',['ChannelVolumeScaleFade',['../d9/d71/structChannelVolumeScaleFade.html',1,'']]],
   ['charmapentry',['CharmapEntry',['../da/d75/structCharmapEntry.html',1,'']]],
+  ['chunk',['Chunk',['../de/df5/structChunk.html',1,'']]],
+  ['chunkheader',['ChunkHeader',['../dd/d09/structChunkHeader.html',1,'']]],
+  ['cinematiccameratable',['CinematicCameraTable',['../dc/db9/structCinematicCameraTable.html',1,'']]],
+  ['codechunk',['CodeChunk',['../d0/d0c/structCodeChunk.html',1,'']]],
+  ['commonchunk',['CommonChunk',['../de/df3/structCommonChunk.html',1,'']]],
   ['connection',['Connection',['../db/de1/structConnection.html',1,'']]],
   ['controller',['Controller',['../d8/d04/structController.html',1,'']]],
   ['creditsentry',['CreditsEntry',['../d7/d35/structCreditsEntry.html',1,'']]],
+  ['ctlentry',['CtlEntry',['../d4/d84/structCtlEntry.html',1,'']]],
   ['cutscenetableentry',['CutsceneTableEntry',['../db/d09/structCutsceneTableEntry.html',1,'']]]
 ];

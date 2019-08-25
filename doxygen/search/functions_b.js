@@ -1,6 +1,7 @@
 var searchData=
 [
   ['kdebugserver',['kdebugserver',['../d1/d87/kdebugserver_8c.html#a6e72026fd5ceadfc3172f0ed9d30b8f6',1,'kdebugserver.c']]],
+  ['kfroma',['kfroma',['../d2/d57/estimate_8c.html#a0cdfa60d1bb25c24ded0029fb04c7531',1,'kfroma(double *in, double *out, int n):&#160;estimate.c'],['../da/d73/tabledesign_8h.html#a0cdfa60d1bb25c24ded0029fb04c7531',1,'kfroma(double *in, double *out, int n):&#160;estimate.c']]],
   ['klepto_5fact_5fdive_5fat_5fmario',['klepto_act_dive_at_mario',['../de/d01/klepto_8inc_8c.html#a2aa2ff729397e1bd78e9d66c85bce28b',1,'klepto.inc.c']]],
   ['klepto_5fact_5freset_5fposition',['klepto_act_reset_position',['../de/d01/klepto_8inc_8c.html#a78387717ac89cbb3f78e92ab090b4481',1,'klepto.inc.c']]],
   ['klepto_5fact_5fretreat',['klepto_act_retreat',['../de/d01/klepto_8inc_8c.html#a79f481aa5fdc37240e043b6c1f9c474d',1,'klepto.inc.c']]],

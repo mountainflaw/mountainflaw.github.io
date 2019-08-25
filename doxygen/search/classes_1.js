@@ -1,5 +1,13 @@
 var searchData=
 [
+  ['adpcmbook',['AdpcmBook',['../d4/dc1/structAdpcmBook.html',1,'']]],
+  ['adpcmloop',['AdpcmLoop',['../de/d63/structAdpcmLoop.html',1,'']]],
+  ['adsrenvelope',['AdsrEnvelope',['../dd/d28/structAdsrEnvelope.html',1,'']]],
+  ['adsrsettings',['AdsrSettings',['../d3/dcc/structAdsrSettings.html',1,'']]],
+  ['adsrstate',['AdsrState',['../dd/d3c/structAdsrState.html',1,'']]],
+  ['aifc',['Aifc',['../d3/d23/classassemble__sound_1_1Aifc.html',1,'assemble_sound']]],
+  ['aifcentry',['AifcEntry',['../db/db7/classdisassemble__sound_1_1AifcEntry.html',1,'disassemble_sound']]],
+  ['aifcwriter',['AifcWriter',['../de/d10/classdisassemble__sound_1_1AifcWriter.html',1,'disassemble_sound']]],
   ['aladpcmbook',['ALADPCMBook',['../d1/d09/structALADPCMBook.html',1,'']]],
   ['aladpcmloop',['ALADPCMloop',['../db/dc8/structALADPCMloop.html',1,'']]],
   ['aladpcmwaveinfo',['ALADPCMWaveInfo',['../d5/d6f/structALADPCMWaveInfo.html',1,'']]],
@@ -20,5 +28,9 @@ var searchData=
   ['animation',['Animation',['../dd/daf/structAnimation.html',1,'']]],
   ['animdatainfo',['AnimDataInfo',['../df/dba/structAnimDataInfo.html',1,'']]],
   ['animmtxvec',['AnimMtxVec',['../d1/d9a/structAnimMtxVec.html',1,'']]],
-  ['area',['Area',['../da/d1d/structArea.html',1,'']]]
+  ['area',['Area',['../da/d1d/structArea.html',1,'']]],
+  ['audiobank',['AudioBank',['../d5/d6f/structAudioBank.html',1,'']]],
+  ['audiobanksample',['AudioBankSample',['../d3/d6b/structAudioBankSample.html',1,'']]],
+  ['audiobanksound',['AudioBankSound',['../d5/df4/structAudioBankSound.html',1,'']]],
+  ['audiolistitem',['AudioListItem',['../d5/ddf/structAudioListItem.html',1,'']]]
 ];

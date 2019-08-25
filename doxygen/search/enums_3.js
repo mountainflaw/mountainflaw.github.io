@@ -1,5 +1,10 @@
 var searchData=
 [
-  ['huddisplayflag',['HUDDisplayFlag',['../d7/d0a/level__update_8h.html#a2db1f690c26aa1a2709a8bd9a05994dc',1,'level_update.h']]],
-  ['hudfonttype',['HudFontType',['../da/dec/ingame__menu_8h.html#a920f1bf2bb2685324d319cc42f9710de',1,'ingame_menu.h']]]
+  ['gdanimations',['GdAnimations',['../d7/df0/gd__types_8h.html#a8e00922805f533fd10ea6ecac1427dbd',1,'gd_types.h']]],
+  ['gdlightflags',['GdLightFlags',['../d7/df0/gd__types_8h.html#a776e5f1fb98ed038d2bdd6233f2ac49e',1,'gd_types.h']]],
+  ['gdmtltypes',['GdMtlTypes',['../d7/df0/gd__types_8h.html#a785b053c8793a6daa7a11062623026e0',1,'gd_types.h']]],
+  ['gdproperty',['GdProperty',['../d6/d85/renderer_8h.html#ac29d44a48709a71b044574a9e1fb09d2',1,'renderer.h']]],
+  ['gdsfx',['GdSfx',['../de/d76/sfx_8h.html#a9c7075abb258c1c71ed01ce8a5150334',1,'sfx.h']]],
+  ['gdviewflags',['GdViewFlags',['../d7/df0/gd__types_8h.html#af7d62ea0ad4f4030e6066da63c49d4ba',1,'gd_types.h']]],
+  ['gmemblocktypes',['GMemBlockTypes',['../d3/d39/gd__memory_8h.html#a194a5b326d667ab5f2c1e9831c681a95',1,'gd_memory.h']]]
 ];

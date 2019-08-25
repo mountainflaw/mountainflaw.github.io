@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['half_5f6_2ec',['half_6.c',['../d1/d6a/half__6_8c.html',1,'']]],
-  ['half_5f6_2eh',['half_6.h',['../d6/d36/half__6_8h.html',1,'']]],
   ['hardware_2eh',['hardware.h',['../d7/de1/hardware_8h.html',1,'']]],
   ['hashtable_2ec',['hashtable.c',['../d8/de9/hashtable_8c.html',1,'']]],
   ['hashtable_2eh',['hashtable.h',['../dd/d16/hashtable_8h.html',1,'']]],
